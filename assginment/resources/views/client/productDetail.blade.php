@@ -1,0 +1,1 @@
+@livewire('client.product-detail')

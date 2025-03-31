@@ -1,0 +1,2 @@
+
+    @livewire('client.home-page')
