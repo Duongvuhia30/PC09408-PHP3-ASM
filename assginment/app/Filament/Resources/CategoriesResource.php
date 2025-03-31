@@ -30,8 +30,12 @@ class CategoriesResource extends Resource
 {
     protected static ?string $model = Category::class;
 
+    protected static ?string $navigationGroup = 'Sản phẩm';
+
     protected static ?string $navigationLabel = 'Danh mục';
+
     protected static ?string $label = 'Danh Mục';
+
     protected static ?string $navigationIcon = 'heroicon-o-tag';
 
     public static function form(Form $form): Form
@@ -146,7 +150,7 @@ class CategoriesResource extends Resource
     {
         return $table
             ->columns([
-                TextColumn::make('name')->label('Tên danh mục'),
+                TextColumn::make('name')->label('Tên danh mục')->searchable(),
                 TextColumn::make('slug')->label('đường dẫn'),
                 TextColumn::make('tag')->label('nhãn dán'),
                 TextColumn::make('parent.name')->label('danh mục cha'),
