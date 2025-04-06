@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+	.ega-cate-shortcode .row {
+		flex-wrap: nowrap;
+		overflow: auto;
+	}
+	.ega-cate-shortcode .row::-webkit-scrollbar {
+		display: none;
+	}
+	.ega-cate-shortcode .row {
+		-ms-overflow-style: none;
+		/* IE and Edge */
+		scrollbar-width: none;
+		/* Firefox */
+	}
+	.ega-cate-shortcode .row .col-12 {
+		padding: 5px;
+	}
+	.ega-cate-shortcode .row .item.product-col{
+		flex: 0 0 70%;
+		max-width: 70%;
+	}
+}

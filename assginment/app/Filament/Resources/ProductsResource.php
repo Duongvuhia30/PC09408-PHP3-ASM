@@ -182,7 +182,7 @@ class ProductsResource extends Resource
                                                                 'integer' => 'Tồn kho phải là số nguyên.',
                                                                 'min' => 'Tồn kho phải lớn hơn 0.',
                                                             ])
-                                                            ->visible(fn($get) => $get('type') === 'physical'),
+                                                            ->hidden(fn($get) => $get('type') === 'ebook'),
 
 
                                                         FileUpload::make('image')

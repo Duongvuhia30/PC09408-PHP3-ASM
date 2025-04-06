@@ -1,108 +1,70 @@
 @extends('layout.home')
 @section('content')
-<div class="tg-innerbanner tg-haslayout tg-parallax tg-bginnerbanner" data-z-index="-100" data-appear-top-offset="600" data-parallax="scroll" data-image-src="images/parallax/bgparallax-07.jpg">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<div class="tg-innerbannercontent">
-							<h1>Contact Us</h1>
-							<ol class="tg-breadcrumb">
-								<li><a href="javascript:void(0);">home</a></li>
-								<li class="tg-active">Contact Us</li>
-							</ol>
+
+<section class="page_contact section ">
+	<div class="container py-3">
+		<div class="row">
+			<div class="col-lg-6 col-12">
+				<div class="left-contact px-lg-2">
+					<h1 class="title_page mb-3">Công ty TNHH EGANY</h1>
+					<div class="single-contact">
+						<i class="fa fa-map-marker-alt"></i>
+						<div class="content">Địa chỉ:
+														<span>70 Lu Gia, District 11, Ho Chi Minh City</span>
+							
 						</div>
+					</div>
+					<div class="single-contact">
+						<i class="fa fa-mobile-alt"></i>
+						<div class="content">
+							Số điện thoại: <a class="link" title="19006750" href="tel:19006750">19006750</a>
+						</div>
+					</div>
+					<div class="single-contact">
+						<i class="fa fa-envelope"></i>
+						<div class="content">
+						Email: <a title="support@sapo.vn" class="link" href="mailto:support@sapo.vn">support@sapo.vn</a>
+						</div>
+					</div>
+					<div id="pagelogin" class="pt-3 mt-3 border-top">
+						<h2 class="title-head">Liên hệ với chúng tôi</h2>
+						<form method="post" action="https://ega-sportswear.mysapo.net/postcontact" id="contact" accept-charset="UTF-8"><input name="FormType" type="hidden" value="contact"/><input name="utf8" type="hidden" value="true"/><input type="hidden" id="Token-0a0e7a83ec6b462ca8b0e6bdac8e3910" name="Token" /><script src="../www.google.com/recaptcha/apif78f.js?render=6Ldtu4IUAAAAAMQzG1gCw3wFlx_GytlZyLrXcsuK"></script><script>grecaptcha.ready(function() {grecaptcha.execute("6Ldtu4IUAAAAAMQzG1gCw3wFlx_GytlZyLrXcsuK", {action: "contact"}).then(function(token) {document.getElementById("Token-0a0e7a83ec6b462ca8b0e6bdac8e3910").value = token});});</script>
+						
+						
+						<div class="form-signup clearfix">
+							<div class="row group_contact">
+								<fieldset class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+									<input placeholder="Họ tên*" type="text" class="form-control  form-control-lg" required value="" name="contact[Name]">
+								</fieldset>
+								<fieldset class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+									<input placeholder="Email*" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required id="email1" class="form-control form-control-lg" value="" name="contact[email]">
+								</fieldset>
+								<fieldset class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+									<input placeholder="Số điện thoại*" type="text" class="form-control  form-control-lg" required pattern="\d+" name="contact[Phone]" value="">
+								</fieldset>
+								<fieldset class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+									<textarea placeholder="Nhập nội dung*" name="contact[body]" id="comment" class="form-control content-area form-control-lg" rows="5" Required></textarea>
+								</fieldset>
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+									<button type="submit" class="btn btn-main--primary btn-block btn-lienhe">Gửi liên hệ của bạn</button>
+								</div>
+							</div>
+						</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-12">
+				<div class="iFrameMap px-2 mt-3 mt-lg-0">
+					<div id="contact_map" class="map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.904611732553!2d105.81388241542348!3d21.03650239288885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab1946cc7e23%3A0x87ab3917166a0cd5!2zQ8O0bmcgdHkgY-G7lSBwaOG6p24gY8O0bmcgbmdo4buHIFNBUE8!5e0!3m2!1svi!2s!4v1555900531747!5m2!1svi!2s" width="600" height="450" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!--************************************
-				Inner Banner End
-		*************************************-->
-		<!--************************************
-				Main Start
-		*************************************-->
-		<main id="tg-main" class="tg-main tg-haslayout">
-			<!--************************************
-					Contact Us Start
-			*************************************-->
-			<div class="tg-sectionspace tg-haslayout">
-				<div class="container">
-					<div class="row">
-						<div class="tg-contactus">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="tg-sectionhead">
-									<h2><span>Say Hello!</span>Get In Touch With Us</h2>
-								</div>
-							</div>
-							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-								<div id="tg-locationmap" class="tg-locationmap tg-map"></div>
-							</div>
-							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-								<form class="tg-formtheme tg-formcontactus">
-									<fieldset>
-										<div class="form-group">
-											<input type="text" name="first-name" class="form-control" placeholder="First Name*">
-										</div>
-										<div class="form-group">
-											<input type="text" name="last-name" class="form-control" placeholder="Last Name*">
-										</div>
-										<div class="form-group">
-											<input type="email" name="email" class="form-control" placeholder="Last Name*">
-										</div>
-										<div class="form-group">
-											<input type="text" name="subject" class="form-control" placeholder="Subject (optional)">
-										</div>
-										<div class="form-group tg-hastextarea">
-											<textarea placeholder="Comment"></textarea>
-										</div>
-										<div class="form-group">
-											<button type="submit" class="tg-btn tg-active">Submit</button>
-										</div>
-									</fieldset>
-								</form>
-								<div class="tg-contactdetail">
-									<div class="tg-sectionhead">
-										<h2>Get In Touch With Us</h2>
-									</div>
-									<ul class="tg-contactinfo">
-										<li>
-											<i class="icon-apartment"></i>
-											<address>Suit # 07, Rose world Building, Street # 02, AT246T Manchester</address>
-										</li>
-										<li>
-											<i class="icon-phone-handset"></i>
-											<span>
-												<em>0800 12345 - 678 - 89</em>
-												<em>+4 1234 - 4567 - 67</em>
-											</span>
-										</li>
-										<li>
-											<i class="icon-clock"></i>
-											<span>Serving 7 Days A Week From 9am - 5pm</span>
-										</li>
-										<li>
-											<i class="icon-envelope"></i>
-											<span>
-												<em><a href="mailto:support@domain.com">support@domain.com</a></em>
-												<em><a href="mailto:info@domain.com">info@domain.com</a></em>
-											</span>
-										</li>
-									</ul>
-									<ul class="tg-socialicons">
-										<li class="tg-facebook"><a href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
-										<li class="tg-twitter"><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
-										<li class="tg-linkedin"><a href="javascript:void(0);"><i class="fa fa-linkedin"></i></a></li>
-										<li class="tg-googleplus"><a href="javascript:void(0);"><i class="fa fa-google-plus"></i></a></li>
-										<li class="tg-rss"><a href="javascript:void(0);"><i class="fa fa-rss"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--************************************
-					Contact Us End
-			*************************************-->
-		</main>
+	</div>
+
+
+</section>
+
 @endsection

@@ -2,6 +2,7 @@
 
 use App\Livewire\Client\About;
 use App\Livewire\Client\Blog;
+use App\Livewire\Client\Cart;
 use App\Livewire\Client\Contacts;
 use App\Livewire\Client\HomePage;
 use App\Livewire\Client\ProductDetail;
@@ -17,3 +18,4 @@ Route::get('/productdetail',[Products::class,"Detail"]);
 Route::get('/contacts',[Contacts::class,"index"]);
 Route::get('/about',[About::class,"index"]);
 Route::get('/blogs',[Blog::class,"index"]);
+Route::get('/cart',[Cart::class,"index"]);

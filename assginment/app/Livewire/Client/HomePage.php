@@ -9,7 +9,9 @@ class HomePage extends Component
 {
 
     public function index()
+    
     {
+
         return view('livewire.client.home-page');
     }
 

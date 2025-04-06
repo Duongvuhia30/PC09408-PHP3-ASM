@@ -4,7 +4,7 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\BlogsResource\Pages;
 use App\Filament\Resources\BlogsResource\RelationManagers;
-use App\Models\Blogs;
+use App\Models\Blog;
 use Filament\Forms;
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Form;
@@ -23,13 +23,26 @@ use function Laravel\Prompts\search;
 use Filament\Tables\Filters\SelectFilter;
 use Filament\Forms\Components\Fieldset;
 use Filament\Tables\Columns\ImageColumn;
-
+use Filament\Tables\Actions\EditAction;
+use Filament\Tables\Actions\ViewAction;
+use Filament\Tables\Actions\DeleteAction;
+use Filament\Tables\Actions\ActionGroup;
+use Filament\Forms\Components\MarkdownEditor;
+use Filament\Tables\Filters\Filter;
 
 class BlogsResource extends Resource
 {
-    protected static ?string $model = Blogs::class;
+    protected static ?string $model = Blog::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+
+    protected static ?string $modelLabel = 'bài viết';
+
+    protected static ?string $navigationGroup = 'bài viết';
+
+    protected static ?string $navigationLabel = 'Tất cả bài viết';
+
+    protected static ?string $pluralModelLabel = 'bài viết';
 
     public static function form(Form $form): Form
     {
@@ -44,7 +57,7 @@ class BlogsResource extends Resource
                             ->label('Tên bài viết'),
 
 
-                        RichEditor::make('content')
+                        MarkdownEditor::make('content')
                             ->label('Nội dung')
                             ->columnSpanFull(),
                             DatePicker::make('published_at')
@@ -81,8 +94,6 @@ class BlogsResource extends Resource
                     ->label('Tên bài viết')
                     ->searchable(),
                 ImageColumn::make('thumbnail'),
-                TextColumn::make('Nội dung')
-                    ->html(),
                 ToggleColumn::make('status'),
 
                 TextColumn::make('published_at')
@@ -97,10 +108,38 @@ class BlogsResource extends Resource
                     ->options([
                         '0' => 'Ẩn ',
                         '1' => 'Hiện',
+                    ]),
+                    Tables\Filters\Filter::make('created_at')
+                    ->form([
+                        Forms\Components\DateTimePicker::make('created_form')
+                        ->label('Tu ngay')
+                        ->native('false'),
+
+                        Forms\Components\DateTimePicker::make('created_until')
+                        ->label('Den ngay')
+                        ->native('false'),
+
                     ])
-            ])
+                    ->query( function (Builder $query,array $data): Builder{
+                        return $query
+                        ->when(
+                            $data['created_form'],
+                            fn(Builder $query,$date):Builder => $query->whereDate('created_at','>=',$date),
+
+                        )
+                        ->when(
+                            $data['created_until'],
+                            fn(Builder $query,$date):Builder => $query->whereDate('created_at','=<',$date),
+                        );
+                    }),
+
+                ])
             ->actions([
-                Tables\Actions\EditAction::make(),
+                ActionGroup::make([
+                    EditAction::make()->recordTitleAttribute('name'),
+                    ViewAction::make(),
+                    DeleteAction::make(),
+                ])
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
