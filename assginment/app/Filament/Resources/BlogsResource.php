@@ -29,6 +29,8 @@ use Filament\Tables\Actions\DeleteAction;
 use Filament\Tables\Actions\ActionGroup;
 use Filament\Forms\Components\MarkdownEditor;
 use Filament\Tables\Filters\Filter;
+use Filament\Forms\Components\Select;
+use App\Models\CategoriesBlog;
 
 class BlogsResource extends Resource
 {
@@ -44,47 +46,57 @@ class BlogsResource extends Resource
 
     protected static ?string $pluralModelLabel = 'bài viết';
 
-    public static function form(Form $form): Form
-    {
-        return $form
-            ->schema([
-                Fieldset::make('Hình ảnh')
-                    ->schema([
-                        TextInput::make('title')
-                            ->required()
-                            ->placeholder('Tên bài viết')
-                            ->columnSpanFull()
-                            ->label('Tên bài viết'),
+public static function form(Form $form): Form
+{
+    return $form
+        ->schema([
+            Fieldset::make('Thông tin bài viết')
+                ->schema([
+                    TextInput::make('title')
+                        ->required()
+                        ->placeholder('Tên bài viết')
+                        ->columnSpanFull()
+                        ->label('Tên bài viết'),
 
+                    Select::make('category_id')
+                        ->label('Danh mục bài viết')
+                        ->relationship('category', 'name') // Liên kết với bảng categories_blog
+                        ->searchable()
+                        ->required(),
 
-                        MarkdownEditor::make('content')
-                            ->label('Nội dung')
-                            ->columnSpanFull(),
-                            DatePicker::make('published_at')
-                            ->label('Ngày xuất bản')
-                            ->displayFormat('d/m/Y'),
-
+                    MarkdownEditor::make('content')
+                        ->label('Nội dung')
+                        ->columnSpanFull(),
 
                         Toggle::make('status')
-                            ->label('Trạng Thái')
-                            ->default(1),
-                        Toggle::make('slug')
+                        ->label('Trạng Thái')
+                        ->default(1),
 
+                    DatePicker::make('published_at')
+                        ->label('Ngày xuất bản')
+                        ->displayFormat('d/m/Y')
+                        ->required(),
 
-                    ])
-                    ->columnSpan(8),
+                    TextInput::make('slug') // Dùng TextInput cho slug
+                        ->label('Slug')
+                        ->required()
+                        ->unique('blogs') // Đảm bảo slug là duy nhất
+                ])
+                ->columnSpan(8),
 
+            Fieldset::make('Hình ảnh')
+                ->schema([
+                    FileUpload::make('thumbnail')
+                        ->label('Ảnh đại diện')
+                        ->image() // Chỉ cho phép tải ảnh
+                        ->required()
+                        ->columnSpanFull()
+                ])
+                ->columnSpan(4),
+        ])
+        ->columns(12);
+}
 
-                Fieldset::make('Hình ảnh')
-                    ->schema([
-                        FileUpload::make('thumbnail')
-                            ->columnSpanFull()
-                            ->image()
-                    ])
-                    ->columnSpan(4),
-            ])->columns(12);
-        //
-    }
 
     public static function table(Table $table): Table
     {
@@ -109,29 +121,29 @@ class BlogsResource extends Resource
                         '0' => 'Ẩn ',
                         '1' => 'Hiện',
                     ]),
-                    Tables\Filters\Filter::make('created_at')
-                    ->form([
-                        Forms\Components\DateTimePicker::make('created_form')
-                        ->label('Tu ngay')
-                        ->native('false'),
+                    Tables\Filters\Filter::make('published_at')
+    ->form([
+        Forms\Components\DateTimePicker::make('created_form')
+            ->label('Từ ngày')
+            ->native(false),  // Nếu không cần thiết, có thể loại bỏ 'native(false)'
 
-                        Forms\Components\DateTimePicker::make('created_until')
-                        ->label('Den ngay')
-                        ->native('false'),
+        Forms\Components\DateTimePicker::make('created_until')
+            ->label('Đến ngày')
+            ->native(false),  // Nếu không cần thiết, có thể loại bỏ 'native(false)'
 
-                    ])
-                    ->query( function (Builder $query,array $data): Builder{
-                        return $query
-                        ->when(
-                            $data['created_form'],
-                            fn(Builder $query,$date):Builder => $query->whereDate('created_at','>=',$date),
+    ])
+    ->query(function (Builder $query, array $data): Builder {
+        return $query
+            ->when(
+                $data['created_form'] ?? false,  // Kiểm tra xem có giá trị 'created_form' không
+                fn(Builder $query, $date): Builder => $query->whereDate('published_at', '>=', $date)
+            )
+            ->when(
+                $data['created_until'] ?? false,  // Kiểm tra xem có giá trị 'created_until' không
+                fn(Builder $query, $date): Builder => $query->whereDate('published_at', '<=', $date)
+            );
+    }),
 
-                        )
-                        ->when(
-                            $data['created_until'],
-                            fn(Builder $query,$date):Builder => $query->whereDate('created_at','=<',$date),
-                        );
-                    }),
 
                 ])
             ->actions([
