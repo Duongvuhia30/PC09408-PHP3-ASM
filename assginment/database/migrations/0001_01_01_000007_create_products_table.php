@@ -18,7 +18,8 @@ return new class extends Migration
             $table->string('slug')->unique();
             $table->text('tag');
             $table->string('type'); 
-
+            $table->dateTime('release_date')->nullable();
+            $table->boolean('is_active');
             $table->foreignId('publisher_id')
                 ->nullable()
                 ->constrained('publishers', 'row_id')

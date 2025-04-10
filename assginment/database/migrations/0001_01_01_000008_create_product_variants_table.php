@@ -20,7 +20,8 @@ return new class extends Migration
             $table->integer('stock');
             $table->string('type')->nullable();
             $table->string('pdf')->nullable();
-            $table->string('image')->nullable(); 
+            $table->string('image')->nullable();
+            $table->dateTime('release_date')->null(); 
             $table->softDeletes();
             $table->timestamps();
         });

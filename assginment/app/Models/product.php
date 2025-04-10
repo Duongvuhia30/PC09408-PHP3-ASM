@@ -42,12 +42,12 @@ class Product extends Model
 
     public function variants()
     {
-        return $this->hasMany(product_variants::class, 'product_id', 'row_id');
+        return $this->hasMany(ProductVariants::class, 'product_id', 'row_id');
     }
 
     public function metadata()
     {
-        return $this->hasOne(product_metadata::class, 'product_id', 'row_id');
+        return $this->hasOne(ProductMetadata::class, 'product_id', 'row_id');
     }
 
     public function categories()
@@ -65,8 +65,8 @@ class Product extends Model
     public function images()
     {
         return $this->hasManyThrough(
-            \App\Models\image_product_variants::class,
-            \App\Models\product_variants::class,
+            \App\Models\ImageProductVariants::class,
+            \App\Models\ProductVariants::class,
             'product_id',
             'variant_id',
             'row_id',

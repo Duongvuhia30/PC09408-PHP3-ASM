@@ -51,6 +51,12 @@ class ProductsResource extends Resource
 
     protected static ?string $pluralModelLabel = 'Sản phẩm';
 
+    public static function getEloquentQuery(): Builder
+    {
+        return parent::getEloquentQuery()
+            ->with(['variants']); 
+    }
+
     public static function form(Form $form): Form
     {
         return $form
@@ -108,6 +114,44 @@ class ProductsResource extends Resource
 
                                 Tabs::make('Tabs')
                                     ->tabs([
+                                        Tabs\Tab::make('Thông tin sản phẩm')
+                                            ->schema([
+                                                Group::make([
+                                                    TextInput::make('author')
+                                                        ->label('Tác giả')
+                                                        ->required()
+                                                        ->maxLength(255)
+                                                        ->rule('regex:/^[\p{L}0-9\s\-]+$/u')
+                                                        ->validationMessages([
+                                                            'required' => 'Vui lòng nhập tên tác giả.',
+                                                            'regex' => 'Tên biến thể chỉ được chứa chữ cái, số, khoảng trắng và dấu gạch ngang.',
+                                                        ]),
+                                                    TextInput::make('publish_year')->label('Năm xuất bản')->numeric()
+                                                        ->rules([
+                                                            'integer',
+                                                            'max:' . now()->year,
+                                                        ])
+                                                        ->required()
+                                                        ->validationMessages([
+                                                            'required' => 'Vui lòng nhập năm xuất bản.',
+                                                            'integer' => 'Năm xuất bản phải là số nguyên.',
+                                                            'max' => 'Năm xuất bản không được lớn hơn năm hiện tại.',
+                                                        ]),
+                                                    Select::make('language')
+                                                        ->label('Ngôn ngữ')
+                                                        ->options(function () {
+                                                            $data = json_decode(Storage::get('languages_full.json'), true);
+                                                            return collect($data)->mapWithKeys(fn($lang) => [
+                                                                $lang['native'] => $lang['native']
+                                                            ])->sort();
+                                                        })
+                                                        ->required()
+                                                        ->searchable()
+                                                        ->validationMessages([
+                                                            'required' => 'Vui lòng chọn ngôn ngữ.',
+                                                        ]),
+                                                ])->relationship('metadata'),
+                                            ]),
                                         Tabs\Tab::make('Dữ liệu sản phẩm')
                                             ->schema([
                                                 Select::make('type')
@@ -182,8 +226,8 @@ class ProductsResource extends Resource
                                                                 'integer' => 'Tồn kho phải là số nguyên.',
                                                                 'min' => 'Tồn kho phải lớn hơn 0.',
                                                             ])
+                                                            ->default(fn($get) => $get('type') === 'ebook' ? 0 : null)
                                                             ->hidden(fn($get) => $get('type') === 'ebook'),
-
 
                                                         FileUpload::make('image')
                                                             ->label('Ảnh sản phẩm')
@@ -191,12 +235,11 @@ class ProductsResource extends Resource
                                                             ->image()
                                                             ->preserveFilenames()
                                                             ->getUploadedFileNameForStorageUsing(fn($file) => now()->format('YmdHis') . '.' . $file->getClientOriginalExtension())
-                                                            ->visible(fn($get) => $get('type') === 'physical'),
-                                                        // ->required(fn($get) => $get('type') === 'physical')
-                                                        // ->validationMessages([
-                                                        //     'required' => 'Vui lòng tải ảnh cho sản phẩm sách giấy.',
-                                                        // ]),
-
+                                                            ->visible(fn($get) => $get('type') === 'physical')
+                                                            ->required(fn($get) => $get('type') === 'physical')
+                                                            ->validationMessages([
+                                                                'required' => 'Vui lòng tải ảnh cho sản phẩm sách giấy.',
+                                                            ]),
 
                                                         FileUpload::make('pdf')
                                                             ->label('Tệp PDF')
@@ -209,6 +252,16 @@ class ProductsResource extends Resource
                                                             ->validationMessages([
                                                                 'required' => 'Vui lòng tải file PDF cho sản phẩm ebook.',
                                                             ]),
+
+                                                        DateTimePicker::make('release_date')
+                                                            ->label('Thời gian xuất bản')
+                                                            ->default(now())
+                                                            ->visible(fn($get) => $get('../../type') === 'variable')
+                                                            ->required(fn($get) => $get('../../type') === 'variable')
+                                                            ->validationMessages([
+                                                                'required' => 'Vui lòng chọn thời gian xuất bản.',
+                                                            ]),
+
                                                     ])
                                                     ->minItems(1)
                                                     ->maxItems(fn($get) => $get('type') === 'simple' ? 1 : null)
@@ -217,45 +270,6 @@ class ProductsResource extends Resource
                                                     ->reorderable(fn($get) => $get('type') === 'variable')
                                                     ->collapsible(),
                                             ]),
-
-
-                                        Tabs\Tab::make('Thông tin sản phẩm')
-                                            ->schema([
-                                                Group::make([
-                                                    TextInput::make('author')
-                                                        ->label('Tác giả')
-                                                        ->required()
-                                                        ->maxLength(255)
-                                                        ->rule('regex:/^[\p{L}0-9\s\-]+$/u')
-                                                        ->validationMessages([
-                                                            'required' => 'Vui lòng nhập tên tác giả.',
-                                                            'regex' => 'Tên biến thể chỉ được chứa chữ cái, số, khoảng trắng và dấu gạch ngang.',
-                                                        ]),
-                                                    TextInput::make('publish_year')->label('Năm xuất bản')->numeric()
-                                                        ->rules([
-                                                            'integer',
-                                                            'max:' . now()->year,
-                                                        ])
-                                                        ->required()
-                                                        ->validationMessages([
-                                                            'required' => 'Vui lòng nhập năm xuất bản.',
-                                                            'integer' => 'Năm xuất bản phải là số nguyên.',
-                                                            'max' => 'Năm xuất bản không được lớn hơn năm hiện tại.',
-                                                        ]),
-                                                    Select::make('language')
-                                                        ->label('Ngôn ngữ')
-                                                        ->options(function () {
-                                                            $data = json_decode(Storage::get('languages_full.json'), true);
-                                                            return collect($data)->mapWithKeys(fn($lang) => [
-                                                                $lang['native'] => $lang['native']
-                                                            ])->sort();
-                                                        })
-                                                        ->required()
-                                                        ->validationMessages([
-                                                            'required' => 'Vui lòng chọn ngôn ngữ.',
-                                                        ]),
-                                                ])->relationship('metadata'),
-                                            ])
 
                                     ])
                             ])
@@ -308,13 +322,17 @@ class ProductsResource extends Resource
 
                                 Section::make('Danh mục')
                                     ->schema([
-                                        CheckboxList::make('categories')
+                                        select::make('categories')
                                             ->label(false)
-                                            ->relationship('categories', 'name')
-                                            ->extraAttributes([
-                                                'style' => 'max-height: 200px; overflow-y: auto; padding: 0.5rem;'
-                                            ]),
-                                        View::make('components.create-category-link')
+                                            ->reactive()
+                                            ->multiple()
+                                            ->relationship('categories', 'name', function ($query) {
+                                                $query->whereNotIn('categories.row_id', [1]);
+                                            })
+                                            ->searchable()
+                                            ->preload(),
+                                            View::make('components.create-category-inline')
+                                            ->columns(1),
                                     ])->collapsible(),
                                 Section::make('Nhà xuất bản')
                                     ->schema([
@@ -325,8 +343,9 @@ class ProductsResource extends Resource
                                             ->validationMessages([
                                                 'required' => 'Vui lòng chọn nhà xuất bản.',
                                             ])
+                                            ->searchable()
                                             ->preload(),
-                                        View::make('components.create-publisher-link')
+                                        View::make('components.create-publisher-inline')
                                     ])->collapsible(),
                                 Section::make('Từ khóa')
                                     ->schema([
@@ -335,20 +354,19 @@ class ProductsResource extends Resource
                                             ->reorderable()
                                             ->separator(','),
 
-                                    ])->collapsible()
-                                //     Section::make('Trạng thái')
-                                //         ->schema([
-                                //             Toggle::make('status')->label('Xuất bản')->default(true),
-                                //             Toggle::make('published')->label('Xuất bản theo lịch')->live(),
-                                //             DateTimePicker::make('published_at')
-                                //             ->label('Thời gian xuất bản')
-                                //             ->default(now())
-                                //             ->visible(fn($get) => $get('published') === true)
-                                //             ->required(fn($get) => $get('published') === true)
-                                //             ->validationMessages([
-                                //                 'required' => 'Vui lòng chọn thời gian xuất bản.',
-                                //             ])
-                                //         ])->collapsible(),
+                                    ])->collapsible(),
+                                Section::make('Trạng thái')
+                                    ->schema([
+                                        Toggle::make('is_active')->label('Trạng thái')->default(true),
+                                        DateTimePicker::make('release_date')
+                                            ->label('Thời gian phát hành')
+                                            ->default(now())
+                                            ->required(fn($get) => $get('published') === true)
+                                            ->validationMessages([
+                                                'required' => 'Vui lòng chọn thời gian xuất bản.',
+                                            ]),
+
+                                    ])->collapsible(),
                             ])
                             ->columnSpan(4),
                     ]),
@@ -359,17 +377,17 @@ class ProductsResource extends Resource
     {
         return $table
             ->columns([
-                TextColumn::make('title')->label('Tên'),
+                TextColumn::make('title')->label('Tên')->searchable(),
                 ImageColumn::make('images')
-                ->label('Ảnh')
-                ->disk('public') // dùng disk 'public' => storage/app/public
-                ->getStateUsing(function ($record) {
-                    $firstImage = optional($record->images->first())->path;
-                    return $firstImage ? 'product_images/' . $firstImage : null;
-                })
-                ->height(100)
-                ->square(),
-            
+                    ->label('Ảnh')
+                    ->disk('public')
+                    ->getStateUsing(function ($record) {
+                        $firstImage = optional($record->images->first())->path;
+                        return $firstImage ? 'product_images/' . $firstImage : null;
+                    })
+                    ->height(100)
+                    ->square(),
+
                 TextColumn::make('categories')
                     ->label('Danh mục')
                     ->formatStateUsing(function ($record) {
@@ -377,8 +395,18 @@ class ProductsResource extends Resource
                     }),
                 TextColumn::make('publisher.name')->label('Nhà xuất bản'),
                 TextColumn::make('slug')->label('Đường dẫn'),
-                TextColumn::make('variants.stock')->label('Tồn kho')
+                TextColumn::make('variants.stock')->label('Tồn kho'),
+                TextColumn::make('release_date')
+                    ->label('Ngày phát hành')
+                    ->formatStateUsing(function ($state, $record) {
+                        $variantDate = optional($record->variants->first())->release_date;
 
+                        return $variantDate
+                            ? '📘 ' . \Carbon\Carbon::parse($variantDate)->format('d/m/Y')
+                            : ($record->release_date
+                                ? '🗂️ ' . \Carbon\Carbon::parse($record->release_date)->format('d/m/Y')
+                                : '—');
+                    })
             ])
             ->filters([
                 //

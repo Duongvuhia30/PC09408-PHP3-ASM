@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class image_product_variants extends Model
+class ImageProductVariants extends Model
 {
     use HasFactory, SoftDeletes;
 
@@ -18,6 +18,6 @@ class image_product_variants extends Model
 
     public function variant()
     {
-        return $this->belongsTo(product_variants::class, 'variant_id', 'row_id');
+        return $this->belongsTo(ProductVariants::class, 'variant_id', 'row_id');
     }
 }

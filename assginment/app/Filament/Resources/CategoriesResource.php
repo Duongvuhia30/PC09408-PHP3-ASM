@@ -24,7 +24,8 @@ use Filament\Tables\Actions\EditAction;
 use Filament\Tables\Actions\ViewAction;
 use Filament\Tables\Actions\DeleteAction;
 use Filament\Tables\Actions\ActionGroup;
-
+use Filament\Notifications\Notification;
+use Illuminate\Database\Eloquent\Builder;
 
 class CategoriesResource extends Resource
 {
@@ -37,6 +38,12 @@ class CategoriesResource extends Resource
     protected static ?string $label = 'Danh Mục';
 
     protected static ?string $navigationIcon = 'heroicon-o-tag';
+
+    public static function getEloquentQuery(): Builder
+    {
+        return parent::getEloquentQuery()
+            ->where('row_id', '!=', Category::getDefaultCategoryId());
+    }
 
     public static function form(Form $form): Form
     {
@@ -83,7 +90,7 @@ class CategoriesResource extends Resource
                                         Select::make('parent_id')
                                             ->label('Danh mục cha')
                                             ->options(function ($record) {
-                                                $query = Category::query();
+                                                $query = Category::query()->where('row_id', '!=', 1);
 
                                                 if ($record) {
                                                     $query->whereNot('row_id', $record->row_id);
@@ -105,10 +112,6 @@ class CategoriesResource extends Resource
                                     ->maxFiles(4)
                                     ->imageEditor()
                                     ->panelLayout('grid')
-                                    ->required(fn($livewire) => $livewire instanceof \Filament\Resources\Pages\CreateRecord)
-                                    ->validationMessages([
-                                        'required' => 'Bạn cần thêm ít nhất một ảnh.',
-                                    ])
                                     ->getUploadedFileNameForStorageUsing(function ($file) {
                                         $timestamp = now()->format('YmdHis');
                                         $extension = $file->getClientOriginalExtension();
@@ -151,8 +154,6 @@ class CategoriesResource extends Resource
         return $table
             ->columns([
                 TextColumn::make('name')->label('Tên danh mục')->searchable(),
-                TextColumn::make('slug')->label('đường dẫn'),
-                TextColumn::make('tag')->label('nhãn dán'),
                 TextColumn::make('parent.name')->label('danh mục cha'),
                 ImageColumn::make('images')
                     ->label('Ảnh')
@@ -171,7 +172,28 @@ class CategoriesResource extends Resource
                 ActionGroup::make([
                     EditAction::make()->recordTitleAttribute('name'),
                     ViewAction::make(),
-                    DeleteAction::make(),
+                    DeleteAction::make()
+                        ->requiresConfirmation()
+                        ->modalHeading('Xóa Danh Mục')
+                        ->modalDescription(
+                            fn($record) =>
+                            $record->products()->exists()
+                                ? '⚠️ Danh mục này đang chứa sản phẩm. Nếu bạn xác nhận xóa, các sản phẩm sẽ được chuyển sang danh mục mặc định.'
+                                : 'Bạn có chắc chắn muốn xóa danh mục này?'
+                        )
+                        ->modalSubmitActionLabel('Xác nhận')   // ✅ thay cho modalButton()
+                        ->modalCancelActionLabel('Hủy bỏ')     // ✅ thay cho modalCancelButton()
+                        ->after(function ($record) {
+                            if ($record->products()->exists()) {
+                                $defaultId = \App\Models\Category::getDefaultCategoryId();
+
+                                foreach ($record->products as $product) {
+                                    $product->categories()->sync(
+                                        $product->categories->pluck('row_id')->filter(fn($id) => $id != $record->row_id)->push($defaultId)
+                                    );
+                                }
+                            }
+                        }),
                 ])
             ])
             ->bulkActions([

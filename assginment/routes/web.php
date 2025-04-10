@@ -8,6 +8,7 @@ use App\Livewire\Client\HomePage;
 use App\Livewire\Client\ProductDetail;
 use App\Livewire\Client\Products;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\CategoryController;
 
 Route::get('/', function () {
     return view('client.home');
@@ -19,3 +20,6 @@ Route::get('/contacts',[Contacts::class,"index"]);
 Route::get('/about',[About::class,"index"]);
 Route::get('/blogs',[Blog::class,"index"]);
 Route::get('/cart',[Cart::class,"index"]);
+
+
+
