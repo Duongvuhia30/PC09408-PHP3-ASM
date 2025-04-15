@@ -1051,76 +1051,7 @@
 		/** end naviagtion **/
 	</style>
 
-<style>
-    .swatch {
-        margin-bottom: 20px;
-    }
-    
-    .swatch-element-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        margin-top: 10px;
-    }
-    
-    .position-relative {
-        position: relative;
-    }
-    
-    .swatch-element {
-        display: inline-block;
-        position: relative;
-    }
-    
-    .swatch-element label {
-        display: block;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        cursor: pointer;
-        border: 2px solid transparent;
-        transition: all 0.3s ease;
-    }
-    
-    .swatch-element input[type="radio"]:checked + label {
-        border-color: #000;
-        transform: scale(1.05);
-    }
-    
-    .swatch-element input[type="radio"] {
-        position: absolute;
-        opacity: 0;
-        height: 0;
-        width: 0;
-    }
-    
-    .tooltip {
-        position: absolute;
-        bottom: -20px;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 12px;
-        white-space: nowrap;
-        visibility: hidden;
-        opacity: 0;
-        transition: all 0.3s ease;
-    }
-    
-    .swatch-element:hover .tooltip {
-        visibility: visible;
-        opacity: 1;
-    }
-    
-    .header {
-        font-weight: bold;
-        margin-bottom: 5px;
-    }
-    
-    .swatch-value {
-        color: #333;
-        font-weight: normal;
-    }
-</style>
+
 	<style>
 			.swatch-element {
 			position: relative;
@@ -1369,11 +1300,11 @@
 		.swatch .color span {
 			content: '';
 			position: absolute;
-			width: calc(100% + 5px);
-			height: calc(100% + 3px);
+			width: calc(100% + 1px);
+			height: calc(100% + 1px);
 			border-radius: 100%;
 			background: #fff;
-			top: 42%;
+			top: 50%;
 			left: 50%;
 			z-index: 0;
 			transform: translate(-50%, -50%);

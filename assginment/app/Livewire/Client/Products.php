@@ -1,33 +1,24 @@
 <?php
+
 namespace App\Livewire\Client;
 
-use App\Models\Category;
+
 use Livewire\Component;
-use App\Models\Product;
 
 class Products extends Component
 {
-    public function showProductsByCategory()
+
+    public function products()
     {
-        // Đảm bảo gọi với get() để trả về collection thay vì array
-        $products = Product::with('variants.images')->orderBy('created_at', 'desc')->get();
-        
-        return view('livewire.client.product', [
-            'products' => $products,
-        ]);
+        return view('livewire.client.product');
     }
-    
-
-
-    
-    public function Detail($id)
+    public function Detail()
     {
-        $products = Product::with('variants.images')->findOrFail($id);
+//         // Ví dụ nếu bạn không có biến sản phẩm từ DB
+// $price = 10000; // Giá cố định hoặc lấy từ bất kỳ nguồn nào
 
 
-        return view('livewire.client.product-detail',[
-            'products' => $products,
-        ]);
+        return view('livewire.client.product-detail');
     }
 }
-
+// , compact('price')
