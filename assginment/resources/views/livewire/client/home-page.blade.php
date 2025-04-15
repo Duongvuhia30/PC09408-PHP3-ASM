@@ -113,165 +113,57 @@
 			</div>
 		</section>
 
-		<section class="section awe-section-3">
-			<section class="section_ss_collection section">
-				<div class="container border-0">
-					<h2 class="heading-bar__title"></h2>
-					<div class="ss_body">
-						<div
-							class="row mx-0 hrz-scroll text-center flex-nowrap js-slider justify-content-around btn-slide--new">
+		<section class="section awe-section-20">
 
-							<div class="ss_item style2">
-								<a href="ao-nguc-the-thao.html">
-									<div class="ss_img">
-										<picture>
-											<source media="(max-width: 991px)"
-												srcset="//bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/season_coll_1_img.png?1738827047187">
-											<img loading="lazy"
-												class="img-fluid m-auto object-contain mh-100 w-auto"
-												src="../bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/season_coll_1_imgc5aa.png?1738827047187"
-												width="200"
-												height="200"
-												alt="season_coll_1_img.png" />
-										</picture>
-									</div>
-									<div class="ss_info">
-										<div class="ss_name">Áo ngực thể thao</div>
-										<span class="ss_number">12 sản phẩm</span>
-										<div class="ss_seemore">
+			<section class="section_banner_slide section">
+				<div class="container card border-0">
+					<h2 class="heading-bar__title text-left">DANH MỤC SẢN PHẨM</h2>
+					<div class="banner_slide_body btn-slide--new">
+						<div class="row mx-0 hrz-scroll text-center flex-nowrap js-slider">
 
-											<svg class="icon">
-												<use xlink:href="#icon-arrow" />
-											</svg></div>
-									</div>
-								</a>
-							</div>
-							<div class="ss_item style2">
-								<a href="san-pham-noi-bat.html">
-									<div class="ss_img">
-										<picture>
-											<source media="(max-width: 991px)"
-												srcset="//bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/season_coll_2_img.png?1738827047187">
-											<img loading="lazy"
-												class="img-fluid m-auto object-contain mh-100 w-auto"
-												src="../bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/season_coll_2_imgc5aa.png?1738827047187"
-												width="200"
-												height="200"
-												alt="season_coll_2_img.png" />
-										</picture>
-									</div>
-									<div class="ss_info">
-										<div class="ss_name">Sản phẩm nổi bật</div>
-										<span class="ss_number">4 sản phẩm</span>
-										<div class="ss_seemore">
-
-											<svg class="icon">
-												<use xlink:href="#icon-arrow" />
-											</svg></div>
-									</div>
-								</a>
-							</div>
-							<div class="ss_item style2">
-								<a href="ao-khoac-the-thao-hot.html">
-									<div class="ss_img">
-										<picture>
-											<source media="(max-width: 991px)"
-												srcset="//bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/season_coll_3_img.png?1738827047187">
-											<img loading="lazy"
-												class="img-fluid m-auto object-contain mh-100 w-auto"
-												src="../bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/season_coll_3_imgc5aa.png?1738827047187"
-												width="200"
-												height="200"
-												alt="season_coll_3_img.png" />
-										</picture>
-									</div>
-									<div class="ss_info">
-										<div class="ss_name">Áo khoác thể thao</div>
-										<span class="ss_number">1 sản phẩm</span>
-										<div class="ss_seemore">
-
-											<svg class="icon">
-												<use xlink:href="#icon-arrow" />
-											</svg></div>
-									</div>
-								</a>
-							</div>
-							<div class="ss_item style2">
-								<a href="quan-legging.html">
-									<div class="ss_img">
-										<picture>
-											<source media="(max-width: 991px)"
-												srcset="//bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/season_coll_4_img.png?1738827047187">
-											<img loading="lazy"
-												class="img-fluid m-auto object-contain mh-100 w-auto"
-												src="../bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/season_coll_4_imgc5aa.png?1738827047187"
-												width="200"
-												height="200"
-												alt="season_coll_4_img.png" />
-										</picture>
-									</div>
-									<div class="ss_info">
-										<div class="ss_name">Quần legging</div>
-										<span class="ss_number">10 sản phẩm</span>
-										<div class="ss_seemore">
-
-											<svg class="icon">
-												<use xlink:href="#icon-arrow" />
-											</svg></div>
-									</div>
-								</a>
-							</div>
-							<div class="ss_item style2">
-								<a href="ao-thun-the-thao-hot.html">
-									<div class="ss_img">
-										<picture>
-											<source media="(max-width: 991px)"
-												srcset="//bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/season_coll_5_img.png?1738827047187">
-											<img loading="lazy"
-												class="img-fluid m-auto object-contain mh-100 w-auto"
-												src="../bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/season_coll_5_imgc5aa.png?1738827047187"
-												width="200"
-												height="200"
-												alt="season_coll_5_img.png" />
-										</picture>
-									</div>
-									<div class="ss_info">
-										<div class="ss_name">Áo thun thể thao</div>
-										<span class="ss_number">12 sản phẩm</span>
-										<div class="ss_seemore">
-
-											<svg class="icon">
-												<use xlink:href="#icon-arrow" />
-											</svg></div>
-									</div>
-								</a>
-							</div>
-							<div class="ss_item style2">
-								<a href="set-do-tap.html">
-									<div class="ss_img">
-										<picture>
-											<source media="(max-width: 991px)"
-												srcset="//bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/season_coll_6_img.png?1738827047187">
-											<img loading="lazy"
-												class="img-fluid m-auto object-contain mh-100 w-auto"
-												src="../bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/season_coll_6_imgc5aa.png?1738827047187"
-												width="200"
-												height="200"
-												alt="season_coll_6_img.png" />
-										</picture>
-									</div>
-									<div class="ss_info">
-										<div class="ss_name">Set đồ tập</div>
-										<span class="ss_number">19 sản phẩm</span>
-										<div class="ss_seemore">
-
-											<svg class="icon">
-												<use xlink:href="#icon-arrow" />
-											</svg></div>
-									</div>
+							<div class="banner_slide_item">
+								<a href="collections/all.html" title="Áo">
+									<img loading="lazy"
+										class="img-fluid m-auto object-contain mh-100 w-auto"
+										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_2_img_1_imgc5aa.jpg?1738827047187"
+										width="385"
+										height="500"
+										alt="banner_slide_2_img_1_img.jpg" />
 								</a>
 							</div>
 
+							<div class="banner_slide_item">
+								<a href="collections/all.html" title="Quần">
+									<img loading="lazy"
+										class="img-fluid m-auto object-contain mh-100 w-auto"
+										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_2_img_2_imgc5aa.jpg?1738827047187"
+										width="385"
+										height="500"
+										alt="banner_slide_2_img_2_img.jpg" />
+								</a>
+							</div>
+
+							<div class="banner_slide_item">
+								<a href="collections/all.html" title="Giày dép">
+									<img loading="lazy"
+										class="img-fluid m-auto object-contain mh-100 w-auto"
+										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_2_img_3_imgc5aa.jpg?1738827047187"
+										width="385"
+										height="500"
+										alt="banner_slide_2_img_3_img.jpg" />
+								</a>
+							</div>
+
+							<div class="banner_slide_item">
+								<a href="collections/all.html" title="Đồ bơi">
+									<img loading="lazy"
+										class="img-fluid m-auto object-contain mh-100 w-auto"
+										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_2_img_4_imgc5aa.jpg?1738827047187"
+										width="385"
+										height="500"
+										alt="banner_slide_2_img_4_img.jpg" />
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -570,1213 +462,7 @@
 				defer></script>
 		</section>
 
-		<section class="section awe-section-5">
 
-			<section class="section_product_top section">
-
-				<div class="container card border-0">
-					<div class="slideshow-banner-wrap">
-						<div class="module-product">
-							<div
-								class="title_module_main heading-bar d-flex align-items-center flex-wrap justify-content-between">
-								<a href="new-arrival.html" class="heading-bar__title"><span>NỮ</span>NEW
-									ARRIVAL</a>
-								<a href="new-arrival.html" class="see-all">Xem tất cả</a>
-							</div>
-							<div class="body_module">
-
-								<div class="row mt-3 one_row" style="--limit-column: 4"
-									data-section="tab-section">
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-									<script type="text/x-custom-template" data-template="tab-section">
-											<div class="col-12 col-xl-3 product-col">
-							<div class="item_product_main">
-								
-
-
-
-
-
-	
-	
-	
-	
-	
-					
-
-											
-
-
-
-
-
-
-<form action="/cart/add" method="post" class="variants product-action" data-id="product-actions-30584113" enctype="multipart/form-data">
-	<div class="product-thumbnail pos-relative">
-		
-
-
-	
-
-
-
-
-
-
-
-
-<span class="product-promo-tag product-promo-tag--1 product-promo-tag--text-1" 
-	  style="--color: #333; --background: #f0f0f0; --border-color: #dfdfdf">
-		Bán chạy
-	
-</span>
-		<a class="image_thumb pos-relative embed-responsive embed-responsive-3by4" href="/ao-croptop-tap-gym-yoga-quai-ao-doi" title="Áo croptop tập gym yoga">
-			
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img class="product-frame" 
-	 src="//bizweb.dktcdn.net/100/484/026/themes/953543/assets/frame_2.png?1738827047187" alt=""
-	 data-image-scale="--image-scale: 1;
-"
-	 loading="lazy"
-	 width="480"
-	 height="480"
-	 />
-
-
-
-
-																<img loading="lazy" 
-				 class='img-fetured has-second-img'
-				 width="480"
-				 height="480"
-				 style="--image-scale: 1;
-"
-				 src="//bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-2.jpg?v=1685581773753" alt="Áo croptop tập gym yoga">
-						<img loading="lazy"
-				 class='product-thumbnail__img product-thumbnail__img--secondary'
-				 width="480"
-				 height="480"
-				 style="--image-scale: 1;
-"
-				 src="//bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491.jpg?v=1685581775777" alt="Áo croptop tập gym yoga">
-						
-		</a>
-		
-				<img src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-button-playc5aa.png?1738827047187" 
-					 loading="lazy"
-					 class="video-icon"
-					 alt="video-play-button"/>
-							<div class="label_product ">
-			<div class="label_wrapper">
--18% 
-			</div>
-		</div>
-				<input type="hidden" name="variantId" value="86731873" />
-		<div class="action-bar">
-									<a href="/ao-croptop-tap-gym-yoga-quai-ao-doi" data-handle="ao-croptop-tap-gym-yoga-quai-ao-doi" class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-				<img width='20' height='20' class="icon-option" src="//bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-options.png?1738827047187" alt="icon-option"/>
-				<span class="action-name">Tùy chọn</span>
-			</a>
-									
-						<a href="/ao-croptop-tap-gym-yoga-quai-ao-doi" data-handle="ao-croptop-tap-gym-yoga-quai-ao-doi" class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-				<i class="fas fa-eye"></i>
-				<span class="action-name">Xem nhanh</span>
-			</a>
-					</div>
-	</div>
-	<div class="product-info">
-		
-		<span class="product-vendor">Yinli</span>
-				<span class="product-name "><a class="link" href="/ao-croptop-tap-gym-yoga-quai-ao-doi" title="Áo croptop tập gym yoga">Áo croptop tập gym yoga</a></span>
-				<div class="product-item-cta position-relative" >
-		<div class="price-box">
-                <span class="price-contact hidden">
-					Liên hệ
-				</span>
-
-                                                                                    
-                <span class="price ">290.000₫</span>
-
-                <span class="compare-price ">350.000₫</span>
-
-                <div class="label_product d-inline-block ">
-                    <div class="label_wrapper">
--18% 
-</div>
-                </div>
-
-            </div>
-				</div>
-		
-		<div class="item-color-chosen">
-																																
-			
-																					                                                                            					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																		
-					
-																				
-												
-					
-																																				<div data-variant-id="86731873" class="color-dot selected" style="background-color: tim;">
-									<span class="color-name">Tím</span>
-								</div>
-																		
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-																												<div data-variant-id="86731841" class="color-dot " style="background: url(//bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-2.jpg?v=1685581773753) no-repeat center center; background-size: cover">
-								<span class="color-name">Đen</span>
-							</div>
-											
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																					
-						<a href="/ao-croptop-tap-gym-yoga-quai-ao-doi" data-handle="ao-croptop-tap-gym-yoga-quai-ao-doi" class="color-more quick-view">
-				+7				<span class="action-name">Xem thêm 7 màu khác</span>
-			</a>
-						
-			
-		</div>
-
-		
-
-
-
-
-
-<span class="product-promo-tag product-promo-tag--2 product-promo-tag--image" 
-	  style="--color: #080808; --background: transparent; --border-color: transparent">
-		<img class="img-fluid" src='//bizweb.dktcdn.net/100/484/026/themes/953543/assets/promo_tag_2.png?1738827047187' alt='Áo croptop tập gym yoga' width="125" height="16"/>
-	
-</span>
-
-
-
-
-
-		
-
-
-	
-
-
-
-
-
-
-
-
-		
-					
-		
-				<div class='product-promotion hidden'>
-			<span class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-				<img alt="KHUYẾN MÃI - ƯU ĐÃI" src='//bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotion.png?1738827047187' width='16' height='16' class='mr-2'/>
-				KHUYẾN MÃI - ƯU ĐÃI
-			</span>
-			
-			<ul class="promotion-box">
-				
-								
-				
-				<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng [coupon="EGANY"]</li>
-								
-								
-								
-								
-				
-				<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-								
-								
-				
-				<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-								
-								
-				
-				<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-											</ul>
-					</div>
-			</div>
-</form>
-							</div>
-						</div>
-												<div class="col-12 col-xl-3 product-col">
-							<div class="item_product_main">
-								
-
-
-
-
-
-	
-	
-	
-
-					
-
-
-
-
-
-
-<form action="/cart/add" method="post" class="variants product-action" data-id="product-actions-30584102" enctype="multipart/form-data">
-	<div class="product-thumbnail pos-relative">
-		
-
-
-	
-
-
-
-		<a class="image_thumb pos-relative embed-responsive embed-responsive-3by4" href="/quan-legging-lung-tap-yoga" title="Quần legging lửng tập yoga">
-			
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-																<img loading="lazy" 
-				 class='img-fetured has-second-img'
-				 width="480"
-				 height="480"
-				 style="--image-scale: 1;"
-				 src="//bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-97-730d50f374bc4cd687ca8a57ff56d6a7.jpg?v=1683190082777" alt="Quần legging lửng tập yoga">
-						<img loading="lazy"
-				 class='product-thumbnail__img product-thumbnail__img--secondary'
-				 width="480"
-				 height="480"
-				 style="--image-scale: 1;"
-				 src="//bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4487-2.jpg?v=1685581844197" alt="Quần legging lửng tập yoga">
-						
-		</a>
-						<div class="label_product ">
-			<div class="label_wrapper">
--7% 
-			</div>
-		</div>
-				<input type="hidden" name="variantId" value="86731612" />
-		<div class="action-bar">
-									<a href="/quan-legging-lung-tap-yoga" data-handle="quan-legging-lung-tap-yoga" class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-				<img width='20' height='20' class="icon-option" src="//bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-options.png?1738827047187" alt="icon-option"/>
-				<span class="action-name">Tùy chọn</span>
-			</a>
-									
-						<a href="/quan-legging-lung-tap-yoga" data-handle="quan-legging-lung-tap-yoga" class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-				<i class="fas fa-eye"></i>
-				<span class="action-name">Xem nhanh</span>
-			</a>
-					</div>
-	</div>
-	<div class="product-info">
-		
-		<span class="product-vendor">EGA</span>
-				<span class="product-name "><a class="link" href="/quan-legging-lung-tap-yoga" title="Quần legging lửng tập yoga">Quần legging lửng tập yoga</a></span>
-				<div class="product-item-cta position-relative" >
-		<div class="price-box">
-                <span class="price-contact hidden">
-					Liên hệ
-				</span>
-
-                                                                                    
-                <span class="price ">375.000₫</span>
-
-                <span class="compare-price ">400.000₫</span>
-
-                <div class="label_product d-inline-block ">
-                    <div class="label_wrapper">
--7% 
-</div>
-                </div>
-
-            </div>
-				</div>
-		
-		<div class="item-color-chosen">
-																																
-			
-																					                                                                            					
-			
-										
-																	
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-																												<div data-variant-id="86731612" class="color-dot selected" style="background: url(//bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-97-730d50f374bc4cd687ca8a57ff56d6a7.jpg?v=1683190082777) no-repeat center center; background-size: cover">
-								<span class="color-name">Đen</span>
-							</div>
-											
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-																												<div data-variant-id="86731616" class="color-dot " style="background: url(//bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-100-6624c86f3fb44e2389215590f74ce8a8.jpg?v=1685581844197) no-repeat center center; background-size: cover">
-								<span class="color-name">Kem</span>
-							</div>
-											
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																					
-						<a href="/quan-legging-lung-tap-yoga" data-handle="quan-legging-lung-tap-yoga" class="color-more quick-view">
-				+2				<span class="action-name">Xem thêm 2 màu khác</span>
-			</a>
-						
-			
-		</div>
-
-		
-
-
-
-
-
-		
-
-
-	
-
-
-
-
-		
-					
-		
-				<div class='product-promotion hidden'>
-			<span class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-				<img alt="KHUYẾN MÃI - ƯU ĐÃI" src='//bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotion.png?1738827047187' width='16' height='16' class='mr-2'/>
-				KHUYẾN MÃI - ƯU ĐÃI
-			</span>
-			
-			<ul class="promotion-box">
-				
-								
-				
-				<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng [coupon="EGANY"]</li>
-								
-								
-								
-								
-				
-				<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-								
-								
-				
-				<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-								
-								
-				
-				<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-											</ul>
-					</div>
-			</div>
-</form>
-							</div>
-						</div>
-												<div class="col-12 col-xl-3 product-col">
-							<div class="item_product_main">
-								
-
-
-
-
-
-	
-	
-	
-	
-
-								
-
-
-
-
-
-
-<form action="/cart/add" method="post" class="variants product-action" data-id="product-actions-30584109" enctype="multipart/form-data">
-	<div class="product-thumbnail pos-relative">
-		
-
-
-	
-
-
-
-<span class="product-promo-tag product-promo-tag--1 product-promo-tag--text-1" 
-	  style="--color: #333; --background: #f0f0f0; --border-color: #dfdfdf">
-		Bán chạy
-	
-</span>
-
-
-		<a class="image_thumb pos-relative embed-responsive embed-responsive-3by4" href="/ao-tap-croptop-co-tay" title="Áo tập croptop có tay">
-			
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img class="product-frame" 
-	 src="//bizweb.dktcdn.net/100/484/026/themes/953543/assets/frame_2.png?1738827047187" alt=""
-	 data-image-scale="--image-scale: 1;
-"
-	 loading="lazy"
-	 width="480"
-	 height="480"
-	 />
-
-
-
-
-																<img loading="lazy" 
-				 class='img-fetured has-second-img'
-				 width="480"
-				 height="480"
-				 style="--image-scale: 1;
-"
-				 src="//bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4489.jpg?v=1685582009410" alt="Áo tập croptop có tay">
-						<img loading="lazy"
-				 class='product-thumbnail__img product-thumbnail__img--secondary'
-				 width="480"
-				 height="480"
-				 style="--image-scale: 1;
-"
-				 src="//bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4489-2.jpg?v=1685582013467" alt="Áo tập croptop có tay">
-						
-		</a>
-						<input type="hidden" name="variantId" value="86731765" />
-		<div class="action-bar">
-									<a href="/ao-tap-croptop-co-tay" data-handle="ao-tap-croptop-co-tay" class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-				<img width='20' height='20' class="icon-option" src="//bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-options.png?1738827047187" alt="icon-option"/>
-				<span class="action-name">Tùy chọn</span>
-			</a>
-									
-						<a href="/ao-tap-croptop-co-tay" data-handle="ao-tap-croptop-co-tay" class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-				<i class="fas fa-eye"></i>
-				<span class="action-name">Xem nhanh</span>
-			</a>
-					</div>
-	</div>
-	<div class="product-info">
-		
-		<span class="product-vendor">Khác</span>
-				<span class="product-name "><a class="link" href="/ao-tap-croptop-co-tay" title="Áo tập croptop có tay">Áo tập croptop có tay</a></span>
-				<div class="product-item-cta position-relative" >
-		<div class="price-box">
-                <span class="price-contact hidden">
-					Liên hệ
-				</span>
-
-                                                
-                <span class="price ">295.000₫</span>
-
-                <span class="compare-price hidden">0₫</span>
-
-                <div class="label_product d-inline-block hidden">
-                    <div class="label_wrapper">
--7% 
-</div>
-                </div>
-
-            </div>
-				</div>
-		
-		<div class="item-color-chosen">
-																																
-			
-																					                                                                            					
-			
-										
-																	
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-																												<div data-variant-id="86731765" class="color-dot selected" style="background: url(//bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4489.jpg?v=1685582009410) no-repeat center center; background-size: cover">
-								<span class="color-name">Kem</span>
-							</div>
-											
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-																												<div data-variant-id="86731773" class="color-dot " style="background: url(//bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4489-2.jpg?v=1685582013467) no-repeat center center; background-size: cover">
-								<span class="color-name">Nâu nhạt</span>
-							</div>
-											
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																		
-					
-																				
-											
-																							
-					
-										
-																																																					
-						<a href="/ao-tap-croptop-co-tay" data-handle="ao-tap-croptop-co-tay" class="color-more quick-view">
-				+2				<span class="action-name">Xem thêm 2 màu khác</span>
-			</a>
-						
-			
-		</div>
-
-		
-
-
-
-
-
-
-		
-
-
-	
-
-
-
-
-
-		
-					
-		
-				<div class='product-promotion hidden'>
-			<span class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-				<img alt="KHUYẾN MÃI - ƯU ĐÃI" src='//bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotion.png?1738827047187' width='16' height='16' class='mr-2'/>
-				KHUYẾN MÃI - ƯU ĐÃI
-			</span>
-			
-			<ul class="promotion-box">
-				
-								
-				
-				<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng [coupon="EGANY"]</li>
-								
-								
-								
-								
-				
-				<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-								
-								
-				
-				<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-								
-								
-				
-				<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-											</ul>
-					</div>
-			</div>
-</form>
-							</div>
-						</div>
-												<div class="col-12 col-xl-3 product-col">
-							<div class="item_product_main">
-								
-
-
-
-
-
-	
-	
-
-										
-
-
-
-
-
-
-<form action="/cart/add" method="post" class="variants product-action" data-id="product-actions-30584103" enctype="multipart/form-data">
-	<div class="product-thumbnail pos-relative">
-		
-
-
-	
-
-
-		<a class="image_thumb pos-relative embed-responsive embed-responsive-3by4" href="/quan-legging-tron-dang-lung" title="Quần legging trơn dáng lửng">
-			
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-																<img loading="lazy" 
-				 class='img-fetured has-second-img'
-				 width="480"
-				 height="480"
-				 style="--image-scale: 1;"
-				 src="//bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488.jpg?v=1685582143523" alt="Quần legging trơn dáng lửng">
-						<img loading="lazy"
-				 class='product-thumbnail__img product-thumbnail__img--secondary'
-				 width="480"
-				 height="480"
-				 style="--image-scale: 1;"
-				 src="//bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488-2.jpg?v=1685582143523" alt="Quần legging trơn dáng lửng">
-						
-		</a>
-						<input type="hidden" name="variantId" value="86731644" />
-		<div class="action-bar">
-									<a href="/quan-legging-tron-dang-lung" data-handle="quan-legging-tron-dang-lung" class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-				<img width='20' height='20' class="icon-option" src="//bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-options.png?1738827047187" alt="icon-option"/>
-				<span class="action-name">Tùy chọn</span>
-			</a>
-									
-						<a href="/quan-legging-tron-dang-lung" data-handle="quan-legging-tron-dang-lung" class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-				<i class="fas fa-eye"></i>
-				<span class="action-name">Xem nhanh</span>
-			</a>
-					</div>
-	</div>
-	<div class="product-info">
-		
-		<span class="product-vendor">Khác</span>
-				<span class="product-name "><a class="link" href="/quan-legging-tron-dang-lung" title="Quần legging trơn dáng lửng">Quần legging trơn dáng lửng</a></span>
-				<div class="product-item-cta position-relative" >
-		<div class="price-box">
-                <span class="price-contact hidden">
-					Liên hệ
-				</span>
-
-                                                
-                <span class="price ">350.000₫</span>
-
-                <span class="compare-price hidden">0₫</span>
-
-                <div class="label_product d-inline-block hidden">
-                    <div class="label_wrapper">
--7% 
-</div>
-                </div>
-
-            </div>
-				</div>
-		
-		<div class="item-color-chosen">
-																																
-			
-																					                                                                            					
-			
-										
-																	
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-																												<div data-variant-id="86731644" class="color-dot selected" style="background: url(//bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4488.jpg?v=1685582143523) no-repeat center center; background-size: cover">
-								<span class="color-name">Kem</span>
-							</div>
-											
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																		
-					
-																				
-											
-																							
-					
-																												<div data-variant-id="86731664" class="color-dot " style="background: url(//bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4488-2.jpg?v=1685582143523) no-repeat center center; background-size: cover">
-								<span class="color-name">Nâu</span>
-							</div>
-											
-																																																									                                                                                                        					
-			
-										
-																	
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																		
-					
-																				
-											
-																							
-					
-										
-																																																					
-						<a href="/quan-legging-tron-dang-lung" data-handle="quan-legging-tron-dang-lung" class="color-more quick-view">
-				+6				<span class="action-name">Xem thêm 6 màu khác</span>
-			</a>
-						
-			
-		</div>
-
-		
-
-
-
-
-		
-
-
-	
-
-
-
-		
-					
-		
-				<div class='product-promotion hidden'>
-			<span class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-				<img alt="KHUYẾN MÃI - ƯU ĐÃI" src='//bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotion.png?1738827047187' width='16' height='16' class='mr-2'/>
-				KHUYẾN MÃI - ƯU ĐÃI
-			</span>
-			
-			<ul class="promotion-box">
-				
-								
-				
-				<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng [coupon="EGANY"]</li>
-								
-								
-								
-								
-				
-				<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-								
-								
-				
-				<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-								
-								
-				
-				<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-											</ul>
-					</div>
-			</div>
-</form>
-							</div>
-						</div>
-						
-						</script>
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</section>
 
 		<section class="section awe-section-6">
 			<link rel="preload" as='style' type="text/css"
@@ -5466,714 +4152,7 @@
 			</section>
 		</section>
 
-		<section class="section awe-section-10">
 
-			<section class="section_product_top section">
-
-				<div class="container card border-0">
-					<div class="slideshow-banner-wrap">
-
-						<div class="section-slideshow-banner mb-3 btn-slide--new ">
-
-							<div class="items text-center">
-								<a href="collections/all.html" title="image 1">
-									<picture>
-										<source media="(max-width: 480px)"
-											srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/slide_product_3_img_1_img.jpg?1738827047187">
-										<img class="img-fluid mx-auto"
-											loading="lazy"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/slide_product_3_img_1_imgc5aa.jpg?1738827047187"
-											width="1620"
-											height="655"
-											alt="image 1" />
-									</picture>
-								</a>
-							</div>
-
-							<div class="items text-center">
-								<a href="collections/all.html" title="image 2">
-									<picture>
-										<source media="(max-width: 480px)"
-											srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/slide_product_3_img_2_img.jpg?1738827047187">
-										<img class="img-fluid mx-auto"
-											loading="lazy"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/slide_product_3_img_2_imgc5aa.jpg?1738827047187"
-											width="1620"
-											height="655"
-											alt="image 2" />
-									</picture>
-								</a>
-							</div>
-
-						</div>
-						<div class="module-product">
-							<div
-								class="title_module_main heading-bar d-flex align-items-center flex-wrap justify-content-between">
-								<a href="san-pham-noi-bat.html"
-									class="heading-bar__title"><span>NỮ</span>BESTSELLERS</a>
-								<a href="san-pham-noi-bat.html" class="see-all">Xem tất cả</a>
-							</div>
-							<div class="body_module">
-
-								<div class="row mt-3 one_row" style="--limit-column: 4"
-									data-section="tab-section">
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</section>
-
-		<section class="section awe-section-11">
-
-			<section class="section_feedback section">
-				<div class="container card border-0 py-0">
-					<h2 class="heading-bar__title">Khách hàng nói gì về chúng tôi</h2>
-					<div class="feedback_body btn-slide--new">
-						<div
-							class="row mx-0 hrz-scroll text-center flex-nowrap js-slider feedback_body--row">
-
-							<div class="slick-slide">
-								<div class="feedback_item feedback_item--one col-12 mx-0 px-0">
-									<div class="feedback_item_wrap row px-0 mx-0">
-										<div class="feedback_header col-12 col-sm-7">
-											<div class="feedback_header--left">
-												<div class="feedback_header--left--top">
-													<p> <i class="fas fa-thumbs-up"></i> <span>Đánh giá khách
-															hàng</span></p>
-													<h4 class> Khách hàng nói gì về chúng tôi</h4>
-												</div>
-												<div class="feedback_header--left--middle">
-													<i class="fas fa-quote-right"></i>
-												</div>
-												<div class="feedback_header--left--bottom">
-													<div class="feedback_info">
-														<h3>
-															Trần Mai Bích Chi </h3>
-														<h5>
-															Giám đốc kinh doanh </h5>
-													</div>
-												</div>
-											</div>
-											<div class="feedback_header--right">
-												<img loading="lazy"
-													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/themes/953543/assets/cus_review_avatar_1c5aa.jpg?1738827047187"
-													alt="cus_review_avatar_1.jpg" />
-											</div>
-										</div>
-										<div class="feedback_content col-12 col-sm-5">
-											<div class="feedback_content--top">
-												<i class="fas fa-quote-right"></i>
-											</div>
-											<div class="feedback_content--main">
-												<p>Sản phẩm chất lượng, chất vải mềm mát mặc vào rất thoải mái và ôm
-													sát người giúp khoe được điểm mạnh của tôi. Giá cả hợp lý, giao
-													hàng nhanh chóng. Shipper cũng dễ thương, nhân viên tư vấn thì
-													nhiệt tình. Sẽ ủng hộ shop dài dài. Cảm ơn shop! </p>
-												<div class="star-vote">
-
-													<svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="slick-slide">
-								<div class="feedback_item feedback_item--one col-12 mx-0 px-0">
-									<div class="feedback_item_wrap row px-0 mx-0">
-										<div class="feedback_header col-12 col-sm-7">
-											<div class="feedback_header--left">
-												<div class="feedback_header--left--top">
-													<p> <i class="fas fa-thumbs-up"></i> <span>Đánh giá khách
-															hàng</span></p>
-													<h4 class> Khách hàng nói gì về chúng tôi</h4>
-												</div>
-												<div class="feedback_header--left--middle">
-													<i class="fas fa-quote-right"></i>
-												</div>
-												<div class="feedback_header--left--bottom">
-													<div class="feedback_info">
-														<h3>
-															Nguyễn Ngọc Gia Hân </h3>
-														<h5>
-															Nhân viên văn phòng </h5>
-													</div>
-												</div>
-											</div>
-											<div class="feedback_header--right">
-												<img loading="lazy"
-													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/themes/953543/assets/cus_review_avatar_2c5aa.jpg?1738827047187"
-													alt="cus_review_avatar_2.jpg" />
-											</div>
-										</div>
-										<div class="feedback_content col-12 col-sm-5">
-											<div class="feedback_content--top">
-												<i class="fas fa-quote-right"></i>
-											</div>
-											<div class="feedback_content--main">
-												<p>Tôi rất thích kiểu dáng và màu sắc của sản phẩm. Nó rất phù hợp
-													với thể hình của tôi và tạo cảm giác tự tin khi tập luyện. Tôi đã
-													nhận được nhiều lời khen về trang phục của mình.</p>
-												<div class="star-vote">
-
-													<svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg>
-													<svg class="icon">
-														<use xlink:href="#icon-star-half" />
-													</svg> </div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="slick-slide">
-								<div class="feedback_item feedback_item--one col-12 mx-0 px-0">
-									<div class="feedback_item_wrap row px-0 mx-0">
-										<div class="feedback_header col-12 col-sm-7">
-											<div class="feedback_header--left">
-												<div class="feedback_header--left--top">
-													<p> <i class="fas fa-thumbs-up"></i> <span>Đánh giá khách
-															hàng</span></p>
-													<h4 class> Khách hàng nói gì về chúng tôi</h4>
-												</div>
-												<div class="feedback_header--left--middle">
-													<i class="fas fa-quote-right"></i>
-												</div>
-												<div class="feedback_header--left--bottom">
-													<div class="feedback_info">
-														<h3>
-															Lê Thu Hằng </h3>
-														<h5>
-															Sinh Viên </h5>
-													</div>
-												</div>
-											</div>
-											<div class="feedback_header--right">
-												<img loading="lazy"
-													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/themes/953543/assets/cus_review_avatar_3c5aa.jpg?1738827047187"
-													alt="cus_review_avatar_3.jpg" />
-											</div>
-										</div>
-										<div class="feedback_content col-12 col-sm-5">
-											<div class="feedback_content--top">
-												<i class="fas fa-quote-right"></i>
-											</div>
-											<div class="feedback_content--main">
-												<p>Sản phẩm rất vừa vặn và thoải mái. Tôi đã tập luyện trong sản
-													phẩm này trong một giờ đồng hồ mà không thấy bất kỳ rắc rối nào.
-													Điều này giúp tôi tập trung hoàn toàn vào bài tập mà không phải suy
-													nghĩ về việc chỉnh sửa trang phục.</p>
-												<div class="star-vote">
-
-													<svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg>
-													<svg class="icon">
-														<use xlink:href="#icon-star-half" />
-													</svg> </div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</section>
-		</section>
-
-		<section class="section awe-section-12">
-			<link rel="preload" as='style' type="text/css"
-				href="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/lookbookc5aa.css?1738827047187">
-			<link rel="stylesheet"
-				href="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/lookbookc5aa.css?1738827047187">
-
-			<section class="section_lookbook">
-				<div class="container">
-					<h2 class="heading-bar__title">SET ĐỒ CHO BẠN</h2>
-					<div class="lookbooks-container row">
-
-						<div class="col-xl-4 col-md-6 col-12 lookbooks-column">
-							<div class="lookbooks-banner lookbooks-1">
-								<div class="lookbooks-banner__photo">
-									<div class="lookbook-image-wrap">
-										<img class="img-fluid m-auto object-contain mh-100 w-auto"
-											loading="lazy"
-											width="520"
-											height="675"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/lookbook_1_imagec5aa.jpg?1738827047187"
-											alt="lookbook_1_image.jpg">
-									</div>
-
-									<button type="button" class="popover-dot dot-1" data-toggle="popover"
-										data-placement="top" data-popover-content="#lookbook-30584113"
-										style="--posx:5; --posy:5; ">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-											<path
-												d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
-											<path fill="none" d="M0 0h24v24H0z"></path>
-										</svg> </button>
-
-									<button type="button" class="popover-dot dot-2" data-toggle="popover"
-										data-placement="top" data-popover-content="#lookbook-30584103"
-										style="--posx:8; --posy:7; ">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-											<path
-												d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
-											<path fill="none" d="M0 0h24v24H0z"></path>
-										</svg> </button>
-
-								</div>
-								<div class="loookbook-info text-center mt-3">
-									<h3>Set đồ tập Yoga</h3>
-									<a class="link" href="pages/set-do-tap-yoga.html">Xem chi tiết</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-xl-4 col-md-6 col-12 lookbooks-column">
-							<div class="lookbooks-banner lookbooks-2">
-								<div class="lookbooks-banner__photo">
-									<div class="lookbook-image-wrap">
-										<img class="img-fluid m-auto object-contain mh-100 w-auto"
-											loading="lazy"
-											width="520"
-											height="675"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/lookbook_2_imagec5aa.jpg?1738827047187"
-											alt="lookbook_2_image.jpg">
-									</div>
-
-									<button type="button" class="popover-dot dot-1" data-toggle="popover"
-										data-placement="top" data-popover-content="#lookbook-30584106"
-										style="--posx:5; --posy:6; ">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-											<path
-												d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
-											<path fill="none" d="M0 0h24v24H0z"></path>
-										</svg> </button>
-
-									<button type="button" class="popover-dot dot-2" data-toggle="popover"
-										data-placement="top" data-popover-content="#lookbook-30584095"
-										style="--posx:7; --posy:4; ">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-											<path
-												d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
-											<path fill="none" d="M0 0h24v24H0z"></path>
-										</svg> </button>
-
-								</div>
-								<div class="loookbook-info text-center mt-3">
-									<h3>Set đồ tập Gym</h3>
-									<a class="link" href="pages/set-do-tap-gym.html">Xem chi tiết</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-xl-4 col-md-6 col-12 lookbooks-column">
-							<div class="lookbooks-banner lookbooks-3">
-								<div class="lookbooks-banner__photo">
-									<div class="lookbook-image-wrap">
-										<img class="img-fluid m-auto object-contain mh-100 w-auto"
-											loading="lazy"
-											width="520"
-											height="675"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/lookbook_3_imagec5aa.jpg?1738827047187"
-											alt="lookbook_3_image.jpg">
-									</div>
-
-									<button type="button" class="popover-dot dot-1" data-toggle="popover"
-										data-placement="top" data-popover-content="#lookbook-30584111"
-										style="--posx:6; --posy:5; ">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-											<path
-												d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
-											<path fill="none" d="M0 0h24v24H0z"></path>
-										</svg> </button>
-
-									<button type="button" class="popover-dot dot-2" data-toggle="popover"
-										data-placement="bottom" data-popover-content="#lookbook-30584104"
-										style="--posx:9; --posy:5; ">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-											<path
-												d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
-											<path fill="none" d="M0 0h24v24H0z"></path>
-										</svg> </button>
-
-								</div>
-								<div class="loookbook-info text-center mt-3">
-									<h3>Set đồ tập Aerobic</h3>
-									<a class="link" href="pages/set-do-tap-aerobic.html">Xem chi tiết</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div id="lookbooks-stick-product" class="hidden"></div>
-				</div>
-			</section>
-
-			<script>
-	var egaLookBook = {
-		slider: function(){
-			$('.section_lookbook:not(.lookbook--oneproduct) .lookbooks-container').slick({
-				autoplay: false,
-				autoplaySpeed: 6000,
-				dots: false,
-				arrows: true,
-				infinite: false,
-				speed: 300,
-				slidesToShow: 5,
-				slidesToScroll: 5,
-				centerMode: false,
-				responsive: [
-					{
-
-						breakpoint: 991,
-						settings: {
-							slidesToShow: 2,
-							slidesToScroll: 2
-						}
-					},
-					{
-						breakpoint: 767,
-						settings: {
-							slidesToShow: 1,
-							slidesToScroll: 1
-						}
-					}
-				]
-			});
-		},
-		popover: function() {
-			$('.popover-dot[data-toggle="popover"]').popover({
-				html: true,
-				animation: true,
-				placement: function(popover, trigger) {
-					var placement = jQuery(trigger).attr('data-placement');
-					var dataClass = jQuery(trigger).attr('data-class');
-					jQuery(trigger).addClass('is-active');
-					jQuery(popover).addClass(dataClass);
-					return placement;
-				},
-				content: function() {
-					var elementId = $(this).attr("data-popover-content");
-					return $(elementId).html();
-				},
-			});
-			setTimeout(function() {
-				$('.lookbooks-1 .popover-dot:eq(0)').click();
-			}, 3000);
-			jQuery("body").on("click", '.popover-dot[data-toggle="popover"]', function(e) {
-				$('.popover-dot[data-toggle="popover"]').each(function() {
-					if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
-						$(this).popover('hide');
-					}
-				});
-			});
-			$('body').on('hidden.bs.popover', function(e) {
-				$(e.target).data('bs.popover').inState = { click: false, hover: false, focus: false };
-			});
-		},
-		getLookBook: function(element) {
-			try {
-								
-				var idList = [30584113,30584103,30584106,30584095,30584111,30584104];
-				if (idList && idList.length && Array.isArray(idList)){ 
-					let filter = `(${idList.join(' OR ')})`
-					$.ajax({
-						url: `/search?q=id:${filter}&view=lookbook`,
-						success: function(data) {
-							if (data && data.length) {
-								let wrapper = $(element);
-								wrapper.html(data)
-							} else {
-								$(element).remove()
-							}
-						}
-					})
-				} else {
-					$(element).remove()
-				}
-			} catch (e) {
-				console.log(e)
-				$(element).remove()
-			}
-		}
-	};
-</script>
-		</section>
-
-		<section class="section awe-section-13">
-			<section class="section_lookbook lookbook--oneproduct">
-				<div class="container">
-					<h2 class="heading-bar__title"></h2>
-					<div class="lookbooks-container row mt-lg-4">
-						<div class="col-12 col-xl-6 lookbook-desc-body">
-							<div class="lookbook-desc-content">
-								<h2 class="oneproduct-name">CÔNG NGHỆ DRY_EX - THOẢI MÁI VỚI TÍNH NĂNG
-									KHÔ SIÊU NHANH</h2>
-								<p>Công nghệ DRY-EX sử dụng cấu trúc đan 3 chiều đặc biệt, với tính năng
-									khô nhanh vượt trội so với thông thường. Mang đến sự thoáng mát, tạm
-									biệt cảm giác khó chịu do mồ hôi gây ra.</p>
-								<a class="btn btn-main"
-									href="products/quan-legging-dui-the-thao.html">XEM NGAY</a>
-							</div>
-						</div>
-						<div class="col-12 col-xl-6 lookbooks-column">
-							<div class="lookbooks-banner">
-								<div class="lookbooks-banner__photo">
-									<div class="lookbook-image-wrap">
-										<img class="img-fluid m-auto object-contain mh-100 w-auto"
-											loading="lazy"
-											width="520"
-											height="675"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/lookbook_oneproduct_imgc5aa.jpg?1738827047187"
-											alt>
-									</div>
-
-									<button type="button" class="popover-dot dot-1" data-toggle="popover"
-										data-placement="top" data-popover-content="#lookbook-oneproduct-1"
-										style="--posx:6; --posy:3;">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-											<path
-												d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
-											<path fill="none" d="M0 0h24v24H0z"></path>
-										</svg> </button>
-
-									<button type="button" class="popover-dot dot-2" data-toggle="popover"
-										data-placement="top" data-popover-content="#lookbook-oneproduct-2"
-										style="--posx:6; --posy:12;">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-											<path
-												d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
-											<path fill="none" d="M0 0h24v24H0z"></path>
-										</svg> </button>
-
-								</div>
-							</div>
-						</div>
-					</div>
-					<div id="lookbooks-stick-oneproduct" class="hidden">
-
-						<div id="lookbook-oneproduct-1">
-							<div class="popover-content">
-								<a class="popover-product"
-									href="products/quan-legging-dui-the-thao.html">
-									<h4 class="popover--title">Thấm hút mồ hôi</h4>
-									<p class="popover--desc mb-0">Kết cấu 3 chiều đặc biệt, thấm hút mồ hôi
-										lập tức, giữ da luôn khô ráo</p>
-								</a>
-							</div>
-						</div>
-
-						<div id="lookbook-oneproduct-2">
-							<div class="popover-content">
-								<a class="popover-product"
-									href="products/quan-legging-dui-the-thao.html">
-									<h4 class="popover--title">Khô nhanh và chống mùi hôi</h4>
-									<p class="popover--desc mb-0">Lớp khuyếch tán mật độ cao, giúp nhanh
-										khô, không có mồ hôi</p>
-								</a>
-							</div>
-						</div>
-
-						<div id="lookbook-oneproduct-3">
-							<div class="popover-content">
-								<a class="popover-product" href="#">
-									<h4 class="popover--title"></h4>
-									<p class="popover--desc mb-0"></p>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<script>
-	var egaLookBookOneProduct = {
-		popover: function() {
-			$('.popover-dot[data-toggle="popover"]').popover({
-				html: true,
-				animation: true,
-				placement: function(popover, trigger) {
-					var placement = jQuery(trigger).attr('data-placement');
-					var dataClass = jQuery(trigger).attr('data-class');
-					jQuery(trigger).addClass('is-active');
-					jQuery(popover).addClass(dataClass);
-					return placement;
-				},
-				content: function() {
-					var elementId = $(this).attr("data-popover-content");
-					return $(elementId).html();
-				},
-			});
-			setTimeout(function() {
-				$('.lookbooks-1 .popover-dot:eq(0)').click();
-			}, 3000);
-			jQuery("body").on("click", '.popover-dot[data-toggle="popover"]', function(e) {
-				$('.popover-dot[data-toggle="popover"]').each(function() {
-					if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
-						$(this).popover('hide');
-					}
-				});
-			});
-			$('body').on('hidden.bs.popover', function(e) {
-				$(e.target).data('bs.popover').inState = { click: false, hover: false, focus: false };
-			});
-		}
-	};
-</script>
-		</section>
-
-		<section class="section awe-section-14">
-			<div class="section_banner_coll">
-				<div class="container card border-0">
-					<div
-						class="title_module_main heading-bar mb-3 d-flex align-items-center flex-wrap justify-content-between">
-						<h2 class="heading-bar__title"><span>MỚI</span> CÔNG NGHỆ</h2>
-						<a href="collections/all.html" class="see-all">Xem tất cả</a>
-					</div>
-					<div
-						class="row justify-content-md-center text-center justify-content-start">
-						<div class="item col-8 col-md-4">
-							<a class="banner" href="collections/all.html" title="Hấp thụ tức thì">
-								<picture>
-									<source media="(max-width: 600px)"
-										srcset="//bizweb.dktcdn.net/thumb/grande/100/484/026/themes/953543/assets/banner_coll_1_1.jpg?1738827047187">
-									<img loading="lazy" class="img-fluid"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_coll_1_1c5aa.jpg?1738827047187"
-										alt="banner_coll_1_1_title"
-										width="520"
-										height="723" />
-								</picture>
-
-							</a>
-						</div>
-						<div class="item col-8 col-md-4">
-							<a class="banner" href="collections/all.html"
-								title="Lưu thông thoáng khí">
-								<picture>
-									<source media="(max-width: 600px)"
-										srcset="//bizweb.dktcdn.net/thumb/grande/100/484/026/themes/953543/assets/banner_coll_1_2.jpg?1738827047187">
-									<img loading="lazy" class="img-fluid"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_coll_1_2c5aa.jpg?1738827047187"
-										alt="banner_coll_1_2_title"
-										width="520"
-										height="723" />
-								</picture>
-
-							</a>
-						</div>
-						<div class="item col-8 col-md-4">
-							<a class="banner" href="collections/all.html" title="Cảm giác mát lạnh">
-								<picture>
-									<source media="(max-width: 600px)"
-										srcset="//bizweb.dktcdn.net/thumb/grande/100/484/026/themes/953543/assets/banner_coll_1_3.jpg?1738827047187">
-									<img loading="lazy" class="img-fluid"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_coll_1_3c5aa.jpg?1738827047187"
-										alt="banner_coll_1_3_title"
-										width="520"
-										height="723" />
-								</picture>
-
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="section awe-section-15">
-			<section class="section_video section position-relative">
-				<div class="container border-0">
-
-					<div class="item video-item"
-						data-src="https://www.youtube.com/watch?v=rxvlmO98e5I?width=800&height=450&autoplay=1">
-						<a class="d-block text-center"
-							href="https://www.youtube.com/watch?v=rxvlmO98e5I?width=800&amp;height=450&amp;autoplay=1"
-							data-rel="prettyPhoto[product-gallery]">
-
-							<picture>
-								<source media="(max-width: 480px)"
-									srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/section_video_bg.jpg?1738827047187">
-								<source media="(max-width: 991px)"
-									srcset="//bizweb.dktcdn.net/thumb/grande/100/484/026/themes/953543/assets/section_video_bg.jpg?1738827047187">
-								<img class="img-fluid object-contain"
-									src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/section_video_bgc5aa.jpg?1738827047187"
-									width="1620"
-									height="900"
-									loading="lazy"
-									alt="section_video_bg">
-							</picture>
-						</a>
-						<div class="video-play-button-wrap">
-							<div class="video-play-button">
-								<svg class="icon">
-									<use xlink:href="#icon-play" />
-								</svg> </div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<script>
-   window.themeScripts = window.themeScripts  || []
-   window.themeScripts.push("../mixcdn.egany.com/themes/assets/lightgallery.js")
-	 window.themeCss = window.themeCss  || []
-   window.themeCss.push("../bizweb.dktcdn.net/100/484/026/themes/953543/assets/lightboxc5aa.css?1738827047187")
-
-</script>
-		</section>
 
 		<section class="section awe-section-16">
 
@@ -6217,479 +4196,217 @@
 				</div>
 			</section>
 		</section>
-
-		<section class="section awe-section-17">
-
-			<section class="section_tiktok_slide section">
-				<div class="container card border-0">
-					<h2 class="heading-bar__title text-left">VIDEO ĐƯỢC XEM NHIỀU NHẤT</h2>
-					<div class="tiktok_slide_body btn-slide--new">
-						<div class="row mx-0 hrz-scroll text-center flex-nowrap js-slider">
-
-							<div class="tiktok_slide_item">
-
-								<div class="item video-item"
-									data-src="https://www.youtube.com/watch?v=CTkrrpF84Rw?width=800&height=450&autoplay=1">
-									<a class="d-block text-center"
-										href="https://www.youtube.com/watch?v=CTkrrpF84Rw?width=800&amp;height=450&amp;autoplay=1"
-										data-rel="prettyPhoto[product-gallery]">
-
-										<img class="img-fluid object-contain"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/tiktok_slide_video_1_imgc5aa.jpg?1738827047187"
-											loading="lazy"
-											alt="section_video_bg">
-									</a>
-									<div class="video-play-button-wrap">
-										<div class="video-play-button">
-											<svg class="icon">
-												<use xlink:href="#icon-play" />
-											</svg> </div>
-									</div>
-								</div>
-							</div>
-
-							<div class="tiktok_slide_item">
-
-								<div class="item video-item"
-									data-src="https://www.youtube.com/watch?v=CTkrrpF84Rw?width=800&height=450&autoplay=1">
-									<a class="d-block text-center"
-										href="https://www.youtube.com/watch?v=CTkrrpF84Rw?width=800&amp;height=450&amp;autoplay=1"
-										data-rel="prettyPhoto[product-gallery]">
-
-										<img class="img-fluid object-contain"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/tiktok_slide_video_2_imgc5aa.jpg?1738827047187"
-											loading="lazy"
-											alt="section_video_bg">
-									</a>
-									<div class="video-play-button-wrap">
-										<div class="video-play-button">
-											<svg class="icon">
-												<use xlink:href="#icon-play" />
-											</svg> </div>
-									</div>
-								</div>
-							</div>
-
-							<div class="tiktok_slide_item">
-
-								<div class="item video-item"
-									data-src="https://www.youtube.com/watch?v=CTkrrpF84Rw?width=800&height=450&autoplay=1">
-									<a class="d-block text-center"
-										href="https://www.youtube.com/watch?v=CTkrrpF84Rw?width=800&amp;height=450&amp;autoplay=1"
-										data-rel="prettyPhoto[product-gallery]">
-
-										<img class="img-fluid object-contain"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/tiktok_slide_video_3_imgc5aa.jpg?1738827047187"
-											loading="lazy"
-											alt="section_video_bg">
-									</a>
-									<div class="video-play-button-wrap">
-										<div class="video-play-button">
-											<svg class="icon">
-												<use xlink:href="#icon-play" />
-											</svg> </div>
-									</div>
-								</div>
-							</div>
-
-							<div class="tiktok_slide_item">
-
-								<div class="item video-item"
-									data-src="https://www.youtube.com/watch?v=CTkrrpF84Rw?width=800&height=450&autoplay=1">
-									<a class="d-block text-center"
-										href="https://www.youtube.com/watch?v=CTkrrpF84Rw?width=800&amp;height=450&amp;autoplay=1"
-										data-rel="prettyPhoto[product-gallery]">
-
-										<img class="img-fluid object-contain"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/tiktok_slide_video_4_imgc5aa.jpg?1738827047187"
-											loading="lazy"
-											alt="section_video_bg">
-									</a>
-									<div class="video-play-button-wrap">
-										<div class="video-play-button">
-											<svg class="icon">
-												<use xlink:href="#icon-play" />
-											</svg> </div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<script>
-   window.themeScripts = window.themeScripts  || []
-   window.themeScripts.push("../mixcdn.egany.com/themes/assets/lightgallery.js")
-	 window.themeCss = window.themeCss  || []
-   window.themeCss.push("../bizweb.dktcdn.net/100/484/026/themes/953543/assets/lightboxc5aa.css?1738827047187")
-
-</script>
-		</section>
-
-		<section class="section awe-section-18">
-			<section class="section_insta section">
-				<div class="container border-0">
-					<h2 class="heading-bar__title">@ FOLLOW INSTAGRAM</h2>
-					<div class="insta_body hrz-scroll flex-nowrap" data-section="instagram">
-						<div class="insta_item">
-							<div class="item_skeleton"></div>
-						</div>
-						<div class="insta_item">
-							<div class="item_skeleton"></div>
-						</div>
-						<div class="insta_item">
-							<div class="item_skeleton"></div>
-						</div>
-						<div class="insta_item">
-							<div class="item_skeleton"></div>
-						</div>
-						<div class="insta_item">
-							<div class="item_skeleton"></div>
-						</div>
-
-						<script type="text/x-custom-template" data-template="instagram">
-                                                                                                                                    						
-                        <a class="insta_item pos-relative embed-responsive embed-responsive-1by1"
-                           href="https://www.instagram.com/p/BR-FxkFjUVw/" target="_blank">
-                            <img loading="lazy"
-                                 src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/insta_1_imgc5aa.jpg?1738827047187"
-                                 alt="insta_1_img.html">
-                            <div class="d-flex insta-icon-wrap">
-                                <div class="insta-icon"> 
-                                    <svg class="icon">
-	<use xlink:href="#icon-instagram"/>
-</svg>                                </div>
-                            </div>
-                        </a>
-                                                                                                                                        						
-                        <a class="insta_item pos-relative embed-responsive embed-responsive-1by1"
-                           href="https://www.instagram.com/p/BR-FxkFjUVw/" target="_blank">
-                            <img loading="lazy"
-                                 src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/insta_2_imgc5aa.jpg?1738827047187"
-                                 alt="insta_2_img.html">
-                            <div class="d-flex insta-icon-wrap">
-                                <div class="insta-icon"> 
-                                    <svg class="icon">
-	<use xlink:href="#icon-instagram"/>
-</svg>                                </div>
-                            </div>
-                        </a>
-                                                                                                                                        						
-                        <a class="insta_item pos-relative embed-responsive embed-responsive-1by1"
-                           href="https://www.instagram.com/p/BR-FxkFjUVw/" target="_blank">
-                            <img loading="lazy"
-                                 src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/insta_3_imgc5aa.jpg?1738827047187"
-                                 alt="insta_3_img.html">
-                            <div class="d-flex insta-icon-wrap">
-                                <div class="insta-icon"> 
-                                    <svg class="icon">
-	<use xlink:href="#icon-instagram"/>
-</svg>                                </div>
-                            </div>
-                        </a>
-                                                                                                                                        						
-                        <a class="insta_item pos-relative embed-responsive embed-responsive-1by1"
-                           href="https://www.instagram.com/p/BR-FxkFjUVw/" target="_blank">
-                            <img loading="lazy"
-                                 src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/insta_4_imgc5aa.jpg?1738827047187"
-                                 alt="insta_4_img.html">
-                            <div class="d-flex insta-icon-wrap">
-                                <div class="insta-icon"> 
-                                    <svg class="icon">
-	<use xlink:href="#icon-instagram"/>
-</svg>                                </div>
-                            </div>
-                        </a>
-                                                                                                                                        						
-                        <a class="insta_item pos-relative embed-responsive embed-responsive-1by1"
-                           href="https://www.instagram.com/p/BR-FxkFjUVw/" target="_blank">
-                            <img loading="lazy"
-                                 src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/insta_5_imgc5aa.jpg?1738827047187"
-                                 alt="insta_5_img.html">
-                            <div class="d-flex insta-icon-wrap">
-                                <div class="insta-icon"> 
-                                    <svg class="icon">
-	<use xlink:href="#icon-instagram"/>
-</svg>                                </div>
-                            </div>
-                        </a>
-                                                            </script>
-					</div>
-				</div>
-			</section>
-
-		</section>
-
 		<section class="section awe-section-19">
 
-			<div class="section_blog">
-				<div class='container'>
-					<div class="title_module_main d-flex justify-content-between px-0">
-						<h2 class="heading-bar__title"
-							style='color: #000000'>
-							<a class='link' href="tin-tuc.html"
-								title="LỜI KHUYÊN THỂ THAO DÀNH CHO BẠN">LỜI KHUYÊN THỂ THAO DÀNH CHO
-								BẠN</a>
-						</h2>
-						<a href="tin-tuc.html" title="Xem tất cả"
-							class="btn">
-							Xem tất cả
+<div class="section_blog">
+	<div class='container'>
+		<div class="title_module_main d-flex justify-content-between px-0">
+			<h2 class="heading-bar__title"
+				style='color: #000000'>
+				<a class='link' href="tin-tuc.html"
+					title="LỜI KHUYÊN THỂ THAO DÀNH CHO BẠN">LỜI KHUYÊN THỂ THAO DÀNH CHO
+					BẠN</a>
+			</h2>
+			<a href="tin-tuc.html" title="Xem tất cả"
+				class="btn">
+				Xem tất cả
+			</a>
+		</div>
+		<div class='section__blogs'>
+			<div class="row blog-list blog-list-custom blog-size-5">
+
+				<div class="col-12 col-sm-6 col-lg-6 col-xl-3 pos-relative mb-4">
+
+					<div class="blogwp clearfix media only-title">
+
+						<a class="image-blog text-center"
+							href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html"
+							title="TẬP GYM LÀ GÌ? CHỌN MẶC QUẦN ÁO GYM ĐÚNG CHUẨN">
+							<img loading="lazy" class="img-fluid"
+								src="../bizweb.dktcdn.net/thumb/large/100/484/026/articles/blog-11280w1750.png?v=1685604516093"
+								alt="TẬP GYM LÀ GÌ? CHỌN MẶC QUẦN ÁO GYM ĐÚNG CHUẨN">
 						</a>
-					</div>
-					<div class='section__blogs'>
-						<div class="row blog-list blog-list-custom blog-size-5">
 
-							<div class="col-12 col-sm-6 col-lg-6 col-xl-3 pos-relative mb-4">
+						<div class="content_blog clearfix media-body ">
+							<h3 class='mt-0 mb-2'>
+								<a class='link'
+									href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html"
+									title="TẬP GYM LÀ GÌ? CHỌN MẶC QUẦN ÁO GYM ĐÚNG CHUẨN">TẬP GYM LÀ
+									GÌ? CHỌN MẶC QUẦN ÁO GYM ĐÚNG CHUẨN</a>
+							</h3>
 
-								<div class="blogwp clearfix media only-title">
+							<div class="dated-post media">
+								<div class="media-body d-flex flex--wrap align-items-center">
+									<div class='text-muted mt-0'>
 
-									<a class="image-blog text-center"
-										href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html"
-										title="TẬP GYM LÀ GÌ? CHỌN MẶC QUẦN ÁO GYM ĐÚNG CHUẨN">
-										<img loading="lazy" class="img-fluid"
-											src="../bizweb.dktcdn.net/thumb/large/100/484/026/articles/blog-11280w1750.png?v=1685604516093"
-											alt="TẬP GYM LÀ GÌ? CHỌN MẶC QUẦN ÁO GYM ĐÚNG CHUẨN">
-									</a>
-
-									<div class="content_blog clearfix media-body ">
-										<h3 class='mt-0 mb-2'>
-											<a class='link'
-												href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html"
-												title="TẬP GYM LÀ GÌ? CHỌN MẶC QUẦN ÁO GYM ĐÚNG CHUẨN">TẬP GYM LÀ
-												GÌ? CHỌN MẶC QUẦN ÁO GYM ĐÚNG CHUẨN</a>
-										</h3>
-
-										<div class="dated-post media">
-											<div class="media-body d-flex flex--wrap align-items-center">
-												<div class='text-muted mt-0'>
-
-													Thứ Ba,
-													06/06/2023
-												</div>
-											</div>
-										</div>
-
-										<a class="btn btn-view"
-											href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html"
-											title="Xem ngay">Xem ngay</a>
-
-										<p class="short-summary justify lead d-none d-md-block ">
-
-											Gym hiện đang là một xu hướng mới của giới trẻ. Gym không chỉ là bộ
-											môn phổ biến dành...
-
-											<a class="button_custome_35 link"
-												href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html"
-												title="Đọc tiếp">Đọc tiếp</a>
-
-										</p>
+										Thứ Ba,
+										06/06/2023
 									</div>
 								</div>
 							</div>
-							<div class="col-12 col-sm-6 col-lg-6 col-xl-3 pos-relative mb-4">
 
-								<div class="blogwp clearfix media only-title">
+							<a class="btn btn-view"
+								href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html"
+								title="Xem ngay">Xem ngay</a>
 
-									<a class="image-blog text-center"
-										href="trang-phuc-ly-tuong-cho-hoat-dong-the-thao.html"
-										title="TRANG PHỤC LÝ TƯỞNG CHO HOẠT ĐỘNG THỂ THAO">
-										<img loading="lazy" class="img-fluid"
-											src="../bizweb.dktcdn.net/thumb/large/100/484/026/articles/blog-47400.png?v=1685604532977"
-											alt="TRANG PHỤC LÝ TƯỞNG CHO HOẠT ĐỘNG THỂ THAO">
-									</a>
+							<p class="short-summary justify lead d-none d-md-block ">
 
-									<div class="content_blog clearfix media-body ">
-										<h3 class='mt-0 mb-2'>
-											<a class='link'
-												href="trang-phuc-ly-tuong-cho-hoat-dong-the-thao.html"
-												title="TRANG PHỤC LÝ TƯỞNG CHO HOẠT ĐỘNG THỂ THAO">TRANG PHỤC LÝ
-												TƯỞNG CHO HOẠT ĐỘNG THỂ THAO</a>
-										</h3>
+								Gym hiện đang là một xu hướng mới của giới trẻ. Gym không chỉ là bộ
+								môn phổ biến dành...
 
-										<div class="dated-post media">
-											<div class="media-body d-flex flex--wrap align-items-center">
-												<div class='text-muted mt-0'>
+								<a class="button_custome_35 link"
+									href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html"
+									title="Đọc tiếp">Đọc tiếp</a>
 
-													Thứ Ba,
-													06/06/2023
-												</div>
-											</div>
-										</div>
-
-										<a class="btn btn-view"
-											href="trang-phuc-ly-tuong-cho-hoat-dong-the-thao.html"
-											title="Xem ngay">Xem ngay</a>
-
-										<p class="short-summary justify lead d-none d-md-block ">
-
-											Các hoạt động thể thao luôn đòi hỏi con người phải vận động nhiều nên
-											việc lựa chọn những bộ...
-
-											<a class="button_custome_35 link"
-												href="trang-phuc-ly-tuong-cho-hoat-dong-the-thao.html"
-												title="Đọc tiếp">Đọc tiếp</a>
-
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-lg-6 col-xl-3 pos-relative mb-4">
-
-								<div class="blogwp clearfix media only-title">
-
-									<a class="image-blog text-center"
-										href="chon-do-tap-gym-nu-dung-cach-cho-nguoi-moi.html"
-										title="CHỌN ĐỒ TẬP GYM NỮ ĐÚNG CÁCH CHO NGƯỜI MỚI">
-										<img loading="lazy" class="img-fluid"
-											src="../bizweb.dktcdn.net/thumb/large/100/484/026/articles/31ccb.png?v=1685604645737"
-											alt="CHỌN ĐỒ TẬP GYM NỮ ĐÚNG CÁCH CHO NGƯỜI MỚI">
-									</a>
-
-									<div class="content_blog clearfix media-body ">
-										<h3 class='mt-0 mb-2'>
-											<a class='link'
-												href="chon-do-tap-gym-nu-dung-cach-cho-nguoi-moi.html"
-												title="CHỌN ĐỒ TẬP GYM NỮ ĐÚNG CÁCH CHO NGƯỜI MỚI">CHỌN ĐỒ TẬP GYM
-												NỮ ĐÚNG CÁCH CHO NGƯỜI MỚI</a>
-										</h3>
-
-										<div class="dated-post media">
-											<div class="media-body d-flex flex--wrap align-items-center">
-												<div class='text-muted mt-0'>
-
-													Thứ Ba,
-													06/06/2023
-												</div>
-											</div>
-										</div>
-
-										<a class="btn btn-view"
-											href="chon-do-tap-gym-nu-dung-cach-cho-nguoi-moi.html"
-											title="Xem ngay">Xem ngay</a>
-
-										<p class="short-summary justify lead d-none d-md-block ">
-
-											Mỗi ngày có hàng ngàn gymer quan tâm đến câu hỏi ‘Chọn đồ tập gym nữ
-											như thế nào là...
-
-											<a class="button_custome_35 link"
-												href="chon-do-tap-gym-nu-dung-cach-cho-nguoi-moi.html"
-												title="Đọc tiếp">Đọc tiếp</a>
-
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-lg-6 col-xl-3 pos-relative mb-4">
-
-								<div class="blogwp clearfix media only-title">
-
-									<a class="image-blog text-center"
-										href="4-cach-lua-chon-do-the-thao-tap-yoga-dep-khong-phai-ai-cung-biet.html"
-										title="4 CÁCH LỰA ĐỒ THỂ THAO YOGA ĐẸP KHÔNG PHẢI AI CŨNG BIẾT">
-										<img loading="lazy" class="img-fluid"
-											src="../bizweb.dktcdn.net/thumb/large/100/484/026/articles/frame-4744-2058c.png?v=1685605285160"
-											alt="4 CÁCH LỰA ĐỒ THỂ THAO YOGA ĐẸP KHÔNG PHẢI AI CŨNG BIẾT">
-									</a>
-
-									<div class="content_blog clearfix media-body ">
-										<h3 class='mt-0 mb-2'>
-											<a class='link'
-												href="4-cach-lua-chon-do-the-thao-tap-yoga-dep-khong-phai-ai-cung-biet.html"
-												title="4 CÁCH LỰA ĐỒ THỂ THAO YOGA ĐẸP KHÔNG PHẢI AI CŨNG BIẾT">4
-												CÁCH LỰA ĐỒ THỂ THAO YOGA ĐẸP KHÔNG PHẢI AI CŨNG BIẾT</a>
-										</h3>
-
-										<div class="dated-post media">
-											<div class="media-body d-flex flex--wrap align-items-center">
-												<div class='text-muted mt-0'>
-
-													Thứ Ba,
-													06/06/2023
-												</div>
-											</div>
-										</div>
-
-										<a class="btn btn-view"
-											href="4-cach-lua-chon-do-the-thao-tap-yoga-dep-khong-phai-ai-cung-biet.html"
-											title="Xem ngay">Xem ngay</a>
-
-										<p class="short-summary justify lead d-none d-md-block ">
-
-											Khi bắt đầu học Yoga điều đầu tiên mà chị em quan tâm nhất là lựa
-											chọn đồ tập Yoga...
-
-											<a class="button_custome_35 link"
-												href="4-cach-lua-chon-do-the-thao-tap-yoga-dep-khong-phai-ai-cung-biet.html"
-												title="Đọc tiếp">Đọc tiếp</a>
-
-										</p>
-									</div>
-								</div>
-							</div>
+							</p>
 						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-6 col-xl-3 pos-relative mb-4">
 
+					<div class="blogwp clearfix media only-title">
+
+						<a class="image-blog text-center"
+							href="trang-phuc-ly-tuong-cho-hoat-dong-the-thao.html"
+							title="TRANG PHỤC LÝ TƯỞNG CHO HOẠT ĐỘNG THỂ THAO">
+							<img loading="lazy" class="img-fluid"
+								src="../bizweb.dktcdn.net/thumb/large/100/484/026/articles/blog-47400.png?v=1685604532977"
+								alt="TRANG PHỤC LÝ TƯỞNG CHO HOẠT ĐỘNG THỂ THAO">
+						</a>
+
+						<div class="content_blog clearfix media-body ">
+							<h3 class='mt-0 mb-2'>
+								<a class='link'
+									href="trang-phuc-ly-tuong-cho-hoat-dong-the-thao.html"
+									title="TRANG PHỤC LÝ TƯỞNG CHO HOẠT ĐỘNG THỂ THAO">TRANG PHỤC LÝ
+									TƯỞNG CHO HOẠT ĐỘNG THỂ THAO</a>
+							</h3>
+
+							<div class="dated-post media">
+								<div class="media-body d-flex flex--wrap align-items-center">
+									<div class='text-muted mt-0'>
+
+										Thứ Ba,
+										06/06/2023
+									</div>
+								</div>
+							</div>
+
+							<a class="btn btn-view"
+								href="trang-phuc-ly-tuong-cho-hoat-dong-the-thao.html"
+								title="Xem ngay">Xem ngay</a>
+
+							<p class="short-summary justify lead d-none d-md-block ">
+
+								Các hoạt động thể thao luôn đòi hỏi con người phải vận động nhiều nên
+								việc lựa chọn những bộ...
+
+								<a class="button_custome_35 link"
+									href="trang-phuc-ly-tuong-cho-hoat-dong-the-thao.html"
+									title="Đọc tiếp">Đọc tiếp</a>
+
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-6 col-xl-3 pos-relative mb-4">
+
+					<div class="blogwp clearfix media only-title">
+
+						<a class="image-blog text-center"
+							href="chon-do-tap-gym-nu-dung-cach-cho-nguoi-moi.html"
+							title="CHỌN ĐỒ TẬP GYM NỮ ĐÚNG CÁCH CHO NGƯỜI MỚI">
+							<img loading="lazy" class="img-fluid"
+								src="../bizweb.dktcdn.net/thumb/large/100/484/026/articles/31ccb.png?v=1685604645737"
+								alt="CHỌN ĐỒ TẬP GYM NỮ ĐÚNG CÁCH CHO NGƯỜI MỚI">
+						</a>
+
+						<div class="content_blog clearfix media-body ">
+							<h3 class='mt-0 mb-2'>
+								<a class='link'
+									href="chon-do-tap-gym-nu-dung-cach-cho-nguoi-moi.html"
+									title="CHỌN ĐỒ TẬP GYM NỮ ĐÚNG CÁCH CHO NGƯỜI MỚI">CHỌN ĐỒ TẬP GYM
+									NỮ ĐÚNG CÁCH CHO NGƯỜI MỚI</a>
+							</h3>
+
+							<div class="dated-post media">
+								<div class="media-body d-flex flex--wrap align-items-center">
+									<div class='text-muted mt-0'>
+
+										Thứ Ba,
+										06/06/2023
+									</div>
+								</div>
+							</div>
+
+							<a class="btn btn-view"
+								href="chon-do-tap-gym-nu-dung-cach-cho-nguoi-moi.html"
+								title="Xem ngay">Xem ngay</a>
+
+							<p class="short-summary justify lead d-none d-md-block ">
+
+								Mỗi ngày có hàng ngàn gymer quan tâm đến câu hỏi ‘Chọn đồ tập gym nữ
+								như thế nào là...
+
+								<a class="button_custome_35 link"
+									href="chon-do-tap-gym-nu-dung-cach-cho-nguoi-moi.html"
+									title="Đọc tiếp">Đọc tiếp</a>
+
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-6 col-xl-3 pos-relative mb-4">
+
+					<div class="blogwp clearfix media only-title">
+
+						<a class="image-blog text-center"
+							href="4-cach-lua-chon-do-the-thao-tap-yoga-dep-khong-phai-ai-cung-biet.html"
+							title="4 CÁCH LỰA ĐỒ THỂ THAO YOGA ĐẸP KHÔNG PHẢI AI CŨNG BIẾT">
+							<img loading="lazy" class="img-fluid"
+								src="../bizweb.dktcdn.net/thumb/large/100/484/026/articles/frame-4744-2058c.png?v=1685605285160"
+								alt="4 CÁCH LỰA ĐỒ THỂ THAO YOGA ĐẸP KHÔNG PHẢI AI CŨNG BIẾT">
+						</a>
+
+						<div class="content_blog clearfix media-body ">
+							<h3 class='mt-0 mb-2'>
+								<a class='link'
+									href="4-cach-lua-chon-do-the-thao-tap-yoga-dep-khong-phai-ai-cung-biet.html"
+									title="4 CÁCH LỰA ĐỒ THỂ THAO YOGA ĐẸP KHÔNG PHẢI AI CŨNG BIẾT">4
+									CÁCH LỰA ĐỒ THỂ THAO YOGA ĐẸP KHÔNG PHẢI AI CŨNG BIẾT</a>
+							</h3>
+
+							<div class="dated-post media">
+								<div class="media-body d-flex flex--wrap align-items-center">
+									<div class='text-muted mt-0'>
+
+										Thứ Ba,
+										06/06/2023
+									</div>
+								</div>
+							</div>
+
+							<a class="btn btn-view"
+								href="4-cach-lua-chon-do-the-thao-tap-yoga-dep-khong-phai-ai-cung-biet.html"
+								title="Xem ngay">Xem ngay</a>
+
+							<p class="short-summary justify lead d-none d-md-block ">
+
+								Khi bắt đầu học Yoga điều đầu tiên mà chị em quan tâm nhất là lựa
+								chọn đồ tập Yoga...
+
+								<a class="button_custome_35 link"
+									href="4-cach-lua-chon-do-the-thao-tap-yoga-dep-khong-phai-ai-cung-biet.html"
+									title="Đọc tiếp">Đọc tiếp</a>
+
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
-		</section>
 
-		<section class="section awe-section-20">
-
-			<section class="section_banner_slide section">
-				<div class="container card border-0">
-					<h2 class="heading-bar__title text-left">DANH MỤC SẢN PHẨM</h2>
-					<div class="banner_slide_body btn-slide--new">
-						<div class="row mx-0 hrz-scroll text-center flex-nowrap js-slider">
-
-							<div class="banner_slide_item">
-								<a href="collections/all.html" title="Áo">
-									<img loading="lazy"
-										class="img-fluid m-auto object-contain mh-100 w-auto"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_2_img_1_imgc5aa.jpg?1738827047187"
-										width="385"
-										height="500"
-										alt="banner_slide_2_img_1_img.jpg" />
-								</a>
-							</div>
-
-							<div class="banner_slide_item">
-								<a href="collections/all.html" title="Quần">
-									<img loading="lazy"
-										class="img-fluid m-auto object-contain mh-100 w-auto"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_2_img_2_imgc5aa.jpg?1738827047187"
-										width="385"
-										height="500"
-										alt="banner_slide_2_img_2_img.jpg" />
-								</a>
-							</div>
-
-							<div class="banner_slide_item">
-								<a href="collections/all.html" title="Giày dép">
-									<img loading="lazy"
-										class="img-fluid m-auto object-contain mh-100 w-auto"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_2_img_3_imgc5aa.jpg?1738827047187"
-										width="385"
-										height="500"
-										alt="banner_slide_2_img_3_img.jpg" />
-								</a>
-							</div>
-
-							<div class="banner_slide_item">
-								<a href="collections/all.html" title="Đồ bơi">
-									<img loading="lazy"
-										class="img-fluid m-auto object-contain mh-100 w-auto"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_2_img_4_imgc5aa.jpg?1738827047187"
-										width="385"
-										height="500"
-										alt="banner_slide_2_img_4_img.jpg" />
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</section>
+		</div>
+	</div>
+</div>
+</section>
 @endsection
