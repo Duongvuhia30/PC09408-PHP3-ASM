@@ -26,6 +26,7 @@ use Filament\Tables\Actions\DeleteAction;
 use Filament\Tables\Actions\ActionGroup;
 use Filament\Notifications\Notification;
 use Illuminate\Database\Eloquent\Builder;
+use App\Filament\Filters\AdvancedFilter;
 
 class CategoriesResource extends Resource
 {
@@ -33,16 +34,17 @@ class CategoriesResource extends Resource
 
     protected static ?string $navigationGroup = 'Sản phẩm';
 
-    protected static ?string $navigationLabel = 'Danh mục';
+    protected static ?string $navigationLabel = 'Danh mục sản phẩm';
 
-    protected static ?string $label = 'Danh Mục';
+    protected static ?string $label = 'danh mục sản phẩm';
 
     protected static ?string $navigationIcon = 'heroicon-o-tag';
 
     public static function getEloquentQuery(): Builder
     {
         return parent::getEloquentQuery()
-            ->where('row_id', '!=', Category::getDefaultCategoryId());
+            ->where('row_id', '!=', Category::getDefaultCategoryId())
+            ->withCount('products');
     }
 
     public static function form(Form $form): Form
@@ -61,7 +63,7 @@ class CategoriesResource extends Resource
                                             ->maxLength(225)
                                             ->live(onBlur: true)
                                             ->unique(ignoreRecord: true)
-                                            ->rule('regex:/^[\p{L}0-9\s\-]+$/u')
+                                            ->rule('regex:/^(?=.*\p{L})[\p{L}0-9\s\-]+$/u')
                                             ->validationMessages([
                                                 'required' => 'Vui lòng nhập tên danh mục.',
                                                 'regex' => 'Tên danh mục chỉ được chứa chữ cái, số, khoảng trắng và dấu gạch ngang.',
@@ -140,7 +142,7 @@ class CategoriesResource extends Resource
 
                             ]),
 
-                        Toggle::make('is_active')
+                        Toggle::make('status')
                             ->label('Trạng thái')
                             ->default(true)
                             ->onColor('success')
@@ -154,20 +156,28 @@ class CategoriesResource extends Resource
         return $table
             ->columns([
                 TextColumn::make('name')->label('Tên danh mục')->searchable(),
-                TextColumn::make('parent.name')->label('danh mục cha'),
                 ImageColumn::make('images')
-                    ->label('Ảnh')
-                    ->disk('public')
-                    ->getStateUsing(function ($record) {
-                        return optional($record->images->first())->path;
-                    })
-                    ->height(100)
-                    ->square(),
+                ->label('Ảnh')
+                ->disk('public')
+                ->getStateUsing(function ($record) {
+                    return optional($record->images->first())->path;
+                })
+                ->height(100)
+                ->square(),
+                TextColumn::make('parent.name')->label('danh mục cha')->searchable(),
+                TextColumn::make('products_count')
+                    ->label('Số sản phẩm')
+                    ->sortable(),
                 IconColumn::make('is_active')
                     ->label('Trạng thái')
                     ->boolean(),
             ])
-            ->filters([])
+            ->filters([
+                AdvancedFilter::make([
+                    'label' => 'Lọc nâng cao',
+                    'filters' => ['status'],
+                ])
+            ])
             ->actions([
                 ActionGroup::make([
                     EditAction::make()->recordTitleAttribute('name'),
@@ -181,8 +191,8 @@ class CategoriesResource extends Resource
                                 ? '⚠️ Danh mục này đang chứa sản phẩm. Nếu bạn xác nhận xóa, các sản phẩm sẽ được chuyển sang danh mục mặc định.'
                                 : 'Bạn có chắc chắn muốn xóa danh mục này?'
                         )
-                        ->modalSubmitActionLabel('Xác nhận')   // ✅ thay cho modalButton()
-                        ->modalCancelActionLabel('Hủy bỏ')     // ✅ thay cho modalCancelButton()
+                        ->modalSubmitActionLabel('Xác nhận')
+                        ->modalCancelActionLabel('Hủy bỏ')
                         ->after(function ($record) {
                             if ($record->products()->exists()) {
                                 $defaultId = \App\Models\Category::getDefaultCategoryId();

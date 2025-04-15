@@ -19,8 +19,7 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Illuminate\Support\Str;
 use Filament\Forms\Components\Grid;
 use Filament\Forms\Components\Section;
-use Filament\Forms\Components\checkboxlist;
-use Filament\Forms\Components\MarkdownEditor;
+use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Repeater;
 use Filament\Forms\Components\View;
 use Filament\Forms\Components\Tabs;
@@ -35,7 +34,8 @@ use Filament\Tables\Actions\EditAction;
 use Filament\Tables\Actions\ViewAction;
 use Filament\Tables\Actions\DeleteAction;
 use Filament\Tables\Actions\ActionGroup;
-
+use App\Filament\Filters\AdvancedFilter;
+use Filament\Tables\Columns\IconColumn;
 
 class ProductsResource extends Resource
 {
@@ -54,7 +54,7 @@ class ProductsResource extends Resource
     public static function getEloquentQuery(): Builder
     {
         return parent::getEloquentQuery()
-            ->with(['variants']); 
+            ->with(['variants']);
     }
 
     public static function form(Form $form): Form
@@ -86,20 +86,26 @@ class ProductsResource extends Resource
                                             ->validationMessages([
                                                 'required' => 'Vui lòng nhập tên sản phẩm.',
                                                 'regex' => 'Tên sản phẩm chỉ được chứa chữ cái, số, khoảng trắng và dấu gạch ngang.',
+                                                'unique' => 'Tên sản phẩm đã tồn tại.'
                                             ]),
 
                                         TextInput::make('slug')
                                             ->label('Đường dẫn')
                                             ->disabled()
                                             ->dehydrated()
-                                            ->rule('regex:/^[a-z0-9\-]+$/'),
+                                            ->rule('regex:/^[a-z0-9\-]+$/')
+                                            ->required()
+                                            ->validationMessages([
+                                                'required' => 'Vui lòng nhập đường dẫn.',
+                                                'regex' => 'Đường dẫn chỉ được chứa chữ cái, số và dấu gạch.'
+                                            ]),
 
                                     ])
                                     ->collapsible(),
 
                                 Section::make('Mô tả sản phẩm')
                                     ->schema([
-                                        MarkdownEditor::make('description')
+                                        RichEditor::make('description')
                                             ->label(false)
                                             ->required()
                                             ->minLength(20)
@@ -209,6 +215,7 @@ class ProductsResource extends Resource
                                                             ->label('Giá')
                                                             ->numeric()
                                                             ->required()
+                                                            ->prefix('VND')
                                                             ->rules(['integer', 'min:1'])
                                                             ->validationMessages([
                                                                 'required' => 'Vui lòng nhập giá.',
@@ -260,7 +267,7 @@ class ProductsResource extends Resource
                                                             ->required(fn($get) => $get('../../type') === 'variable')
                                                             ->validationMessages([
                                                                 'required' => 'Vui lòng chọn thời gian xuất bản.',
-                                                            ]),
+                                                            ])->dehydrated(),
 
                                                     ])
                                                     ->minItems(1)
@@ -330,8 +337,12 @@ class ProductsResource extends Resource
                                                 $query->whereNotIn('categories.row_id', [1]);
                                             })
                                             ->searchable()
-                                            ->preload(),
-                                            View::make('components.create-category-inline')
+                                            ->preload()
+                                            ->required()
+                                            ->validationMessages([
+                                                'required' => 'Vui lòng chọn danh mục cho sản phẩm.',
+                                            ]),
+                                        View::make('components.create-category-inline')
                                             ->columns(1),
                                     ])->collapsible(),
                                 Section::make('Nhà xuất bản')
@@ -352,23 +363,29 @@ class ProductsResource extends Resource
                                         TagsInput::make('tag')
                                             ->label(false)
                                             ->reorderable()
-                                            ->separator(','),
+                                            ->separator(',')
+                                            ->required()
+                                            ->validationMessages([
+                                                'required' => 'Vui lòng nhập từ khóa.',
+                                            ]),
 
                                     ])->collapsible(),
                                 Section::make('Trạng thái')
                                     ->schema([
-                                        Toggle::make('is_active')->label('Trạng thái')->default(true),
+                                        Toggle::make('is_active')->label('Trạng thái')->default(true)->dehydrated(),
                                         DateTimePicker::make('release_date')
                                             ->label('Thời gian phát hành')
                                             ->default(now())
-                                            ->required(fn($get) => $get('published') === true)
+                                            ->required()
                                             ->validationMessages([
                                                 'required' => 'Vui lòng chọn thời gian xuất bản.',
-                                            ]),
+                                            ])
+                                            ->dehydrated(),
 
                                     ])->collapsible(),
                             ])
                             ->columnSpan(4),
+
                     ]),
             ]);
     }
@@ -394,8 +411,8 @@ class ProductsResource extends Resource
                         return $record->categories->pluck('name')->join(', ');
                     }),
                 TextColumn::make('publisher.name')->label('Nhà xuất bản'),
-                TextColumn::make('slug')->label('Đường dẫn'),
-                TextColumn::make('variants.stock')->label('Tồn kho'),
+                TextColumn::make('variants.price')->label('Giá bán')->money('VND')->sortable(),
+                TextColumn::make('variants.stock')->label('Tồn kho')->sortable(),
                 TextColumn::make('release_date')
                     ->label('Ngày phát hành')
                     ->formatStateUsing(function ($state, $record) {
@@ -406,11 +423,24 @@ class ProductsResource extends Resource
                             : ($record->release_date
                                 ? '🗂️ ' . \Carbon\Carbon::parse($record->release_date)->format('d/m/Y')
                                 : '—');
-                    })
+                    }),
+                IconColumn::make('is_active')
+                    ->label('Trạng thái')
+                    ->boolean(),
             ])
             ->filters([
-                //
+                AdvancedFilter::make([
+                    'label' => 'Lọc nâng cao',
+                    'fields' => [
+                        ['field' => 'price', 'label' => 'Giá bán', 'relation' => 'variants'],
+                        ['field' => 'stock', 'label' => 'Tồn kho', 'relation' => 'variants'],
+                        ['field' => 'release_date', 'label' => 'Ngày phát hành'],
+                    ],
+                    'filters' => ['status', 'category', 'author'],
+                    'category_model' => \App\Models\Category::class,
+                ])
             ])
+            
             ->actions([
                 ActionGroup::make([
                     EditAction::make()->recordTitleAttribute('name'),

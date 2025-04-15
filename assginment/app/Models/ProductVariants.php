@@ -25,7 +25,8 @@ class ProductVariants extends Model
         'name',
         'type',
         'image',
-        'pdf'
+        'pdf',
+        'release_date'
     ];
     public function product()
     {

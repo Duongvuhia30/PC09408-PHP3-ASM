@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('note', 255)->nullable();
             $table->date('time_start')->nullable();
             $table->date('time_end')->nullable();
-            $table->timestamp('deleted_at')->nullable();
+            $table->softDeletes();
             $table->timestamps(); // includes created_at and updated_at
         });
     }

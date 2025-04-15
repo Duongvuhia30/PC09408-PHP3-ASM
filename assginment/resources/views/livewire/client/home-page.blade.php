@@ -1,4 +1,4 @@
-@extends('layout.home')
+@extends('layout.master')
 @section('content')
 
 <section class="section awe-section-1">

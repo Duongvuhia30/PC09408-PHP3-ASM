@@ -11,16 +11,22 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('blogs', function (Blueprint $table) {
-            $table->id(); 
-            $table->string('title'); 
-            $table->string('slug')->unique(); 
-            $table->longtext('content'); 
-            $table->string('thumbnail'); 
-            $table->boolean('status');
-            $table->timestamp('published_at')->nullable();
-            $table->foreignId('category_id')->constrained('categories_blog')->onDelete('cascade');  // Khóa ngoại tham chiếu bảng categories_blog
-            $table->timestamps(); 
+        Schema::create('blog', function (Blueprint $table) {
+            $table->id('row_id');
+            $table->string('title');
+            $table->string('slug')->unique();
+            $table->longtext('content');
+            $table->string('thumbnail');
+            $table->boolean('is_active');
+            $table->dateTime('published_at')->nullable();
+            $table->string('describe');
+            $table->string('author');
+            $table->softDeletes();
+            $table->foreignId('category_id')
+                ->nullable()
+                ->constrained('categories_blog', 'row_id')
+                ->nullOnDelete();
+            $table->timestamps();
         });
     }
 
@@ -29,7 +35,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('blogs');
-        
+        Schema::dropIfExists('blog');
     }
 };

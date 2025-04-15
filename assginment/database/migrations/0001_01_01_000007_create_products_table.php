@@ -24,7 +24,7 @@ return new class extends Migration
                 ->nullable()
                 ->constrained('publishers', 'row_id')
                 ->nullOnDelete();
-
+            
             $table->softDeletes();
             $table->timestamps();
         });

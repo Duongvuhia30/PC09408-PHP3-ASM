@@ -16,12 +16,12 @@ return new class extends Migration
             $table->foreignId('product_id')->constrained('products', 'row_id')->onDelete('cascade');
             $table->string('code')->unique();
             $table->string('name')->nullable();
-            $table->decimal('price', 10, 2);
+            $table->integer('price');
             $table->integer('stock');
             $table->string('type')->nullable();
             $table->string('pdf')->nullable();
             $table->string('image')->nullable();
-            $table->dateTime('release_date')->null(); 
+            $table->dateTime('release_date')->nullable(); 
             $table->softDeletes();
             $table->timestamps();
         });

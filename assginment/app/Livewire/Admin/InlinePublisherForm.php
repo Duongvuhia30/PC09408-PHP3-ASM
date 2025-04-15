@@ -13,12 +13,15 @@ class InlinePublisherForm extends Component
 
     public function create()
     {
-        $this->validate(
-            [
-               'name' => ['required', 'string', 'max:255', 'regex:/^[\p{L}0-9\s\-]+$/u'],
+        $this->validate([
+            'name' => [
+                'required',
+                'string',
+                'max:255',
+                'regex:/^[\p{L}0-9\s\-]+$/u',
+                'unique:publisher,name',
             ],
-            $this->messages()
-        );
+        ], $this->messages());        
 
         Publishers::create([
             'name' => $this->name,

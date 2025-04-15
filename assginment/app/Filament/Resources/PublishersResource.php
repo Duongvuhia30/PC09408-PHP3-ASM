@@ -25,7 +25,7 @@ use Filament\Tables\Actions\ActionGroup;
 use Filament\Forms\Components\Hidden;
 use Illuminate\Support\Str;
 use Filament\Tables\Enums\FiltersLayout;
-
+use App\Filament\Filters\AdvancedFilter;
 
 class PublishersResource extends Resource
 {
@@ -38,6 +38,12 @@ class PublishersResource extends Resource
     protected static ?string $label = 'Nhà xuất bản';
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+
+    public static function getEloquentQuery(): Builder
+    {
+        return parent::getEloquentQuery()
+            ->withCount('products');
+    }
 
     public static function form(Form $form): Form
     {
@@ -115,13 +121,19 @@ class PublishersResource extends Resource
                 TextColumn::make('phone')->label('Số điện thoại'),
                 TextColumn::make('address')->label('Địa chỉ'),
                 TextColumn::make('contact_email')->label('Email'),
+                TextColumn::make('products_count')
+                    ->label('Số sản phẩm')
+                    ->sortable(),
                 IconColumn::make('is_active')
                     ->label('Trạng thái')
                     ->boolean(),
             ])
             ->filters([
-                // ...
-            ], layout: FiltersLayout::BelowContent)
+                AdvancedFilter::make([
+                    'label' => 'Lọc nâng cao',
+                    'filters' => ['status'],
+                ])
+            ])
             ->actions([
                 ActionGroup::make([
                     EditAction::make()->recordTitleAttribute('name'),
@@ -138,9 +150,7 @@ class PublishersResource extends Resource
 
     public static function getRelations(): array
     {
-        return [
-            //
-        ];
+        return [];
     }
 
     public static function getPages(): array

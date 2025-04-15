@@ -4,19 +4,26 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Support\Str;
+use Illuminate\Database\Eloquent\SoftDeletes;
+
 
 class Blog extends Model
 {
-    use HasFactory;
+    use HasFactory, SoftDeletes;
+
+    protected $table = 'blog';
+
+    protected $primaryKey = 'row_id';
 
     protected $fillable = [
         'title',
         'slug',
         'content',
         'thumbnail',
-        'status',
+        'is_active',
         'published_at',
+        'describe',
+        'author',
         'category_id',
     ];
 
@@ -33,17 +40,6 @@ class Blog extends Model
 
     public function category()
     {
-        return $this->belongsTo(CategoriesBlog::class, 'category_id');
+        return $this->belongsTo(CategoryBlog::class, 'category_id', 'row_id');
     }
-    public static function createSlug($title)
-    {
-        $slug = Str::slug($title);
-        if (Blog::where('slug', $slug)->exists()) {
-            $slug = $slug . '-' . Str::random(5);
-        }
-        return $slug;
-    }
-    
-
 }
-

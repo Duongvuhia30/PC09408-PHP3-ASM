@@ -22,6 +22,8 @@ class Product extends Model
         'category_id',
         'publisher_id',
         'type',
+        'is_active',
+        'release_date'
 
     ];
     public function getRouteKeyName()
