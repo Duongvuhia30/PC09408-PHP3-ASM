@@ -33,9 +33,9 @@ class PublishersResource extends Resource
 
     protected static ?string $navigationGroup = 'Sản phẩm';
 
-    protected static ?string $navigationLabel = 'Nhà xuất bản';
+    protected static ?string $navigationLabel = 'nhà xuất bản';
 
-    protected static ?string $label = 'Nhà xuất bản';
+    protected static ?string $label = 'nhà xuất bản';
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 

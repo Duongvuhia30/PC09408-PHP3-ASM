@@ -66,13 +66,6 @@ class Product extends Model
 
     public function images()
     {
-        return $this->hasManyThrough(
-            \App\Models\ImageProductVariants::class,
-            \App\Models\ProductVariants::class,
-            'product_id',
-            'variant_id',
-            'row_id',
-            'row_id'
-        );
+        return $this->hasMany(ImageProductVariants::class, 'product_id', 'row_id');
     }
 }

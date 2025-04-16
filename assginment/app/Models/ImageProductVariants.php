@@ -14,10 +14,10 @@ class ImageProductVariants extends Model
 
     protected $primaryKey = 'row_id';
 
-    protected $fillable = ['variant_id', 'path'];
+    protected $fillable = ['product_id', 'path'];
 
     public function variant()
     {
-        return $this->belongsTo(ProductVariants::class, 'variant_id', 'row_id');
+        return $this->belongsTo(ProductVariants::class, 'product_id', 'row_id');
     }
 }

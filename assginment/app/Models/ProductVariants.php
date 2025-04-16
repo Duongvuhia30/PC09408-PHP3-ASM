@@ -33,8 +33,5 @@ class ProductVariants extends Model
         return $this->belongsTo(Product::class, 'product_id', 'row_id');
     }
 
-    public function images()
-    {
-        return $this->hasMany(ImageProductVariants::class, 'variant_id', 'row_id');
-    }
+
 }

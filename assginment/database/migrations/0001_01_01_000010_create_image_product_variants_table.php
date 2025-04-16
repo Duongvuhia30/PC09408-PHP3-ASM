@@ -13,9 +13,9 @@ return new class extends Migration
     {
         Schema::create('image_product_variants', function (Blueprint $table) {
             $table->id('row_id');
-            $table->unsignedBigInteger('variant_id');
+            $table->unsignedBigInteger('product_id');
             $table->softDeletes();
-            $table->foreign('variant_id')->references('row_id')->on('product_variants')->onDelete('cascade');
+            $table->foreign('product_id')->references('row_id')->on('products')->onDelete('cascade');
             $table->string('path');
             $table->timestamps();
         });
