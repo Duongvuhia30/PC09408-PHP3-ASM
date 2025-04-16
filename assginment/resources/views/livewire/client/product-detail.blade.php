@@ -1,24 +1,5 @@
 @extends('layout.master')
 @section('content')
-<section class="bread-crumb mb-3">
-	<span class="crumb-border"></span>
-	<div class="container ">
-		<div class="row">
-			<div class="col-12 a-left">
-				<ul class="breadcrumb m-0 px-0 py-2">
-					<li class="home">
-						<a href="index.html" class='link'><span>Trang chủ</span></a>
-						<span class="mr_lr">&nbsp;/&nbsp;</span>
-					</li>
-
-
-					<li><strong><span>Demo coupon nhập liệu từ metafield</span></strong></li>
-
-				</ul>
-			</div>
-		</div>
-	</div>
-</section>
 <link rel="preload" as='style' type="text/css" href="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/lightboxc5aa.css?1738827047187">
 <section class="product details-main" itemscope itemtype="http://schema.org/Product">
 	<!-- Start Product Schema -->
@@ -36,7 +17,7 @@ Màu sắc của áo khoác thể thao cũng rất đa dạng và phong phú, t�
 Kích thước của áo khoác thể thao cũng rất đa dạng để phù hợp với các loại hình cơ thể của người dùng. Tuy nhiên, để đảm bảo sự thoải mái và dễ chịu, người dùng nên chọn kích thước phù hợp với cơ thể của mình.
 Áo khoác thể thao phù hợp với mọi đối tượng từ nam giới, nữ giới, người già, trẻ em cho đến những người mới bắt đầu tập luyện hay những người có kinh nghiệm trong tập luyện. Với thiết kế đa dạng và phong phú, áo khoác thể thao giúp người dùng tạo nên phong cách thời trang riêng và thể hiện sự chuyên nghiệp trong quá trình tập luyện.">
 	<div class="d-none" itemprop="brand" itemtype="https://schema.org/Bra	nd" itemscope>
-		<meta itemprop="name" content="EGA" />
+		temprop="name" content="EGA" />
 	</div>
 	<meta itemprop="model" content="">
 	<meta itemprop="sku" content="Q22">
@@ -64,266 +45,172 @@ Kích thước của áo khoác thể thao cũng rất đa dạng để phù h�
 		<meta itemprop="logo" content="http://bizweb.dktcdn.net/100/484/026/themes/953543/assets/logo.png?1738827047187" />
 	</div>
 	<!-- End Product Schema -->
+	<link
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		rel="stylesheet" />
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 
+	<style>
+		.image-container {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			gap: 20px;
+		}
+
+		.carousel-thumbnails {
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+			max-height: 500px;
+			overflow-y: auto;
+			padding-right: 5px;
+			margin-right: 0;
+			height: 500px;
+		}
+
+		.carousel-thumbnails::-webkit-scrollbar {
+			display: none;
+		}
+
+		.carousel-thumbnails img {
+			width: 80px;
+			height: 80px;
+			object-fit: cover;
+			cursor: pointer;
+			border: 2px solid transparent;
+			transition: border 0.3s;
+		}
+
+		.carousel-thumbnails img.active {
+			border: 2px solid #007bff;
+		}
+
+		.carousel-inner {
+			position: relative;
+			width: 100%;
+			height: 500px;
+		}
+
+		.carousel-item img {
+			width: 100%;
+			height: 100%;
+			max-width: 800px;
+			max-height: 500px;
+			object-fit: contain;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#productCarousel {
+			flex: 1;
+			max-width: 800px;
+		}
+	</style>
 	<section class='section mt-0 mb-lg-4 mb-3 mb-sm-0'>
 		<div class="container">
 			<div class="section wrap-padding-15 wp_product_main m-0">
 				<div class="details-product ">
 					<div class="row m-sm-0">
-						<div class="product-detail-left product-images bg-white py-3 col-12 col-lg-6 overflow-hidden thumbs-on-mobile--show">
-
-							<div class="section slickthumb_relative_product_1">
-								<div id="gallery_02" class="slider-nav slickproduct thumb_product_details">
-
-									<div class="item" data-img="https://bizweb.dktcdn.net/100/484/026/products/image-117-1b8f1563fff94a0a88fd1fd67545cf63-01294df9-ad0b-44c9-919a-259ca1840e30.png?v=1688956748273">
-										<a href="javascript:void(0)" data-zoom-image="../bizweb.dktcdn.net/thumb/1024x1024/100/484/026/products/image-117-1b8f1563fff94a0a88fd1fd67545cf63-01294df9-ad0b-44c9-919a-259ca1840e305b83.png?v=1688956748273">
-											<img class=" img-fluid" data-img="../bizweb.dktcdn.net/100/484/026/products/image-117-1b8f1563fff94a0a88fd1fd67545cf63-01294df9-ad0b-44c9-919a-259ca1840e305b83.png?v=1688956748273"
-												src="../bizweb.dktcdn.net/thumb/medium/100/484/026/products/image-117-1b8f1563fff94a0a88fd1fd67545cf63-01294df9-ad0b-44c9-919a-259ca1840e305b83.png?v=1688956748273"
-												alt="Demo coupon nhập liệu từ metafield"
-												loading="lazy" />
-										</a>
-									</div>
-									<div class="item">
-										<a href="javascript:void(0)">
-
-											<picture>
-												<source media="(max-width: 480px)" srcset="../bizweb.dktcdn.net/thumb/large/100/484/026/products/video-ao-khoac-the-thao-c13b2054a4cc43e4b7fb43708fc4febc-97344a5e-fa63-4b1d-916e-722ac3d4ee3a5b83.png?v=1688956748273">
-												<img class=" img-fluid" data-img="../bizweb.dktcdn.net/100/484/026/products/video-ao-khoac-the-thao-c13b2054a4cc43e4b7fb43708fc4febc-97344a5e-fa63-4b1d-916e-722ac3d4ee3a5b83.png?v=1688956748273"
-													src="../bizweb.dktcdn.net/thumb/1024x1024/100/484/026/products/video-ao-khoac-the-thao-c13b2054a4cc43e4b7fb43708fc4febc-97344a5e-fa63-4b1d-916e-722ac3d4ee3a5b83.png?v=1688956748273"
-													alt="Demo coupon nhập liệu từ metafield"
-													loading="lazy">
-											</picture>
-
-											<img loading="lazy" class="icon-button-play img-fluid" src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-button-playc5aa.png?1738827047187" alt="video-play-button" />
-
-										</a>
-									</div>
-									<div class="item" data-img="../bizweb.dktcdn.net/100/484/026/products/image-123-353858c6d5f445df92cf4eff6beb63a4-ea3500ac-f57d-4e6b-8aeb-9b70f9787a485b83.png?v=1688956748273">
-										<a href="javascript:void(0)" data-zoom-image="../bizweb.dktcdn.net/thumb/1024x1024/100/484/026/products/image-123-353858c6d5f445df92cf4eff6beb63a4-ea3500ac-f57d-4e6b-8aeb-9b70f9787a485b83.png?v=1688956748273">
-											<img class=" img-fluid" data-img="../bizweb.dktcdn.net/100/484/026/products/image-123-353858c6d5f445df92cf4eff6beb63a4-ea3500ac-f57d-4e6b-8aeb-9b70f9787a485b83.png?v=1688956748273"
-												src="../bizweb.dktcdn.net/thumb/medium/100/484/026/products/image-123-353858c6d5f445df92cf4eff6beb63a4-ea3500ac-f57d-4e6b-8aeb-9b70f9787a485b83.png?v=1688956748273"
-												alt="Demo coupon nhập liệu từ metafield"
-												loading="lazy" />
-										</a>
-									</div>
-									<div class="item" data-img="../bizweb.dktcdn.net/100/484/026/products/image-121-a61daf68ea254871b304d295fdb81a97-ad6cb9c2-bbe5-4c3e-ae5b-08e69a4719ad5b83.png?v=1688956748273">
-										<a href="javascript:void(0)" data-zoom-image="../bizweb.dktcdn.net/thumb/1024x1024/100/484/026/products/image-121-a61daf68ea254871b304d295fdb81a97-ad6cb9c2-bbe5-4c3e-ae5b-08e69a4719ad5b83.png?v=1688956748273">
-											<img class=" img-fluid" data-img="../bizweb.dktcdn.net/100/484/026/products/image-121-a61daf68ea254871b304d295fdb81a97-ad6cb9c2-bbe5-4c3e-ae5b-08e69a4719ad5b83.png?v=1688956748273"
-												src="../bizweb.dktcdn.net/thumb/medium/100/484/026/products/image-121-a61daf68ea254871b304d295fdb81a97-ad6cb9c2-bbe5-4c3e-ae5b-08e69a4719ad5b83.png?v=1688956748273"
-												alt="Demo coupon nhập liệu từ metafield"
-												loading="lazy" />
-										</a>
-									</div>
-									<div class="item" data-img="../bizweb.dktcdn.net/100/484/026/products/image-119-f3e267a23e34442992df0a42c19b4f8d-f5416a47-fe73-4b6d-a8d1-1927ef94ef005b83.png?v=1688956748273">
-										<a href="javascript:void(0)" data-zoom-image="../bizweb.dktcdn.net/thumb/1024x1024/100/484/026/products/image-119-f3e267a23e34442992df0a42c19b4f8d-f5416a47-fe73-4b6d-a8d1-1927ef94ef005b83.png?v=1688956748273">
-											<img class=" img-fluid" data-img="../bizweb.dktcdn.net/100/484/026/products/image-119-f3e267a23e34442992df0a42c19b4f8d-f5416a47-fe73-4b6d-a8d1-1927ef94ef005b83.png?v=1688956748273"
-												src="../bizweb.dktcdn.net/thumb/medium/100/484/026/products/image-119-f3e267a23e34442992df0a42c19b4f8d-f5416a47-fe73-4b6d-a8d1-1927ef94ef005b83.png?v=1688956748273"
-												alt="Demo coupon nhập liệu từ metafield"
-												loading="lazy" />
-										</a>
-									</div>
-									<div class="item" data-img="../bizweb.dktcdn.net/100/484/026/products/image-118-f6e15e76379f4f08a4b5caded4301562-33b417c9-a700-4861-9a40-88f3651b31605b83.png?v=1688956748273">
-										<a href="javascript:void(0)" data-zoom-image="../bizweb.dktcdn.net/thumb/1024x1024/100/484/026/products/image-118-f6e15e76379f4f08a4b5caded4301562-33b417c9-a700-4861-9a40-88f3651b31605b83.png?v=1688956748273">
-											<img class=" img-fluid" data-img="../bizweb.dktcdn.net/100/484/026/products/image-118-f6e15e76379f4f08a4b5caded4301562-33b417c9-a700-4861-9a40-88f3651b31605b83.png?v=1688956748273"
-												src="../bizweb.dktcdn.net/thumb/medium/100/484/026/products/image-118-f6e15e76379f4f08a4b5caded4301562-33b417c9-a700-4861-9a40-88f3651b31605b83.png?v=1688956748273"
-												alt="Demo coupon nhập liệu từ metafield"
-												loading="lazy" />
-										</a>
-									</div>
-									<div class="item" data-img="../bizweb.dktcdn.net/100/484/026/products/image-116-4d9290f7d5f64958a7959bc2828b3575-0da811df-563a-4a34-9354-269857d9ff845b83.png?v=1688956748273">
-										<a href="javascript:void(0)" data-zoom-image="../bizweb.dktcdn.net/thumb/1024x1024/100/484/026/products/image-116-4d9290f7d5f64958a7959bc2828b3575-0da811df-563a-4a34-9354-269857d9ff845b83.png?v=1688956748273">
-											<img class=" img-fluid" data-img="../bizweb.dktcdn.net/100/484/026/products/image-116-4d9290f7d5f64958a7959bc2828b3575-0da811df-563a-4a34-9354-269857d9ff845b83.png?v=1688956748273"
-												src="../bizweb.dktcdn.net/thumb/medium/100/484/026/products/image-116-4d9290f7d5f64958a7959bc2828b3575-0da811df-563a-4a34-9354-269857d9ff845b83.png?v=1688956748273"
-												alt="Demo coupon nhập liệu từ metafield"
-												loading="lazy" />
-										</a>
-									</div>
-									<div class="item" data-img="../bizweb.dktcdn.net/100/484/026/products/image-115-8c295f79b690410a8f1bb72e3821c2ea-a1831924-aea3-4845-9653-6f534439e2285b83.png?v=1688956748273">
-										<a href="javascript:void(0)" data-zoom-image="../bizweb.dktcdn.net/thumb/1024x1024/100/484/026/products/image-115-8c295f79b690410a8f1bb72e3821c2ea-a1831924-aea3-4845-9653-6f534439e2285b83.png?v=1688956748273">
-											<img class=" img-fluid" data-img="../bizweb.dktcdn.net/100/484/026/products/image-115-8c295f79b690410a8f1bb72e3821c2ea-a1831924-aea3-4845-9653-6f534439e2285b83.png?v=1688956748273"
-												src="../bizweb.dktcdn.net/thumb/medium/100/484/026/products/image-115-8c295f79b690410a8f1bb72e3821c2ea-a1831924-aea3-4845-9653-6f534439e2285b83.png?v=1688956748273"
-												alt="Demo coupon nhập liệu từ metafield"
-												loading="lazy" />
-										</a>
-									</div>
-									<div class="item" data-img="../bizweb.dktcdn.net/100/484/026/products/image-114-9bf71f0ab30f449cb67f0eba40627f42-cbc665a8-6149-4c6e-9fa6-698a9e38c0a25b83.png?v=1688956748273">
-										<a href="javascript:void(0)" data-zoom-image="../bizweb.dktcdn.net/thumb/1024x1024/100/484/026/products/image-114-9bf71f0ab30f449cb67f0eba40627f42-cbc665a8-6149-4c6e-9fa6-698a9e38c0a25b83.png?v=1688956748273">
-											<img class=" img-fluid" data-img="../bizweb.dktcdn.net/100/484/026/products/image-114-9bf71f0ab30f449cb67f0eba40627f42-cbc665a8-6149-4c6e-9fa6-698a9e38c0a25b83.png?v=1688956748273"
-												src="../bizweb.dktcdn.net/thumb/medium/100/484/026/products/image-114-9bf71f0ab30f449cb67f0eba40627f42-cbc665a8-6149-4c6e-9fa6-698a9e38c0a25b83.png?v=1688956748273"
-												alt="Demo coupon nhập liệu từ metafield"
-												loading="lazy" />
-										</a>
-									</div>
-
-								</div>
-
-							</div>
-
-							<div class="pt-0
-													col_large_default 
-													large-image">
-
-								<div id="gallery_1" class="slider-for">
-									<div class="item" data-src="https://bizweb.dktcdn.net/100/484/026/products/image-117-1b8f1563fff94a0a88fd1fd67545cf63-01294df9-ad0b-44c9-919a-259ca1840e30.png?v=1688956748273" data-img="../bizweb.dktcdn.net/100/484/026/products/image-117-1b8f1563fff94a0a88fd1fd67545cf63-01294df9-ad0b-44c9-919a-259ca1840e305b83.png?v=1688956748273">
-										<a class="d-block pos-relative embed-responsive  embed-responsive-3by4"
-											href="../bizweb.dktcdn.net/100/484/026/products/image-117-1b8f1563fff94a0a88fd1fd67545cf63-01294df9-ad0b-44c9-919a-259ca1840e305b83.png?v=1688956748273" title="Demo coupon nhập liệu từ metafield" data-image="https://bizweb.dktcdn.net/100/484/026/products/image-117-1b8f1563fff94a0a88fd1fd67545cf63-01294df9-ad0b-44c9-919a-259ca1840e30.png?v=1688956748273" data-zoom-image="https://bizweb.dktcdn.net/100/484/026/products/image-117-1b8f1563fff94a0a88fd1fd67545cf63-01294df9-ad0b-44c9-919a-259ca1840e30.png?v=1688956748273" data-rel="prettyPhoto[product-gallery]">
-											<picture>
-												<source media="(max-width: 991px)" srcset="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-117-1b8f1563fff94a0a88fd1fd67545cf63-01294df9-ad0b-44c9-919a-259ca1840e305b83.png?v=1688956748273">
-
-												<img class=" img-fluid" style="--image-scale: 1;"
-													data-img="https://bizweb.dktcdn.net/100/484/026/products/image-117-1b8f1563fff94a0a88fd1fd67545cf63-01294df9-ad0b-44c9-919a-259ca1840e30.png?v=1688956748273" src="../bizweb.dktcdn.net/thumb/1024x1024/100/484/026/products/image-117-1b8f1563fff94a0a88fd1fd67545cf63-01294df9-ad0b-44c9-919a-259ca1840e305b83.png?v=1688956748273"
-													alt="Demo coupon nhập liệu từ metafield"
-													width="600"
-													height="600"
-													data-src="../bizweb.dktcdn.net/100/484/026/products/image-117-1b8f1563fff94a0a88fd1fd67545cf63-01294df9-ad0b-44c9-919a-259ca1840e305b83.png?v=1688956748273">
-											</picture>
-										</a>
-									</div>
-									<div class="item video-item" data-src="https://www.youtube.com/watch?v=DplyADn9K2Q?width=800&amp;height=450&amp;autoplay=1">
-										<a class="d-block pos-relative embed-responsive embed-responsive-3by4"
-
-											href="https://www.youtube.com/watch?v=DplyADn9K2Q?width=800&amp;height=450&amp;autoplay=1" title="Demo coupon nhập liệu từ metafield" data-rel="prettyPhoto[product-gallery]">
-											<picture>
-												<source media="(max-width: 480px)" srcset="../bizweb.dktcdn.net/thumb/large/100/484/026/products/video-ao-khoac-the-thao-c13b2054a4cc43e4b7fb43708fc4febc-97344a5e-fa63-4b1d-916e-722ac3d4ee3a5b83.png?v=1688956748273">
-												<img class=" img-fluid" data-img="../bizweb.dktcdn.net/100/484/026/products/video-ao-khoac-the-thao-c13b2054a4cc43e4b7fb43708fc4febc-97344a5e-fa63-4b1d-916e-722ac3d4ee3a5b83.png?v=1688956748273"
-													src="../bizweb.dktcdn.net/thumb/1024x1024/100/484/026/products/video-ao-khoac-the-thao-c13b2054a4cc43e4b7fb43708fc4febc-97344a5e-fa63-4b1d-916e-722ac3d4ee3a5b83.png?v=1688956748273"
-													alt="Demo coupon nhập liệu từ metafield"
-													loading="lazy">
-											</picture>
-
-											<img loading="lazy" class="icon-button-play img-fluid" src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-button-playc5aa.png?1738827047187" alt="video-play-button" />
-
-										</a>
-									</div>
-									<div class="item" data-src="https://bizweb.dktcdn.net/100/484/026/products/image-123-353858c6d5f445df92cf4eff6beb63a4-ea3500ac-f57d-4e6b-8aeb-9b70f9787a48.png?v=1688956748273" data-img="../bizweb.dktcdn.net/100/484/026/products/image-123-353858c6d5f445df92cf4eff6beb63a4-ea3500ac-f57d-4e6b-8aeb-9b70f9787a485b83.png?v=1688956748273">
-										<a class="d-block pos-relative embed-responsive  embed-responsive-3by4"
-											href="../bizweb.dktcdn.net/100/484/026/products/image-123-353858c6d5f445df92cf4eff6beb63a4-ea3500ac-f57d-4e6b-8aeb-9b70f9787a485b83.png?v=1688956748273" title="Demo coupon nhập liệu từ metafield" data-image="https://bizweb.dktcdn.net/100/484/026/products/image-123-353858c6d5f445df92cf4eff6beb63a4-ea3500ac-f57d-4e6b-8aeb-9b70f9787a48.png?v=1688956748273" data-zoom-image="https://bizweb.dktcdn.net/100/484/026/products/image-123-353858c6d5f445df92cf4eff6beb63a4-ea3500ac-f57d-4e6b-8aeb-9b70f9787a48.png?v=1688956748273" data-rel="prettyPhoto[product-gallery]">
-											<picture>
-												<source media="(max-width: 991px)" srcset="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-123-353858c6d5f445df92cf4eff6beb63a4-ea3500ac-f57d-4e6b-8aeb-9b70f9787a485b83.png?v=1688956748273">
-
-												<img class=" img-fluid" style="--image-scale: 1; "
-													data-img="https://bizweb.dktcdn.net/100/484/026/products/image-123-353858c6d5f445df92cf4eff6beb63a4-ea3500ac-f57d-4e6b-8aeb-9b70f9787a48.png?v=1688956748273" src="../bizweb.dktcdn.net/thumb/1024x1024/100/484/026/products/image-123-353858c6d5f445df92cf4eff6beb63a4-ea3500ac-f57d-4e6b-8aeb-9b70f9787a485b83.png?v=1688956748273"
-													alt="Demo coupon nhập liệu từ metafield"
-													loading="lazy"
-													width="600"
-													height="600">
-											</picture>
-										</a>
-									</div>
-									<div class="item" data-src="https://bizweb.dktcdn.net/100/484/026/products/image-121-a61daf68ea254871b304d295fdb81a97-ad6cb9c2-bbe5-4c3e-ae5b-08e69a4719ad.png?v=1688956748273" data-img="../bizweb.dktcdn.net/100/484/026/products/image-121-a61daf68ea254871b304d295fdb81a97-ad6cb9c2-bbe5-4c3e-ae5b-08e69a4719ad5b83.png?v=1688956748273">
-										<a class="d-block pos-relative embed-responsive  embed-responsive-3by4"
-											href="../bizweb.dktcdn.net/100/484/026/products/image-121-a61daf68ea254871b304d295fdb81a97-ad6cb9c2-bbe5-4c3e-ae5b-08e69a4719ad5b83.png?v=1688956748273" title="Demo coupon nhập liệu từ metafield" data-image="https://bizweb.dktcdn.net/100/484/026/products/image-121-a61daf68ea254871b304d295fdb81a97-ad6cb9c2-bbe5-4c3e-ae5b-08e69a4719ad.png?v=1688956748273" data-zoom-image="https://bizweb.dktcdn.net/100/484/026/products/image-121-a61daf68ea254871b304d295fdb81a97-ad6cb9c2-bbe5-4c3e-ae5b-08e69a4719ad.png?v=1688956748273" data-rel="prettyPhoto[product-gallery]">
-											<picture>
-												<source media="(max-width: 991px)" srcset="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-121-a61daf68ea254871b304d295fdb81a97-ad6cb9c2-bbe5-4c3e-ae5b-08e69a4719ad5b83.png?v=1688956748273">
-
-												<img class=" img-fluid" style="--image-scale: 1; "
-													data-img="https://bizweb.dktcdn.net/100/484/026/products/image-121-a61daf68ea254871b304d295fdb81a97-ad6cb9c2-bbe5-4c3e-ae5b-08e69a4719ad.png?v=1688956748273" src="../bizweb.dktcdn.net/thumb/1024x1024/100/484/026/products/image-121-a61daf68ea254871b304d295fdb81a97-ad6cb9c2-bbe5-4c3e-ae5b-08e69a4719ad5b83.png?v=1688956748273"
-													alt="Demo coupon nhập liệu từ metafield"
-													loading="lazy"
-													width="600"
-													height="600">
-											</picture>
-										</a>
-									</div>
-									<div class="item" data-src="https://bizweb.dktcdn.net/100/484/026/products/image-119-f3e267a23e34442992df0a42c19b4f8d-f5416a47-fe73-4b6d-a8d1-1927ef94ef00.png?v=1688956748273" data-img="../bizweb.dktcdn.net/100/484/026/products/image-119-f3e267a23e34442992df0a42c19b4f8d-f5416a47-fe73-4b6d-a8d1-1927ef94ef005b83.png?v=1688956748273">
-										<a class="d-block pos-relative embed-responsive  embed-responsive-3by4"
-											href="../bizweb.dktcdn.net/100/484/026/products/image-119-f3e267a23e34442992df0a42c19b4f8d-f5416a47-fe73-4b6d-a8d1-1927ef94ef005b83.png?v=1688956748273" title="Demo coupon nhập liệu từ metafield" data-image="https://bizweb.dktcdn.net/100/484/026/products/image-119-f3e267a23e34442992df0a42c19b4f8d-f5416a47-fe73-4b6d-a8d1-1927ef94ef00.png?v=1688956748273" data-zoom-image="https://bizweb.dktcdn.net/100/484/026/products/image-119-f3e267a23e34442992df0a42c19b4f8d-f5416a47-fe73-4b6d-a8d1-1927ef94ef00.png?v=1688956748273" data-rel="prettyPhoto[product-gallery]">
-											<picture>
-												<source media="(max-width: 991px)" srcset="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-119-f3e267a23e34442992df0a42c19b4f8d-f5416a47-fe73-4b6d-a8d1-1927ef94ef005b83.png?v=1688956748273">
-
-												<img class=" img-fluid" style="--image-scale: 1; "
-													data-img="https://bizweb.dktcdn.net/100/484/026/products/image-119-f3e267a23e34442992df0a42c19b4f8d-f5416a47-fe73-4b6d-a8d1-1927ef94ef00.png?v=1688956748273" src="../bizweb.dktcdn.net/thumb/1024x1024/100/484/026/products/image-119-f3e267a23e34442992df0a42c19b4f8d-f5416a47-fe73-4b6d-a8d1-1927ef94ef005b83.png?v=1688956748273"
-													alt="Demo coupon nhập liệu từ metafield"
-													loading="lazy"
-													width="600"
-													height="600">
-											</picture>
-										</a>
-									</div>
-									<div class="item" data-src="https://bizweb.dktcdn.net/100/484/026/products/image-118-f6e15e76379f4f08a4b5caded4301562-33b417c9-a700-4861-9a40-88f3651b3160.png?v=1688956748273" data-img="../bizweb.dktcdn.net/100/484/026/products/image-118-f6e15e76379f4f08a4b5caded4301562-33b417c9-a700-4861-9a40-88f3651b31605b83.png?v=1688956748273">
-										<a class="d-block pos-relative embed-responsive  embed-responsive-3by4"
-											href="../bizweb.dktcdn.net/100/484/026/products/image-118-f6e15e76379f4f08a4b5caded4301562-33b417c9-a700-4861-9a40-88f3651b31605b83.png?v=1688956748273" title="Demo coupon nhập liệu từ metafield" data-image="https://bizweb.dktcdn.net/100/484/026/products/image-118-f6e15e76379f4f08a4b5caded4301562-33b417c9-a700-4861-9a40-88f3651b3160.png?v=1688956748273" data-zoom-image="https://bizweb.dktcdn.net/100/484/026/products/image-118-f6e15e76379f4f08a4b5caded4301562-33b417c9-a700-4861-9a40-88f3651b3160.png?v=1688956748273" data-rel="prettyPhoto[product-gallery]">
-											<picture>
-												<source media="(max-width: 991px)" srcset="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-118-f6e15e76379f4f08a4b5caded4301562-33b417c9-a700-4861-9a40-88f3651b31605b83.png?v=1688956748273">
-
-												<img class=" img-fluid" style="--image-scale: 1; "
-													data-img="https://bizweb.dktcdn.net/100/484/026/products/image-118-f6e15e76379f4f08a4b5caded4301562-33b417c9-a700-4861-9a40-88f3651b3160.png?v=1688956748273" src="../bizweb.dktcdn.net/thumb/1024x1024/100/484/026/products/image-118-f6e15e76379f4f08a4b5caded4301562-33b417c9-a700-4861-9a40-88f3651b31605b83.png?v=1688956748273"
-													alt="Demo coupon nhập liệu từ metafield"
-													loading="lazy"
-													width="600"
-													height="600">
-											</picture>
-										</a>
-									</div>
-									<div class="item" data-src="https://bizweb.dktcdn.net/100/484/026/products/image-116-4d9290f7d5f64958a7959bc2828b3575-0da811df-563a-4a34-9354-269857d9ff84.png?v=1688956748273" data-img="../bizweb.dktcdn.net/100/484/026/products/image-116-4d9290f7d5f64958a7959bc2828b3575-0da811df-563a-4a34-9354-269857d9ff845b83.png?v=1688956748273">
-										<a class="d-block pos-relative embed-responsive  embed-responsive-3by4"
-											href="../bizweb.dktcdn.net/100/484/026/products/image-116-4d9290f7d5f64958a7959bc2828b3575-0da811df-563a-4a34-9354-269857d9ff845b83.png?v=1688956748273" title="Demo coupon nhập liệu từ metafield" data-image="https://bizweb.dktcdn.net/100/484/026/products/image-116-4d9290f7d5f64958a7959bc2828b3575-0da811df-563a-4a34-9354-269857d9ff84.png?v=1688956748273" data-zoom-image="https://bizweb.dktcdn.net/100/484/026/products/image-116-4d9290f7d5f64958a7959bc2828b3575-0da811df-563a-4a34-9354-269857d9ff84.png?v=1688956748273" data-rel="prettyPhoto[product-gallery]">
-											<picture>
-												<source media="(max-width: 991px)" srcset="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-116-4d9290f7d5f64958a7959bc2828b3575-0da811df-563a-4a34-9354-269857d9ff845b83.png?v=1688956748273">
-
-												<img class=" img-fluid" style="--image-scale: 1; "
-													data-img="https://bizweb.dktcdn.net/100/484/026/products/image-116-4d9290f7d5f64958a7959bc2828b3575-0da811df-563a-4a34-9354-269857d9ff84.png?v=1688956748273" src="../bizweb.dktcdn.net/thumb/1024x1024/100/484/026/products/image-116-4d9290f7d5f64958a7959bc2828b3575-0da811df-563a-4a34-9354-269857d9ff845b83.png?v=1688956748273"
-													alt="Demo coupon nhập liệu từ metafield"
-													loading="lazy"
-													width="600"
-													height="600">
-											</picture>
-										</a>
-									</div>
-									<div class="item" data-src="https://bizweb.dktcdn.net/100/484/026/products/image-115-8c295f79b690410a8f1bb72e3821c2ea-a1831924-aea3-4845-9653-6f534439e228.png?v=1688956748273" data-img="../bizweb.dktcdn.net/100/484/026/products/image-115-8c295f79b690410a8f1bb72e3821c2ea-a1831924-aea3-4845-9653-6f534439e2285b83.png?v=1688956748273">
-										<a class="d-block pos-relative embed-responsive  embed-responsive-3by4"
-											href="../bizweb.dktcdn.net/100/484/026/products/image-115-8c295f79b690410a8f1bb72e3821c2ea-a1831924-aea3-4845-9653-6f534439e2285b83.png?v=1688956748273" title="Demo coupon nhập liệu từ metafield" data-image="https://bizweb.dktcdn.net/100/484/026/products/image-115-8c295f79b690410a8f1bb72e3821c2ea-a1831924-aea3-4845-9653-6f534439e228.png?v=1688956748273" data-zoom-image="https://bizweb.dktcdn.net/100/484/026/products/image-115-8c295f79b690410a8f1bb72e3821c2ea-a1831924-aea3-4845-9653-6f534439e228.png?v=1688956748273" data-rel="prettyPhoto[product-gallery]">
-											<picture>
-												<source media="(max-width: 991px)" srcset="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-115-8c295f79b690410a8f1bb72e3821c2ea-a1831924-aea3-4845-9653-6f534439e2285b83.png?v=1688956748273">
-
-												<img class=" img-fluid" style="--image-scale: 1; "
-													data-img="https://bizweb.dktcdn.net/100/484/026/products/image-115-8c295f79b690410a8f1bb72e3821c2ea-a1831924-aea3-4845-9653-6f534439e228.png?v=1688956748273" src="../bizweb.dktcdn.net/thumb/1024x1024/100/484/026/products/image-115-8c295f79b690410a8f1bb72e3821c2ea-a1831924-aea3-4845-9653-6f534439e2285b83.png?v=1688956748273"
-													alt="Demo coupon nhập liệu từ metafield"
-													loading="lazy"
-													width="600"
-													height="600">
-											</picture>
-										</a>
-									</div>
-									<div class="item" data-src="https://bizweb.dktcdn.net/100/484/026/products/image-114-9bf71f0ab30f449cb67f0eba40627f42-cbc665a8-6149-4c6e-9fa6-698a9e38c0a2.png?v=1688956748273" data-img="../bizweb.dktcdn.net/100/484/026/products/image-114-9bf71f0ab30f449cb67f0eba40627f42-cbc665a8-6149-4c6e-9fa6-698a9e38c0a25b83.png?v=1688956748273">
-										<a class="d-block pos-relative embed-responsive  embed-responsive-3by4"
-											href="../bizweb.dktcdn.net/100/484/026/products/image-114-9bf71f0ab30f449cb67f0eba40627f42-cbc665a8-6149-4c6e-9fa6-698a9e38c0a25b83.png?v=1688956748273" title="Demo coupon nhập liệu từ metafield" data-image="https://bizweb.dktcdn.net/100/484/026/products/image-114-9bf71f0ab30f449cb67f0eba40627f42-cbc665a8-6149-4c6e-9fa6-698a9e38c0a2.png?v=1688956748273" data-zoom-image="https://bizweb.dktcdn.net/100/484/026/products/image-114-9bf71f0ab30f449cb67f0eba40627f42-cbc665a8-6149-4c6e-9fa6-698a9e38c0a2.png?v=1688956748273" data-rel="prettyPhoto[product-gallery]">
-											<picture>
-												<source media="(max-width: 991px)" srcset="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-114-9bf71f0ab30f449cb67f0eba40627f42-cbc665a8-6149-4c6e-9fa6-698a9e38c0a25b83.png?v=1688956748273">
-
-												<img class=" img-fluid" style="--image-scale: 1; "
-													data-img="https://bizweb.dktcdn.net/100/484/026/products/image-114-9bf71f0ab30f449cb67f0eba40627f42-cbc665a8-6149-4c6e-9fa6-698a9e38c0a2.png?v=1688956748273" src="../bizweb.dktcdn.net/thumb/1024x1024/100/484/026/products/image-114-9bf71f0ab30f449cb67f0eba40627f42-cbc665a8-6149-4c6e-9fa6-698a9e38c0a25b83.png?v=1688956748273"
-													alt="Demo coupon nhập liệu từ metafield"
-													loading="lazy"
-													width="600"
-													height="600">
-											</picture>
-										</a>
-									</div>
-
-								</div>
+						<!-- <div class="product-detail-left product-images bg-white py-3 col-12 col-lg-6 overflow-hidden thumbs-on-mobile--show">
 
 
+    <div class="section slickthumb_relative_product_1">
+        <div id="gallery_02" class="slider-nav slickproduct thumb_product_details">
+            @foreach($products->images as $image)
+                <div class="item" data-img="{{ asset('storage/product_images/'.$image->path) }}">
+                    <a href="javascript:void(0)" data-zoom-image="{{ asset('storage/product_images/'.$image->path) }}">
+                        <img class="img-fluid"
+                             data-img="{{ asset('storage/product_images/'.$image->path) }}"
+                             src="{{ asset('storage/product_images/'.$image->path) }}"
+                             alt="Demo coupon nhập liệu từ metafield"
+                             loading="lazy" />
+                    </a>
+                </div>
+            @endforeach
+        </div>
+    </div>
 
-								<div class='share-group d-flex justify-content-center align-items-center mt-3'>
-									<strong class='share-group__heading mr-3'>Chia sẻ</strong>
-									<div class='share-group__list'>
-										<a class='share-group__item facebook' target="_blank" href='http://www.facebook.com/sharer.php?u=https://ega-sportswear.mysapo.net/san-pham-demo-coupon-nhap-lieu-tu-metafield'>
-											<i class="fab fa-facebook-f"></i>
-										</a>
-										<a class='share-group__item messenger d-lg-none' target="_blank" href='fb-messenger_/share/indexc503.html?link=https://ega-sportswear.mysapo.net/san-pham-demo-coupon-nhap-lieu-tu-metafield'>
-											<i class="fab fa-facebook-messenger"></i>
-										</a>
-										<a class='share-group__item pinterest' target="_blank" href='http://pinterest.com/pin/create/button/?url=https://ega-sportswear.mysapo.net/san-pham-demo-coupon-nhap-lieu-tu-metafield'>
-											<i class="fab fa-pinterest-p"></i>
-										</a>
-										<a class='share-group__item twitter' target="_blank" href='http://twitter.com/share?text=https://ega-sportswear.mysapo.net/san-pham-demo-coupon-nhap-lieu-tu-metafield'>
-											<i class="fab fa-twitter"></i>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
+
+    <div class="pt-0 col_large_default large-image">
+        <div id="gallery_1" class="slider-for">
+            @foreach($products->images as $image)
+                <div class="item"
+                     data-src="{{ asset('storage/product_images/'.$image->path) }}"
+                     data-img="{{ asset('storage/product_images/'.$image->path) }}">
+                    <a class="d-block pos-relative embed-responsive embed-responsive-3by4"
+                       href="{{ asset('storage/product_images/'.$image->path) }}"
+                       title="Demo coupon nhập liệu từ metafield"
+                       data-image="{{ asset('storage/product_images/'.$image->path) }}"
+                       data-zoom-image="{{ asset('storage/product_images/'.$image->path) }}"
+                       data-rel="prettyPhoto[product-gallery]">
+                        <picture>
+                            <source media="(max-width: 991px)"
+                                    srcset="{{ asset('storage/product_images/'.$image->path) }}">
+                            <img class="img-fluid"
+                                 style="--image-scale: 1;"
+                                 data-img="{{ asset('storage/product_images/'.$image->path) }}"
+                                 src="{{ asset('storage/product_images/'.$image->path) }}"
+                                 alt="Demo coupon nhập liệu từ metafield"
+                                 width="600"
+                                 height="600">
+                        </picture>
+                    </a>
+                </div>
+            @endforeach
+        </div>
+    </div>
+
+</div> -->
+<div class="product-detail-left product-images bg-white py-3 col-12 col-lg-6 overflow-hidden thumbs-on-mobile--show">
+    <div class="container mt-5">
+        <div class="image-container">
+            <!-- Carousel thu nhỏ nằm bên trái và cuộn dọc -->
+            <div class="carousel-thumbnails">
+                @php $index = 0; @endphp  <!-- Biến index để theo dõi chỉ số -->
+                @foreach($products->variants as $variant)
+                    @foreach($variant->images as $image)
+                        <img
+                            src="{{ asset('storage/product_images/'.$image->path) }}"
+                            class="{{ $index == 0 ? 'active' : '' }}"
+                            data-target="#productCarousel"
+                            data-slide-to="{{ $index }}"  
+                            alt="{{ $image->id }}" />
+                        @php $index++; @endphp  <!-- Tăng chỉ số sau mỗi ảnh -->
+                    @endforeach
+                @endforeach
+            </div>
+
+            <!-- Carousel lớn nằm bên phải -->
+            <div id="productCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    @php $index = 0; @endphp  <!-- Biến index để theo dõi chỉ số ảnh trong carousel -->
+                    @foreach($products->variants as $variant)
+                        @foreach($variant->images as $image)
+                            <div class="carousel-item {{ $index == 0 ? 'active' : '' }}">
+                                <img src="{{ asset('storage/product_images/'.$image->path) }}" class="d-block w-100" alt="{{ $image->id }}" />
+                            </div>
+                            @php $index++; @endphp  <!-- Tăng chỉ số ảnh trong carousel -->
+                        @endforeach
+                    @endforeach
+                </div>
+
+                <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 						<div class="col-xs-12 col-lg-6 details-pro bg-white py-3 mt-3 mt-lg-0 px-3">
 							<div class='d-flex justify-content-between'>
 								<h1 class="title-product">{{ $products->title }}</h1>
@@ -678,7 +565,6 @@ Kích thước của áo khoác thể thao cũng rất đa dạng để phù h�
 																		<div class="coupon-desc--head">GIẢM 40%</div>
 																		<div class="coupon-desc--body">
 																			<div class="coupon-desc--row">
-																				<span>Mã:</span>
 																				<div>
 																					<span>GIAM40</span>
 																					<div class="coupon-copy-code coupon_copy copied type--icon" data-ega-coupon="GIAM40">
@@ -776,7 +662,7 @@ Kích thước của áo khoác thể thao cũng rất đa dạng để phù h�
 											@endforeach
 											@endforeach
 
-											
+
 
 										</div>
 									</div>
@@ -790,7 +676,7 @@ Kích thước của áo khoác thể thao cũng rất đa dạng để phù h�
 													<div class="custom input_number_product custom-btn-number ">
 														<button class="btn btn_num num_1 button button_qty" onClick="var result = document.getElementsByClassName('pd-qtym')[0];var stick_result = document.getElementsByClassName('pd-qtym')[1]; var qtypro = result.value; if(!isNaN( qtypro ) && qtypro > 1){result.value--;stick_result.value--;}else{return false;}" type="button">
 															<svg class="icon">
-																<use xlink:href="#icon-minus" />
+																<use xlink:href="{{ asset('#icon-minus') }}" />
 															</svg></button>
 														<input type="text" id="qtym" name="quantity" value="1" maxlength="3" class="form-control prd_quantity pd-qtym" onkeypress="if ( isNaN(this.value + String.fromCharCode(event.keyCode) )) return false;" onchange="var stick_result = document.getElementsByClassName('pd-qtym')[1];if(this.value == 0){this.value=1;}else{stick_result.value=this.value}">
 														<button class="btn btn_num num_2 button button_qty" onClick="var result = document.getElementsByClassName('pd-qtym')[0];var stick_result = document.getElementsByClassName('pd-qtym')[1]; var qtypro = result.value; if( !isNaN( qtypro )) result.value++;stick_result.value++;return false;" type="button">
@@ -1237,6 +1123,23 @@ Kích thước của áo khoác thể thao cũng rất đa dạng để phù h�
 </script>
 
 
+<script>
+    // Optional: Thêm class 'active' cho ảnh thu nhỏ khi được click
+    const thumbnails = document.querySelectorAll(".carousel-thumbnails img");
+    thumbnails.forEach((thumbnail, index) => {
+        thumbnail.addEventListener("click", () => {
+            thumbnails.forEach((img) => img.classList.remove("active"));
+            thumbnail.classList.add("active");
+
+            // Cập nhật ảnh lớn
+            const targetIndex = thumbnail.getAttribute('data-slide-to');
+            const carousel = document.querySelector("#productCarousel");
+            const carouselItems = carousel.querySelectorAll(".carousel-item");
+            carouselItems.forEach((item) => item.classList.remove("active"));
+            carouselItems[targetIndex].classList.add("active");
+        });
+    });
+</script>
 
 
 @endsection

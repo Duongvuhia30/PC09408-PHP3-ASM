@@ -1,562 +1,433 @@
 @extends('layout.master')
+
 @section('content')
 
 <section class="section awe-section-1">
-			<div class="section_slider clearfix">
-				<div class>
+	<div class="section_slider clearfix">
+		<div class>
 
-					<div class="home-slider btn-slide--new">
+			<div class="home-slider btn-slide--new">
 
-						<div class="items text-center" data-color="#d1e3f2">
-							<a href="collections/all.html" title="Slider 1">
-								<picture>
-									<source media="(max-width: 480px)"
-										srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/slider_1.jpg?1738827047187">
-									<img class=" img-fluid mx-auto"
-										decoding="async"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/slider_1c5aa.jpg?1738827047187"
-										width="1920"
-										height="775"
-										alt="Slider 1" />
-								</picture>
-							</a>
-						</div>
-
-						<div class="items text-center" data-color="#e9e6e7">
-							<a href="collections/all.html" title="Slider 2">
-								<picture>
-									<source media="(max-width: 480px)"
-										srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/slider_2.jpg?1738827047187">
-									<img class=" img-fluid mx-auto"
-										loading="lazy"
-										decoding="async"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/slider_2c5aa.jpg?1738827047187"
-										width="1920"
-										height="775"
-										alt="Slider 2" />
-								</picture>
-							</a>
-						</div>
-
-					</div>
-
+				<div class="items text-center" data-color="#d1e3f2">
+					<a href="collections/all.html" title="Slider 1">
+						<picture>
+							<source media="(max-width: 480px)"
+								srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/slider_1.jpg?1738827047187">
+							<img class=" img-fluid mx-auto"
+								decoding="async"
+								src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/slider_1c5aa.jpg?1738827047187"
+								width="1920"
+								height="775"
+								alt="Slider 1" />
+						</picture>
+					</a>
 				</div>
+
+				<div class="items text-center" data-color="#e9e6e7">
+					<a href="collections/all.html" title="Slider 2">
+						<picture>
+							<source media="(max-width: 480px)"
+								srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/slider_2.jpg?1738827047187">
+							<img class=" img-fluid mx-auto"
+								loading="lazy"
+								decoding="async"
+								src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/slider_2c5aa.jpg?1738827047187"
+								width="1920"
+								height="775"
+								alt="Slider 2" />
+						</picture>
+					</a>
+				</div>
+
 			</div>
-		</section>
 
-		<section class="section awe-section-2">
-			<div class="ega-policies">
-				<div class="container">
-					<div class="policies-body">
+		</div>
+	</div>
+</section>
 
-						<div class="policies-item text-center">
-							<div class="policies-image">
-								<img loading=lazy
-									src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/policies_icon_1c5aa.png?1738827047187"
-									alt="policies_icon_1.png"
-									width="40"
-									height="40"
-									class="img-fluid">
-							</div>
-							<div class="policies-info">
-								<h3 class="policies-title">Miễn phí vận chuyển</h3>
-								<div class="policies-desc">Nhận hàng trong vòng 3 ngày</div>
-							</div>
-						</div>
+<section class="section awe-section-2">
+	<div class="ega-policies">
+		<div class="container">
+			<div class="policies-body">
 
-						<div class="policies-item text-center">
-							<div class="policies-image">
-								<img loading=lazy
-									src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/policies_icon_2c5aa.png?1738827047187"
-									alt="policies_icon_2.png"
-									width="40"
-									height="40"
-									class="img-fluid">
-							</div>
-							<div class="policies-info">
-								<h3 class="policies-title">Quà tặng hấp dẫn</h3>
-								<div class="policies-desc">Nhiều ưu đãi khuyến mãi hot</div>
-							</div>
-						</div>
+				<div class="policies-item text-center">
+					<div class="policies-image">
+						<img loading=lazy
+							src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/policies_icon_1c5aa.png?1738827047187"
+							alt="policies_icon_1.png"
+							width="40"
+							height="40"
+							class="img-fluid">
+					</div>
+					<div class="policies-info">
+						<h3 class="policies-title">Miễn phí vận chuyển</h3>
+						<div class="policies-desc">Nhận hàng trong vòng 3 ngày</div>
+					</div>
+				</div>
 
-						<div class="policies-item text-center">
-							<div class="policies-image">
-								<img loading=lazy
-									src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/policies_icon_3c5aa.png?1738827047187"
-									alt="policies_icon_3.png"
-									width="40"
-									height="40"
-									class="img-fluid">
-							</div>
-							<div class="policies-info">
-								<h3 class="policies-title">Bảo đảm chất lượng</h3>
-								<div class="policies-desc">Sản phẩm đã dược kiểm định</div>
-							</div>
-						</div>
+				<div class="policies-item text-center">
+					<div class="policies-image">
+						<img loading=lazy
+							src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/policies_icon_2c5aa.png?1738827047187"
+							alt="policies_icon_2.png"
+							width="40"
+							height="40"
+							class="img-fluid">
+					</div>
+					<div class="policies-info">
+						<h3 class="policies-title">Quà tặng hấp dẫn</h3>
+						<div class="policies-desc">Nhiều ưu đãi khuyến mãi hot</div>
+					</div>
+				</div>
 
-						<div class="policies-item text-center">
-							<div class="policies-image">
-								<img loading=lazy
-									src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/policies_icon_4c5aa.png?1738827047187"
-									alt="policies_icon_4.png"
-									width="40"
-									height="40"
-									class="img-fluid">
-							</div>
-							<div class="policies-info">
-								<h3 class="policies-title">Hotline: 19001993</h3>
-								<div class="policies-desc">Dịch vụ hỗ trợ bạn 24/7</div>
-							</div>
-						</div>
+				<div class="policies-item text-center">
+					<div class="policies-image">
+						<img loading=lazy
+							src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/policies_icon_3c5aa.png?1738827047187"
+							alt="policies_icon_3.png"
+							width="40"
+							height="40"
+							class="img-fluid">
+					</div>
+					<div class="policies-info">
+						<h3 class="policies-title">Bảo đảm chất lượng</h3>
+						<div class="policies-desc">Sản phẩm đã dược kiểm định</div>
+					</div>
+				</div>
+
+				<div class="policies-item text-center">
+					<div class="policies-image">
+						<img loading=lazy
+							src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/policies_icon_4c5aa.png?1738827047187"
+							alt="policies_icon_4.png"
+							width="40"
+							height="40"
+							class="img-fluid">
+					</div>
+					<div class="policies-info">
+						<h3 class="policies-title">Hotline: 19001993</h3>
+						<div class="policies-desc">Dịch vụ hỗ trợ bạn 24/7</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+	</div>
+</section>
 
-		<section class="section awe-section-3">
-			<section class="section_ss_collection section">
-				<div class="container border-0">
-					<h2 class="heading-bar__title"></h2>
-					<div class="ss_body">
+<section class="section awe-section-20">
+
+	<section class="section_banner_slide section">
+		<div class="container card border-0">
+			<h2 class="heading-bar__title text-left">DANH MỤC SẢN PHẨM</h2>
+			<div class="banner_slide_body btn-slide--new">
+				<div class="row mx-0 hrz-scroll text-center flex-nowrap js-slider">
+					@foreach ($categories as $caterogy )
+					@foreach ($caterogy->images as $image )
+					<div class="banner_slide_item">
+						<a href="collections/all.html" title="Áo">
+							<img loading="lazy"
+								class="img-fluid m-auto object-contain "
+								src="{{ asset('storage/'.$image->path) }}"
+								width="276"
+								height="361"
+								alt="" />
+						</a>
+					</div>
+					@endforeach
+					@endforeach
+				</div>
+			</div>
+		</div>
+	</section>
+</section>
+
+<section class="section awe-section-4">
+	<link rel="preload" as='style' type="text/css"
+		href="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/couponc5aa.css?1738827047187">
+	<link rel="stylesheet"
+		href="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/couponc5aa.css?1738827047187">
+
+	<div class="section_coupons">
+		<div class="container card border-0 ">
+			<div class="row scroll justify-content-xl-center  ">
+
+				<div class="coupon-item-wrap py-2 col-lg-3 col-md-5 col-lg col-10">
+
+					<div class="coupon_item coupon--new-style ">
+
 						<div
-							class="row mx-0 hrz-scroll text-center flex-nowrap js-slider justify-content-around btn-slide--new">
+							class="coupon_icon pos-relative embed-responsive embed-responsive-1by1">
+							<a href="collections/all.html" title="/collections/all">
+								<img class="img-fluid"
+									src="../bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/coupon_1_imgc5aa.png?1738827047187"
+									alt="coupon_1_img.png"
+									loading="lazy" width="79" height="70" />
+							</a>
 
-							<div class="ss_item style2">
-								<a href="ao-nguc-the-thao.html">
-									<div class="ss_img">
-										<picture>
-											<source media="(max-width: 991px)"
-												srcset="//bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/season_coll_1_img.png?1738827047187">
-											<img loading="lazy"
-												class="img-fluid m-auto object-contain mh-100 w-auto"
-												src="../bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/season_coll_1_imgc5aa.png?1738827047187"
-												width="200"
-												height="200"
-												alt="season_coll_1_img.png" />
-										</picture>
+						</div>
+						<div class="coupon_body">
+							<div class="coupon_head coupon--has-info">
+								<h3 class="coupon_title">MIỄN PHÍ VẬN CHUYỂN</h3>
+								<div class="coupon_desc">Freeship cho đơn hàng từ 500k</div>
+								<div class="coupon-icon-info text-center" data-coupon="EGAFREESHIP">
+									<i class="fa fa-info"></i>
+									<div class="coupon-desc-info">
+										<div class="coupon-desc--head">MIỄN PHÍ VẬN CHUYỂN</div>
+										<div class="coupon-desc--body">
+											<div class="coupon-desc--row">
+												<span>Mã:</span>
+												<div>
+													<span>EGAFREESHIP</span>
+													<div class="coupon-copy-code coupon_copy copied type--icon"
+														data-ega-coupon="EGAFREESHIP">
+														<i class="far fa-copy"></i>
+													</div>
+												</div>
+											</div>
+											<div class="coupon-desc--row">
+												<span>HSD:</span>
+												<div>30/12/2024</div>
+											</div>
+											<div class="coupon-desc--row coupon-about">- Mã giảm 10% cho đơn
+												hàng có giá trị tối thiểu 2 triệu <br>
+												- Giảm tối đa 500k</div>
+										</div>
 									</div>
-									<div class="ss_info">
-										<div class="ss_name">Áo ngực thể thao</div>
-										<span class="ss_number">12 sản phẩm</span>
-										<div class="ss_seemore">
-
-											<svg class="icon">
-												<use xlink:href="#icon-arrow" />
-											</svg></div>
-									</div>
-								</a>
+									<div class="coupon_info">
+										- Mã giảm 10% cho đơn hàng có giá trị tối thiểu 2 triệu <br>
+										- Giảm tối đa 500k </div>
+								</div>
 							</div>
-							<div class="ss_item style2">
-								<a href="san-pham-noi-bat.html">
-									<div class="ss_img">
-										<picture>
-											<source media="(max-width: 991px)"
-												srcset="//bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/season_coll_2_img.png?1738827047187">
-											<img loading="lazy"
-												class="img-fluid m-auto object-contain mh-100 w-auto"
-												src="../bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/season_coll_2_imgc5aa.png?1738827047187"
-												width="200"
-												height="200"
-												alt="season_coll_2_img.png" />
-										</picture>
+							<div
+								class="d-flex align-items-center flex-wrap justify-content-between">
+								<div class="coupon-code-body">
+									<div class="coupon-code-row">
+										<span>Mã:</span> EGAFREESHIP
 									</div>
-									<div class="ss_info">
-										<div class="ss_name">Sản phẩm nổi bật</div>
-										<span class="ss_number">4 sản phẩm</span>
-										<div class="ss_seemore">
 
-											<svg class="icon">
-												<use xlink:href="#icon-arrow" />
-											</svg></div>
+									<div class="coupon-code-row">
+										<span>HSD: 30/12/2024</span>
 									</div>
-								</a>
+								</div>
+
+								<img
+									src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/outdatedc5aa.png?1738827047187"
+									alt="outdated" />
+
 							</div>
-							<div class="ss_item style2">
-								<a href="ao-khoac-the-thao-hot.html">
-									<div class="ss_img">
-										<picture>
-											<source media="(max-width: 991px)"
-												srcset="//bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/season_coll_3_img.png?1738827047187">
-											<img loading="lazy"
-												class="img-fluid m-auto object-contain mh-100 w-auto"
-												src="../bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/season_coll_3_imgc5aa.png?1738827047187"
-												width="200"
-												height="200"
-												alt="season_coll_3_img.png" />
-										</picture>
-									</div>
-									<div class="ss_info">
-										<div class="ss_name">Áo khoác thể thao</div>
-										<span class="ss_number">1 sản phẩm</span>
-										<div class="ss_seemore">
-
-											<svg class="icon">
-												<use xlink:href="#icon-arrow" />
-											</svg></div>
-									</div>
-								</a>
-							</div>
-							<div class="ss_item style2">
-								<a href="quan-legging.html">
-									<div class="ss_img">
-										<picture>
-											<source media="(max-width: 991px)"
-												srcset="//bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/season_coll_4_img.png?1738827047187">
-											<img loading="lazy"
-												class="img-fluid m-auto object-contain mh-100 w-auto"
-												src="../bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/season_coll_4_imgc5aa.png?1738827047187"
-												width="200"
-												height="200"
-												alt="season_coll_4_img.png" />
-										</picture>
-									</div>
-									<div class="ss_info">
-										<div class="ss_name">Quần legging</div>
-										<span class="ss_number">10 sản phẩm</span>
-										<div class="ss_seemore">
-
-											<svg class="icon">
-												<use xlink:href="#icon-arrow" />
-											</svg></div>
-									</div>
-								</a>
-							</div>
-							<div class="ss_item style2">
-								<a href="ao-thun-the-thao-hot.html">
-									<div class="ss_img">
-										<picture>
-											<source media="(max-width: 991px)"
-												srcset="//bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/season_coll_5_img.png?1738827047187">
-											<img loading="lazy"
-												class="img-fluid m-auto object-contain mh-100 w-auto"
-												src="../bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/season_coll_5_imgc5aa.png?1738827047187"
-												width="200"
-												height="200"
-												alt="season_coll_5_img.png" />
-										</picture>
-									</div>
-									<div class="ss_info">
-										<div class="ss_name">Áo thun thể thao</div>
-										<span class="ss_number">12 sản phẩm</span>
-										<div class="ss_seemore">
-
-											<svg class="icon">
-												<use xlink:href="#icon-arrow" />
-											</svg></div>
-									</div>
-								</a>
-							</div>
-							<div class="ss_item style2">
-								<a href="set-do-tap.html">
-									<div class="ss_img">
-										<picture>
-											<source media="(max-width: 991px)"
-												srcset="//bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/season_coll_6_img.png?1738827047187">
-											<img loading="lazy"
-												class="img-fluid m-auto object-contain mh-100 w-auto"
-												src="../bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/season_coll_6_imgc5aa.png?1738827047187"
-												width="200"
-												height="200"
-												alt="season_coll_6_img.png" />
-										</picture>
-									</div>
-									<div class="ss_info">
-										<div class="ss_name">Set đồ tập</div>
-										<span class="ss_number">19 sản phẩm</span>
-										<div class="ss_seemore">
-
-											<svg class="icon">
-												<use xlink:href="#icon-arrow" />
-											</svg></div>
-									</div>
-								</a>
-							</div>
-
 						</div>
 					</div>
 				</div>
-			</section>
-		</section>
 
-		<section class="section awe-section-4">
-			<link rel="preload" as='style' type="text/css"
-				href="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/couponc5aa.css?1738827047187">
-			<link rel="stylesheet"
-				href="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/couponc5aa.css?1738827047187">
+				<div class="coupon-item-wrap py-2 col-lg-3 col-md-5 col-lg col-10">
 
-			<div class="section_coupons">
-				<div class="container card border-0 ">
-					<div class="row scroll justify-content-xl-center  ">
+					<div class="coupon_item coupon--new-style ">
 
-						<div class="coupon-item-wrap py-2 col-lg-3 col-md-5 col-lg col-10">
+						<div
+							class="coupon_icon pos-relative embed-responsive embed-responsive-1by1">
+							<a href="collections/all.html" title="/collections/all">
+								<img class="img-fluid"
+									src="../bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/coupon_2_imgc5aa.png?1738827047187"
+									alt="coupon_2_img.png"
+									loading="lazy" width="79" height="70" />
+							</a>
 
-							<div class="coupon_item coupon--new-style ">
-
-								<div
-									class="coupon_icon pos-relative embed-responsive embed-responsive-1by1">
-									<a href="collections/all.html" title="/collections/all">
-										<img class="img-fluid"
-											src="../bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/coupon_1_imgc5aa.png?1738827047187"
-											alt="coupon_1_img.png"
-											loading="lazy" width="79" height="70" />
-									</a>
-
-								</div>
-								<div class="coupon_body">
-									<div class="coupon_head coupon--has-info">
-										<h3 class="coupon_title">MIỄN PHÍ VẬN CHUYỂN</h3>
-										<div class="coupon_desc">Freeship cho đơn hàng từ 500k</div>
-										<div class="coupon-icon-info text-center" data-coupon="EGAFREESHIP">
-											<i class="fa fa-info"></i>
-											<div class="coupon-desc-info">
-												<div class="coupon-desc--head">MIỄN PHÍ VẬN CHUYỂN</div>
-												<div class="coupon-desc--body">
-													<div class="coupon-desc--row">
-														<span>Mã:</span>
-														<div>
-															<span>EGAFREESHIP</span>
-															<div class="coupon-copy-code coupon_copy copied type--icon"
-																data-ega-coupon="EGAFREESHIP">
-																<i class="far fa-copy"></i></div>
-														</div>
-													</div>
-													<div class="coupon-desc--row">
-														<span>HSD:</span>
-														<div>30/12/2024</div>
-													</div>
-													<div class="coupon-desc--row coupon-about">- Mã giảm 10% cho đơn
-														hàng có giá trị tối thiểu 2 triệu <br>
-														- Giảm tối đa 500k</div>
-												</div>
-											</div>
-											<div class="coupon_info">
-												- Mã giảm 10% cho đơn hàng có giá trị tối thiểu 2 triệu <br>
-												- Giảm tối đa 500k </div>
-										</div>
-									</div>
-									<div
-										class="d-flex align-items-center flex-wrap justify-content-between">
-										<div class="coupon-code-body">
-											<div class="coupon-code-row">
-												<span>Mã:</span> EGAFREESHIP </div>
-
-											<div class="coupon-code-row">
-												<span>HSD: 30/12/2024</span>
-											</div>
-										</div>
-
-										<img
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/outdatedc5aa.png?1738827047187"
-											alt="outdated" />
-
-									</div>
-								</div>
-							</div>
 						</div>
-
-						<div class="coupon-item-wrap py-2 col-lg-3 col-md-5 col-lg col-10">
-
-							<div class="coupon_item coupon--new-style ">
-
-								<div
-									class="coupon_icon pos-relative embed-responsive embed-responsive-1by1">
-									<a href="collections/all.html" title="/collections/all">
-										<img class="img-fluid"
-											src="../bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/coupon_2_imgc5aa.png?1738827047187"
-											alt="coupon_2_img.png"
-											loading="lazy" width="79" height="70" />
-									</a>
-
-								</div>
-								<div class="coupon_body">
-									<div class="coupon_head coupon--has-info">
-										<h3 class="coupon_title">GIẢM 50K</h3>
-										<div class="coupon_desc">Áp dụng cho đơn hàng từ 600k</div>
-										<div class="coupon-icon-info text-center" data-coupon="GIAM50K">
-											<i class="fa fa-info"></i>
-											<div class="coupon-desc-info">
-												<div class="coupon-desc--head">GIẢM 50K</div>
-												<div class="coupon-desc--body">
-													<div class="coupon-desc--row">
-														<span>Mã:</span>
-														<div>
-															<span>GIAM50K</span>
-															<div class="coupon-copy-code coupon_copy copied type--icon"
-																data-ega-coupon="GIAM50K">
-																<i class="far fa-copy"></i></div>
-														</div>
-													</div>
-													<div class="coupon-desc--row coupon-about">- Mã giảm 15% cho đơn
-														hàng có giá trị tối thiểu 5 triệu <br />
-														- Giảm tối đa 2 triệu
+						<div class="coupon_body">
+							<div class="coupon_head coupon--has-info">
+								<h3 class="coupon_title">GIẢM 50K</h3>
+								<div class="coupon_desc">Áp dụng cho đơn hàng từ 600k</div>
+								<div class="coupon-icon-info text-center" data-coupon="GIAM50K">
+									<i class="fa fa-info"></i>
+									<div class="coupon-desc-info">
+										<div class="coupon-desc--head">GIẢM 50K</div>
+										<div class="coupon-desc--body">
+											<div class="coupon-desc--row">
+												<span>Mã:</span>
+												<div>
+													<span>GIAM50K</span>
+													<div class="coupon-copy-code coupon_copy copied type--icon"
+														data-ega-coupon="GIAM50K">
+														<i class="far fa-copy"></i>
 													</div>
 												</div>
 											</div>
-											<div class="coupon_info">
-												- Mã giảm 15% cho đơn hàng có giá trị tối thiểu 5 triệu <br />
+											<div class="coupon-desc--row coupon-about">- Mã giảm 15% cho đơn
+												hàng có giá trị tối thiểu 5 triệu <br />
 												- Giảm tối đa 2 triệu
 											</div>
 										</div>
 									</div>
-									<div
-										class="d-flex align-items-center flex-wrap justify-content-between">
-										<div class="coupon-code-body">
-											<div class="coupon-code-row">
-												<span>Mã:</span> GIAM50K </div>
-										</div>
-
-										<button type="button" class="btn btn-main btn-sm coupon_copy mb-0"
-											data-ega-coupon="GIAM50K">
-											<span>Sao chép</span>
-										</button>
-
+									<div class="coupon_info">
+										- Mã giảm 15% cho đơn hàng có giá trị tối thiểu 5 triệu <br />
+										- Giảm tối đa 2 triệu
 									</div>
 								</div>
 							</div>
-						</div>
-
-						<div class="coupon-item-wrap py-2 col-lg-3 col-md-5 col-lg col-10">
-
-							<div class="coupon_item coupon--new-style ">
-
-								<div
-									class="coupon_icon pos-relative embed-responsive embed-responsive-1by1">
-									<a href="collections/all.html" title="/collections/all">
-										<img class="img-fluid"
-											src="../bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/coupon_3_imgc5aa.png?1738827047187"
-											alt="coupon_3_img.png"
-											loading="lazy" width="79" height="70" />
-									</a>
-
-								</div>
-								<div class="coupon_body">
-									<div class="coupon_head coupon--has-info">
-										<h3 class="coupon_title">GIẢM 30%</h3>
-										<div class="coupon_desc">
-											Cho các sản phẩm trong <a
-												href="collections/set-do-tap/index.html">Set đồ tập </a></div>
-										<div class="coupon-icon-info text-center" data-coupon="GIAM30">
-											<i class="fa fa-info"></i>
-											<div class="coupon-desc-info">
-												<div class="coupon-desc--head">GIẢM 30%</div>
-												<div class="coupon-desc--body">
-													<div class="coupon-desc--row">
-														<span>Mã:</span>
-														<div>
-															<span>GIAM30</span>
-															<div class="coupon-copy-code coupon_copy copied type--icon"
-																data-ega-coupon="GIAM30">
-																<i class="far fa-copy"></i></div>
-														</div>
-													</div>
-													<div class="coupon-desc--row">
-														<span>HSD:</span>
-														<div>01/09/2023</div>
-													</div>
-													<div class="coupon-desc--row coupon-about">- Đồng giá 2 triệu cho
-														nhóm sản phẩm <a href="collections/set-do-tap/index.html">Set đồ
-															tập </a> <br />
-														- Tổng giá trị sản phẩm từ 5 triệu trở lên</div>
-												</div>
-											</div>
-											<div class="coupon_info">
-												- Đồng giá 2 triệu cho nhóm sản phẩm <a
-													href="collections/set-do-tap/index.html">Set đồ tập </a> <br />
-												- Tổng giá trị sản phẩm từ 5 triệu trở lên </div>
-										</div>
-									</div>
-									<div
-										class="d-flex align-items-center flex-wrap justify-content-between">
-										<div class="coupon-code-body">
-											<div class="coupon-code-row">
-												<span>Mã:</span> GIAM30 </div>
-
-											<div class="coupon-code-row">
-												<span>HSD: 01/09/2023</span>
-											</div>
-										</div>
-
-										<img
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/outdatedc5aa.png?1738827047187"
-											alt="outdated" />
-
+							<div
+								class="d-flex align-items-center flex-wrap justify-content-between">
+								<div class="coupon-code-body">
+									<div class="coupon-code-row">
+										<span>Mã:</span> GIAM50K
 									</div>
 								</div>
+
+								<button type="button" class="btn btn-main btn-sm coupon_copy mb-0"
+									data-ega-coupon="GIAM50K">
+									<span>Sao chép</span>
+								</button>
+
 							</div>
 						</div>
-
-						<div class="coupon-item-wrap py-2 col-lg-3 col-md-5 col-lg col-10">
-
-							<div class="coupon_item coupon--new-style ">
-
-								<div
-									class="coupon_icon pos-relative embed-responsive embed-responsive-1by1">
-									<a href="collections/all.html" title="/collections/all">
-										<img class="img-fluid"
-											src="../bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/coupon_4_imgc5aa.png?1738827047187"
-											alt="coupon_4_img.png"
-											loading="lazy" width="79" height="70" />
-									</a>
-
-								</div>
-								<div class="coupon_body">
-									<div class="coupon_head coupon--has-info">
-										<h3 class="coupon_title">GIẢM 40%</h3>
-										<div class="coupon_desc">Cho sản phẩm thứ 4 trong đơn hàng</div>
-										<div class="coupon-icon-info text-center" data-coupon="GIAM40">
-											<i class="fa fa-info"></i>
-											<div class="coupon-desc-info">
-												<div class="coupon-desc--head">GIẢM 40%</div>
-												<div class="coupon-desc--body">
-													<div class="coupon-desc--row">
-														<span>Mã:</span>
-														<div>
-															<span>GIAM40</span>
-															<div class="coupon-copy-code coupon_copy copied type--icon"
-																data-ega-coupon="GIAM40">
-																<i class="far fa-copy"></i></div>
-														</div>
-													</div>
-													<div class="coupon-desc--row">
-														<span>HSD:</span>
-														<div>20/05/2023</div>
-													</div>
-													<div class="coupon-desc--row coupon-about">- Miễn phí ship 100K cho
-														đơn hàng tối thiểu từ 1 triệu <br />
-														- Áp dụng cho tất cả tỉnh / thành phố</div>
-												</div>
-											</div>
-											<div class="coupon_info">
-												- Miễn phí ship 100K cho đơn hàng tối thiểu từ 1 triệu <br />
-												- Áp dụng cho tất cả tỉnh / thành phố </div>
-										</div>
-									</div>
-									<div
-										class="d-flex align-items-center flex-wrap justify-content-between">
-										<div class="coupon-code-body">
-											<div class="coupon-code-row">
-												<span>Mã:</span> GIAM40 </div>
-
-											<div class="coupon-code-row">
-												<span>HSD: 20/05/2023</span>
-											</div>
-										</div>
-
-										<img
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/outdatedc5aa.png?1738827047187"
-											alt="outdated" />
-
-									</div>
-								</div>
-							</div>
-						</div>
-
 					</div>
 				</div>
-			</div>
 
-			<script type="text/x-custom-template" data-template="couponPopup">
-<div id="coupon-modal" class="coupon-modal modal fade " role="dialog" style="display:none;">
+				<div class="coupon-item-wrap py-2 col-lg-3 col-md-5 col-lg col-10">
+
+					<div class="coupon_item coupon--new-style ">
+
+						<div
+							class="coupon_icon pos-relative embed-responsive embed-responsive-1by1">
+							<a href="collections/all.html" title="/collections/all">
+								<img class="img-fluid"
+									src="../bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/coupon_3_imgc5aa.png?1738827047187"
+									alt="coupon_3_img.png"
+									loading="lazy" width="79" height="70" />
+							</a>
+
+						</div>
+						<div class="coupon_body">
+							<div class="coupon_head coupon--has-info">
+								<h3 class="coupon_title">GIẢM 30%</h3>
+								<div class="coupon_desc">
+									Cho các sản phẩm trong <a
+										href="collections/set-do-tap/index.html">Set đồ tập </a></div>
+								<div class="coupon-icon-info text-center" data-coupon="GIAM30">
+									<i class="fa fa-info"></i>
+									<div class="coupon-desc-info">
+										<div class="coupon-desc--head">GIẢM 30%</div>
+										<div class="coupon-desc--body">
+											<div class="coupon-desc--row">
+												<span>Mã:</span>
+												<div>
+													<span>GIAM30</span>
+													<div class="coupon-copy-code coupon_copy copied type--icon"
+														data-ega-coupon="GIAM30">
+														<i class="far fa-copy"></i>
+													</div>
+												</div>
+											</div>
+											<div class="coupon-desc--row">
+												<span>HSD:</span>
+												<div>01/09/2023</div>
+											</div>
+											<div class="coupon-desc--row coupon-about">- Đồng giá 2 triệu cho
+												nhóm sản phẩm <a href="collections/set-do-tap/index.html">Set đồ
+													tập </a> <br />
+												- Tổng giá trị sản phẩm từ 5 triệu trở lên</div>
+										</div>
+									</div>
+									<div class="coupon_info">
+										- Đồng giá 2 triệu cho nhóm sản phẩm <a
+											href="collections/set-do-tap/index.html">Set đồ tập </a> <br />
+										- Tổng giá trị sản phẩm từ 5 triệu trở lên </div>
+								</div>
+							</div>
+							<div
+								class="d-flex align-items-center flex-wrap justify-content-between">
+								<div class="coupon-code-body">
+									<div class="coupon-code-row">
+										<span>Mã:</span> GIAM30
+									</div>
+
+									<div class="coupon-code-row">
+										<span>HSD: 01/09/2023</span>
+									</div>
+								</div>
+
+								<img
+									src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/outdatedc5aa.png?1738827047187"
+									alt="outdated" />
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="coupon-item-wrap py-2 col-lg-3 col-md-5 col-lg col-10">
+
+					<div class="coupon_item coupon--new-style ">
+
+						<div
+							class="coupon_icon pos-relative embed-responsive embed-responsive-1by1">
+							<a href="collections/all.html" title="/collections/all">
+								<img class="img-fluid"
+									src="../bizweb.dktcdn.net/thumb/medium/100/484/026/themes/953543/assets/coupon_4_imgc5aa.png?1738827047187"
+									alt="coupon_4_img.png"
+									loading="lazy" width="79" height="70" />
+							</a>
+
+						</div>
+						<div class="coupon_body">
+							<div class="coupon_head coupon--has-info">
+								<h3 class="coupon_title">GIẢM 40%</h3>
+								<div class="coupon_desc">Cho sản phẩm thứ 4 trong đơn hàng</div>
+								<div class="coupon-icon-info text-center" data-coupon="GIAM40">
+									<i class="fa fa-info"></i>
+									<div class="coupon-desc-info">
+										<div class="coupon-desc--head">GIẢM 40%</div>
+										<div class="coupon-desc--body">
+											<div class="coupon-desc--row">
+												<span>Mã:</span>
+												<div>
+													<span>GIAM40</span>
+													<div class="coupon-copy-code coupon_copy copied type--icon"
+														data-ega-coupon="GIAM40">
+														<i class="far fa-copy"></i>
+													</div>
+												</div>
+											</div>
+											<div class="coupon-desc--row">
+												<span>HSD:</span>
+												<div>20/05/2023</div>
+											</div>
+											<div class="coupon-desc--row coupon-about">- Miễn phí ship 100K cho
+												đơn hàng tối thiểu từ 1 triệu <br />
+												- Áp dụng cho tất cả tỉnh / thành phố</div>
+										</div>
+									</div>
+									<div class="coupon_info">
+										- Miễn phí ship 100K cho đơn hàng tối thiểu từ 1 triệu <br />
+										- Áp dụng cho tất cả tỉnh / thành phố </div>
+								</div>
+							</div>
+							<div
+								class="d-flex align-items-center flex-wrap justify-content-between">
+								<div class="coupon-code-body">
+									<div class="coupon-code-row">
+										<span>Mã:</span> GIAM40
+									</div>
+
+									<div class="coupon-code-row">
+										<span>HSD: 20/05/2023</span>
+									</div>
+								</div>
+
+								<img
+									src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/outdatedc5aa.png?1738827047187"
+									alt="outdated" />
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<script type="text/x-custom-template" data-template="couponPopup">
+		<div id="coupon-modal" class="coupon-modal modal fade " role="dialog" style="display:none;">
 	<div class="modal-dialog align-vertical">
     <div class="modal-content">
 		<button type="button" class="close window-close" data-dismiss="modal" data-backdrop="false"
@@ -565,1232 +436,29 @@
 	</div>
 	</div>
 	</div>
-</script><script
-				src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/couponc5aa.js?1738827047187"
-				defer></script>
-		</section>
+</script>
+	<script
+		src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/couponc5aa.js?1738827047187"
+		defer></script>
+</section>
 
-		<section class="section awe-section-5">
 
-			<section class="section_product_top section">
 
-				<div class="container card border-0">
-					<div class="slideshow-banner-wrap">
-						<div class="module-product">
-							<div
-								class="title_module_main heading-bar d-flex align-items-center flex-wrap justify-content-between">
-								<a href="new-arrival.html" class="heading-bar__title"><span>NỮ</span>NEW
-									ARRIVAL</a>
-								<a href="new-arrival.html" class="see-all">Xem tất cả</a>
-							</div>
-							<div class="body_module">
+<section class="section awe-section-6">
+	<link rel="preload" as='style' type="text/css"
+		href="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/flashsalec5aa.css?1738827047187">
 
-								<div class="row mt-3 one_row" style="--limit-column: 4"
-									data-section="tab-section">
+	<link rel="stylesheet"
+		href="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/flashsalec5aa.css?1738827047187">
 
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
+	<noscript>
+		<link
+			href="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/flashsalec5aa.css?1738827047187"
+			rel="stylesheet" type="text/css" media="all" />
+	</noscript>
 
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-									<script type="text/x-custom-template" data-template="tab-section">
-											<div class="col-12 col-xl-3 product-col">
-							<div class="item_product_main">
-								
-
-
-
-
-
-	
-	
-	
-	
-	
-					
-
-											
-
-
-
-
-
-
-<form action="/cart/add" method="post" class="variants product-action" data-id="product-actions-30584113" enctype="multipart/form-data">
-	<div class="product-thumbnail pos-relative">
-		
-
-
-	
-
-
-
-
-
-
-
-
-<span class="product-promo-tag product-promo-tag--1 product-promo-tag--text-1" 
-	  style="--color: #333; --background: #f0f0f0; --border-color: #dfdfdf">
-		Bán chạy
-	
-</span>
-		<a class="image_thumb pos-relative embed-responsive embed-responsive-3by4" href="/ao-croptop-tap-gym-yoga-quai-ao-doi" title="Áo croptop tập gym yoga">
-			
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img class="product-frame" 
-	 src="//bizweb.dktcdn.net/100/484/026/themes/953543/assets/frame_2.png?1738827047187" alt=""
-	 data-image-scale="--image-scale: 1;
-"
-	 loading="lazy"
-	 width="480"
-	 height="480"
-	 />
-
-
-
-
-																<img loading="lazy" 
-				 class='img-fetured has-second-img'
-				 width="480"
-				 height="480"
-				 style="--image-scale: 1;
-"
-				 src="//bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-2.jpg?v=1685581773753" alt="Áo croptop tập gym yoga">
-						<img loading="lazy"
-				 class='product-thumbnail__img product-thumbnail__img--secondary'
-				 width="480"
-				 height="480"
-				 style="--image-scale: 1;
-"
-				 src="//bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491.jpg?v=1685581775777" alt="Áo croptop tập gym yoga">
-						
-		</a>
-		
-				<img src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-button-playc5aa.png?1738827047187" 
-					 loading="lazy"
-					 class="video-icon"
-					 alt="video-play-button"/>
-							<div class="label_product ">
-			<div class="label_wrapper">
--18% 
-			</div>
-		</div>
-				<input type="hidden" name="variantId" value="86731873" />
-		<div class="action-bar">
-									<a href="/ao-croptop-tap-gym-yoga-quai-ao-doi" data-handle="ao-croptop-tap-gym-yoga-quai-ao-doi" class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-				<img width='20' height='20' class="icon-option" src="//bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-options.png?1738827047187" alt="icon-option"/>
-				<span class="action-name">Tùy chọn</span>
-			</a>
-									
-						<a href="/ao-croptop-tap-gym-yoga-quai-ao-doi" data-handle="ao-croptop-tap-gym-yoga-quai-ao-doi" class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-				<i class="fas fa-eye"></i>
-				<span class="action-name">Xem nhanh</span>
-			</a>
-					</div>
-	</div>
-	<div class="product-info">
-		
-		<span class="product-vendor">Yinli</span>
-				<span class="product-name "><a class="link" href="/ao-croptop-tap-gym-yoga-quai-ao-doi" title="Áo croptop tập gym yoga">Áo croptop tập gym yoga</a></span>
-				<div class="product-item-cta position-relative" >
-		<div class="price-box">
-                <span class="price-contact hidden">
-					Liên hệ
-				</span>
-
-                                                                                    
-                <span class="price ">290.000₫</span>
-
-                <span class="compare-price ">350.000₫</span>
-
-                <div class="label_product d-inline-block ">
-                    <div class="label_wrapper">
--18% 
-</div>
-                </div>
-
-            </div>
-				</div>
-		
-		<div class="item-color-chosen">
-																																
-			
-																					                                                                            					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																		
-					
-																				
-												
-					
-																																				<div data-variant-id="86731873" class="color-dot selected" style="background-color: tim;">
-									<span class="color-name">Tím</span>
-								</div>
-																		
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-																												<div data-variant-id="86731841" class="color-dot " style="background: url(//bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-2.jpg?v=1685581773753) no-repeat center center; background-size: cover">
-								<span class="color-name">Đen</span>
-							</div>
-											
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																					
-						<a href="/ao-croptop-tap-gym-yoga-quai-ao-doi" data-handle="ao-croptop-tap-gym-yoga-quai-ao-doi" class="color-more quick-view">
-				+7				<span class="action-name">Xem thêm 7 màu khác</span>
-			</a>
-						
-			
-		</div>
-
-		
-
-
-
-
-
-<span class="product-promo-tag product-promo-tag--2 product-promo-tag--image" 
-	  style="--color: #080808; --background: transparent; --border-color: transparent">
-		<img class="img-fluid" src='//bizweb.dktcdn.net/100/484/026/themes/953543/assets/promo_tag_2.png?1738827047187' alt='Áo croptop tập gym yoga' width="125" height="16"/>
-	
-</span>
-
-
-
-
-
-		
-
-
-	
-
-
-
-
-
-
-
-
-		
-					
-		
-				<div class='product-promotion hidden'>
-			<span class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-				<img alt="KHUYẾN MÃI - ƯU ĐÃI" src='//bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotion.png?1738827047187' width='16' height='16' class='mr-2'/>
-				KHUYẾN MÃI - ƯU ĐÃI
-			</span>
-			
-			<ul class="promotion-box">
-				
-								
-				
-				<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng [coupon="EGANY"]</li>
-								
-								
-								
-								
-				
-				<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-								
-								
-				
-				<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-								
-								
-				
-				<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-											</ul>
-					</div>
-			</div>
-</form>
-							</div>
-						</div>
-												<div class="col-12 col-xl-3 product-col">
-							<div class="item_product_main">
-								
-
-
-
-
-
-	
-	
-	
-
-					
-
-
-
-
-
-
-<form action="/cart/add" method="post" class="variants product-action" data-id="product-actions-30584102" enctype="multipart/form-data">
-	<div class="product-thumbnail pos-relative">
-		
-
-
-	
-
-
-
-		<a class="image_thumb pos-relative embed-responsive embed-responsive-3by4" href="/quan-legging-lung-tap-yoga" title="Quần legging lửng tập yoga">
-			
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-																<img loading="lazy" 
-				 class='img-fetured has-second-img'
-				 width="480"
-				 height="480"
-				 style="--image-scale: 1;"
-				 src="//bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-97-730d50f374bc4cd687ca8a57ff56d6a7.jpg?v=1683190082777" alt="Quần legging lửng tập yoga">
-						<img loading="lazy"
-				 class='product-thumbnail__img product-thumbnail__img--secondary'
-				 width="480"
-				 height="480"
-				 style="--image-scale: 1;"
-				 src="//bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4487-2.jpg?v=1685581844197" alt="Quần legging lửng tập yoga">
-						
-		</a>
-						<div class="label_product ">
-			<div class="label_wrapper">
--7% 
-			</div>
-		</div>
-				<input type="hidden" name="variantId" value="86731612" />
-		<div class="action-bar">
-									<a href="/quan-legging-lung-tap-yoga" data-handle="quan-legging-lung-tap-yoga" class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-				<img width='20' height='20' class="icon-option" src="//bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-options.png?1738827047187" alt="icon-option"/>
-				<span class="action-name">Tùy chọn</span>
-			</a>
-									
-						<a href="/quan-legging-lung-tap-yoga" data-handle="quan-legging-lung-tap-yoga" class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-				<i class="fas fa-eye"></i>
-				<span class="action-name">Xem nhanh</span>
-			</a>
-					</div>
-	</div>
-	<div class="product-info">
-		
-		<span class="product-vendor">EGA</span>
-				<span class="product-name "><a class="link" href="/quan-legging-lung-tap-yoga" title="Quần legging lửng tập yoga">Quần legging lửng tập yoga</a></span>
-				<div class="product-item-cta position-relative" >
-		<div class="price-box">
-                <span class="price-contact hidden">
-					Liên hệ
-				</span>
-
-                                                                                    
-                <span class="price ">375.000₫</span>
-
-                <span class="compare-price ">400.000₫</span>
-
-                <div class="label_product d-inline-block ">
-                    <div class="label_wrapper">
--7% 
-</div>
-                </div>
-
-            </div>
-				</div>
-		
-		<div class="item-color-chosen">
-																																
-			
-																					                                                                            					
-			
-										
-																	
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-																												<div data-variant-id="86731612" class="color-dot selected" style="background: url(//bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-97-730d50f374bc4cd687ca8a57ff56d6a7.jpg?v=1683190082777) no-repeat center center; background-size: cover">
-								<span class="color-name">Đen</span>
-							</div>
-											
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-																												<div data-variant-id="86731616" class="color-dot " style="background: url(//bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-100-6624c86f3fb44e2389215590f74ce8a8.jpg?v=1685581844197) no-repeat center center; background-size: cover">
-								<span class="color-name">Kem</span>
-							</div>
-											
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																					
-						<a href="/quan-legging-lung-tap-yoga" data-handle="quan-legging-lung-tap-yoga" class="color-more quick-view">
-				+2				<span class="action-name">Xem thêm 2 màu khác</span>
-			</a>
-						
-			
-		</div>
-
-		
-
-
-
-
-
-		
-
-
-	
-
-
-
-
-		
-					
-		
-				<div class='product-promotion hidden'>
-			<span class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-				<img alt="KHUYẾN MÃI - ƯU ĐÃI" src='//bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotion.png?1738827047187' width='16' height='16' class='mr-2'/>
-				KHUYẾN MÃI - ƯU ĐÃI
-			</span>
-			
-			<ul class="promotion-box">
-				
-								
-				
-				<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng [coupon="EGANY"]</li>
-								
-								
-								
-								
-				
-				<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-								
-								
-				
-				<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-								
-								
-				
-				<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-											</ul>
-					</div>
-			</div>
-</form>
-							</div>
-						</div>
-												<div class="col-12 col-xl-3 product-col">
-							<div class="item_product_main">
-								
-
-
-
-
-
-	
-	
-	
-	
-
-								
-
-
-
-
-
-
-<form action="/cart/add" method="post" class="variants product-action" data-id="product-actions-30584109" enctype="multipart/form-data">
-	<div class="product-thumbnail pos-relative">
-		
-
-
-	
-
-
-
-<span class="product-promo-tag product-promo-tag--1 product-promo-tag--text-1" 
-	  style="--color: #333; --background: #f0f0f0; --border-color: #dfdfdf">
-		Bán chạy
-	
-</span>
-
-
-		<a class="image_thumb pos-relative embed-responsive embed-responsive-3by4" href="/ao-tap-croptop-co-tay" title="Áo tập croptop có tay">
-			
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img class="product-frame" 
-	 src="//bizweb.dktcdn.net/100/484/026/themes/953543/assets/frame_2.png?1738827047187" alt=""
-	 data-image-scale="--image-scale: 1;
-"
-	 loading="lazy"
-	 width="480"
-	 height="480"
-	 />
-
-
-
-
-																<img loading="lazy" 
-				 class='img-fetured has-second-img'
-				 width="480"
-				 height="480"
-				 style="--image-scale: 1;
-"
-				 src="//bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4489.jpg?v=1685582009410" alt="Áo tập croptop có tay">
-						<img loading="lazy"
-				 class='product-thumbnail__img product-thumbnail__img--secondary'
-				 width="480"
-				 height="480"
-				 style="--image-scale: 1;
-"
-				 src="//bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4489-2.jpg?v=1685582013467" alt="Áo tập croptop có tay">
-						
-		</a>
-						<input type="hidden" name="variantId" value="86731765" />
-		<div class="action-bar">
-									<a href="/ao-tap-croptop-co-tay" data-handle="ao-tap-croptop-co-tay" class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-				<img width='20' height='20' class="icon-option" src="//bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-options.png?1738827047187" alt="icon-option"/>
-				<span class="action-name">Tùy chọn</span>
-			</a>
-									
-						<a href="/ao-tap-croptop-co-tay" data-handle="ao-tap-croptop-co-tay" class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-				<i class="fas fa-eye"></i>
-				<span class="action-name">Xem nhanh</span>
-			</a>
-					</div>
-	</div>
-	<div class="product-info">
-		
-		<span class="product-vendor">Khác</span>
-				<span class="product-name "><a class="link" href="/ao-tap-croptop-co-tay" title="Áo tập croptop có tay">Áo tập croptop có tay</a></span>
-				<div class="product-item-cta position-relative" >
-		<div class="price-box">
-                <span class="price-contact hidden">
-					Liên hệ
-				</span>
-
-                                                
-                <span class="price ">295.000₫</span>
-
-                <span class="compare-price hidden">0₫</span>
-
-                <div class="label_product d-inline-block hidden">
-                    <div class="label_wrapper">
--7% 
-</div>
-                </div>
-
-            </div>
-				</div>
-		
-		<div class="item-color-chosen">
-																																
-			
-																					                                                                            					
-			
-										
-																	
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-																												<div data-variant-id="86731765" class="color-dot selected" style="background: url(//bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4489.jpg?v=1685582009410) no-repeat center center; background-size: cover">
-								<span class="color-name">Kem</span>
-							</div>
-											
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-																												<div data-variant-id="86731773" class="color-dot " style="background: url(//bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4489-2.jpg?v=1685582013467) no-repeat center center; background-size: cover">
-								<span class="color-name">Nâu nhạt</span>
-							</div>
-											
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																		
-					
-																				
-											
-																							
-					
-										
-																																																					
-						<a href="/ao-tap-croptop-co-tay" data-handle="ao-tap-croptop-co-tay" class="color-more quick-view">
-				+2				<span class="action-name">Xem thêm 2 màu khác</span>
-			</a>
-						
-			
-		</div>
-
-		
-
-
-
-
-
-
-		
-
-
-	
-
-
-
-
-
-		
-					
-		
-				<div class='product-promotion hidden'>
-			<span class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-				<img alt="KHUYẾN MÃI - ƯU ĐÃI" src='//bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotion.png?1738827047187' width='16' height='16' class='mr-2'/>
-				KHUYẾN MÃI - ƯU ĐÃI
-			</span>
-			
-			<ul class="promotion-box">
-				
-								
-				
-				<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng [coupon="EGANY"]</li>
-								
-								
-								
-								
-				
-				<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-								
-								
-				
-				<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-								
-								
-				
-				<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-											</ul>
-					</div>
-			</div>
-</form>
-							</div>
-						</div>
-												<div class="col-12 col-xl-3 product-col">
-							<div class="item_product_main">
-								
-
-
-
-
-
-	
-	
-
-										
-
-
-
-
-
-
-<form action="/cart/add" method="post" class="variants product-action" data-id="product-actions-30584103" enctype="multipart/form-data">
-	<div class="product-thumbnail pos-relative">
-		
-
-
-	
-
-
-		<a class="image_thumb pos-relative embed-responsive embed-responsive-3by4" href="/quan-legging-tron-dang-lung" title="Quần legging trơn dáng lửng">
-			
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-																<img loading="lazy" 
-				 class='img-fetured has-second-img'
-				 width="480"
-				 height="480"
-				 style="--image-scale: 1;"
-				 src="//bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488.jpg?v=1685582143523" alt="Quần legging trơn dáng lửng">
-						<img loading="lazy"
-				 class='product-thumbnail__img product-thumbnail__img--secondary'
-				 width="480"
-				 height="480"
-				 style="--image-scale: 1;"
-				 src="//bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488-2.jpg?v=1685582143523" alt="Quần legging trơn dáng lửng">
-						
-		</a>
-						<input type="hidden" name="variantId" value="86731644" />
-		<div class="action-bar">
-									<a href="/quan-legging-tron-dang-lung" data-handle="quan-legging-tron-dang-lung" class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-				<img width='20' height='20' class="icon-option" src="//bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-options.png?1738827047187" alt="icon-option"/>
-				<span class="action-name">Tùy chọn</span>
-			</a>
-									
-						<a href="/quan-legging-tron-dang-lung" data-handle="quan-legging-tron-dang-lung" class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-				<i class="fas fa-eye"></i>
-				<span class="action-name">Xem nhanh</span>
-			</a>
-					</div>
-	</div>
-	<div class="product-info">
-		
-		<span class="product-vendor">Khác</span>
-				<span class="product-name "><a class="link" href="/quan-legging-tron-dang-lung" title="Quần legging trơn dáng lửng">Quần legging trơn dáng lửng</a></span>
-				<div class="product-item-cta position-relative" >
-		<div class="price-box">
-                <span class="price-contact hidden">
-					Liên hệ
-				</span>
-
-                                                
-                <span class="price ">350.000₫</span>
-
-                <span class="compare-price hidden">0₫</span>
-
-                <div class="label_product d-inline-block hidden">
-                    <div class="label_wrapper">
--7% 
-</div>
-                </div>
-
-            </div>
-				</div>
-		
-		<div class="item-color-chosen">
-																																
-			
-																					                                                                            					
-			
-										
-																	
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-																												<div data-variant-id="86731644" class="color-dot selected" style="background: url(//bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4488.jpg?v=1685582143523) no-repeat center center; background-size: cover">
-								<span class="color-name">Kem</span>
-							</div>
-											
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																		
-					
-																				
-											
-																							
-					
-																												<div data-variant-id="86731664" class="color-dot " style="background: url(//bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4488-2.jpg?v=1685582143523) no-repeat center center; background-size: cover">
-								<span class="color-name">Nâu</span>
-							</div>
-											
-																																																									                                                                                                        					
-			
-										
-																	
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																								
-																													
-												
-					
-																				
-											
-																							
-					
-										
-																																																									                                                                                                        					
-			
-										
-																	
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																									
-																																		
-					
-																				
-											
-																							
-					
-										
-																																																					
-						<a href="/quan-legging-tron-dang-lung" data-handle="quan-legging-tron-dang-lung" class="color-more quick-view">
-				+6				<span class="action-name">Xem thêm 6 màu khác</span>
-			</a>
-						
-			
-		</div>
-
-		
-
-
-
-
-		
-
-
-	
-
-
-
-		
-					
-		
-				<div class='product-promotion hidden'>
-			<span class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-				<img alt="KHUYẾN MÃI - ƯU ĐÃI" src='//bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotion.png?1738827047187' width='16' height='16' class='mr-2'/>
-				KHUYẾN MÃI - ƯU ĐÃI
-			</span>
-			
-			<ul class="promotion-box">
-				
-								
-				
-				<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng [coupon="EGANY"]</li>
-								
-								
-								
-								
-				
-				<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-								
-								
-				
-				<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-								
-								
-				
-				<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-											</ul>
-					</div>
-			</div>
-</form>
-							</div>
-						</div>
-						
-						</script>
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</section>
-
-		<section class="section awe-section-6">
-			<link rel="preload" as='style' type="text/css"
-				href="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/flashsalec5aa.css?1738827047187">
-
-			<link rel="stylesheet"
-				href="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/flashsalec5aa.css?1738827047187">
-
-			<noscript><link
-					href="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/flashsalec5aa.css?1738827047187"
-					rel="stylesheet" type="text/css" media="all" /></noscript>
-
-			<section class="section_flashsale flashsale"
-				style="--background-color: #ffffff;
+	<section class="section_flashsale flashsale"
+		style="--background-color: #ffffff;
 --countdown-background: #000000;
 --countdown-color: #ffffff;
 --process-background: #E9ECEF;
@@ -1799,4897 +467,3868 @@
 --stock-color: #393b3b;
 --heading-color: #444444;
 ">
-				<div class="container">
-					<div class='flashsale__container border-0 p-0'>
+		<div class="container">
+			<div class='flashsale__container border-0 p-0'>
 
-						<div
-							class="title_module_main heading-bar e-tabs d-flex justify-content-between align-items-center py-0 has-tabs">
-							<div
-								class='d-flex align-items-center flex-wrap flashsale__header justify-content-between'>
-								<div class="flash-sale-heading">
-									<div style='display: flex; align-items: center; gap: 10px;'>
-										<h2 class="heading-bar__title flashsale__title m-0">
-											<a class='link' href="san-pham-noi-bat.html"
-												title="GIẢM SỐC 50%">GIẢM SỐC 50%</a>
-										</h2>
-										<img class="img-fluid" alt="GIẢM SỐC 50%"
-											src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/flashsale-hotc5aa.png?1738827047187'
-											width="33" height="15" />
-									</div>
-								</div>
-
-								<div class="flashsale__countdown-wrapper">
-									<span class="flashsale__countdown-label">Kết thúc sau</span>
-									<div class="flashsale__countdown" data-countdown-type="hours"
-										data-countdown>
-									</div>
-								</div>
-							</div>
-							<div class="flash-sale-tabs ">
-								<ul
-									class='tabs tabs-title list-unstyled m-0 tabs-group d-flex align-items-center'>
-
-									<li class=" ega-small tab-link px-3 link current"
-										data-tab="tab-1">
-										Hàng hiệu -50%
-									</li>
-
-									<li class=" ega-small tab-link px-3 linkml-2 "
-										data-tab="tab-2">
-										Năng động ngày hè
-									</li>
-
-									<li class=" ega-small tab-link px-3 linkml-2 "
-										data-tab="tab-3">
-										Chào biển nắng mới
-									</li>
-
-								</ul>
+				<div
+					class="title_module_main heading-bar e-tabs d-flex justify-content-between align-items-center py-0 has-tabs">
+					<div
+						class='d-flex align-items-center flex-wrap flashsale__header justify-content-between'>
+						<div class="flash-sale-heading">
+							<div style='display: flex; align-items: center; gap: 10px;'>
+								<h2 class="heading-bar__title flashsale__title m-0">
+									<a class='link' href="san-pham-noi-bat.html"
+										title="GIẢM SỐC 50%">GIẢM SỐC 50%</a>
+								</h2>
+								<img class="img-fluid" alt="GIẢM SỐC 50%"
+									src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/flashsale-hotc5aa.png?1738827047187'
+									width="33" height="15" />
 							</div>
 						</div>
 
-						<div class='e-tabs'>
+						<div class="flashsale__countdown-wrapper">
+							<span class="flashsale__countdown-label">Kết thúc sau</span>
+							<div class="flashsale__countdown" data-countdown-type="hours"
+								data-countdown>
+							</div>
+						</div>
+					</div>
+					<div class="flash-sale-tabs ">
+						<ul
+							class='tabs tabs-title list-unstyled m-0 tabs-group d-flex align-items-center'>
 
-							<div id="tab-1" class="tab-content  content_extab  current ">
+							<li class=" ega-small tab-link px-3 link current"
+								data-tab="tab-1">
+								Hàng hiệu -50%
+							</li>
 
-								<div class="row one-row">
+							<li class=" ega-small tab-link px-3 linkml-2 "
+								data-tab="tab-2">
+								Năng động ngày hè
+							</li>
 
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584111"
-										data-inventory-quantity="3"
-										data-management="true"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
+							<li class=" ega-small tab-link px-3 linkml-2 "
+								data-tab="tab-3">
+								Chào biển nắng mới
+							</li>
 
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584111" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
+						</ul>
+					</div>
+				</div>
 
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="/productdetail" title="Áo tập croptop dây">
+				<div class='e-tabs'>
 
-														<img class="product-frame"
-															src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/frame_1c5aa.png?1738827047187"
-															alt
-															data-image-scale="--image-scale: 1;
-"
-															loading="lazy"
-															width="480"
-															height="480" />
+					<div id="tab-1" class="tab-content  content_extab  current ">
 
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;
-"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4489-1-164f7.jpg?v=1685681059523"
-															alt="Áo tập croptop dây">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;
-"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4489-2-177ea.jpg?v=1685681223077"
-															alt="Áo tập croptop dây">
+						<div class="row one-row">
 
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584111"
+								data-inventory-quantity="3"
+								data-management="true"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+												@foreach($products as $product)
+												@foreach($product->variants as $variants)
+											
+								<form action="https://ega-sportswear.mysapo.net/cart/add" method="post"
+											class="variants product-action" data-id="product-actions-30584097"
+											enctype="multipart/form-data">
+										
+											<div class="product-thumbnail pos-relative">
+												
+												<a class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+													href="quan-legging-dai-tap-yoga.html"
+													title="Quần legging dài tập yoga">
+													<img loading="lazy" class='img-fetured has-second-img' width="480"
+														height="480" style="--image-scale: 1;"
+														src="{{ asset('storage/'.$variants->images) }}"
+														alt="Quần legging dài tập yoga">
+													<img loading="lazy"
+														class='product-thumbnail__img product-thumbnail__img--secondary'
+														width="480" height="480" style="--image-scale: 1;"
+														src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-6a4f6.jpg?v=1685682354427"
+														alt="Quần legging dài tập yoga">
+
+												</a>
+												<input type="hidden" name="variantId" value="86731548" />
+												<div class="action-bar">
+													<a href="quan-legging-dai-tap-yoga.html"
+														data-handle="quan-legging-dai-tap-yoga"
+														class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+														<img width='20' height='20' class="icon-option"
+															src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+															alt="icon-option" />
+														<span class="action-name">Tùy chọn</span>
 													</a>
-													<input type="hidden" name="variantId" value="86731805" />
-													<div class="action-bar">
-														<a href="ao-tap-croptop-day.html" data-handle="ao-tap-croptop-day"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
 
-														<a href="ao-tap-croptop-day.html" data-handle="ao-tap-croptop-day"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">Yinli</span>
-													<span class="product-name "><a class="link"
-															href="ao-tap-croptop-day.html" title="Áo tập croptop dây">Áo tập
-															croptop dây</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">315.000₫</span>
-
-															<span class="compare-price hidden">0₫</span>
-
-															<div class="label_product d-inline-block hidden">
-																<div class="label_wrapper">
-																	-7%
-																</div>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731805" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4489-1-164f7.jpg?v=1685681059523) no-repeat center center; background-size: cover">
-															<span class="color-name">Nâu</span>
-														</div>
-
-														<div data-variant-id="86731801" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4489-2-177ea.jpg?v=1685681223077) no-repeat center center; background-size: cover">
-															<span class="color-name">Kem</span>
-														</div>
-
-														<a href="ao-tap-croptop-day.html" data-handle="ao-tap-croptop-day"
-															class="color-more quick-view">
-															+3 <span class="action-name">Xem thêm 3 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584112"
-										data-inventory-quantity="62"
-										data-management="true"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
-
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584112" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
-
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="ao-tap-bra-thiet-ke.html" title="Áo tập bra thiết kế">
-
-														<img class="product-frame"
-															src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/frame_2c5aa.png?1738827047187"
-															alt
-															data-image-scale="--image-scale: 1;
-"
-															loading="lazy"
-															width="480"
-															height="480" />
-
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;
-"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4493bea3.jpg?v=1685681685250"
-															alt="Áo tập bra thiết kế">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;
-"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4493-1196a.jpg?v=1685681689140"
-															alt="Áo tập bra thiết kế">
-
+													<a href="quan-legging-dai-tap-yoga.html"
+														data-handle="quan-legging-dai-tap-yoga"
+														class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+														<i class="fas fa-eye"></i>
+														<span class="action-name">Xem nhanh</span>
 													</a>
-													<input type="hidden" name="variantId" value="86731837" />
-													<div class="action-bar">
-														<a href="ao-tap-bra-thiet-ke.html"
-															data-handle="ao-tap-bra-thiet-ke"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
-
-														<a href="ao-tap-bra-thiet-ke.html"
-															data-handle="ao-tap-bra-thiet-ke"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
 												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">EGA</span>
-													<span class="product-name "><a class="link"
-															href="ao-tap-bra-thiet-ke.html" title="Áo tập bra thiết kế">Áo
-															tập bra thiết kế</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">350.000₫</span>
-
-															<span class="compare-price hidden">0₫</span>
-
-															<div class="label_product d-inline-block hidden">
-																<div class="label_wrapper">
-																	-7%
-																</div>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731837" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4493bea3.jpg?v=1685681685250) no-repeat center center; background-size: cover">
-															<span class="color-name">Xám</span>
-														</div>
-
-														<div data-variant-id="86731829" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4493-1196a.jpg?v=1685681689140) no-repeat center center; background-size: cover">
-															<span class="color-name">Nâu nhạt</span>
-														</div>
-
-														<a href="ao-tap-bra-thiet-ke.html"
-															data-handle="ao-tap-bra-thiet-ke" class="color-more quick-view">
-															+4 <span class="action-name">Xem thêm 4 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
-												</div>
+												
 											</div>
-										</div>
-									</div>
+											@endforeach
+											@endforeach
+											<div class="product-info">
 
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584106"
-										data-inventory-quantity="95"
-										data-management="true"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
-
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584106" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
-
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="ao-bra-tap-gym-yoga.html" title="Áo bra tập gym yoga">
-
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-f84f320b-1cc4-4d43-bf0b-3bfb875cf707ee8b.jpg?v=1685681857810"
-															alt="Áo bra tập gym yoga">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-4db6e.jpg?v=1685681862230"
-															alt="Áo bra tập gym yoga">
-
-													</a>
-													<div class="label_product ">
-														<div class="label_wrapper">
-															-19%
-														</div>
-													</div>
-													<input type="hidden" name="variantId" value="86731697" />
-													<div class="action-bar">
-														<a href="ao-bra-tap-gym-yoga.html"
-															data-handle="ao-bra-tap-gym-yoga"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
-
-														<a href="ao-bra-tap-gym-yoga.html"
-															data-handle="ao-bra-tap-gym-yoga"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">EGA</span>
-													<span class="product-name "><a class="link"
-															href="ao-bra-tap-gym-yoga.html" title="Áo bra tập gym yoga">Áo
-															bra tập gym yoga</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">245.000₫</span>
-
-															<span class="compare-price ">300.000₫</span>
-
-															<div class="label_product d-inline-block ">
-																<div class="label_wrapper">
-																	-19%
-																</div>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731697" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-f84f320b-1cc4-4d43-bf0b-3bfb875cf707ee8b.jpg?v=1685681857810) no-repeat center center; background-size: cover">
-															<span class="color-name">Xanh đen</span>
-														</div>
-
-														<div data-variant-id="86731701" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-4db6e.jpg?v=1685681862230) no-repeat center center; background-size: cover">
-															<span class="color-name">Nâu nhạt</span>
-														</div>
-
-														<a href="ao-bra-tap-gym-yoga.html"
-															data-handle="ao-bra-tap-gym-yoga" class="color-more quick-view">
-															+4 <span class="action-name">Xem thêm 4 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584110"
-										data-inventory-quantity="49"
-										data-management="true"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
-
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584110" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
-
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="ao-tap-croptop-quai-lung-cheo.html"
-														title="Áo tập croptop quai lưng chéo">
-
-														<img class="product-frame"
-															src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/frame_2c5aa.png?1738827047187"
-															alt
-															data-image-scale="--image-scale: 1;
-"
-															loading="lazy"
-															width="480"
-															height="480" />
-
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;
-"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-1b023.jpg?v=1685682016667"
-															alt="Áo tập croptop quai lưng chéo">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;
-"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-54c98.jpg?v=1685682017903"
-															alt="Áo tập croptop quai lưng chéo">
-
-													</a>
-													<input type="hidden" name="variantId" value="86731777" />
-													<div class="action-bar">
-														<a href="ao-tap-croptop-quai-lung-cheo.html"
-															data-handle="ao-tap-croptop-quai-lung-cheo"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
-
-														<a href="ao-tap-croptop-quai-lung-cheo.html"
-															data-handle="ao-tap-croptop-quai-lung-cheo"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">Yinli</span>
-													<span class="product-name "><a class="link"
-															href="ao-tap-croptop-quai-lung-cheo.html"
-															title="Áo tập croptop quai lưng chéo">Áo tập croptop quai lưng
-															chéo</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">368.000₫</span>
-
-															<span class="compare-price hidden">0₫</span>
-
-															<div class="label_product d-inline-block hidden">
-																<div class="label_wrapper">
-																	-19%
-																</div>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731777" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-1b023.jpg?v=1685682016667) no-repeat center center; background-size: cover">
-															<span class="color-name">Đen</span>
-														</div>
-
-														<div data-variant-id="86731781" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-54c98.jpg?v=1685682017903) no-repeat center center; background-size: cover">
-															<span class="color-name">Kem</span>
-														</div>
-
-														<a href="ao-tap-croptop-quai-lung-cheo.html"
-															data-handle="ao-tap-croptop-quai-lung-cheo"
-															class="color-more quick-view">
-															+3 <span class="action-name">Xem thêm 3 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584097"
-										data-inventory-quantity="300"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
-
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584097" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
-
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												<span class="product-vendor">Khác</span>
+												<span class="product-name "><a class="link"
 														href="quan-legging-dai-tap-yoga.html"
-														title="Quần legging dài tập yoga">
-
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-2-4aac64a6-506b-4a1e-9b88-d451525544b54632.jpg?v=1685682352997"
-															alt="Quần legging dài tập yoga">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-6a4f6.jpg?v=1685682354427"
-															alt="Quần legging dài tập yoga">
-
-													</a>
-													<input type="hidden" name="variantId" value="86731548" />
-													<div class="action-bar">
-														<a href="quan-legging-dai-tap-yoga.html"
-															data-handle="quan-legging-dai-tap-yoga"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
-
-														<a href="quan-legging-dai-tap-yoga.html"
-															data-handle="quan-legging-dai-tap-yoga"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">Khác</span>
-													<span class="product-name "><a class="link"
-															href="quan-legging-dai-tap-yoga.html"
-															title="Quần legging dài tập yoga">Quần legging dài tập
-															yoga</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">400.000₫</span>
-
-															<span class="compare-price hidden">0₫</span>
-
-															<div class="label_product d-inline-block hidden">
-																<div class="label_wrapper">
-																	-19%
-																</div>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731548" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-2-4aac64a6-506b-4a1e-9b88-d451525544b54632.jpg?v=1685682352997) no-repeat center center; background-size: cover">
-															<span class="color-name">Đen</span>
-														</div>
-
-														<div data-variant-id="86731552" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-6a4f6.jpg?v=1685682354427) no-repeat center center; background-size: cover">
-															<span class="color-name">Kem</span>
-														</div>
-
-														<a href="quan-legging-dai-tap-yoga.html"
-															data-handle="quan-legging-dai-tap-yoga"
-															class="color-more quick-view">
-															+5 <span class="action-name">Xem thêm 5 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
+														title="Quần legging dài tập yoga">Quần legging dài tập
+														yoga</a></span>
+												<div class="product-item-cta position-relative">
+													<div class="price-box">
+														<span class="price-contact hidden">
+															Liên hệ
 														</span>
 
-														<ul class="promotion-box">
 
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
+														<span class="price ">400.000₫</span>
 
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+														<span class="compare-price hidden">0₫</span>
 
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584095"
-										data-inventory-quantity="300"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
-
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584095" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
-
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="quan-legging-tap-dang-dai.html"
-														title="Quần legging tập dáng dài">
-
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488-113be33a-2f84-40d8-818d-edbfd351c67b3890.jpg?v=1685682462047"
-															alt="Quần legging tập dáng dài">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488-1c11a.jpg?v=1685682463790"
-															alt="Quần legging tập dáng dài">
-
-													</a>
-													<div class="label_product ">
-														<div class="label_wrapper">
-															-9%
-														</div>
-													</div>
-													<input type="hidden" name="variantId" value="86731530" />
-													<div class="action-bar">
-														<a href="quan-legging-tap-dang-dai.html"
-															data-handle="quan-legging-tap-dang-dai"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
-
-														<a href="quan-legging-tap-dang-dai.html"
-															data-handle="quan-legging-tap-dang-dai"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">Yinli</span>
-													<span class="product-name "><a class="link"
-															href="quan-legging-tap-dang-dai.html"
-															title="Quần legging tập dáng dài">Quần legging tập dáng
-															dài</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">410.000₫</span>
-
-															<span class="compare-price ">450.000₫</span>
-
-															<div class="label_product d-inline-block ">
-																<div class="label_wrapper">
-																	-9%
-																</div>
+														<div class="label_product d-inline-block hidden">
+															<div class="label_wrapper">
+																-19%
 															</div>
-
-														</div>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731530" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4488-113be33a-2f84-40d8-818d-edbfd351c67b3890.jpg?v=1685682462047) no-repeat center center; background-size: cover">
-															<span class="color-name">Xanh đen</span>
 														</div>
 
-														<div data-variant-id="86731532" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4488-1c11a.jpg?v=1685682463790) no-repeat center center; background-size: cover">
-															<span class="color-name">Kem</span>
-														</div>
-
-														<a href="quan-legging-tap-dang-dai.html"
-															data-handle="quan-legging-tap-dang-dai"
-															class="color-more quick-view">
-															+4 <span class="action-name">Xem thêm 4 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
 													</div>
 												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
 
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
-												</div>
-											</div>
-										</div>
-									</div>
+												<div class="item-color-chosen">
 
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584104"
-										data-inventory-quantity="300"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
-
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584104" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
-
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="quan-legging-dui-the-thao.html"
-														title="Quần legging đùi thể thao">
-
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-3d3e2.jpg?v=1685682597010"
-															alt="Quần legging đùi thể thao">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-7d3e2.jpg?v=1685682597010"
-															alt="Quần legging đùi thể thao">
-
+													<div data-variant-id="86731548" class="color-dot selected"
+														style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-2-4aac64a6-506b-4a1e-9b88-d451525544b54632.jpg?v=1685682352997) no-repeat center center; background-size: cover">
+														<span class="color-name">Đen</span>
+													</div>
+													<div data-variant-id="86731552" class="color-dot "
+														style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-6a4f6.jpg?v=1685682354427) no-repeat center center; background-size: cover">
+														<span class="color-name">Kem</span>
+													</div>
+													<a href="quan-legging-dai-tap-yoga.html"
+														data-handle="quan-legging-dai-tap-yoga"
+														class="color-more quick-view">
+														+5 <span class="action-name">Xem thêm 5 màu khác</span>
 													</a>
-													<div class="label_product ">
-														<div class="label_wrapper">
-															-10%
-														</div>
-													</div>
-													<input type="hidden" name="variantId" value="86731680" />
-													<div class="action-bar">
-														<a href="quan-legging-dui-the-thao.html"
-															data-handle="quan-legging-dui-the-thao"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
-
-														<a href="quan-legging-dui-the-thao.html"
-															data-handle="quan-legging-dui-the-thao"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
 												</div>
-												<div class="product-info">
+												<div class='product-promotion hidden'>
+													<span
+														class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+														<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+															src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+															width='16' height='16' class='mr-2' />
+														KHUYẾN MÃI - ƯU ĐÃI
+													</span>
 
-													<span class="product-vendor">EGA</span>
-													<span class="product-name "><a class="link"
-															href="quan-legging-dui-the-thao.html"
-															title="Quần legging đùi thể thao">Quần legging đùi thể
-															thao</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">235.000₫</span>
-
-															<span class="compare-price ">260.000₫</span>
-
-															<div class="label_product d-inline-block ">
-																<div class="label_wrapper">
-																	-10%
-																</div>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731680" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-3d3e2.jpg?v=1685682597010) no-repeat center center; background-size: cover">
-															<span class="color-name">Tím</span>
-														</div>
-
-														<div data-variant-id="86731676" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-7d3e2.jpg?v=1685682597010) no-repeat center center; background-size: cover">
-															<span class="color-name">Đen</span>
-														</div>
-
-														<a href="quan-legging-dui-the-thao.html"
-															data-handle="quan-legging-dui-the-thao"
-															class="color-more quick-view">
-															+2 <span class="action-name">Xem thêm 2 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
+													<ul class="promotion-box">
+														<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+															[coupon="EGANY"]</li>
+														<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+														<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+														<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+													</ul>
 												</div>
 											</div>
+										</form>
+
+
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
 										</div>
 									</div>
-
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="31180477"
-										data-inventory-quantity="0"
-										data-management="true"
-										data-max-stock="300">
-										<div class="item_product_main">
-
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-31180477" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
-
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="quan-dui-the-thao.html" title="Quần đùi thể thao">
-
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4487e7e6.jpg?v=1685682736210"
-															alt="Quần đùi thể thao">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4487-1e7e6.jpg?v=1685682736210"
-															alt="Quần đùi thể thao">
-
-													</a>
-													<div class="label_product ">
-														<div class="label_wrapper">
-															-10%
-														</div>
-													</div>
-													<input type="hidden" name="variantId" value="89709513" />
-													<div class="action-bar">
-														<a href="quan-dui-the-thao.html" data-handle="quan-dui-the-thao"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Hết hàng</span>
-														</a>
-
-														<a href="quan-dui-the-thao.html" data-handle="quan-dui-the-thao"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">EGA</span>
-													<span class="product-name "><a class="link"
-															href="quan-dui-the-thao.html" title="Quần đùi thể thao">Quần đùi
-															thể thao</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">235.000₫</span>
-
-															<span class="compare-price ">260.000₫</span>
-
-															<div class="label_product d-inline-block ">
-																<div class="label_wrapper">
-																	-10%
-																</div>
-															</div>
-
-														</div>
-
-														<span class="item-label-soldout">Hết hàng</span>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="89709513" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4487e7e6.jpg?v=1685682736210) no-repeat center center; background-size: cover">
-															<span class="color-name">Tím</span>
-														</div>
-
-														<div data-variant-id="89709517" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4487-1e7e6.jpg?v=1685682736210) no-repeat center center; background-size: cover">
-															<span class="color-name">Đen</span>
-														</div>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="text-center mt-3 col-12">
-									<a href="onsale.html" title="Xem tất cả" class="btn btn-main btn-icon">
-										Xem tất cả
-
-										<svg class="icon">
-											<use xlink:href="#icon-arrow" />
-										</svg>
-									</a>
 								</div>
 							</div>
 
-							<div id="tab-2" class="tab-content  content_extab ">
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584112"
+								data-inventory-quantity="62"
+								data-management="true"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
 
-								<div class="row one-row">
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584112" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
 
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584095"
-										data-inventory-quantity="300"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="ao-tap-bra-thiet-ke.html" title="Áo tập bra thiết kế">
 
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584095" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
+												<img class="product-frame"
+													src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/frame_2c5aa.png?1738827047187"
+													alt
+													data-image-scale="--image-scale: 1;
+"
+													loading="lazy"
+													width="480"
+													height="480" />
 
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="quan-legging-tap-dang-dai.html"
-														title="Quần legging tập dáng dài">
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;
+"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4493bea3.jpg?v=1685681685250"
+													alt="Áo tập bra thiết kế">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;
+"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4493-1196a.jpg?v=1685681689140"
+													alt="Áo tập bra thiết kế">
 
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488-113be33a-2f84-40d8-818d-edbfd351c67b3890.jpg?v=1685682462047"
-															alt="Quần legging tập dáng dài">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488-1c11a.jpg?v=1685682463790"
-															alt="Quần legging tập dáng dài">
+											</a>
+											<input type="hidden" name="variantId" value="86731837" />
+											<div class="action-bar">
+												<a href="ao-tap-bra-thiet-ke.html"
+													data-handle="ao-tap-bra-thiet-ke"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
 
-													</a>
-													<div class="label_product ">
-														<div class="label_wrapper">
-															-9%
-														</div>
-													</div>
-													<input type="hidden" name="variantId" value="86731530" />
-													<div class="action-bar">
-														<a href="quan-legging-tap-dang-dai.html"
-															data-handle="quan-legging-tap-dang-dai"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
-
-														<a href="quan-legging-tap-dang-dai.html"
-															data-handle="quan-legging-tap-dang-dai"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">Yinli</span>
-													<span class="product-name "><a class="link"
-															href="quan-legging-tap-dang-dai.html"
-															title="Quần legging tập dáng dài">Quần legging tập dáng
-															dài</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">410.000₫</span>
-
-															<span class="compare-price ">450.000₫</span>
-
-															<div class="label_product d-inline-block ">
-																<div class="label_wrapper">
-																	-9%
-																</div>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731530" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4488-113be33a-2f84-40d8-818d-edbfd351c67b3890.jpg?v=1685682462047) no-repeat center center; background-size: cover">
-															<span class="color-name">Xanh đen</span>
-														</div>
-
-														<div data-variant-id="86731532" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4488-1c11a.jpg?v=1685682463790) no-repeat center center; background-size: cover">
-															<span class="color-name">Kem</span>
-														</div>
-
-														<a href="quan-legging-tap-dang-dai.html"
-															data-handle="quan-legging-tap-dang-dai"
-															class="color-more quick-view">
-															+4 <span class="action-name">Xem thêm 4 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
-												</div>
+												<a href="ao-tap-bra-thiet-ke.html"
+													data-handle="ao-tap-bra-thiet-ke"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
 											</div>
 										</div>
-									</div>
+										<div class="product-info">
 
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584097"
-										data-inventory-quantity="300"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
+											<span class="product-vendor">EGA</span>
+											<span class="product-name "><a class="link"
+													href="ao-tap-bra-thiet-ke.html" title="Áo tập bra thiết kế">Áo
+													tập bra thiết kế</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
+													</span>
 
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584097" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
+													<span class="price ">350.000₫</span>
 
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="quan-legging-dai-tap-yoga.html"
-														title="Quần legging dài tập yoga">
+													<span class="compare-price hidden">0₫</span>
 
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-2-4aac64a6-506b-4a1e-9b88-d451525544b54632.jpg?v=1685682352997"
-															alt="Quần legging dài tập yoga">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-6a4f6.jpg?v=1685682354427"
-															alt="Quần legging dài tập yoga">
-
-													</a>
-													<input type="hidden" name="variantId" value="86731548" />
-													<div class="action-bar">
-														<a href="quan-legging-dai-tap-yoga.html"
-															data-handle="quan-legging-dai-tap-yoga"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
-
-														<a href="quan-legging-dai-tap-yoga.html"
-															data-handle="quan-legging-dai-tap-yoga"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">Khác</span>
-													<span class="product-name "><a class="link"
-															href="quan-legging-dai-tap-yoga.html"
-															title="Quần legging dài tập yoga">Quần legging dài tập
-															yoga</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">400.000₫</span>
-
-															<span class="compare-price hidden">0₫</span>
-
-															<div class="label_product d-inline-block hidden">
-																<div class="label_wrapper">
-																	-9%
-																</div>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731548" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-2-4aac64a6-506b-4a1e-9b88-d451525544b54632.jpg?v=1685682352997) no-repeat center center; background-size: cover">
-															<span class="color-name">Đen</span>
-														</div>
-
-														<div data-variant-id="86731552" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-6a4f6.jpg?v=1685682354427) no-repeat center center; background-size: cover">
-															<span class="color-name">Kem</span>
-														</div>
-
-														<a href="quan-legging-dai-tap-yoga.html"
-															data-handle="quan-legging-dai-tap-yoga"
-															class="color-more quick-view">
-															+5 <span class="action-name">Xem thêm 5 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584103"
-										data-inventory-quantity="300"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
-
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584103" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
-
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="quan-legging-tron-dang-lung.html"
-														title="Quần legging trơn dáng lửng">
-
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488a1af.jpg?v=1685582143523"
-															alt="Quần legging trơn dáng lửng">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488-2a1af.jpg?v=1685582143523"
-															alt="Quần legging trơn dáng lửng">
-
-													</a>
-													<input type="hidden" name="variantId" value="86731644" />
-													<div class="action-bar">
-														<a href="quan-legging-tron-dang-lung.html"
-															data-handle="quan-legging-tron-dang-lung"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
-
-														<a href="quan-legging-tron-dang-lung.html"
-															data-handle="quan-legging-tron-dang-lung"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">Khác</span>
-													<span class="product-name "><a class="link"
-															href="quan-legging-tron-dang-lung.html"
-															title="Quần legging trơn dáng lửng">Quần legging trơn dáng
-															lửng</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">350.000₫</span>
-
-															<span class="compare-price hidden">0₫</span>
-
-															<div class="label_product d-inline-block hidden">
-																<div class="label_wrapper">
-																	-9%
-																</div>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731644" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4488a1af.jpg?v=1685582143523) no-repeat center center; background-size: cover">
-															<span class="color-name">Kem</span>
-														</div>
-
-														<div data-variant-id="86731664" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4488-2a1af.jpg?v=1685582143523) no-repeat center center; background-size: cover">
-															<span class="color-name">Nâu</span>
-														</div>
-
-														<a href="quan-legging-tron-dang-lung.html"
-															data-handle="quan-legging-tron-dang-lung"
-															class="color-more quick-view">
-															+6 <span class="action-name">Xem thêm 6 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584102"
-										data-inventory-quantity="300"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
-
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584102" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
-
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="quan-legging-lung-tap-yoga.html"
-														title="Quần legging lửng tập yoga">
-
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-97-730d50f374bc4cd687ca8a57ff56d6a705d4.jpg?v=1683190082777"
-															alt="Quần legging lửng tập yoga">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4487-20f71.jpg?v=1685581844197"
-															alt="Quần legging lửng tập yoga">
-
-													</a>
-													<div class="label_product ">
+													<div class="label_product d-inline-block hidden">
 														<div class="label_wrapper">
 															-7%
 														</div>
 													</div>
-													<input type="hidden" name="variantId" value="86731612" />
-													<div class="action-bar">
-														<a href="quan-legging-lung-tap-yoga.html"
-															data-handle="quan-legging-lung-tap-yoga"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
 
-														<a href="quan-legging-lung-tap-yoga.html"
-															data-handle="quan-legging-lung-tap-yoga"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">EGA</span>
-													<span class="product-name "><a class="link"
-															href="quan-legging-lung-tap-yoga.html"
-															title="Quần legging lửng tập yoga">Quần legging lửng tập
-															yoga</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">375.000₫</span>
-
-															<span class="compare-price ">400.000₫</span>
-
-															<div class="label_product d-inline-block ">
-																<div class="label_wrapper">
-																	-7%
-																</div>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731612" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-97-730d50f374bc4cd687ca8a57ff56d6a705d4.jpg?v=1683190082777) no-repeat center center; background-size: cover">
-															<span class="color-name">Đen</span>
-														</div>
-
-														<div data-variant-id="86731616" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-100-6624c86f3fb44e2389215590f74ce8a80f71.jpg?v=1685581844197) no-repeat center center; background-size: cover">
-															<span class="color-name">Kem</span>
-														</div>
-
-														<a href="quan-legging-lung-tap-yoga.html"
-															data-handle="quan-legging-lung-tap-yoga"
-															class="color-more quick-view">
-															+2 <span class="action-name">Xem thêm 2 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
 												</div>
 											</div>
-										</div>
-									</div>
 
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584101"
-										data-inventory-quantity="300"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
+											<div class="item-color-chosen">
 
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584101" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
-
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="quan-tap-legging-duong-may-noi.html"
-														title="Quần tập legging đường may nổi">
-
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-101-a0e0621c11734bf09b9d2e852b19908dcdab.jpg?v=1682386825600"
-															alt="Quần tập legging đường may nổi">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-102-db64e0c635da49e58caddb02664b99a7cdab.jpg?v=1682386825600"
-															alt="Quần tập legging đường may nổi">
-
-													</a>
-													<input type="hidden" name="variantId" value="86731640" />
-													<div class="action-bar">
-														<a href="quan-tap-legging-duong-may-noi.html"
-															data-handle="quan-tap-legging-duong-may-noi"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
-
-														<a href="quan-tap-legging-duong-may-noi.html"
-															data-handle="quan-tap-legging-duong-may-noi"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">Khác</span>
-													<span class="product-name "><a class="link"
-															href="quan-tap-legging-duong-may-noi.html"
-															title="Quần tập legging đường may nổi">Quần tập legging đường may
-															nổi</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">450.000₫</span>
-
-															<span class="compare-price hidden">0₫</span>
-
-															<div class="label_product d-inline-block hidden">
-																<div class="label_wrapper">
-																	-7%
-																</div>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731640" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-101-a0e0621c11734bf09b9d2e852b19908dcdab.jpg?v=1682386825600) no-repeat center center; background-size: cover">
-															<span class="color-name">Nâu nhạt</span>
-														</div>
-
-														<div data-variant-id="86731636" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-102-db64e0c635da49e58caddb02664b99a7cdab.jpg?v=1682386825600) no-repeat center center; background-size: cover">
-															<span class="color-name">Tím</span>
-														</div>
-
-														<a href="quan-tap-legging-duong-may-noi.html"
-															data-handle="quan-tap-legging-duong-may-noi"
-															class="color-more quick-view">
-															+2 <span class="action-name">Xem thêm 2 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+												<div data-variant-id="86731837" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4493bea3.jpg?v=1685681685250) no-repeat center center; background-size: cover">
+													<span class="color-name">Xám</span>
 												</div>
 
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
+												<div data-variant-id="86731829" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4493-1196a.jpg?v=1685681689140) no-repeat center center; background-size: cover">
+													<span class="color-name">Nâu nhạt</span>
 												</div>
+
+												<a href="ao-tap-bra-thiet-ke.html"
+													data-handle="ao-tap-bra-thiet-ke" class="color-more quick-view">
+													+4 <span class="action-name">Xem thêm 4 màu khác</span>
+												</a>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
 											</div>
 										</div>
-									</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
 
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584104"
-										data-inventory-quantity="300"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
-
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584104" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
-
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="quan-legging-dui-the-thao.html"
-														title="Quần legging đùi thể thao">
-
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-3d3e2.jpg?v=1685682597010"
-															alt="Quần legging đùi thể thao">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-7d3e2.jpg?v=1685682597010"
-															alt="Quần legging đùi thể thao">
-
-													</a>
-													<div class="label_product ">
-														<div class="label_wrapper">
-															-10%
-														</div>
-													</div>
-													<input type="hidden" name="variantId" value="86731680" />
-													<div class="action-bar">
-														<a href="quan-legging-dui-the-thao.html"
-															data-handle="quan-legging-dui-the-thao"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
-
-														<a href="quan-legging-dui-the-thao.html"
-															data-handle="quan-legging-dui-the-thao"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">EGA</span>
-													<span class="product-name "><a class="link"
-															href="quan-legging-dui-the-thao.html"
-															title="Quần legging đùi thể thao">Quần legging đùi thể
-															thao</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">235.000₫</span>
-
-															<span class="compare-price ">260.000₫</span>
-
-															<div class="label_product d-inline-block ">
-																<div class="label_wrapper">
-																	-10%
-																</div>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731680" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-3d3e2.jpg?v=1685682597010) no-repeat center center; background-size: cover">
-															<span class="color-name">Tím</span>
-														</div>
-
-														<div data-variant-id="86731676" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-7d3e2.jpg?v=1685682597010) no-repeat center center; background-size: cover">
-															<span class="color-name">Đen</span>
-														</div>
-
-														<a href="quan-legging-dui-the-thao.html"
-															data-handle="quan-legging-dui-the-thao"
-															class="color-more quick-view">
-															+2 <span class="action-name">Xem thêm 2 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
-												</div>
-											</div>
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
 										</div>
 									</div>
-
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584100"
-										data-inventory-quantity="300"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
-
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584100" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
-
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="quan-tap-ong-dai-bo-gau.html"
-														title="Quần tập ống dài bo gấu">
-
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-95-2f6e9fb44bbf48eb8becfd491475dac422cc.jpg?v=1685682902207"
-															alt="Quần tập ống dài bo gấu">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-94-97df2fddb3dd46c9ae989d7593ded2c022cc.jpg?v=1685682902207"
-															alt="Quần tập ống dài bo gấu">
-
-													</a>
-													<input type="hidden" name="variantId" value="86731608" />
-													<div class="action-bar">
-														<a href="quan-tap-ong-dai-bo-gau.html"
-															data-handle="quan-tap-ong-dai-bo-gau"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
-
-														<a href="quan-tap-ong-dai-bo-gau.html"
-															data-handle="quan-tap-ong-dai-bo-gau"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">EGA</span>
-													<span class="product-name "><a class="link"
-															href="quan-tap-ong-dai-bo-gau.html"
-															title="Quần tập ống dài bo gấu">Quần tập ống dài bo
-															gấu</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">405.000₫</span>
-
-															<span class="compare-price hidden">0₫</span>
-
-															<div class="label_product d-inline-block hidden">
-																<div class="label_wrapper">
-																	-10%
-																</div>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731608" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-95-2f6e9fb44bbf48eb8becfd491475dac422cc.jpg?v=1685682902207) no-repeat center center; background-size: cover">
-															<span class="color-name">Xanh rêu</span>
-														</div>
-
-														<div data-variant-id="86731604" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-94-97df2fddb3dd46c9ae989d7593ded2c022cc.jpg?v=1685682902207) no-repeat center center; background-size: cover">
-															<span class="color-name">Kem</span>
-														</div>
-
-														<a href="quan-tap-ong-dai-bo-gau.html"
-															data-handle="quan-tap-ong-dai-bo-gau"
-															class="color-more quick-view">
-															+1 <span class="action-name">Xem thêm 1 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584096"
-										data-inventory-quantity="300"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
-
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584096" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
-
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="quan-legging-tap-yoga-ong-loe.html"
-														title="Quần legging tập yoga ống loe">
-
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-91-4081f32565c847d891b972eb8d2688b06866.jpg?v=1682386824097"
-															alt="Quần legging tập yoga ống loe">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-92-d0fb766008e54d36ad69146b90af84196866.jpg?v=1682386824097"
-															alt="Quần legging tập yoga ống loe">
-
-													</a>
-													<input type="hidden" name="variantId" value="86731543" />
-													<div class="action-bar">
-														<a href="quan-legging-tap-yoga-ong-loe.html"
-															data-handle="quan-legging-tap-yoga-ong-loe"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
-
-														<a href="quan-legging-tap-yoga-ong-loe.html"
-															data-handle="quan-legging-tap-yoga-ong-loe"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">EGA</span>
-													<span class="product-name "><a class="link"
-															href="quan-legging-tap-yoga-ong-loe.html"
-															title="Quần legging tập yoga ống loe">Quần legging tập yoga ống
-															loe</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">450.000₫</span>
-
-															<span class="compare-price hidden">0₫</span>
-
-															<div class="label_product d-inline-block hidden">
-																<div class="label_wrapper">
-																	-10%
-																</div>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731543" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-91-4081f32565c847d891b972eb8d2688b06866.jpg?v=1682386824097) no-repeat center center; background-size: cover">
-															<span class="color-name">Xám</span>
-														</div>
-
-														<div data-variant-id="86731539" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-90-74d7b46a73d14a1586e4334d554295216866.jpg?v=1682386824097) no-repeat center center; background-size: cover">
-															<span class="color-name">Đen</span>
-														</div>
-
-														<a href="quan-legging-tap-yoga-ong-loe.html"
-															data-handle="quan-legging-tap-yoga-ong-loe"
-															class="color-more quick-view">
-															+1 <span class="action-name">Xem thêm 1 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="text-center mt-3 col-12">
-									<a href="quan-legging.html" title="Xem tất cả"
-										class="btn btn-main btn-icon">
-										Xem tất cả
-
-										<svg class="icon">
-											<use xlink:href="#icon-arrow" />
-										</svg>
-									</a>
 								</div>
 							</div>
 
-							<div id="tab-3" class="tab-content  content_extab ">
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584106"
+								data-inventory-quantity="95"
+								data-management="true"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
 
-								<div class="row one-row">
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584106" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
 
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="31180491"
-										data-inventory-quantity="0"
-										data-management="true"
-										data-max-stock="300">
-										<div class="item_product_main">
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="ao-bra-tap-gym-yoga.html" title="Áo bra tập gym yoga">
 
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-31180491" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-f84f320b-1cc4-4d43-bf0b-3bfb875cf707ee8b.jpg?v=1685681857810"
+													alt="Áo bra tập gym yoga">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-4db6e.jpg?v=1685681862230"
+													alt="Áo bra tập gym yoga">
 
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="quan-dui-the-thao-lung-cao.html"
-														title="Quần đùi thể thao lưng cao">
-
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488-b65effa4-13b1-4126-9cc1-5a4c093a2ceef94c.jpg?v=1685683291660"
-															alt="Quần đùi thể thao lưng cao">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488-1-e202e9d6-d18d-4f62-9aa0-76f7b8c31073f94c.jpg?v=1685683291660"
-															alt="Quần đùi thể thao lưng cao">
-
-													</a>
-													<div class="label_product ">
-														<div class="label_wrapper">
-															-10%
-														</div>
-													</div>
-													<input type="hidden" name="variantId" value="89709606" />
-													<div class="action-bar">
-														<a href="quan-dui-the-thao-lung-cao.html"
-															data-handle="quan-dui-the-thao-lung-cao"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Hết hàng</span>
-														</a>
-
-														<a href="quan-dui-the-thao-lung-cao.html"
-															data-handle="quan-dui-the-thao-lung-cao"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">EGA</span>
-													<span class="product-name "><a class="link"
-															href="quan-dui-the-thao-lung-cao.html"
-															title="Quần đùi thể thao lưng cao">Quần đùi thể thao lưng
-															cao</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">235.000₫</span>
-
-															<span class="compare-price ">260.000₫</span>
-
-															<div class="label_product d-inline-block ">
-																<div class="label_wrapper">
-																	-10%
-																</div>
-															</div>
-
-														</div>
-
-														<span class="item-label-soldout">Hết hàng</span>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="89709606" class="color-dot selected"
-															style="background-color: #f8f6f1">
-															<span class="color-name">Kem</span>
-														</div>
-
-														<div data-variant-id="89709610" class="color-dot "
-															style="background-color: #f1f0f1">
-															<span class="color-name">Trắng</span>
-														</div>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
+											</a>
+											<div class="label_product ">
+												<div class="label_wrapper">
+													-19%
 												</div>
 											</div>
-										</div>
-									</div>
+											<input type="hidden" name="variantId" value="86731697" />
+											<div class="action-bar">
+												<a href="ao-bra-tap-gym-yoga.html"
+													data-handle="ao-bra-tap-gym-yoga"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
 
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="31180477"
-										data-inventory-quantity="0"
-										data-management="true"
-										data-max-stock="300">
-										<div class="item_product_main">
-
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-31180477" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
-
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="quan-dui-the-thao.html" title="Quần đùi thể thao">
-
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4487e7e6.jpg?v=1685682736210"
-															alt="Quần đùi thể thao">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4487-1e7e6.jpg?v=1685682736210"
-															alt="Quần đùi thể thao">
-
-													</a>
-													<div class="label_product ">
-														<div class="label_wrapper">
-															-10%
-														</div>
-													</div>
-													<input type="hidden" name="variantId" value="89709513" />
-													<div class="action-bar">
-														<a href="quan-dui-the-thao.html" data-handle="quan-dui-the-thao"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Hết hàng</span>
-														</a>
-
-														<a href="quan-dui-the-thao.html" data-handle="quan-dui-the-thao"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">EGA</span>
-													<span class="product-name "><a class="link"
-															href="quan-dui-the-thao.html" title="Quần đùi thể thao">Quần đùi
-															thể thao</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">235.000₫</span>
-
-															<span class="compare-price ">260.000₫</span>
-
-															<div class="label_product d-inline-block ">
-																<div class="label_wrapper">
-																	-10%
-																</div>
-															</div>
-
-														</div>
-
-														<span class="item-label-soldout">Hết hàng</span>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="89709513" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4487e7e6.jpg?v=1685682736210) no-repeat center center; background-size: cover">
-															<span class="color-name">Tím</span>
-														</div>
-
-														<div data-variant-id="89709517" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4487-1e7e6.jpg?v=1685682736210) no-repeat center center; background-size: cover">
-															<span class="color-name">Đen</span>
-														</div>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
-												</div>
+												<a href="ao-bra-tap-gym-yoga.html"
+													data-handle="ao-bra-tap-gym-yoga"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
 											</div>
 										</div>
-									</div>
+										<div class="product-info">
 
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584113"
-										data-inventory-quantity="300"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
-
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584113" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
-
-													<span
-														class="product-promo-tag product-promo-tag--1 product-promo-tag--text-1"
-														style="--color: #333; --background: #f0f0f0; --border-color: #dfdfdf">
-														Bán chạy
-
+											<span class="product-vendor">EGA</span>
+											<span class="product-name "><a class="link"
+													href="ao-bra-tap-gym-yoga.html" title="Áo bra tập gym yoga">Áo
+													bra tập gym yoga</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
 													</span>
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="ao-croptop-tap-gym-yoga-quai-ao-doi.html"
-														title="Áo croptop tập gym yoga">
 
-														<img class="product-frame"
-															src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/frame_2c5aa.png?1738827047187"
-															alt
-															data-image-scale="--image-scale: 1;
+													<span class="price ">245.000₫</span>
+
+													<span class="compare-price ">300.000₫</span>
+
+													<div class="label_product d-inline-block ">
+														<div class="label_wrapper">
+															-19%
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+											<div class="item-color-chosen">
+
+												<div data-variant-id="86731697" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-f84f320b-1cc4-4d43-bf0b-3bfb875cf707ee8b.jpg?v=1685681857810) no-repeat center center; background-size: cover">
+													<span class="color-name">Xanh đen</span>
+												</div>
+
+												<div data-variant-id="86731701" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-4db6e.jpg?v=1685681862230) no-repeat center center; background-size: cover">
+													<span class="color-name">Nâu nhạt</span>
+												</div>
+
+												<a href="ao-bra-tap-gym-yoga.html"
+													data-handle="ao-bra-tap-gym-yoga" class="color-more quick-view">
+													+4 <span class="action-name">Xem thêm 4 màu khác</span>
+												</a>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584110"
+								data-inventory-quantity="49"
+								data-management="true"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584110" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
+
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="ao-tap-croptop-quai-lung-cheo.html"
+												title="Áo tập croptop quai lưng chéo">
+
+												<img class="product-frame"
+													src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/frame_2c5aa.png?1738827047187"
+													alt
+													data-image-scale="--image-scale: 1;
 "
-															loading="lazy"
-															width="480"
-															height="480" />
+													loading="lazy"
+													width="480"
+													height="480" />
 
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;
 "
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-26c92.jpg?v=1685581773753"
-															alt="Áo croptop tập gym yoga">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-1b023.jpg?v=1685682016667"
+													alt="Áo tập croptop quai lưng chéo">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;
 "
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491f4ec.jpg?v=1685581775777"
-															alt="Áo croptop tập gym yoga">
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-54c98.jpg?v=1685682017903"
+													alt="Áo tập croptop quai lưng chéo">
 
-													</a>
+											</a>
+											<input type="hidden" name="variantId" value="86731777" />
+											<div class="action-bar">
+												<a href="ao-tap-croptop-quai-lung-cheo.html"
+													data-handle="ao-tap-croptop-quai-lung-cheo"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
 
-													<img
-														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-button-playc5aa.png?1738827047187"
-														loading="lazy"
-														class="video-icon"
-														alt="video-play-button" />
-													<div class="label_product ">
+												<a href="ao-tap-croptop-quai-lung-cheo.html"
+													data-handle="ao-tap-croptop-quai-lung-cheo"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">Yinli</span>
+											<span class="product-name "><a class="link"
+													href="ao-tap-croptop-quai-lung-cheo.html"
+													title="Áo tập croptop quai lưng chéo">Áo tập croptop quai lưng
+													chéo</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
+													</span>
+
+													<span class="price ">368.000₫</span>
+
+													<span class="compare-price hidden">0₫</span>
+
+													<div class="label_product d-inline-block hidden">
+														<div class="label_wrapper">
+															-19%
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+											<div class="item-color-chosen">
+
+												<div data-variant-id="86731777" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-1b023.jpg?v=1685682016667) no-repeat center center; background-size: cover">
+													<span class="color-name">Đen</span>
+												</div>
+
+												<div data-variant-id="86731781" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-54c98.jpg?v=1685682017903) no-repeat center center; background-size: cover">
+													<span class="color-name">Kem</span>
+												</div>
+
+												<a href="ao-tap-croptop-quai-lung-cheo.html"
+													data-handle="ao-tap-croptop-quai-lung-cheo"
+													class="color-more quick-view">
+													+3 <span class="action-name">Xem thêm 3 màu khác</span>
+												</a>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584097"
+								data-inventory-quantity="300"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584097" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
+
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="quan-legging-dai-tap-yoga.html"
+												title="Quần legging dài tập yoga">
+
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-2-4aac64a6-506b-4a1e-9b88-d451525544b54632.jpg?v=1685682352997"
+													alt="Quần legging dài tập yoga">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-6a4f6.jpg?v=1685682354427"
+													alt="Quần legging dài tập yoga">
+
+											</a>
+											<input type="hidden" name="variantId" value="86731548" />
+											<div class="action-bar">
+												<a href="quan-legging-dai-tap-yoga.html"
+													data-handle="quan-legging-dai-tap-yoga"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
+
+												<a href="quan-legging-dai-tap-yoga.html"
+													data-handle="quan-legging-dai-tap-yoga"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">Khác</span>
+											<span class="product-name "><a class="link"
+													href="quan-legging-dai-tap-yoga.html"
+													title="Quần legging dài tập yoga">Quần legging dài tập
+													yoga</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
+													</span>
+
+													<span class="price ">400.000₫</span>
+
+													<span class="compare-price hidden">0₫</span>
+
+													<div class="label_product d-inline-block hidden">
+														<div class="label_wrapper">
+															-19%
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+											<div class="item-color-chosen">
+
+												<div data-variant-id="86731548" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-2-4aac64a6-506b-4a1e-9b88-d451525544b54632.jpg?v=1685682352997) no-repeat center center; background-size: cover">
+													<span class="color-name">Đen</span>
+												</div>
+
+												<div data-variant-id="86731552" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-6a4f6.jpg?v=1685682354427) no-repeat center center; background-size: cover">
+													<span class="color-name">Kem</span>
+												</div>
+
+												<a href="quan-legging-dai-tap-yoga.html"
+													data-handle="quan-legging-dai-tap-yoga"
+													class="color-more quick-view">
+													+5 <span class="action-name">Xem thêm 5 màu khác</span>
+												</a>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584095"
+								data-inventory-quantity="300"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584095" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
+
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="quan-legging-tap-dang-dai.html"
+												title="Quần legging tập dáng dài">
+
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488-113be33a-2f84-40d8-818d-edbfd351c67b3890.jpg?v=1685682462047"
+													alt="Quần legging tập dáng dài">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488-1c11a.jpg?v=1685682463790"
+													alt="Quần legging tập dáng dài">
+
+											</a>
+											<div class="label_product ">
+												<div class="label_wrapper">
+													-9%
+												</div>
+											</div>
+											<input type="hidden" name="variantId" value="86731530" />
+											<div class="action-bar">
+												<a href="quan-legging-tap-dang-dai.html"
+													data-handle="quan-legging-tap-dang-dai"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
+
+												<a href="quan-legging-tap-dang-dai.html"
+													data-handle="quan-legging-tap-dang-dai"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">Yinli</span>
+											<span class="product-name "><a class="link"
+													href="quan-legging-tap-dang-dai.html"
+													title="Quần legging tập dáng dài">Quần legging tập dáng
+													dài</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
+													</span>
+
+													<span class="price ">410.000₫</span>
+
+													<span class="compare-price ">450.000₫</span>
+
+													<div class="label_product d-inline-block ">
+														<div class="label_wrapper">
+															-9%
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+											<div class="item-color-chosen">
+
+												<div data-variant-id="86731530" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4488-113be33a-2f84-40d8-818d-edbfd351c67b3890.jpg?v=1685682462047) no-repeat center center; background-size: cover">
+													<span class="color-name">Xanh đen</span>
+												</div>
+
+												<div data-variant-id="86731532" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4488-1c11a.jpg?v=1685682463790) no-repeat center center; background-size: cover">
+													<span class="color-name">Kem</span>
+												</div>
+
+												<a href="quan-legging-tap-dang-dai.html"
+													data-handle="quan-legging-tap-dang-dai"
+													class="color-more quick-view">
+													+4 <span class="action-name">Xem thêm 4 màu khác</span>
+												</a>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584104"
+								data-inventory-quantity="300"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584104" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
+
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="quan-legging-dui-the-thao.html"
+												title="Quần legging đùi thể thao">
+
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-3d3e2.jpg?v=1685682597010"
+													alt="Quần legging đùi thể thao">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-7d3e2.jpg?v=1685682597010"
+													alt="Quần legging đùi thể thao">
+
+											</a>
+											<div class="label_product ">
+												<div class="label_wrapper">
+													-10%
+												</div>
+											</div>
+											<input type="hidden" name="variantId" value="86731680" />
+											<div class="action-bar">
+												<a href="quan-legging-dui-the-thao.html"
+													data-handle="quan-legging-dui-the-thao"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
+
+												<a href="quan-legging-dui-the-thao.html"
+													data-handle="quan-legging-dui-the-thao"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">EGA</span>
+											<span class="product-name "><a class="link"
+													href="quan-legging-dui-the-thao.html"
+													title="Quần legging đùi thể thao">Quần legging đùi thể
+													thao</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
+													</span>
+
+													<span class="price ">235.000₫</span>
+
+													<span class="compare-price ">260.000₫</span>
+
+													<div class="label_product d-inline-block ">
+														<div class="label_wrapper">
+															-10%
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+											<div class="item-color-chosen">
+
+												<div data-variant-id="86731680" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-3d3e2.jpg?v=1685682597010) no-repeat center center; background-size: cover">
+													<span class="color-name">Tím</span>
+												</div>
+
+												<div data-variant-id="86731676" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-7d3e2.jpg?v=1685682597010) no-repeat center center; background-size: cover">
+													<span class="color-name">Đen</span>
+												</div>
+
+												<a href="quan-legging-dui-the-thao.html"
+													data-handle="quan-legging-dui-the-thao"
+													class="color-more quick-view">
+													+2 <span class="action-name">Xem thêm 2 màu khác</span>
+												</a>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="31180477"
+								data-inventory-quantity="0"
+								data-management="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-31180477" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
+
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="quan-dui-the-thao.html" title="Quần đùi thể thao">
+
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4487e7e6.jpg?v=1685682736210"
+													alt="Quần đùi thể thao">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4487-1e7e6.jpg?v=1685682736210"
+													alt="Quần đùi thể thao">
+
+											</a>
+											<div class="label_product ">
+												<div class="label_wrapper">
+													-10%
+												</div>
+											</div>
+											<input type="hidden" name="variantId" value="89709513" />
+											<div class="action-bar">
+												<a href="quan-dui-the-thao.html" data-handle="quan-dui-the-thao"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Hết hàng</span>
+												</a>
+
+												<a href="quan-dui-the-thao.html" data-handle="quan-dui-the-thao"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">EGA</span>
+											<span class="product-name "><a class="link"
+													href="quan-dui-the-thao.html" title="Quần đùi thể thao">Quần đùi
+													thể thao</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
+													</span>
+
+													<span class="price ">235.000₫</span>
+
+													<span class="compare-price ">260.000₫</span>
+
+													<div class="label_product d-inline-block ">
+														<div class="label_wrapper">
+															-10%
+														</div>
+													</div>
+
+												</div>
+
+												<span class="item-label-soldout">Hết hàng</span>
+											</div>
+
+											<div class="item-color-chosen">
+
+												<div data-variant-id="89709513" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4487e7e6.jpg?v=1685682736210) no-repeat center center; background-size: cover">
+													<span class="color-name">Tím</span>
+												</div>
+
+												<div data-variant-id="89709517" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4487-1e7e6.jpg?v=1685682736210) no-repeat center center; background-size: cover">
+													<span class="color-name">Đen</span>
+												</div>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="text-center mt-3 col-12">
+							<a href="onsale.html" title="Xem tất cả" class="btn btn-main btn-icon">
+								Xem tất cả
+
+								<svg class="icon">
+									<use xlink:href="#icon-arrow" />
+								</svg>
+							</a>
+						</div>
+					</div>
+
+					<div id="tab-2" class="tab-content  content_extab ">
+
+						<div class="row one-row">
+
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584095"
+								data-inventory-quantity="300"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584095" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
+
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="quan-legging-tap-dang-dai.html"
+												title="Quần legging tập dáng dài">
+
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488-113be33a-2f84-40d8-818d-edbfd351c67b3890.jpg?v=1685682462047"
+													alt="Quần legging tập dáng dài">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488-1c11a.jpg?v=1685682463790"
+													alt="Quần legging tập dáng dài">
+
+											</a>
+											<div class="label_product ">
+												<div class="label_wrapper">
+													-9%
+												</div>
+											</div>
+											<input type="hidden" name="variantId" value="86731530" />
+											<div class="action-bar">
+												<a href="quan-legging-tap-dang-dai.html"
+													data-handle="quan-legging-tap-dang-dai"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
+
+												<a href="quan-legging-tap-dang-dai.html"
+													data-handle="quan-legging-tap-dang-dai"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">Yinli</span>
+											<span class="product-name "><a class="link"
+													href="quan-legging-tap-dang-dai.html"
+													title="Quần legging tập dáng dài">Quần legging tập dáng
+													dài</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
+													</span>
+
+													<span class="price ">410.000₫</span>
+
+													<span class="compare-price ">450.000₫</span>
+
+													<div class="label_product d-inline-block ">
+														<div class="label_wrapper">
+															-9%
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+											<div class="item-color-chosen">
+
+												<div data-variant-id="86731530" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4488-113be33a-2f84-40d8-818d-edbfd351c67b3890.jpg?v=1685682462047) no-repeat center center; background-size: cover">
+													<span class="color-name">Xanh đen</span>
+												</div>
+
+												<div data-variant-id="86731532" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4488-1c11a.jpg?v=1685682463790) no-repeat center center; background-size: cover">
+													<span class="color-name">Kem</span>
+												</div>
+
+												<a href="quan-legging-tap-dang-dai.html"
+													data-handle="quan-legging-tap-dang-dai"
+													class="color-more quick-view">
+													+4 <span class="action-name">Xem thêm 4 màu khác</span>
+												</a>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584097"
+								data-inventory-quantity="300"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584097" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
+
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="quan-legging-dai-tap-yoga.html"
+												title="Quần legging dài tập yoga">
+
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-2-4aac64a6-506b-4a1e-9b88-d451525544b54632.jpg?v=1685682352997"
+													alt="Quần legging dài tập yoga">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-6a4f6.jpg?v=1685682354427"
+													alt="Quần legging dài tập yoga">
+
+											</a>
+											<input type="hidden" name="variantId" value="86731548" />
+											<div class="action-bar">
+												<a href="quan-legging-dai-tap-yoga.html"
+													data-handle="quan-legging-dai-tap-yoga"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
+
+												<a href="quan-legging-dai-tap-yoga.html"
+													data-handle="quan-legging-dai-tap-yoga"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">Khác</span>
+											<span class="product-name "><a class="link"
+													href="quan-legging-dai-tap-yoga.html"
+													title="Quần legging dài tập yoga">Quần legging dài tập
+													yoga</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
+													</span>
+
+													<span class="price ">400.000₫</span>
+
+													<span class="compare-price hidden">0₫</span>
+
+													<div class="label_product d-inline-block hidden">
+														<div class="label_wrapper">
+															-9%
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+											<div class="item-color-chosen">
+
+												<div data-variant-id="86731548" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-2-4aac64a6-506b-4a1e-9b88-d451525544b54632.jpg?v=1685682352997) no-repeat center center; background-size: cover">
+													<span class="color-name">Đen</span>
+												</div>
+
+												<div data-variant-id="86731552" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-6a4f6.jpg?v=1685682354427) no-repeat center center; background-size: cover">
+													<span class="color-name">Kem</span>
+												</div>
+
+												<a href="quan-legging-dai-tap-yoga.html"
+													data-handle="quan-legging-dai-tap-yoga"
+													class="color-more quick-view">
+													+5 <span class="action-name">Xem thêm 5 màu khác</span>
+												</a>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584103"
+								data-inventory-quantity="300"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584103" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
+
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="quan-legging-tron-dang-lung.html"
+												title="Quần legging trơn dáng lửng">
+
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488a1af.jpg?v=1685582143523"
+													alt="Quần legging trơn dáng lửng">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488-2a1af.jpg?v=1685582143523"
+													alt="Quần legging trơn dáng lửng">
+
+											</a>
+											<input type="hidden" name="variantId" value="86731644" />
+											<div class="action-bar">
+												<a href="quan-legging-tron-dang-lung.html"
+													data-handle="quan-legging-tron-dang-lung"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
+
+												<a href="quan-legging-tron-dang-lung.html"
+													data-handle="quan-legging-tron-dang-lung"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">Khác</span>
+											<span class="product-name "><a class="link"
+													href="quan-legging-tron-dang-lung.html"
+													title="Quần legging trơn dáng lửng">Quần legging trơn dáng
+													lửng</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
+													</span>
+
+													<span class="price ">350.000₫</span>
+
+													<span class="compare-price hidden">0₫</span>
+
+													<div class="label_product d-inline-block hidden">
+														<div class="label_wrapper">
+															-9%
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+											<div class="item-color-chosen">
+
+												<div data-variant-id="86731644" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4488a1af.jpg?v=1685582143523) no-repeat center center; background-size: cover">
+													<span class="color-name">Kem</span>
+												</div>
+
+												<div data-variant-id="86731664" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4488-2a1af.jpg?v=1685582143523) no-repeat center center; background-size: cover">
+													<span class="color-name">Nâu</span>
+												</div>
+
+												<a href="quan-legging-tron-dang-lung.html"
+													data-handle="quan-legging-tron-dang-lung"
+													class="color-more quick-view">
+													+6 <span class="action-name">Xem thêm 6 màu khác</span>
+												</a>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584102"
+								data-inventory-quantity="300"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584102" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
+
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="quan-legging-lung-tap-yoga.html"
+												title="Quần legging lửng tập yoga">
+
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-97-730d50f374bc4cd687ca8a57ff56d6a705d4.jpg?v=1683190082777"
+													alt="Quần legging lửng tập yoga">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4487-20f71.jpg?v=1685581844197"
+													alt="Quần legging lửng tập yoga">
+
+											</a>
+											<div class="label_product ">
+												<div class="label_wrapper">
+													-7%
+												</div>
+											</div>
+											<input type="hidden" name="variantId" value="86731612" />
+											<div class="action-bar">
+												<a href="quan-legging-lung-tap-yoga.html"
+													data-handle="quan-legging-lung-tap-yoga"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
+
+												<a href="quan-legging-lung-tap-yoga.html"
+													data-handle="quan-legging-lung-tap-yoga"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">EGA</span>
+											<span class="product-name "><a class="link"
+													href="quan-legging-lung-tap-yoga.html"
+													title="Quần legging lửng tập yoga">Quần legging lửng tập
+													yoga</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
+													</span>
+
+													<span class="price ">375.000₫</span>
+
+													<span class="compare-price ">400.000₫</span>
+
+													<div class="label_product d-inline-block ">
+														<div class="label_wrapper">
+															-7%
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+											<div class="item-color-chosen">
+
+												<div data-variant-id="86731612" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-97-730d50f374bc4cd687ca8a57ff56d6a705d4.jpg?v=1683190082777) no-repeat center center; background-size: cover">
+													<span class="color-name">Đen</span>
+												</div>
+
+												<div data-variant-id="86731616" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-100-6624c86f3fb44e2389215590f74ce8a80f71.jpg?v=1685581844197) no-repeat center center; background-size: cover">
+													<span class="color-name">Kem</span>
+												</div>
+
+												<a href="quan-legging-lung-tap-yoga.html"
+													data-handle="quan-legging-lung-tap-yoga"
+													class="color-more quick-view">
+													+2 <span class="action-name">Xem thêm 2 màu khác</span>
+												</a>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584101"
+								data-inventory-quantity="300"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584101" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
+
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="quan-tap-legging-duong-may-noi.html"
+												title="Quần tập legging đường may nổi">
+
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-101-a0e0621c11734bf09b9d2e852b19908dcdab.jpg?v=1682386825600"
+													alt="Quần tập legging đường may nổi">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-102-db64e0c635da49e58caddb02664b99a7cdab.jpg?v=1682386825600"
+													alt="Quần tập legging đường may nổi">
+
+											</a>
+											<input type="hidden" name="variantId" value="86731640" />
+											<div class="action-bar">
+												<a href="quan-tap-legging-duong-may-noi.html"
+													data-handle="quan-tap-legging-duong-may-noi"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
+
+												<a href="quan-tap-legging-duong-may-noi.html"
+													data-handle="quan-tap-legging-duong-may-noi"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">Khác</span>
+											<span class="product-name "><a class="link"
+													href="quan-tap-legging-duong-may-noi.html"
+													title="Quần tập legging đường may nổi">Quần tập legging đường may
+													nổi</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
+													</span>
+
+													<span class="price ">450.000₫</span>
+
+													<span class="compare-price hidden">0₫</span>
+
+													<div class="label_product d-inline-block hidden">
+														<div class="label_wrapper">
+															-7%
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+											<div class="item-color-chosen">
+
+												<div data-variant-id="86731640" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-101-a0e0621c11734bf09b9d2e852b19908dcdab.jpg?v=1682386825600) no-repeat center center; background-size: cover">
+													<span class="color-name">Nâu nhạt</span>
+												</div>
+
+												<div data-variant-id="86731636" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-102-db64e0c635da49e58caddb02664b99a7cdab.jpg?v=1682386825600) no-repeat center center; background-size: cover">
+													<span class="color-name">Tím</span>
+												</div>
+
+												<a href="quan-tap-legging-duong-may-noi.html"
+													data-handle="quan-tap-legging-duong-may-noi"
+													class="color-more quick-view">
+													+2 <span class="action-name">Xem thêm 2 màu khác</span>
+												</a>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584104"
+								data-inventory-quantity="300"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584104" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
+
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="quan-legging-dui-the-thao.html"
+												title="Quần legging đùi thể thao">
+
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-3d3e2.jpg?v=1685682597010"
+													alt="Quần legging đùi thể thao">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-7d3e2.jpg?v=1685682597010"
+													alt="Quần legging đùi thể thao">
+
+											</a>
+											<div class="label_product ">
+												<div class="label_wrapper">
+													-10%
+												</div>
+											</div>
+											<input type="hidden" name="variantId" value="86731680" />
+											<div class="action-bar">
+												<a href="quan-legging-dui-the-thao.html"
+													data-handle="quan-legging-dui-the-thao"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
+
+												<a href="quan-legging-dui-the-thao.html"
+													data-handle="quan-legging-dui-the-thao"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">EGA</span>
+											<span class="product-name "><a class="link"
+													href="quan-legging-dui-the-thao.html"
+													title="Quần legging đùi thể thao">Quần legging đùi thể
+													thao</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
+													</span>
+
+													<span class="price ">235.000₫</span>
+
+													<span class="compare-price ">260.000₫</span>
+
+													<div class="label_product d-inline-block ">
+														<div class="label_wrapper">
+															-10%
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+											<div class="item-color-chosen">
+
+												<div data-variant-id="86731680" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-3d3e2.jpg?v=1685682597010) no-repeat center center; background-size: cover">
+													<span class="color-name">Tím</span>
+												</div>
+
+												<div data-variant-id="86731676" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-7d3e2.jpg?v=1685682597010) no-repeat center center; background-size: cover">
+													<span class="color-name">Đen</span>
+												</div>
+
+												<a href="quan-legging-dui-the-thao.html"
+													data-handle="quan-legging-dui-the-thao"
+													class="color-more quick-view">
+													+2 <span class="action-name">Xem thêm 2 màu khác</span>
+												</a>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584100"
+								data-inventory-quantity="300"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584100" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
+
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="quan-tap-ong-dai-bo-gau.html"
+												title="Quần tập ống dài bo gấu">
+
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-95-2f6e9fb44bbf48eb8becfd491475dac422cc.jpg?v=1685682902207"
+													alt="Quần tập ống dài bo gấu">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-94-97df2fddb3dd46c9ae989d7593ded2c022cc.jpg?v=1685682902207"
+													alt="Quần tập ống dài bo gấu">
+
+											</a>
+											<input type="hidden" name="variantId" value="86731608" />
+											<div class="action-bar">
+												<a href="quan-tap-ong-dai-bo-gau.html"
+													data-handle="quan-tap-ong-dai-bo-gau"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
+
+												<a href="quan-tap-ong-dai-bo-gau.html"
+													data-handle="quan-tap-ong-dai-bo-gau"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">EGA</span>
+											<span class="product-name "><a class="link"
+													href="quan-tap-ong-dai-bo-gau.html"
+													title="Quần tập ống dài bo gấu">Quần tập ống dài bo
+													gấu</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
+													</span>
+
+													<span class="price ">405.000₫</span>
+
+													<span class="compare-price hidden">0₫</span>
+
+													<div class="label_product d-inline-block hidden">
+														<div class="label_wrapper">
+															-10%
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+											<div class="item-color-chosen">
+
+												<div data-variant-id="86731608" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-95-2f6e9fb44bbf48eb8becfd491475dac422cc.jpg?v=1685682902207) no-repeat center center; background-size: cover">
+													<span class="color-name">Xanh rêu</span>
+												</div>
+
+												<div data-variant-id="86731604" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-94-97df2fddb3dd46c9ae989d7593ded2c022cc.jpg?v=1685682902207) no-repeat center center; background-size: cover">
+													<span class="color-name">Kem</span>
+												</div>
+
+												<a href="quan-tap-ong-dai-bo-gau.html"
+													data-handle="quan-tap-ong-dai-bo-gau"
+													class="color-more quick-view">
+													+1 <span class="action-name">Xem thêm 1 màu khác</span>
+												</a>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584096"
+								data-inventory-quantity="300"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584096" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
+
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="quan-legging-tap-yoga-ong-loe.html"
+												title="Quần legging tập yoga ống loe">
+
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-91-4081f32565c847d891b972eb8d2688b06866.jpg?v=1682386824097"
+													alt="Quần legging tập yoga ống loe">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-92-d0fb766008e54d36ad69146b90af84196866.jpg?v=1682386824097"
+													alt="Quần legging tập yoga ống loe">
+
+											</a>
+											<input type="hidden" name="variantId" value="86731543" />
+											<div class="action-bar">
+												<a href="quan-legging-tap-yoga-ong-loe.html"
+													data-handle="quan-legging-tap-yoga-ong-loe"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
+
+												<a href="quan-legging-tap-yoga-ong-loe.html"
+													data-handle="quan-legging-tap-yoga-ong-loe"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">EGA</span>
+											<span class="product-name "><a class="link"
+													href="quan-legging-tap-yoga-ong-loe.html"
+													title="Quần legging tập yoga ống loe">Quần legging tập yoga ống
+													loe</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
+													</span>
+
+													<span class="price ">450.000₫</span>
+
+													<span class="compare-price hidden">0₫</span>
+
+													<div class="label_product d-inline-block hidden">
+														<div class="label_wrapper">
+															-10%
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+											<div class="item-color-chosen">
+
+												<div data-variant-id="86731543" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-91-4081f32565c847d891b972eb8d2688b06866.jpg?v=1682386824097) no-repeat center center; background-size: cover">
+													<span class="color-name">Xám</span>
+												</div>
+
+												<div data-variant-id="86731539" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/image-90-74d7b46a73d14a1586e4334d554295216866.jpg?v=1682386824097) no-repeat center center; background-size: cover">
+													<span class="color-name">Đen</span>
+												</div>
+
+												<a href="quan-legging-tap-yoga-ong-loe.html"
+													data-handle="quan-legging-tap-yoga-ong-loe"
+													class="color-more quick-view">
+													+1 <span class="action-name">Xem thêm 1 màu khác</span>
+												</a>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="text-center mt-3 col-12">
+							<a href="quan-legging.html" title="Xem tất cả"
+								class="btn btn-main btn-icon">
+								Xem tất cả
+
+								<svg class="icon">
+									<use xlink:href="#icon-arrow" />
+								</svg>
+							</a>
+						</div>
+					</div>
+
+					<div id="tab-3" class="tab-content  content_extab ">
+
+						<div class="row one-row">
+
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="31180491"
+								data-inventory-quantity="0"
+								data-management="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-31180491" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
+
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="quan-dui-the-thao-lung-cao.html"
+												title="Quần đùi thể thao lưng cao">
+
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488-b65effa4-13b1-4126-9cc1-5a4c093a2ceef94c.jpg?v=1685683291660"
+													alt="Quần đùi thể thao lưng cao">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4488-1-e202e9d6-d18d-4f62-9aa0-76f7b8c31073f94c.jpg?v=1685683291660"
+													alt="Quần đùi thể thao lưng cao">
+
+											</a>
+											<div class="label_product ">
+												<div class="label_wrapper">
+													-10%
+												</div>
+											</div>
+											<input type="hidden" name="variantId" value="89709606" />
+											<div class="action-bar">
+												<a href="quan-dui-the-thao-lung-cao.html"
+													data-handle="quan-dui-the-thao-lung-cao"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Hết hàng</span>
+												</a>
+
+												<a href="quan-dui-the-thao-lung-cao.html"
+													data-handle="quan-dui-the-thao-lung-cao"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">EGA</span>
+											<span class="product-name "><a class="link"
+													href="quan-dui-the-thao-lung-cao.html"
+													title="Quần đùi thể thao lưng cao">Quần đùi thể thao lưng
+													cao</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
+													</span>
+
+													<span class="price ">235.000₫</span>
+
+													<span class="compare-price ">260.000₫</span>
+
+													<div class="label_product d-inline-block ">
+														<div class="label_wrapper">
+															-10%
+														</div>
+													</div>
+
+												</div>
+
+												<span class="item-label-soldout">Hết hàng</span>
+											</div>
+
+											<div class="item-color-chosen">
+
+												<div data-variant-id="89709606" class="color-dot selected"
+													style="background-color: #f8f6f1">
+													<span class="color-name">Kem</span>
+												</div>
+
+												<div data-variant-id="89709610" class="color-dot "
+													style="background-color: #f1f0f1">
+													<span class="color-name">Trắng</span>
+												</div>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="31180477"
+								data-inventory-quantity="0"
+								data-management="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-31180477" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
+
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="quan-dui-the-thao.html" title="Quần đùi thể thao">
+
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4487e7e6.jpg?v=1685682736210"
+													alt="Quần đùi thể thao">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4487-1e7e6.jpg?v=1685682736210"
+													alt="Quần đùi thể thao">
+
+											</a>
+											<div class="label_product ">
+												<div class="label_wrapper">
+													-10%
+												</div>
+											</div>
+											<input type="hidden" name="variantId" value="89709513" />
+											<div class="action-bar">
+												<a href="quan-dui-the-thao.html" data-handle="quan-dui-the-thao"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Hết hàng</span>
+												</a>
+
+												<a href="quan-dui-the-thao.html" data-handle="quan-dui-the-thao"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">EGA</span>
+											<span class="product-name "><a class="link"
+													href="quan-dui-the-thao.html" title="Quần đùi thể thao">Quần đùi
+													thể thao</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
+													</span>
+
+													<span class="price ">235.000₫</span>
+
+													<span class="compare-price ">260.000₫</span>
+
+													<div class="label_product d-inline-block ">
+														<div class="label_wrapper">
+															-10%
+														</div>
+													</div>
+
+												</div>
+
+												<span class="item-label-soldout">Hết hàng</span>
+											</div>
+
+											<div class="item-color-chosen">
+
+												<div data-variant-id="89709513" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4487e7e6.jpg?v=1685682736210) no-repeat center center; background-size: cover">
+													<span class="color-name">Tím</span>
+												</div>
+
+												<div data-variant-id="89709517" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4487-1e7e6.jpg?v=1685682736210) no-repeat center center; background-size: cover">
+													<span class="color-name">Đen</span>
+												</div>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584113"
+								data-inventory-quantity="300"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584113" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
+
+											<span
+												class="product-promo-tag product-promo-tag--1 product-promo-tag--text-1"
+												style="--color: #333; --background: #f0f0f0; --border-color: #dfdfdf">
+												Bán chạy
+
+											</span>
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="ao-croptop-tap-gym-yoga-quai-ao-doi.html"
+												title="Áo croptop tập gym yoga">
+
+												<img class="product-frame"
+													src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/frame_2c5aa.png?1738827047187"
+													alt
+													data-image-scale="--image-scale: 1;
+"
+													loading="lazy"
+													width="480"
+													height="480" />
+
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;
+"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-26c92.jpg?v=1685581773753"
+													alt="Áo croptop tập gym yoga">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;
+"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491f4ec.jpg?v=1685581775777"
+													alt="Áo croptop tập gym yoga">
+
+											</a>
+
+											<img
+												src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-button-playc5aa.png?1738827047187"
+												loading="lazy"
+												class="video-icon"
+												alt="video-play-button" />
+											<div class="label_product ">
+												<div class="label_wrapper">
+													-18%
+												</div>
+											</div>
+											<input type="hidden" name="variantId" value="86731873" />
+											<div class="action-bar">
+												<a href="ao-croptop-tap-gym-yoga-quai-ao-doi.html"
+													data-handle="ao-croptop-tap-gym-yoga-quai-ao-doi"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
+
+												<a href="ao-croptop-tap-gym-yoga-quai-ao-doi.html"
+													data-handle="ao-croptop-tap-gym-yoga-quai-ao-doi"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">Yinli</span>
+											<span class="product-name "><a class="link"
+													href="ao-croptop-tap-gym-yoga-quai-ao-doi.html"
+													title="Áo croptop tập gym yoga">Áo croptop tập gym
+													yoga</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
+													</span>
+
+													<span class="price ">290.000₫</span>
+
+													<span class="compare-price ">350.000₫</span>
+
+													<div class="label_product d-inline-block ">
 														<div class="label_wrapper">
 															-18%
 														</div>
 													</div>
-													<input type="hidden" name="variantId" value="86731873" />
-													<div class="action-bar">
-														<a href="ao-croptop-tap-gym-yoga-quai-ao-doi.html"
-															data-handle="ao-croptop-tap-gym-yoga-quai-ao-doi"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
 
-														<a href="ao-croptop-tap-gym-yoga-quai-ao-doi.html"
-															data-handle="ao-croptop-tap-gym-yoga-quai-ao-doi"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
 												</div>
-												<div class="product-info">
+											</div>
 
-													<span class="product-vendor">Yinli</span>
-													<span class="product-name "><a class="link"
-															href="ao-croptop-tap-gym-yoga-quai-ao-doi.html"
-															title="Áo croptop tập gym yoga">Áo croptop tập gym
-															yoga</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
+											<div class="item-color-chosen">
 
-															<span class="price ">290.000₫</span>
+												<div data-variant-id="86731873" class="color-dot selected"
+													style="background-color: tim;">
+													<span class="color-name">Tím</span>
+												</div>
 
-															<span class="compare-price ">350.000₫</span>
+												<div data-variant-id="86731841" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-26c92.jpg?v=1685581773753) no-repeat center center; background-size: cover">
+													<span class="color-name">Đen</span>
+												</div>
 
-															<div class="label_product d-inline-block ">
-																<div class="label_wrapper">
-																	-18%
-																</div>
-															</div>
+												<a href="ao-croptop-tap-gym-yoga-quai-ao-doi.html"
+													data-handle="ao-croptop-tap-gym-yoga-quai-ao-doi"
+													class="color-more quick-view">
+													+7 <span class="action-name">Xem thêm 7 màu khác</span>
+												</a>
 
-														</div>
-													</div>
+											</div>
 
-													<div class="item-color-chosen">
+											<span
+												class="product-promo-tag product-promo-tag--2 product-promo-tag--image"
+												style="--color: #080808; --background: transparent; --border-color: transparent">
+												<img class="img-fluid"
+													src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/promo_tag_2c5aa.png?1738827047187'
+													alt='Áo croptop tập gym yoga' width="125" height="16" />
 
-														<div data-variant-id="86731873" class="color-dot selected"
-															style="background-color: tim;">
-															<span class="color-name">Tím</span>
-														</div>
+											</span>
 
-														<div data-variant-id="86731841" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-26c92.jpg?v=1685581773753) no-repeat center center; background-size: cover">
-															<span class="color-name">Đen</span>
-														</div>
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
 
-														<a href="ao-croptop-tap-gym-yoga-quai-ao-doi.html"
-															data-handle="ao-croptop-tap-gym-yoga-quai-ao-doi"
-															class="color-more quick-view">
-															+7 <span class="action-name">Xem thêm 7 màu khác</span>
-														</a>
+												<ul class="promotion-box">
 
-													</div>
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
 
-													<span
-														class="product-promo-tag product-promo-tag--2 product-promo-tag--image"
-														style="--color: #080808; --background: transparent; --border-color: transparent">
-														<img class="img-fluid"
-															src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/promo_tag_2c5aa.png?1738827047187'
-															alt='Áo croptop tập gym yoga' width="125" height="16" />
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
 
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584112"
+								data-inventory-quantity="62"
+								data-management="true"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584112" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
+
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="ao-tap-bra-thiet-ke.html" title="Áo tập bra thiết kế">
+
+												<img class="product-frame"
+													src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/frame_2c5aa.png?1738827047187"
+													alt
+													data-image-scale="--image-scale: 1;
+"
+													loading="lazy"
+													width="480"
+													height="480" />
+
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;
+"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4493bea3.jpg?v=1685681685250"
+													alt="Áo tập bra thiết kế">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;
+"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4493-1196a.jpg?v=1685681689140"
+													alt="Áo tập bra thiết kế">
+
+											</a>
+											<input type="hidden" name="variantId" value="86731837" />
+											<div class="action-bar">
+												<a href="ao-tap-bra-thiet-ke.html"
+													data-handle="ao-tap-bra-thiet-ke"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
+
+												<a href="ao-tap-bra-thiet-ke.html"
+													data-handle="ao-tap-bra-thiet-ke"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">EGA</span>
+											<span class="product-name "><a class="link"
+													href="ao-tap-bra-thiet-ke.html" title="Áo tập bra thiết kế">Áo
+													tập bra thiết kế</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
 													</span>
 
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
+													<span class="price ">350.000₫</span>
 
-														<ul class="promotion-box">
+													<span class="compare-price hidden">0₫</span>
 
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
+													<div class="label_product d-inline-block hidden">
+														<div class="label_wrapper">
+															-18%
+														</div>
 													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
 
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
 												</div>
 											</div>
-										</div>
-									</div>
 
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584112"
-										data-inventory-quantity="62"
-										data-management="true"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
+											<div class="item-color-chosen">
 
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584112" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
-
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="ao-tap-bra-thiet-ke.html" title="Áo tập bra thiết kế">
-
-														<img class="product-frame"
-															src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/frame_2c5aa.png?1738827047187"
-															alt
-															data-image-scale="--image-scale: 1;
-"
-															loading="lazy"
-															width="480"
-															height="480" />
-
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;
-"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4493bea3.jpg?v=1685681685250"
-															alt="Áo tập bra thiết kế">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;
-"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4493-1196a.jpg?v=1685681689140"
-															alt="Áo tập bra thiết kế">
-
-													</a>
-													<input type="hidden" name="variantId" value="86731837" />
-													<div class="action-bar">
-														<a href="ao-tap-bra-thiet-ke.html"
-															data-handle="ao-tap-bra-thiet-ke"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
-
-														<a href="ao-tap-bra-thiet-ke.html"
-															data-handle="ao-tap-bra-thiet-ke"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">EGA</span>
-													<span class="product-name "><a class="link"
-															href="ao-tap-bra-thiet-ke.html" title="Áo tập bra thiết kế">Áo
-															tập bra thiết kế</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">350.000₫</span>
-
-															<span class="compare-price hidden">0₫</span>
-
-															<div class="label_product d-inline-block hidden">
-																<div class="label_wrapper">
-																	-18%
-																</div>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731837" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4493bea3.jpg?v=1685681685250) no-repeat center center; background-size: cover">
-															<span class="color-name">Xám</span>
-														</div>
-
-														<div data-variant-id="86731829" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4493-1196a.jpg?v=1685681689140) no-repeat center center; background-size: cover">
-															<span class="color-name">Nâu nhạt</span>
-														</div>
-
-														<a href="ao-tap-bra-thiet-ke.html"
-															data-handle="ao-tap-bra-thiet-ke" class="color-more quick-view">
-															+4 <span class="action-name">Xem thêm 4 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+												<div data-variant-id="86731837" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4493bea3.jpg?v=1685681685250) no-repeat center center; background-size: cover">
+													<span class="color-name">Xám</span>
 												</div>
 
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
+												<div data-variant-id="86731829" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4493-1196a.jpg?v=1685681689140) no-repeat center center; background-size: cover">
+													<span class="color-name">Nâu nhạt</span>
 												</div>
+
+												<a href="ao-tap-bra-thiet-ke.html"
+													data-handle="ao-tap-bra-thiet-ke" class="color-more quick-view">
+													+4 <span class="action-name">Xem thêm 4 màu khác</span>
+												</a>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
 											</div>
 										</div>
-									</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
 
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584111"
-										data-inventory-quantity="3"
-										data-management="true"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
-
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584111" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
-
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="ao-tap-croptop-day.html" title="Áo tập croptop dây">
-
-														<img class="product-frame"
-															src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/frame_1c5aa.png?1738827047187"
-															alt
-															data-image-scale="--image-scale: 1;
-"
-															loading="lazy"
-															width="480"
-															height="480" />
-
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;
-"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4489-1-164f7.jpg?v=1685681059523"
-															alt="Áo tập croptop dây">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;
-"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4489-2-177ea.jpg?v=1685681223077"
-															alt="Áo tập croptop dây">
-
-													</a>
-													<input type="hidden" name="variantId" value="86731805" />
-													<div class="action-bar">
-														<a href="ao-tap-croptop-day.html" data-handle="ao-tap-croptop-day"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
-
-														<a href="ao-tap-croptop-day.html" data-handle="ao-tap-croptop-day"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">Yinli</span>
-													<span class="product-name "><a class="link"
-															href="ao-tap-croptop-day.html" title="Áo tập croptop dây">Áo tập
-															croptop dây</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">315.000₫</span>
-
-															<span class="compare-price hidden">0₫</span>
-
-															<div class="label_product d-inline-block hidden">
-																<div class="label_wrapper">
-																	-18%
-																</div>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731805" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4489-1-164f7.jpg?v=1685681059523) no-repeat center center; background-size: cover">
-															<span class="color-name">Nâu</span>
-														</div>
-
-														<div data-variant-id="86731801" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4489-2-177ea.jpg?v=1685681223077) no-repeat center center; background-size: cover">
-															<span class="color-name">Kem</span>
-														</div>
-
-														<a href="ao-tap-croptop-day.html" data-handle="ao-tap-croptop-day"
-															class="color-more quick-view">
-															+3 <span class="action-name">Xem thêm 3 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
-												</div>
-											</div>
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
 										</div>
 									</div>
+								</div>
+							</div>
 
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584110"
-										data-inventory-quantity="49"
-										data-management="true"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584111"
+								data-inventory-quantity="3"
+								data-management="true"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
 
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584110" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584111" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
 
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="ao-tap-croptop-quai-lung-cheo.html"
-														title="Áo tập croptop quai lưng chéo">
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="ao-tap-croptop-day.html" title="Áo tập croptop dây">
 
-														<img class="product-frame"
-															src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/frame_2c5aa.png?1738827047187"
-															alt
-															data-image-scale="--image-scale: 1;
+												<img class="product-frame"
+													src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/frame_1c5aa.png?1738827047187"
+													alt
+													data-image-scale="--image-scale: 1;
 "
-															loading="lazy"
-															width="480"
-															height="480" />
+													loading="lazy"
+													width="480"
+													height="480" />
 
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;
 "
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-1b023.jpg?v=1685682016667"
-															alt="Áo tập croptop quai lưng chéo">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4489-1-164f7.jpg?v=1685681059523"
+													alt="Áo tập croptop dây">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;
 "
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-54c98.jpg?v=1685682017903"
-															alt="Áo tập croptop quai lưng chéo">
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4489-2-177ea.jpg?v=1685681223077"
+													alt="Áo tập croptop dây">
 
-													</a>
-													<input type="hidden" name="variantId" value="86731777" />
-													<div class="action-bar">
-														<a href="ao-tap-croptop-quai-lung-cheo.html"
-															data-handle="ao-tap-croptop-quai-lung-cheo"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
+											</a>
+											<input type="hidden" name="variantId" value="86731805" />
+											<div class="action-bar">
+												<a href="ao-tap-croptop-day.html" data-handle="ao-tap-croptop-day"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
 
-														<a href="ao-tap-croptop-quai-lung-cheo.html"
-															data-handle="ao-tap-croptop-quai-lung-cheo"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">Yinli</span>
-													<span class="product-name "><a class="link"
-															href="ao-tap-croptop-quai-lung-cheo.html"
-															title="Áo tập croptop quai lưng chéo">Áo tập croptop quai lưng
-															chéo</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">368.000₫</span>
-
-															<span class="compare-price hidden">0₫</span>
-
-															<div class="label_product d-inline-block hidden">
-																<div class="label_wrapper">
-																	-18%
-																</div>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731777" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-1b023.jpg?v=1685682016667) no-repeat center center; background-size: cover">
-															<span class="color-name">Đen</span>
-														</div>
-
-														<div data-variant-id="86731781" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-54c98.jpg?v=1685682017903) no-repeat center center; background-size: cover">
-															<span class="color-name">Kem</span>
-														</div>
-
-														<a href="ao-tap-croptop-quai-lung-cheo.html"
-															data-handle="ao-tap-croptop-quai-lung-cheo"
-															class="color-more quick-view">
-															+3 <span class="action-name">Xem thêm 3 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
-												</div>
+												<a href="ao-tap-croptop-day.html" data-handle="ao-tap-croptop-day"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
 											</div>
 										</div>
-									</div>
+										<div class="product-info">
 
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584109"
-										data-inventory-quantity="300"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
-
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584109" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
-
-													<span
-														class="product-promo-tag product-promo-tag--1 product-promo-tag--text-1"
-														style="--color: #333; --background: #f0f0f0; --border-color: #dfdfdf">
-														Bán chạy
-
+											<span class="product-vendor">Yinli</span>
+											<span class="product-name "><a class="link"
+													href="ao-tap-croptop-day.html" title="Áo tập croptop dây">Áo tập
+													croptop dây</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
 													</span>
 
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="ao-tap-croptop-co-tay.html" title="Áo tập croptop có tay">
+													<span class="price ">315.000₫</span>
 
-														<img class="product-frame"
-															src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/frame_2c5aa.png?1738827047187"
-															alt
-															data-image-scale="--image-scale: 1;
-"
-															loading="lazy"
-															width="480"
-															height="480" />
+													<span class="compare-price hidden">0₫</span>
 
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;
-"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4489b2ca.jpg?v=1685582009410"
-															alt="Áo tập croptop có tay">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;
-"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4489-2dd5c.jpg?v=1685582013467"
-															alt="Áo tập croptop có tay">
-
-													</a>
-													<input type="hidden" name="variantId" value="86731765" />
-													<div class="action-bar">
-														<a href="ao-tap-croptop-co-tay.html"
-															data-handle="ao-tap-croptop-co-tay"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
-
-														<a href="ao-tap-croptop-co-tay.html"
-															data-handle="ao-tap-croptop-co-tay"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">Khác</span>
-													<span class="product-name "><a class="link"
-															href="ao-tap-croptop-co-tay.html"
-															title="Áo tập croptop có tay">Áo tập croptop có tay</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">295.000₫</span>
-
-															<span class="compare-price hidden">0₫</span>
-
-															<div class="label_product d-inline-block hidden">
-																<div class="label_wrapper">
-																	-18%
-																</div>
-															</div>
-
+													<div class="label_product d-inline-block hidden">
+														<div class="label_wrapper">
+															-18%
 														</div>
 													</div>
 
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731765" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4489b2ca.jpg?v=1685582009410) no-repeat center center; background-size: cover">
-															<span class="color-name">Kem</span>
-														</div>
-
-														<div data-variant-id="86731773" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4489-2dd5c.jpg?v=1685582013467) no-repeat center center; background-size: cover">
-															<span class="color-name">Nâu nhạt</span>
-														</div>
-
-														<a href="ao-tap-croptop-co-tay.html"
-															data-handle="ao-tap-croptop-co-tay"
-															class="color-more quick-view">
-															+2 <span class="action-name">Xem thêm 2 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
 												</div>
 											</div>
+
+											<div class="item-color-chosen">
+
+												<div data-variant-id="86731805" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4489-1-164f7.jpg?v=1685681059523) no-repeat center center; background-size: cover">
+													<span class="color-name">Nâu</span>
+												</div>
+
+												<div data-variant-id="86731801" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4489-2-177ea.jpg?v=1685681223077) no-repeat center center; background-size: cover">
+													<span class="color-name">Kem</span>
+												</div>
+
+												<a href="ao-tap-croptop-day.html" data-handle="ao-tap-croptop-day"
+													class="color-more quick-view">
+													+3 <span class="action-name">Xem thêm 3 màu khác</span>
+												</a>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
 										</div>
 									</div>
+								</div>
+							</div>
 
-									<div class="flashsale__item col-12 col-xl-3"
-										data-pd-id="30584108"
-										data-inventory-quantity="300"
-										data-available="true"
-										data-max-stock="300">
-										<div class="item_product_main">
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584110"
+								data-inventory-quantity="49"
+								data-management="true"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
 
-											<form action="https://ega-sportswear.mysapo.net/cart/add"
-												method="post" class="variants product-action"
-												data-id="product-actions-30584108" enctype="multipart/form-data">
-												<div class="product-thumbnail pos-relative">
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584110" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
 
-													<span
-														class="product-promo-tag product-promo-tag--1 product-promo-tag--text-1"
-														style="--color: #333; --background: #f0f0f0; --border-color: #dfdfdf">
-														Bán chạy
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="ao-tap-croptop-quai-lung-cheo.html"
+												title="Áo tập croptop quai lưng chéo">
 
+												<img class="product-frame"
+													src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/frame_2c5aa.png?1738827047187"
+													alt
+													data-image-scale="--image-scale: 1;
+"
+													loading="lazy"
+													width="480"
+													height="480" />
+
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;
+"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-1b023.jpg?v=1685682016667"
+													alt="Áo tập croptop quai lưng chéo">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;
+"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-54c98.jpg?v=1685682017903"
+													alt="Áo tập croptop quai lưng chéo">
+
+											</a>
+											<input type="hidden" name="variantId" value="86731777" />
+											<div class="action-bar">
+												<a href="ao-tap-croptop-quai-lung-cheo.html"
+													data-handle="ao-tap-croptop-quai-lung-cheo"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
+
+												<a href="ao-tap-croptop-quai-lung-cheo.html"
+													data-handle="ao-tap-croptop-quai-lung-cheo"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">Yinli</span>
+											<span class="product-name "><a class="link"
+													href="ao-tap-croptop-quai-lung-cheo.html"
+													title="Áo tập croptop quai lưng chéo">Áo tập croptop quai lưng
+													chéo</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
 													</span>
 
-													<a
-														class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
-														href="ao-thun-tap-gym-yoga.html" title="Áo thun tập gym yoga">
+													<span class="price ">368.000₫</span>
 
-														<img loading="lazy"
-															class='img-fetured has-second-img'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-8c5ec28e-0c4b-4aca-87aa-bd91045354103b70.jpg?v=1685684129327"
-															alt="Áo thun tập gym yoga">
-														<img loading="lazy"
-															class='product-thumbnail__img product-thumbnail__img--secondary'
-															width="480"
-															height="480"
-															style="--image-scale: 1;"
-															src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-1-9eecb2af-4216-49b0-aaf7-2bbbe18770cb3b70.jpg?v=1685684129327"
-															alt="Áo thun tập gym yoga">
+													<span class="compare-price hidden">0₫</span>
 
-													</a>
-													<div class="label_product ">
+													<div class="label_product d-inline-block hidden">
+														<div class="label_wrapper">
+															-18%
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+											<div class="item-color-chosen">
+
+												<div data-variant-id="86731777" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-1b023.jpg?v=1685682016667) no-repeat center center; background-size: cover">
+													<span class="color-name">Đen</span>
+												</div>
+
+												<div data-variant-id="86731781" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-54c98.jpg?v=1685682017903) no-repeat center center; background-size: cover">
+													<span class="color-name">Kem</span>
+												</div>
+
+												<a href="ao-tap-croptop-quai-lung-cheo.html"
+													data-handle="ao-tap-croptop-quai-lung-cheo"
+													class="color-more quick-view">
+													+3 <span class="action-name">Xem thêm 3 màu khác</span>
+												</a>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584109"
+								data-inventory-quantity="300"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584109" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
+
+											<span
+												class="product-promo-tag product-promo-tag--1 product-promo-tag--text-1"
+												style="--color: #333; --background: #f0f0f0; --border-color: #dfdfdf">
+												Bán chạy
+
+											</span>
+
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="ao-tap-croptop-co-tay.html" title="Áo tập croptop có tay">
+
+												<img class="product-frame"
+													src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/frame_2c5aa.png?1738827047187"
+													alt
+													data-image-scale="--image-scale: 1;
+"
+													loading="lazy"
+													width="480"
+													height="480" />
+
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;
+"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4489b2ca.jpg?v=1685582009410"
+													alt="Áo tập croptop có tay">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;
+"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4489-2dd5c.jpg?v=1685582013467"
+													alt="Áo tập croptop có tay">
+
+											</a>
+											<input type="hidden" name="variantId" value="86731765" />
+											<div class="action-bar">
+												<a href="ao-tap-croptop-co-tay.html"
+													data-handle="ao-tap-croptop-co-tay"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
+
+												<a href="ao-tap-croptop-co-tay.html"
+													data-handle="ao-tap-croptop-co-tay"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">Khác</span>
+											<span class="product-name "><a class="link"
+													href="ao-tap-croptop-co-tay.html"
+													title="Áo tập croptop có tay">Áo tập croptop có tay</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
+													</span>
+
+													<span class="price ">295.000₫</span>
+
+													<span class="compare-price hidden">0₫</span>
+
+													<div class="label_product d-inline-block hidden">
+														<div class="label_wrapper">
+															-18%
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+											<div class="item-color-chosen">
+
+												<div data-variant-id="86731765" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4489b2ca.jpg?v=1685582009410) no-repeat center center; background-size: cover">
+													<span class="color-name">Kem</span>
+												</div>
+
+												<div data-variant-id="86731773" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4489-2dd5c.jpg?v=1685582013467) no-repeat center center; background-size: cover">
+													<span class="color-name">Nâu nhạt</span>
+												</div>
+
+												<a href="ao-tap-croptop-co-tay.html"
+													data-handle="ao-tap-croptop-co-tay"
+													class="color-more quick-view">
+													+2 <span class="action-name">Xem thêm 2 màu khác</span>
+												</a>
+
+											</div>
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
+										</div>
+
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flashsale__item col-12 col-xl-3"
+								data-pd-id="30584108"
+								data-inventory-quantity="300"
+								data-available="true"
+								data-max-stock="300">
+								<div class="item_product_main">
+
+									<form action="https://ega-sportswear.mysapo.net/cart/add"
+										method="post" class="variants product-action"
+										data-id="product-actions-30584108" enctype="multipart/form-data">
+										<div class="product-thumbnail pos-relative">
+
+											<span
+												class="product-promo-tag product-promo-tag--1 product-promo-tag--text-1"
+												style="--color: #333; --background: #f0f0f0; --border-color: #dfdfdf">
+												Bán chạy
+
+											</span>
+
+											<a
+												class="image_thumb pos-relative embed-responsive embed-responsive-3by4"
+												href="ao-thun-tap-gym-yoga.html" title="Áo thun tập gym yoga">
+
+												<img loading="lazy"
+													class='img-fetured has-second-img'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-8c5ec28e-0c4b-4aca-87aa-bd91045354103b70.jpg?v=1685684129327"
+													alt="Áo thun tập gym yoga">
+												<img loading="lazy"
+													class='product-thumbnail__img product-thumbnail__img--secondary'
+													width="480"
+													height="480"
+													style="--image-scale: 1;"
+													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/products/frame-4491-1-9eecb2af-4216-49b0-aaf7-2bbbe18770cb3b70.jpg?v=1685684129327"
+													alt="Áo thun tập gym yoga">
+
+											</a>
+											<div class="label_product ">
+												<div class="label_wrapper">
+													-16%
+												</div>
+											</div>
+											<input type="hidden" name="variantId" value="86731745" />
+											<div class="action-bar">
+												<a href="ao-thun-tap-gym-yoga.html"
+													data-handle="ao-thun-tap-gym-yoga"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<img width='20' height='20' class="icon-option"
+														src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
+														alt="icon-option" />
+													<span class="action-name">Tùy chọn</span>
+												</a>
+
+												<a href="ao-thun-tap-gym-yoga.html"
+													data-handle="ao-thun-tap-gym-yoga"
+													class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+													<i class="fas fa-eye"></i>
+													<span class="action-name">Xem nhanh</span>
+												</a>
+											</div>
+										</div>
+										<div class="product-info">
+
+											<span class="product-vendor">Khác</span>
+											<span class="product-name "><a class="link"
+													href="ao-thun-tap-gym-yoga.html" title="Áo thun tập gym yoga">Áo
+													thun tập gym yoga</a></span>
+											<div class="product-item-cta position-relative">
+												<div class="price-box">
+													<span class="price-contact hidden">
+														Liên hệ
+													</span>
+
+													<span class="price ">403.000₫</span>
+
+													<span class="compare-price ">475.000₫</span>
+
+													<div class="label_product d-inline-block ">
 														<div class="label_wrapper">
 															-16%
 														</div>
 													</div>
-													<input type="hidden" name="variantId" value="86731745" />
-													<div class="action-bar">
-														<a href="ao-thun-tap-gym-yoga.html"
-															data-handle="ao-thun-tap-gym-yoga"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<img width='20' height='20' class="icon-option"
-																src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-																alt="icon-option" />
-															<span class="action-name">Tùy chọn</span>
-														</a>
 
-														<a href="ao-thun-tap-gym-yoga.html"
-															data-handle="ao-thun-tap-gym-yoga"
-															class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-															<i class="fas fa-eye"></i>
-															<span class="action-name">Xem nhanh</span>
-														</a>
-													</div>
-												</div>
-												<div class="product-info">
-
-													<span class="product-vendor">Khác</span>
-													<span class="product-name "><a class="link"
-															href="ao-thun-tap-gym-yoga.html" title="Áo thun tập gym yoga">Áo
-															thun tập gym yoga</a></span>
-													<div class="product-item-cta position-relative">
-														<div class="price-box">
-															<span class="price-contact hidden">
-																Liên hệ
-															</span>
-
-															<span class="price ">403.000₫</span>
-
-															<span class="compare-price ">475.000₫</span>
-
-															<div class="label_product d-inline-block ">
-																<div class="label_wrapper">
-																	-16%
-																</div>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="item-color-chosen">
-
-														<div data-variant-id="86731745" class="color-dot selected"
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-8c5ec28e-0c4b-4aca-87aa-bd91045354103b70.jpg?v=1685684129327) no-repeat center center; background-size: cover">
-															<span class="color-name">Kem</span>
-														</div>
-
-														<div data-variant-id="86731741" class="color-dot "
-															style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-1-9eecb2af-4216-49b0-aaf7-2bbbe18770cb3b70.jpg?v=1685684129327) no-repeat center center; background-size: cover">
-															<span class="color-name">Đen</span>
-														</div>
-
-														<a href="ao-thun-tap-gym-yoga.html"
-															data-handle="ao-thun-tap-gym-yoga" class="color-more quick-view">
-															+3 <span class="action-name">Xem thêm 3 màu khác</span>
-														</a>
-
-													</div>
-
-													<div class='product-promotion hidden'>
-														<span
-															class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
-															<img alt="KHUYẾN MÃI - ƯU ĐÃI"
-																src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
-																width='16' height='16' class='mr-2' />
-															KHUYẾN MÃI - ƯU ĐÃI
-														</span>
-
-														<ul class="promotion-box">
-
-															<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
-																[coupon="EGANY"]</li>
-
-															<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
-
-															<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
-
-															<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
-														</ul>
-													</div>
-												</div>
-											</form> <div class="flashsale__bottom"
-												style="display:none;--stock-color: var(--text-color);">
-												<div class="flashsale__label  style1">
-													Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
-												</div>
-
-												<div class="flashsale__progressbar">
-													<div class="flashsale___percent"></div>
 												</div>
 											</div>
-										</div>
-									</div>
-								</div>
-								<div class="text-center mt-3 col-12">
-									<a href="ao-thun-the-thao-hot.html" title="Xem tất cả"
-										class="btn btn-main btn-icon">
-										Xem tất cả
 
-										<svg class="icon">
-											<use xlink:href="#icon-arrow" />
-										</svg>
-									</a>
-								</div>
-							</div>
+											<div class="item-color-chosen">
 
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<script>
-	window.flashSale = {
-		flashSaleColl: "san-pham-noi-bat",
-		type:"hours",
-		dateStart: "21/07/2023",
-		dateFinish: "3",
-		hourStart: "00:00",
-		hourFinish:  "24",
-		activeDay: "7",
-		finishAction: "show",
-		finishLabel :"Chương trình đã kết thúc",
-		percentMin: "10",
-		percentMax: "90",
-		maxInStock: "300",
-		useSoldQuantity: false,
-		useTags:  false,
-		timestamp: new Date().getTime(),
-		openingText: "Vừa mở bán",
-		soldText: "Đã bán [soluong] sản phẩm",
-		outOfStockSoonText: "<img src='//bizweb.dktcdn.net/100/484/026/themes/953543/assets/fire-icon.svg?1738827047187' /> Sắp cháy hàng"
-	}
-	 window.sectionScripts = window.sectionScripts  || []
-   window.sectionScripts.push("../bizweb.dktcdn.net/100/484/026/themes/953543/assets/flashsalec5aa.js?1738827047187")
-</script>
-		</section>
-
-		<section class="section awe-section-7">
-
-			<section class="section_product_top section">
-
-				<div class="container card border-0">
-					<div class="slideshow-banner-wrap">
-
-						<div class="section-slideshow-banner mb-3 btn-slide--new ">
-
-							<div class="items text-center">
-								<a href="hot-products.html" title="image">
-									<picture>
-										<source media="(max-width: 480px)"
-											srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/slide_product_2_img_1_img.jpg?1738827047187">
-										<img class="img-fluid mx-auto"
-											loading="lazy"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/slide_product_2_img_1_imgc5aa.jpg?1738827047187"
-											width="1620"
-											height="655"
-											alt="image" />
-									</picture>
-								</a>
-							</div>
-
-							<div class="items text-center">
-								<a href="hot-products.html" title="image">
-									<picture>
-										<source media="(max-width: 480px)"
-											srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/slide_product_2_img_2_img.jpg?1738827047187">
-										<img class="img-fluid mx-auto"
-											loading="lazy"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/slide_product_2_img_2_imgc5aa.jpg?1738827047187"
-											width="1620"
-											height="655"
-											alt="image" />
-									</picture>
-								</a>
-							</div>
-
-						</div>
-						<div class="module-product">
-							<div
-								class="title_module_main heading-bar d-flex align-items-center flex-wrap justify-content-between">
-								<a href="hot-products.html"
-									class="heading-bar__title"><span>NỮ</span>BST ACTIVELIFE</a>
-								<a href="hot-products.html" class="see-all">Xem tất cả</a>
-							</div>
-							<div class="body_module">
-
-								<div class="row mt-3 one_row" style="--limit-column: 4"
-									data-section="tab-section">
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</section>
-
-		<section class="section awe-section-8">
-
-			<section class="section_banner_slide section">
-				<div class="container card border-0">
-					<h2 class="heading-bar__title text-left">HOẠT ĐỘNG THỂ THAO NỔI BẬT</h2>
-					<div class="banner_slide_body btn-slide--new">
-						<div class="row mx-0 hrz-scroll text-center flex-nowrap js-slider">
-
-							<div class="banner_slide_item">
-								<a href="collections/all.html" title="Boxing">
-									<img loading="lazy"
-										class="img-fluid m-auto object-contain mh-100 w-auto"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_1_img_1_imgc5aa.jpg?1738827047187"
-										width="385"
-										height="500"
-										alt="banner_slide_1_img_1_img.jpg" />
-								</a>
-							</div>
-
-							<div class="banner_slide_item">
-								<a href="collections/all.html" title="Chạy bộ">
-									<img loading="lazy"
-										class="img-fluid m-auto object-contain mh-100 w-auto"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_1_img_2_imgc5aa.jpg?1738827047187"
-										width="385"
-										height="500"
-										alt="banner_slide_1_img_2_img.jpg" />
-								</a>
-							</div>
-
-							<div class="banner_slide_item">
-								<a href="collections/all.html" title="Gym">
-									<img loading="lazy"
-										class="img-fluid m-auto object-contain mh-100 w-auto"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_1_img_3_imgc5aa.jpg?1738827047187"
-										width="385"
-										height="500"
-										alt="banner_slide_1_img_3_img.jpg" />
-								</a>
-							</div>
-
-							<div class="banner_slide_item">
-								<a href="collections/all.html" title="Bơi lội">
-									<img loading="lazy"
-										class="img-fluid m-auto object-contain mh-100 w-auto"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_1_img_4_imgc5aa.jpg?1738827047187"
-										width="385"
-										height="500"
-										alt="banner_slide_1_img_4_img.jpg" />
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</section>
-
-		<section class="section awe-section-9">
-
-			<section class="section_product_top section">
-				<div class="slideshow-banner-wrap">
-
-					<div class="section-slideshow-banner mb-3 btn-slide--new ">
-
-						<div class="items text-center">
-							<a href="collections/all.html" title="image">
-								<picture>
-									<source media="(max-width: 480px)"
-										srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/slide_product_4_img_1_img.jpg?1738827047187">
-									<img class="img-fluid mx-auto"
-										loading="lazy"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/slide_product_4_img_1_imgc5aa.jpg?1738827047187"
-										width="1920"
-										height="655"
-										alt="image" />
-								</picture>
-							</a>
-						</div>
-
-					</div>
-					<div class="module-product">
-						<div class="container card border-0">
-							<div
-								class="title_module_main heading-bar d-flex align-items-center flex-wrap justify-content-between">
-								<a href="phu-kien-the-thao.html"
-									class="heading-bar__title"><span>NỮ</span>PHỤ KIỆN THỂ THAO</a>
-								<a href="phu-kien-the-thao.html" class="see-all">Xem tất cả</a>
-							</div>
-							<div class="body_module">
-
-								<div class="row mt-3 one_row" style="--limit-column: 4"
-									data-section="tab-section">
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</section>
-
-		<section class="section awe-section-10">
-
-			<section class="section_product_top section">
-
-				<div class="container card border-0">
-					<div class="slideshow-banner-wrap">
-
-						<div class="section-slideshow-banner mb-3 btn-slide--new ">
-
-							<div class="items text-center">
-								<a href="collections/all.html" title="image 1">
-									<picture>
-										<source media="(max-width: 480px)"
-											srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/slide_product_3_img_1_img.jpg?1738827047187">
-										<img class="img-fluid mx-auto"
-											loading="lazy"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/slide_product_3_img_1_imgc5aa.jpg?1738827047187"
-											width="1620"
-											height="655"
-											alt="image 1" />
-									</picture>
-								</a>
-							</div>
-
-							<div class="items text-center">
-								<a href="collections/all.html" title="image 2">
-									<picture>
-										<source media="(max-width: 480px)"
-											srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/slide_product_3_img_2_img.jpg?1738827047187">
-										<img class="img-fluid mx-auto"
-											loading="lazy"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/slide_product_3_img_2_imgc5aa.jpg?1738827047187"
-											width="1620"
-											height="655"
-											alt="image 2" />
-									</picture>
-								</a>
-							</div>
-
-						</div>
-						<div class="module-product">
-							<div
-								class="title_module_main heading-bar d-flex align-items-center flex-wrap justify-content-between">
-								<a href="san-pham-noi-bat.html"
-									class="heading-bar__title"><span>NỮ</span>BESTSELLERS</a>
-								<a href="san-pham-noi-bat.html" class="see-all">Xem tất cả</a>
-							</div>
-							<div class="body_module">
-
-								<div class="row mt-3 one_row" style="--limit-column: 4"
-									data-section="tab-section">
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-									<div class="col-12 col-xl-3 product-col">
-										<div class="item_product_main item_skeleton">
-										</div>
-									</div>
-
-
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</section>
-
-		<section class="section awe-section-11">
-
-			<section class="section_feedback section">
-				<div class="container card border-0 py-0">
-					<h2 class="heading-bar__title">Khách hàng nói gì về chúng tôi</h2>
-					<div class="feedback_body btn-slide--new">
-						<div
-							class="row mx-0 hrz-scroll text-center flex-nowrap js-slider feedback_body--row">
-
-							<div class="slick-slide">
-								<div class="feedback_item feedback_item--one col-12 mx-0 px-0">
-									<div class="feedback_item_wrap row px-0 mx-0">
-										<div class="feedback_header col-12 col-sm-7">
-											<div class="feedback_header--left">
-												<div class="feedback_header--left--top">
-													<p> <i class="fas fa-thumbs-up"></i> <span>Đánh giá khách
-															hàng</span></p>
-													<h4 class> Khách hàng nói gì về chúng tôi</h4>
+												<div data-variant-id="86731745" class="color-dot selected"
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-8c5ec28e-0c4b-4aca-87aa-bd91045354103b70.jpg?v=1685684129327) no-repeat center center; background-size: cover">
+													<span class="color-name">Kem</span>
 												</div>
-												<div class="feedback_header--left--middle">
-													<i class="fas fa-quote-right"></i>
+
+												<div data-variant-id="86731741" class="color-dot "
+													style="background: url(../bizweb.dktcdn.net/thumb/thumb/100/484/026/products/frame-4491-1-9eecb2af-4216-49b0-aaf7-2bbbe18770cb3b70.jpg?v=1685684129327) no-repeat center center; background-size: cover">
+													<span class="color-name">Đen</span>
 												</div>
-												<div class="feedback_header--left--bottom">
-													<div class="feedback_info">
-														<h3>
-															Trần Mai Bích Chi </h3>
-														<h5>
-															Giám đốc kinh doanh </h5>
-													</div>
-												</div>
+
+												<a href="ao-thun-tap-gym-yoga.html"
+													data-handle="ao-thun-tap-gym-yoga" class="color-more quick-view">
+													+3 <span class="action-name">Xem thêm 3 màu khác</span>
+												</a>
+
 											</div>
-											<div class="feedback_header--right">
-												<img loading="lazy"
-													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/themes/953543/assets/cus_review_avatar_1c5aa.jpg?1738827047187"
-													alt="cus_review_avatar_1.jpg" />
+
+											<div class='product-promotion hidden'>
+												<span
+													class='product-promotion__heading rounded-sm d-inline-flex align-items-center'>
+													<img alt="KHUYẾN MÃI - ƯU ĐÃI"
+														src='../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-product-promotionc5aa.png?1738827047187'
+														width='16' height='16' class='mr-2' />
+													KHUYẾN MÃI - ƯU ĐÃI
+												</span>
+
+												<ul class="promotion-box">
+
+													<li>Nhập mã <strong>EGANY</strong> thêm 5% đơn hàng
+														[coupon="EGANY"]</li>
+
+													<li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+
+													<li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+
+													<li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+												</ul>
 											</div>
 										</div>
-										<div class="feedback_content col-12 col-sm-5">
-											<div class="feedback_content--top">
-												<i class="fas fa-quote-right"></i>
-											</div>
-											<div class="feedback_content--main">
-												<p>Sản phẩm chất lượng, chất vải mềm mát mặc vào rất thoải mái và ôm
-													sát người giúp khoe được điểm mạnh của tôi. Giá cả hợp lý, giao
-													hàng nhanh chóng. Shipper cũng dễ thương, nhân viên tư vấn thì
-													nhiệt tình. Sẽ ủng hộ shop dài dài. Cảm ơn shop! </p>
-												<div class="star-vote">
-
-													<svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg>
-												</div>
-											</div>
+									</form>
+									<div class="flashsale__bottom"
+										style="display:none;--stock-color: var(--text-color);">
+										<div class="flashsale__label  style1">
+											Đã bán <b class="flashsale__sold-qty"></b> sản phẩm
 										</div>
-									</div>
-								</div>
-							</div>
 
-							<div class="slick-slide">
-								<div class="feedback_item feedback_item--one col-12 mx-0 px-0">
-									<div class="feedback_item_wrap row px-0 mx-0">
-										<div class="feedback_header col-12 col-sm-7">
-											<div class="feedback_header--left">
-												<div class="feedback_header--left--top">
-													<p> <i class="fas fa-thumbs-up"></i> <span>Đánh giá khách
-															hàng</span></p>
-													<h4 class> Khách hàng nói gì về chúng tôi</h4>
-												</div>
-												<div class="feedback_header--left--middle">
-													<i class="fas fa-quote-right"></i>
-												</div>
-												<div class="feedback_header--left--bottom">
-													<div class="feedback_info">
-														<h3>
-															Nguyễn Ngọc Gia Hân </h3>
-														<h5>
-															Nhân viên văn phòng </h5>
-													</div>
-												</div>
-											</div>
-											<div class="feedback_header--right">
-												<img loading="lazy"
-													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/themes/953543/assets/cus_review_avatar_2c5aa.jpg?1738827047187"
-													alt="cus_review_avatar_2.jpg" />
-											</div>
-										</div>
-										<div class="feedback_content col-12 col-sm-5">
-											<div class="feedback_content--top">
-												<i class="fas fa-quote-right"></i>
-											</div>
-											<div class="feedback_content--main">
-												<p>Tôi rất thích kiểu dáng và màu sắc của sản phẩm. Nó rất phù hợp
-													với thể hình của tôi và tạo cảm giác tự tin khi tập luyện. Tôi đã
-													nhận được nhiều lời khen về trang phục của mình.</p>
-												<div class="star-vote">
-
-													<svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg>
-													<svg class="icon">
-														<use xlink:href="#icon-star-half" />
-													</svg> </div>
-											</div>
+										<div class="flashsale__progressbar">
+											<div class="flashsale___percent"></div>
 										</div>
 									</div>
 								</div>
 							</div>
-
-							<div class="slick-slide">
-								<div class="feedback_item feedback_item--one col-12 mx-0 px-0">
-									<div class="feedback_item_wrap row px-0 mx-0">
-										<div class="feedback_header col-12 col-sm-7">
-											<div class="feedback_header--left">
-												<div class="feedback_header--left--top">
-													<p> <i class="fas fa-thumbs-up"></i> <span>Đánh giá khách
-															hàng</span></p>
-													<h4 class> Khách hàng nói gì về chúng tôi</h4>
-												</div>
-												<div class="feedback_header--left--middle">
-													<i class="fas fa-quote-right"></i>
-												</div>
-												<div class="feedback_header--left--bottom">
-													<div class="feedback_info">
-														<h3>
-															Lê Thu Hằng </h3>
-														<h5>
-															Sinh Viên </h5>
-													</div>
-												</div>
-											</div>
-											<div class="feedback_header--right">
-												<img loading="lazy"
-													src="../bizweb.dktcdn.net/thumb/grande/100/484/026/themes/953543/assets/cus_review_avatar_3c5aa.jpg?1738827047187"
-													alt="cus_review_avatar_3.jpg" />
-											</div>
-										</div>
-										<div class="feedback_content col-12 col-sm-5">
-											<div class="feedback_content--top">
-												<i class="fas fa-quote-right"></i>
-											</div>
-											<div class="feedback_content--main">
-												<p>Sản phẩm rất vừa vặn và thoải mái. Tôi đã tập luyện trong sản
-													phẩm này trong một giờ đồng hồ mà không thấy bất kỳ rắc rối nào.
-													Điều này giúp tôi tập trung hoàn toàn vào bài tập mà không phải suy
-													nghĩ về việc chỉnh sửa trang phục.</p>
-												<div class="star-vote">
-
-													<svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg> <svg class="icon">
-														<use xlink:href="#icon-star" />
-													</svg>
-													<svg class="icon">
-														<use xlink:href="#icon-star-half" />
-													</svg> </div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
 						</div>
-					</div>
-				</div>
-			</section>
-		</section>
+						<div class="text-center mt-3 col-12">
+							<a href="ao-thun-the-thao-hot.html" title="Xem tất cả"
+								class="btn btn-main btn-icon">
+								Xem tất cả
 
-		<section class="section awe-section-12">
-			<link rel="preload" as='style' type="text/css"
-				href="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/lookbookc5aa.css?1738827047187">
-			<link rel="stylesheet"
-				href="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/lookbookc5aa.css?1738827047187">
-
-			<section class="section_lookbook">
-				<div class="container">
-					<h2 class="heading-bar__title">SET ĐỒ CHO BẠN</h2>
-					<div class="lookbooks-container row">
-
-						<div class="col-xl-4 col-md-6 col-12 lookbooks-column">
-							<div class="lookbooks-banner lookbooks-1">
-								<div class="lookbooks-banner__photo">
-									<div class="lookbook-image-wrap">
-										<img class="img-fluid m-auto object-contain mh-100 w-auto"
-											loading="lazy"
-											width="520"
-											height="675"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/lookbook_1_imagec5aa.jpg?1738827047187"
-											alt="lookbook_1_image.jpg">
-									</div>
-
-									<button type="button" class="popover-dot dot-1" data-toggle="popover"
-										data-placement="top" data-popover-content="#lookbook-30584113"
-										style="--posx:5; --posy:5; ">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-											<path
-												d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
-											<path fill="none" d="M0 0h24v24H0z"></path>
-										</svg> </button>
-
-									<button type="button" class="popover-dot dot-2" data-toggle="popover"
-										data-placement="top" data-popover-content="#lookbook-30584103"
-										style="--posx:8; --posy:7; ">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-											<path
-												d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
-											<path fill="none" d="M0 0h24v24H0z"></path>
-										</svg> </button>
-
-								</div>
-								<div class="loookbook-info text-center mt-3">
-									<h3>Set đồ tập Yoga</h3>
-									<a class="link" href="pages/set-do-tap-yoga.html">Xem chi tiết</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-xl-4 col-md-6 col-12 lookbooks-column">
-							<div class="lookbooks-banner lookbooks-2">
-								<div class="lookbooks-banner__photo">
-									<div class="lookbook-image-wrap">
-										<img class="img-fluid m-auto object-contain mh-100 w-auto"
-											loading="lazy"
-											width="520"
-											height="675"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/lookbook_2_imagec5aa.jpg?1738827047187"
-											alt="lookbook_2_image.jpg">
-									</div>
-
-									<button type="button" class="popover-dot dot-1" data-toggle="popover"
-										data-placement="top" data-popover-content="#lookbook-30584106"
-										style="--posx:5; --posy:6; ">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-											<path
-												d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
-											<path fill="none" d="M0 0h24v24H0z"></path>
-										</svg> </button>
-
-									<button type="button" class="popover-dot dot-2" data-toggle="popover"
-										data-placement="top" data-popover-content="#lookbook-30584095"
-										style="--posx:7; --posy:4; ">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-											<path
-												d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
-											<path fill="none" d="M0 0h24v24H0z"></path>
-										</svg> </button>
-
-								</div>
-								<div class="loookbook-info text-center mt-3">
-									<h3>Set đồ tập Gym</h3>
-									<a class="link" href="pages/set-do-tap-gym.html">Xem chi tiết</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-xl-4 col-md-6 col-12 lookbooks-column">
-							<div class="lookbooks-banner lookbooks-3">
-								<div class="lookbooks-banner__photo">
-									<div class="lookbook-image-wrap">
-										<img class="img-fluid m-auto object-contain mh-100 w-auto"
-											loading="lazy"
-											width="520"
-											height="675"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/lookbook_3_imagec5aa.jpg?1738827047187"
-											alt="lookbook_3_image.jpg">
-									</div>
-
-									<button type="button" class="popover-dot dot-1" data-toggle="popover"
-										data-placement="top" data-popover-content="#lookbook-30584111"
-										style="--posx:6; --posy:5; ">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-											<path
-												d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
-											<path fill="none" d="M0 0h24v24H0z"></path>
-										</svg> </button>
-
-									<button type="button" class="popover-dot dot-2" data-toggle="popover"
-										data-placement="bottom" data-popover-content="#lookbook-30584104"
-										style="--posx:9; --posy:5; ">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-											<path
-												d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
-											<path fill="none" d="M0 0h24v24H0z"></path>
-										</svg> </button>
-
-								</div>
-								<div class="loookbook-info text-center mt-3">
-									<h3>Set đồ tập Aerobic</h3>
-									<a class="link" href="pages/set-do-tap-aerobic.html">Xem chi tiết</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div id="lookbooks-stick-product" class="hidden"></div>
-				</div>
-			</section>
-
-			<script>
-	var egaLookBook = {
-		slider: function(){
-			$('.section_lookbook:not(.lookbook--oneproduct) .lookbooks-container').slick({
-				autoplay: false,
-				autoplaySpeed: 6000,
-				dots: false,
-				arrows: true,
-				infinite: false,
-				speed: 300,
-				slidesToShow: 5,
-				slidesToScroll: 5,
-				centerMode: false,
-				responsive: [
-					{
-
-						breakpoint: 991,
-						settings: {
-							slidesToShow: 2,
-							slidesToScroll: 2
-						}
-					},
-					{
-						breakpoint: 767,
-						settings: {
-							slidesToShow: 1,
-							slidesToScroll: 1
-						}
-					}
-				]
-			});
-		},
-		popover: function() {
-			$('.popover-dot[data-toggle="popover"]').popover({
-				html: true,
-				animation: true,
-				placement: function(popover, trigger) {
-					var placement = jQuery(trigger).attr('data-placement');
-					var dataClass = jQuery(trigger).attr('data-class');
-					jQuery(trigger).addClass('is-active');
-					jQuery(popover).addClass(dataClass);
-					return placement;
-				},
-				content: function() {
-					var elementId = $(this).attr("data-popover-content");
-					return $(elementId).html();
-				},
-			});
-			setTimeout(function() {
-				$('.lookbooks-1 .popover-dot:eq(0)').click();
-			}, 3000);
-			jQuery("body").on("click", '.popover-dot[data-toggle="popover"]', function(e) {
-				$('.popover-dot[data-toggle="popover"]').each(function() {
-					if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
-						$(this).popover('hide');
-					}
-				});
-			});
-			$('body').on('hidden.bs.popover', function(e) {
-				$(e.target).data('bs.popover').inState = { click: false, hover: false, focus: false };
-			});
-		},
-		getLookBook: function(element) {
-			try {
-								
-				var idList = [30584113,30584103,30584106,30584095,30584111,30584104];
-				if (idList && idList.length && Array.isArray(idList)){ 
-					let filter = `(${idList.join(' OR ')})`
-					$.ajax({
-						url: `/search?q=id:${filter}&view=lookbook`,
-						success: function(data) {
-							if (data && data.length) {
-								let wrapper = $(element);
-								wrapper.html(data)
-							} else {
-								$(element).remove()
-							}
-						}
-					})
-				} else {
-					$(element).remove()
-				}
-			} catch (e) {
-				console.log(e)
-				$(element).remove()
-			}
-		}
-	};
-</script>
-		</section>
-
-		<section class="section awe-section-13">
-			<section class="section_lookbook lookbook--oneproduct">
-				<div class="container">
-					<h2 class="heading-bar__title"></h2>
-					<div class="lookbooks-container row mt-lg-4">
-						<div class="col-12 col-xl-6 lookbook-desc-body">
-							<div class="lookbook-desc-content">
-								<h2 class="oneproduct-name">CÔNG NGHỆ DRY_EX - THOẢI MÁI VỚI TÍNH NĂNG
-									KHÔ SIÊU NHANH</h2>
-								<p>Công nghệ DRY-EX sử dụng cấu trúc đan 3 chiều đặc biệt, với tính năng
-									khô nhanh vượt trội so với thông thường. Mang đến sự thoáng mát, tạm
-									biệt cảm giác khó chịu do mồ hôi gây ra.</p>
-								<a class="btn btn-main"
-									href="products/quan-legging-dui-the-thao.html">XEM NGAY</a>
-							</div>
-						</div>
-						<div class="col-12 col-xl-6 lookbooks-column">
-							<div class="lookbooks-banner">
-								<div class="lookbooks-banner__photo">
-									<div class="lookbook-image-wrap">
-										<img class="img-fluid m-auto object-contain mh-100 w-auto"
-											loading="lazy"
-											width="520"
-											height="675"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/lookbook_oneproduct_imgc5aa.jpg?1738827047187"
-											alt>
-									</div>
-
-									<button type="button" class="popover-dot dot-1" data-toggle="popover"
-										data-placement="top" data-popover-content="#lookbook-oneproduct-1"
-										style="--posx:6; --posy:3;">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-											<path
-												d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
-											<path fill="none" d="M0 0h24v24H0z"></path>
-										</svg> </button>
-
-									<button type="button" class="popover-dot dot-2" data-toggle="popover"
-										data-placement="top" data-popover-content="#lookbook-oneproduct-2"
-										style="--posx:6; --posy:12;">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-											<path
-												d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
-											<path fill="none" d="M0 0h24v24H0z"></path>
-										</svg> </button>
-
-								</div>
-							</div>
-						</div>
-					</div>
-					<div id="lookbooks-stick-oneproduct" class="hidden">
-
-						<div id="lookbook-oneproduct-1">
-							<div class="popover-content">
-								<a class="popover-product"
-									href="products/quan-legging-dui-the-thao.html">
-									<h4 class="popover--title">Thấm hút mồ hôi</h4>
-									<p class="popover--desc mb-0">Kết cấu 3 chiều đặc biệt, thấm hút mồ hôi
-										lập tức, giữ da luôn khô ráo</p>
-								</a>
-							</div>
-						</div>
-
-						<div id="lookbook-oneproduct-2">
-							<div class="popover-content">
-								<a class="popover-product"
-									href="products/quan-legging-dui-the-thao.html">
-									<h4 class="popover--title">Khô nhanh và chống mùi hôi</h4>
-									<p class="popover--desc mb-0">Lớp khuyếch tán mật độ cao, giúp nhanh
-										khô, không có mồ hôi</p>
-								</a>
-							</div>
-						</div>
-
-						<div id="lookbook-oneproduct-3">
-							<div class="popover-content">
-								<a class="popover-product" href="#">
-									<h4 class="popover--title"></h4>
-									<p class="popover--desc mb-0"></p>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<script>
-	var egaLookBookOneProduct = {
-		popover: function() {
-			$('.popover-dot[data-toggle="popover"]').popover({
-				html: true,
-				animation: true,
-				placement: function(popover, trigger) {
-					var placement = jQuery(trigger).attr('data-placement');
-					var dataClass = jQuery(trigger).attr('data-class');
-					jQuery(trigger).addClass('is-active');
-					jQuery(popover).addClass(dataClass);
-					return placement;
-				},
-				content: function() {
-					var elementId = $(this).attr("data-popover-content");
-					return $(elementId).html();
-				},
-			});
-			setTimeout(function() {
-				$('.lookbooks-1 .popover-dot:eq(0)').click();
-			}, 3000);
-			jQuery("body").on("click", '.popover-dot[data-toggle="popover"]', function(e) {
-				$('.popover-dot[data-toggle="popover"]').each(function() {
-					if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
-						$(this).popover('hide');
-					}
-				});
-			});
-			$('body').on('hidden.bs.popover', function(e) {
-				$(e.target).data('bs.popover').inState = { click: false, hover: false, focus: false };
-			});
-		}
-	};
-</script>
-		</section>
-
-		<section class="section awe-section-14">
-			<div class="section_banner_coll">
-				<div class="container card border-0">
-					<div
-						class="title_module_main heading-bar mb-3 d-flex align-items-center flex-wrap justify-content-between">
-						<h2 class="heading-bar__title"><span>MỚI</span> CÔNG NGHỆ</h2>
-						<a href="collections/all.html" class="see-all">Xem tất cả</a>
-					</div>
-					<div
-						class="row justify-content-md-center text-center justify-content-start">
-						<div class="item col-8 col-md-4">
-							<a class="banner" href="collections/all.html" title="Hấp thụ tức thì">
-								<picture>
-									<source media="(max-width: 600px)"
-										srcset="//bizweb.dktcdn.net/thumb/grande/100/484/026/themes/953543/assets/banner_coll_1_1.jpg?1738827047187">
-									<img loading="lazy" class="img-fluid"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_coll_1_1c5aa.jpg?1738827047187"
-										alt="banner_coll_1_1_title"
-										width="520"
-										height="723" />
-								</picture>
-
-							</a>
-						</div>
-						<div class="item col-8 col-md-4">
-							<a class="banner" href="collections/all.html"
-								title="Lưu thông thoáng khí">
-								<picture>
-									<source media="(max-width: 600px)"
-										srcset="//bizweb.dktcdn.net/thumb/grande/100/484/026/themes/953543/assets/banner_coll_1_2.jpg?1738827047187">
-									<img loading="lazy" class="img-fluid"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_coll_1_2c5aa.jpg?1738827047187"
-										alt="banner_coll_1_2_title"
-										width="520"
-										height="723" />
-								</picture>
-
-							</a>
-						</div>
-						<div class="item col-8 col-md-4">
-							<a class="banner" href="collections/all.html" title="Cảm giác mát lạnh">
-								<picture>
-									<source media="(max-width: 600px)"
-										srcset="//bizweb.dktcdn.net/thumb/grande/100/484/026/themes/953543/assets/banner_coll_1_3.jpg?1738827047187">
-									<img loading="lazy" class="img-fluid"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_coll_1_3c5aa.jpg?1738827047187"
-										alt="banner_coll_1_3_title"
-										width="520"
-										height="723" />
-								</picture>
-
+								<svg class="icon">
+									<use xlink:href="#icon-arrow" />
+								</svg>
 							</a>
 						</div>
 					</div>
+
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<section class="section awe-section-15">
-			<section class="section_video section position-relative">
-				<div class="container border-0">
+	<script>
+		window.flashSale = {
+			flashSaleColl: "san-pham-noi-bat",
+			type: "hours",
+			dateStart: "21/07/2023",
+			dateFinish: "3",
+			hourStart: "00:00",
+			hourFinish: "24",
+			activeDay: "7",
+			finishAction: "show",
+			finishLabel: "Chương trình đã kết thúc",
+			percentMin: "10",
+			percentMax: "90",
+			maxInStock: "300",
+			useSoldQuantity: false,
+			useTags: false,
+			timestamp: new Date().getTime(),
+			openingText: "Vừa mở bán",
+			soldText: "Đã bán [soluong] sản phẩm",
+			outOfStockSoonText: "<img src='//bizweb.dktcdn.net/100/484/026/themes/953543/assets/fire-icon.svg?1738827047187' /> Sắp cháy hàng"
+		}
+		window.sectionScripts = window.sectionScripts || []
+		window.sectionScripts.push("../bizweb.dktcdn.net/100/484/026/themes/953543/assets/flashsalec5aa.js?1738827047187")
+	</script>
+</section>
 
-					<div class="item video-item"
-						data-src="https://www.youtube.com/watch?v=rxvlmO98e5I?width=800&height=450&autoplay=1">
-						<a class="d-block text-center"
-							href="https://www.youtube.com/watch?v=rxvlmO98e5I?width=800&amp;height=450&amp;autoplay=1"
-							data-rel="prettyPhoto[product-gallery]">
+<section class="section awe-section-7">
 
+	<section class="section_product_top section">
+
+		<div class="container card border-0">
+			<div class="slideshow-banner-wrap">
+
+				<div class="section-slideshow-banner mb-3 btn-slide--new ">
+
+					<div class="items text-center">
+						<a href="hot-products.html" title="image">
 							<picture>
 								<source media="(max-width: 480px)"
-									srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/section_video_bg.jpg?1738827047187">
-								<source media="(max-width: 991px)"
-									srcset="//bizweb.dktcdn.net/thumb/grande/100/484/026/themes/953543/assets/section_video_bg.jpg?1738827047187">
-								<img class="img-fluid object-contain"
-									src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/section_video_bgc5aa.jpg?1738827047187"
-									width="1620"
-									height="900"
+									srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/slide_product_2_img_1_img.jpg?1738827047187">
+								<img class="img-fluid mx-auto"
 									loading="lazy"
-									alt="section_video_bg">
+									src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/slide_product_2_img_1_imgc5aa.jpg?1738827047187"
+									width="1620"
+									height="655"
+									alt="image" />
 							</picture>
 						</a>
-						<div class="video-play-button-wrap">
-							<div class="video-play-button">
-								<svg class="icon">
-									<use xlink:href="#icon-play" />
-								</svg> </div>
-						</div>
 					</div>
-				</div>
-			</section>
 
-			<script>
-   window.themeScripts = window.themeScripts  || []
-   window.themeScripts.push("../mixcdn.egany.com/themes/assets/lightgallery.js")
-	 window.themeCss = window.themeCss  || []
-   window.themeCss.push("../bizweb.dktcdn.net/100/484/026/themes/953543/assets/lightboxc5aa.css?1738827047187")
-
-</script>
-		</section>
-
-		<section class="section awe-section-16">
-
-			<section class="section_imgtext section style2 ">
-				<div class="container border-0">
-					<div class="imgtext_body ">
-						<a class="imgtext_img" href="gioi-thieu.html" title="VỀ CHÚNG TÔI">
+					<div class="items text-center">
+						<a href="hot-products.html" title="image">
 							<picture>
-								<source media="(max-width: 991px)"
-									srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/imgtext_2_img.jpg?1738827047187">
-								<img loading="lazy"
-									class="img-fluid mx-auto"
-									src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/imgtext_2_imgc5aa.jpg?1738827047187"
-									width="795"
-									height="475"
-									alt="imgtext_img" />
+								<source media="(max-width: 480px)"
+									srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/slide_product_2_img_2_img.jpg?1738827047187">
+								<img class="img-fluid mx-auto"
+									loading="lazy"
+									src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/slide_product_2_img_2_imgc5aa.jpg?1738827047187"
+									width="1620"
+									height="655"
+									alt="image" />
 							</picture>
 						</a>
-
-						<div class="imgtext_content_wrap">
-							<div class="imgtext_content">
-								<h3 class="imgtext-title heading-bar__title text-left">VỀ CHÚNG TÔI</h3>
-								<p class="imgtext-desc">EGA Sportswear là một thương hiệu thời trang thể
-									thao chuyên nghiệp, mang đến cho khách hàng những sản phẩm thiết kế
-									tinh tế và chất lượng cao. Với sự tập trung vào việc sáng tạo và đổi
-									mới, EGA Sportswear luôn cố gắng mang đến những sản phẩm mới nhất và
-									đáp ứng nhu cầu của khách hàng với phong cách thời trang thể thao hiện
-									đại và tiện dụng. Những chi tiết nhỏ như đường may tinh tế và chất liệu
-									thoáng khí giúp sản phẩm của EGA Sportswear mang đến sự thoải mái và độ
-									bền tốt nhất cho khách hàng. Với cam kết mang đến sự hài lòng cho khách
-									hàng, EGA Sportswear đã trở thành một trong những thương hiệu thời
-									trang thể thao được ưa chuộng và tin dùng trên thị trường.</p>
-								<a class="link" href="gioi-thieu.html">Xem chi tiết
-
-									<svg class="icon">
-										<use xlink:href="#icon-arrow" />
-									</svg></a>
-							</div>
-						</div>
 					</div>
+
 				</div>
-			</section>
-		</section>
 
-		<section class="section awe-section-17">
+			</div>
+		</div>
+	</section>
+</section>
 
-			<section class="section_tiktok_slide section">
-				<div class="container card border-0">
-					<h2 class="heading-bar__title text-left">VIDEO ĐƯỢC XEM NHIỀU NHẤT</h2>
-					<div class="tiktok_slide_body btn-slide--new">
-						<div class="row mx-0 hrz-scroll text-center flex-nowrap js-slider">
+<section class="section awe-section-8">
 
-							<div class="tiktok_slide_item">
+	<section class="section_banner_slide section">
+		<div class="container card border-0">
+			<h2 class="heading-bar__title text-left">HOẠT ĐỘNG THỂ THAO NỔI BẬT</h2>
+			<div class="banner_slide_body btn-slide--new">
+				<div class="row mx-0 hrz-scroll text-center flex-nowrap js-slider">
 
-								<div class="item video-item"
-									data-src="https://www.youtube.com/watch?v=CTkrrpF84Rw?width=800&height=450&autoplay=1">
-									<a class="d-block text-center"
-										href="https://www.youtube.com/watch?v=CTkrrpF84Rw?width=800&amp;height=450&amp;autoplay=1"
-										data-rel="prettyPhoto[product-gallery]">
-
-										<img class="img-fluid object-contain"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/tiktok_slide_video_1_imgc5aa.jpg?1738827047187"
-											loading="lazy"
-											alt="section_video_bg">
-									</a>
-									<div class="video-play-button-wrap">
-										<div class="video-play-button">
-											<svg class="icon">
-												<use xlink:href="#icon-play" />
-											</svg> </div>
-									</div>
-								</div>
-							</div>
-
-							<div class="tiktok_slide_item">
-
-								<div class="item video-item"
-									data-src="https://www.youtube.com/watch?v=CTkrrpF84Rw?width=800&height=450&autoplay=1">
-									<a class="d-block text-center"
-										href="https://www.youtube.com/watch?v=CTkrrpF84Rw?width=800&amp;height=450&amp;autoplay=1"
-										data-rel="prettyPhoto[product-gallery]">
-
-										<img class="img-fluid object-contain"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/tiktok_slide_video_2_imgc5aa.jpg?1738827047187"
-											loading="lazy"
-											alt="section_video_bg">
-									</a>
-									<div class="video-play-button-wrap">
-										<div class="video-play-button">
-											<svg class="icon">
-												<use xlink:href="#icon-play" />
-											</svg> </div>
-									</div>
-								</div>
-							</div>
-
-							<div class="tiktok_slide_item">
-
-								<div class="item video-item"
-									data-src="https://www.youtube.com/watch?v=CTkrrpF84Rw?width=800&height=450&autoplay=1">
-									<a class="d-block text-center"
-										href="https://www.youtube.com/watch?v=CTkrrpF84Rw?width=800&amp;height=450&amp;autoplay=1"
-										data-rel="prettyPhoto[product-gallery]">
-
-										<img class="img-fluid object-contain"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/tiktok_slide_video_3_imgc5aa.jpg?1738827047187"
-											loading="lazy"
-											alt="section_video_bg">
-									</a>
-									<div class="video-play-button-wrap">
-										<div class="video-play-button">
-											<svg class="icon">
-												<use xlink:href="#icon-play" />
-											</svg> </div>
-									</div>
-								</div>
-							</div>
-
-							<div class="tiktok_slide_item">
-
-								<div class="item video-item"
-									data-src="https://www.youtube.com/watch?v=CTkrrpF84Rw?width=800&height=450&autoplay=1">
-									<a class="d-block text-center"
-										href="https://www.youtube.com/watch?v=CTkrrpF84Rw?width=800&amp;height=450&amp;autoplay=1"
-										data-rel="prettyPhoto[product-gallery]">
-
-										<img class="img-fluid object-contain"
-											src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/tiktok_slide_video_4_imgc5aa.jpg?1738827047187"
-											loading="lazy"
-											alt="section_video_bg">
-									</a>
-									<div class="video-play-button-wrap">
-										<div class="video-play-button">
-											<svg class="icon">
-												<use xlink:href="#icon-play" />
-											</svg> </div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<script>
-   window.themeScripts = window.themeScripts  || []
-   window.themeScripts.push("../mixcdn.egany.com/themes/assets/lightgallery.js")
-	 window.themeCss = window.themeCss  || []
-   window.themeCss.push("../bizweb.dktcdn.net/100/484/026/themes/953543/assets/lightboxc5aa.css?1738827047187")
-
-</script>
-		</section>
-
-		<section class="section awe-section-18">
-			<section class="section_insta section">
-				<div class="container border-0">
-					<h2 class="heading-bar__title">@ FOLLOW INSTAGRAM</h2>
-					<div class="insta_body hrz-scroll flex-nowrap" data-section="instagram">
-						<div class="insta_item">
-							<div class="item_skeleton"></div>
-						</div>
-						<div class="insta_item">
-							<div class="item_skeleton"></div>
-						</div>
-						<div class="insta_item">
-							<div class="item_skeleton"></div>
-						</div>
-						<div class="insta_item">
-							<div class="item_skeleton"></div>
-						</div>
-						<div class="insta_item">
-							<div class="item_skeleton"></div>
-						</div>
-
-						<script type="text/x-custom-template" data-template="instagram">
-                                                                                                                                    						
-                        <a class="insta_item pos-relative embed-responsive embed-responsive-1by1"
-                           href="https://www.instagram.com/p/BR-FxkFjUVw/" target="_blank">
-                            <img loading="lazy"
-                                 src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/insta_1_imgc5aa.jpg?1738827047187"
-                                 alt="insta_1_img.html">
-                            <div class="d-flex insta-icon-wrap">
-                                <div class="insta-icon"> 
-                                    <svg class="icon">
-	<use xlink:href="#icon-instagram"/>
-</svg>                                </div>
-                            </div>
-                        </a>
-                                                                                                                                        						
-                        <a class="insta_item pos-relative embed-responsive embed-responsive-1by1"
-                           href="https://www.instagram.com/p/BR-FxkFjUVw/" target="_blank">
-                            <img loading="lazy"
-                                 src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/insta_2_imgc5aa.jpg?1738827047187"
-                                 alt="insta_2_img.html">
-                            <div class="d-flex insta-icon-wrap">
-                                <div class="insta-icon"> 
-                                    <svg class="icon">
-	<use xlink:href="#icon-instagram"/>
-</svg>                                </div>
-                            </div>
-                        </a>
-                                                                                                                                        						
-                        <a class="insta_item pos-relative embed-responsive embed-responsive-1by1"
-                           href="https://www.instagram.com/p/BR-FxkFjUVw/" target="_blank">
-                            <img loading="lazy"
-                                 src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/insta_3_imgc5aa.jpg?1738827047187"
-                                 alt="insta_3_img.html">
-                            <div class="d-flex insta-icon-wrap">
-                                <div class="insta-icon"> 
-                                    <svg class="icon">
-	<use xlink:href="#icon-instagram"/>
-</svg>                                </div>
-                            </div>
-                        </a>
-                                                                                                                                        						
-                        <a class="insta_item pos-relative embed-responsive embed-responsive-1by1"
-                           href="https://www.instagram.com/p/BR-FxkFjUVw/" target="_blank">
-                            <img loading="lazy"
-                                 src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/insta_4_imgc5aa.jpg?1738827047187"
-                                 alt="insta_4_img.html">
-                            <div class="d-flex insta-icon-wrap">
-                                <div class="insta-icon"> 
-                                    <svg class="icon">
-	<use xlink:href="#icon-instagram"/>
-</svg>                                </div>
-                            </div>
-                        </a>
-                                                                                                                                        						
-                        <a class="insta_item pos-relative embed-responsive embed-responsive-1by1"
-                           href="https://www.instagram.com/p/BR-FxkFjUVw/" target="_blank">
-                            <img loading="lazy"
-                                 src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/insta_5_imgc5aa.jpg?1738827047187"
-                                 alt="insta_5_img.html">
-                            <div class="d-flex insta-icon-wrap">
-                                <div class="insta-icon"> 
-                                    <svg class="icon">
-	<use xlink:href="#icon-instagram"/>
-</svg>                                </div>
-                            </div>
-                        </a>
-                                                            </script>
-					</div>
-				</div>
-			</section>
-
-		</section>
-
-		<section class="section awe-section-19">
-
-			<div class="section_blog">
-				<div class='container'>
-					<div class="title_module_main d-flex justify-content-between px-0">
-						<h2 class="heading-bar__title"
-							style='color: #000000'>
-							<a class='link' href="tin-tuc.html"
-								title="LỜI KHUYÊN THỂ THAO DÀNH CHO BẠN">LỜI KHUYÊN THỂ THAO DÀNH CHO
-								BẠN</a>
-						</h2>
-						<a href="tin-tuc.html" title="Xem tất cả"
-							class="btn">
-							Xem tất cả
+					<div class="banner_slide_item">
+						<a href="collections/all.html" title="Boxing">
+							<img loading="lazy"
+								class="img-fluid m-auto object-contain mh-100 w-auto"
+								src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_1_img_1_imgc5aa.jpg?1738827047187"
+								width="385"
+								height="500"
+								alt="banner_slide_1_img_1_img.jpg" />
 						</a>
 					</div>
-					<div class='section__blogs'>
-						<div class="row blog-list blog-list-custom blog-size-5">
 
-							<div class="col-12 col-sm-6 col-lg-6 col-xl-3 pos-relative mb-4">
+					<div class="banner_slide_item">
+						<a href="collections/all.html" title="Chạy bộ">
+							<img loading="lazy"
+								class="img-fluid m-auto object-contain mh-100 w-auto"
+								src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_1_img_2_imgc5aa.jpg?1738827047187"
+								width="385"
+								height="500"
+								alt="banner_slide_1_img_2_img.jpg" />
+						</a>
+					</div>
 
-								<div class="blogwp clearfix media only-title">
+					<div class="banner_slide_item">
+						<a href="collections/all.html" title="Gym">
+							<img loading="lazy"
+								class="img-fluid m-auto object-contain mh-100 w-auto"
+								src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_1_img_3_imgc5aa.jpg?1738827047187"
+								width="385"
+								height="500"
+								alt="banner_slide_1_img_3_img.jpg" />
+						</a>
+					</div>
 
-									<a class="image-blog text-center"
-										href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html"
-										title="TẬP GYM LÀ GÌ? CHỌN MẶC QUẦN ÁO GYM ĐÚNG CHUẨN">
-										<img loading="lazy" class="img-fluid"
-											src="../bizweb.dktcdn.net/thumb/large/100/484/026/articles/blog-11280w1750.png?v=1685604516093"
-											alt="TẬP GYM LÀ GÌ? CHỌN MẶC QUẦN ÁO GYM ĐÚNG CHUẨN">
-									</a>
-
-									<div class="content_blog clearfix media-body ">
-										<h3 class='mt-0 mb-2'>
-											<a class='link'
-												href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html"
-												title="TẬP GYM LÀ GÌ? CHỌN MẶC QUẦN ÁO GYM ĐÚNG CHUẨN">TẬP GYM LÀ
-												GÌ? CHỌN MẶC QUẦN ÁO GYM ĐÚNG CHUẨN</a>
-										</h3>
-
-										<div class="dated-post media">
-											<div class="media-body d-flex flex--wrap align-items-center">
-												<div class='text-muted mt-0'>
-
-													Thứ Ba,
-													06/06/2023
-												</div>
-											</div>
-										</div>
-
-										<a class="btn btn-view"
-											href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html"
-											title="Xem ngay">Xem ngay</a>
-
-										<p class="short-summary justify lead d-none d-md-block ">
-
-											Gym hiện đang là một xu hướng mới của giới trẻ. Gym không chỉ là bộ
-											môn phổ biến dành...
-
-											<a class="button_custome_35 link"
-												href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html"
-												title="Đọc tiếp">Đọc tiếp</a>
-
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-lg-6 col-xl-3 pos-relative mb-4">
-
-								<div class="blogwp clearfix media only-title">
-
-									<a class="image-blog text-center"
-										href="trang-phuc-ly-tuong-cho-hoat-dong-the-thao.html"
-										title="TRANG PHỤC LÝ TƯỞNG CHO HOẠT ĐỘNG THỂ THAO">
-										<img loading="lazy" class="img-fluid"
-											src="../bizweb.dktcdn.net/thumb/large/100/484/026/articles/blog-47400.png?v=1685604532977"
-											alt="TRANG PHỤC LÝ TƯỞNG CHO HOẠT ĐỘNG THỂ THAO">
-									</a>
-
-									<div class="content_blog clearfix media-body ">
-										<h3 class='mt-0 mb-2'>
-											<a class='link'
-												href="trang-phuc-ly-tuong-cho-hoat-dong-the-thao.html"
-												title="TRANG PHỤC LÝ TƯỞNG CHO HOẠT ĐỘNG THỂ THAO">TRANG PHỤC LÝ
-												TƯỞNG CHO HOẠT ĐỘNG THỂ THAO</a>
-										</h3>
-
-										<div class="dated-post media">
-											<div class="media-body d-flex flex--wrap align-items-center">
-												<div class='text-muted mt-0'>
-
-													Thứ Ba,
-													06/06/2023
-												</div>
-											</div>
-										</div>
-
-										<a class="btn btn-view"
-											href="trang-phuc-ly-tuong-cho-hoat-dong-the-thao.html"
-											title="Xem ngay">Xem ngay</a>
-
-										<p class="short-summary justify lead d-none d-md-block ">
-
-											Các hoạt động thể thao luôn đòi hỏi con người phải vận động nhiều nên
-											việc lựa chọn những bộ...
-
-											<a class="button_custome_35 link"
-												href="trang-phuc-ly-tuong-cho-hoat-dong-the-thao.html"
-												title="Đọc tiếp">Đọc tiếp</a>
-
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-lg-6 col-xl-3 pos-relative mb-4">
-
-								<div class="blogwp clearfix media only-title">
-
-									<a class="image-blog text-center"
-										href="chon-do-tap-gym-nu-dung-cach-cho-nguoi-moi.html"
-										title="CHỌN ĐỒ TẬP GYM NỮ ĐÚNG CÁCH CHO NGƯỜI MỚI">
-										<img loading="lazy" class="img-fluid"
-											src="../bizweb.dktcdn.net/thumb/large/100/484/026/articles/31ccb.png?v=1685604645737"
-											alt="CHỌN ĐỒ TẬP GYM NỮ ĐÚNG CÁCH CHO NGƯỜI MỚI">
-									</a>
-
-									<div class="content_blog clearfix media-body ">
-										<h3 class='mt-0 mb-2'>
-											<a class='link'
-												href="chon-do-tap-gym-nu-dung-cach-cho-nguoi-moi.html"
-												title="CHỌN ĐỒ TẬP GYM NỮ ĐÚNG CÁCH CHO NGƯỜI MỚI">CHỌN ĐỒ TẬP GYM
-												NỮ ĐÚNG CÁCH CHO NGƯỜI MỚI</a>
-										</h3>
-
-										<div class="dated-post media">
-											<div class="media-body d-flex flex--wrap align-items-center">
-												<div class='text-muted mt-0'>
-
-													Thứ Ba,
-													06/06/2023
-												</div>
-											</div>
-										</div>
-
-										<a class="btn btn-view"
-											href="chon-do-tap-gym-nu-dung-cach-cho-nguoi-moi.html"
-											title="Xem ngay">Xem ngay</a>
-
-										<p class="short-summary justify lead d-none d-md-block ">
-
-											Mỗi ngày có hàng ngàn gymer quan tâm đến câu hỏi ‘Chọn đồ tập gym nữ
-											như thế nào là...
-
-											<a class="button_custome_35 link"
-												href="chon-do-tap-gym-nu-dung-cach-cho-nguoi-moi.html"
-												title="Đọc tiếp">Đọc tiếp</a>
-
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-lg-6 col-xl-3 pos-relative mb-4">
-
-								<div class="blogwp clearfix media only-title">
-
-									<a class="image-blog text-center"
-										href="4-cach-lua-chon-do-the-thao-tap-yoga-dep-khong-phai-ai-cung-biet.html"
-										title="4 CÁCH LỰA ĐỒ THỂ THAO YOGA ĐẸP KHÔNG PHẢI AI CŨNG BIẾT">
-										<img loading="lazy" class="img-fluid"
-											src="../bizweb.dktcdn.net/thumb/large/100/484/026/articles/frame-4744-2058c.png?v=1685605285160"
-											alt="4 CÁCH LỰA ĐỒ THỂ THAO YOGA ĐẸP KHÔNG PHẢI AI CŨNG BIẾT">
-									</a>
-
-									<div class="content_blog clearfix media-body ">
-										<h3 class='mt-0 mb-2'>
-											<a class='link'
-												href="4-cach-lua-chon-do-the-thao-tap-yoga-dep-khong-phai-ai-cung-biet.html"
-												title="4 CÁCH LỰA ĐỒ THỂ THAO YOGA ĐẸP KHÔNG PHẢI AI CŨNG BIẾT">4
-												CÁCH LỰA ĐỒ THỂ THAO YOGA ĐẸP KHÔNG PHẢI AI CŨNG BIẾT</a>
-										</h3>
-
-										<div class="dated-post media">
-											<div class="media-body d-flex flex--wrap align-items-center">
-												<div class='text-muted mt-0'>
-
-													Thứ Ba,
-													06/06/2023
-												</div>
-											</div>
-										</div>
-
-										<a class="btn btn-view"
-											href="4-cach-lua-chon-do-the-thao-tap-yoga-dep-khong-phai-ai-cung-biet.html"
-											title="Xem ngay">Xem ngay</a>
-
-										<p class="short-summary justify lead d-none d-md-block ">
-
-											Khi bắt đầu học Yoga điều đầu tiên mà chị em quan tâm nhất là lựa
-											chọn đồ tập Yoga...
-
-											<a class="button_custome_35 link"
-												href="4-cach-lua-chon-do-the-thao-tap-yoga-dep-khong-phai-ai-cung-biet.html"
-												title="Đọc tiếp">Đọc tiếp</a>
-
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
+					<div class="banner_slide_item">
+						<a href="collections/all.html" title="Bơi lội">
+							<img loading="lazy"
+								class="img-fluid m-auto object-contain mh-100 w-auto"
+								src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_1_img_4_imgc5aa.jpg?1738827047187"
+								width="385"
+								height="500"
+								alt="banner_slide_1_img_4_img.jpg" />
+						</a>
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
+</section>
 
-		<section class="section awe-section-20">
+<section class="section awe-section-9">
 
-			<section class="section_banner_slide section">
-				<div class="container card border-0">
-					<h2 class="heading-bar__title text-left">DANH MỤC SẢN PHẨM</h2>
-					<div class="banner_slide_body btn-slide--new">
-						<div class="row mx-0 hrz-scroll text-center flex-nowrap js-slider">
+	<section class="section_product_top section">
+		<div class="slideshow-banner-wrap">
 
-							<div class="banner_slide_item">
-								<a href="collections/all.html" title="Áo">
-									<img loading="lazy"
-										class="img-fluid m-auto object-contain mh-100 w-auto"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_2_img_1_imgc5aa.jpg?1738827047187"
-										width="385"
-										height="500"
-										alt="banner_slide_2_img_1_img.jpg" />
-								</a>
+			<div class="section-slideshow-banner mb-3 btn-slide--new ">
+
+				<div class="items text-center">
+					<a href="collections/all.html" title="image">
+						<picture>
+							<source media="(max-width: 480px)"
+								srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/slide_product_4_img_1_img.jpg?1738827047187">
+							<img class="img-fluid mx-auto"
+								loading="lazy"
+								src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/slide_product_4_img_1_imgc5aa.jpg?1738827047187"
+								width="1920"
+								height="655"
+								alt="image" />
+						</picture>
+					</a>
+				</div>
+
+			</div>
+			<div class="module-product">
+			</div>
+		</div>
+	</section>
+</section>
+
+
+
+<section class="section awe-section-16">
+
+	<section class="section_imgtext section style2 ">
+		<div class="container border-0">
+			<div class="imgtext_body ">
+				<a class="imgtext_img" href="gioi-thieu.html" title="VỀ CHÚNG TÔI">
+					<picture>
+						<source media="(max-width: 991px)"
+							srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/imgtext_2_img.jpg?1738827047187">
+						<img loading="lazy"
+							class="img-fluid mx-auto"
+							src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/imgtext_2_imgc5aa.jpg?1738827047187"
+							width="795"
+							height="475"
+							alt="imgtext_img" />
+					</picture>
+				</a>
+
+				<div class="imgtext_content_wrap">
+					<div class="imgtext_content">
+						<h3 class="imgtext-title heading-bar__title text-left">VỀ CHÚNG TÔI</h3>
+						<p class="imgtext-desc">EGA Sportswear là một thương hiệu thời trang thể
+							thao chuyên nghiệp, mang đến cho khách hàng những sản phẩm thiết kế
+							tinh tế và chất lượng cao. Với sự tập trung vào việc sáng tạo và đổi
+							mới, EGA Sportswear luôn cố gắng mang đến những sản phẩm mới nhất và
+							đáp ứng nhu cầu của khách hàng với phong cách thời trang thể thao hiện
+							đại và tiện dụng. Những chi tiết nhỏ như đường may tinh tế và chất liệu
+							thoáng khí giúp sản phẩm của EGA Sportswear mang đến sự thoải mái và độ
+							bền tốt nhất cho khách hàng. Với cam kết mang đến sự hài lòng cho khách
+							hàng, EGA Sportswear đã trở thành một trong những thương hiệu thời
+							trang thể thao được ưa chuộng và tin dùng trên thị trường.</p>
+						<a class="link" href="gioi-thieu.html">Xem chi tiết
+
+							<svg class="icon">
+								<use xlink:href="#icon-arrow" />
+							</svg></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</section>
+<section class="section awe-section-19">
+
+	<div class="section_blog">
+		<div class='container'>
+			<div class="title_module_main d-flex justify-content-between px-0">
+				<h2 class="heading-bar__title"
+					style='color: #000000'>
+					<a class='link' href="tin-tuc.html"
+						title="LỜI KHUYÊN THỂ THAO DÀNH CHO BẠN">LỜI KHUYÊN THỂ THAO DÀNH CHO
+						BẠN</a>
+				</h2>
+				<a href="tin-tuc.html" title="Xem tất cả"
+					class="btn">
+					Xem tất cả
+				</a>
+			</div>
+			<div class='section__blogs'>
+				<div class="row blog-list blog-list-custom blog-size-5">
+
+					<div class="col-12 col-sm-6 col-lg-6 col-xl-3 pos-relative mb-4">
+
+						<div class="blogwp clearfix media only-title">
+
+							<a class="image-blog text-center"
+								href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html"
+								title="TẬP GYM LÀ GÌ? CHỌN MẶC QUẦN ÁO GYM ĐÚNG CHUẨN">
+								<img loading="lazy" class="img-fluid"
+									src="../bizweb.dktcdn.net/thumb/large/100/484/026/articles/blog-11280w1750.png?v=1685604516093"
+									alt="TẬP GYM LÀ GÌ? CHỌN MẶC QUẦN ÁO GYM ĐÚNG CHUẨN">
+							</a>
+
+							<div class="content_blog clearfix media-body ">
+								<h3 class='mt-0 mb-2'>
+									<a class='link'
+										href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html"
+										title="TẬP GYM LÀ GÌ? CHỌN MẶC QUẦN ÁO GYM ĐÚNG CHUẨN">TẬP GYM LÀ
+										GÌ? CHỌN MẶC QUẦN ÁO GYM ĐÚNG CHUẨN</a>
+								</h3>
+
+								<div class="dated-post media">
+									<div class="media-body d-flex flex--wrap align-items-center">
+										<div class='text-muted mt-0'>
+
+											Thứ Ba,
+											06/06/2023
+										</div>
+									</div>
+								</div>
+
+								<a class="btn btn-view"
+									href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html"
+									title="Xem ngay">Xem ngay</a>
+
+								<p class="short-summary justify lead d-none d-md-block ">
+
+									Gym hiện đang là một xu hướng mới của giới trẻ. Gym không chỉ là bộ
+									môn phổ biến dành...
+
+									<a class="button_custome_35 link"
+										href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html"
+										title="Đọc tiếp">Đọc tiếp</a>
+
+								</p>
 							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-6 col-xl-3 pos-relative mb-4">
 
-							<div class="banner_slide_item">
-								<a href="collections/all.html" title="Quần">
-									<img loading="lazy"
-										class="img-fluid m-auto object-contain mh-100 w-auto"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_2_img_2_imgc5aa.jpg?1738827047187"
-										width="385"
-										height="500"
-										alt="banner_slide_2_img_2_img.jpg" />
-								</a>
+						<div class="blogwp clearfix media only-title">
+
+							<a class="image-blog text-center"
+								href="trang-phuc-ly-tuong-cho-hoat-dong-the-thao.html"
+								title="TRANG PHỤC LÝ TƯỞNG CHO HOẠT ĐỘNG THỂ THAO">
+								<img loading="lazy" class="img-fluid"
+									src="../bizweb.dktcdn.net/thumb/large/100/484/026/articles/blog-47400.png?v=1685604532977"
+									alt="TRANG PHỤC LÝ TƯỞNG CHO HOẠT ĐỘNG THỂ THAO">
+							</a>
+
+							<div class="content_blog clearfix media-body ">
+								<h3 class='mt-0 mb-2'>
+									<a class='link'
+										href="trang-phuc-ly-tuong-cho-hoat-dong-the-thao.html"
+										title="TRANG PHỤC LÝ TƯỞNG CHO HOẠT ĐỘNG THỂ THAO">TRANG PHỤC LÝ
+										TƯỞNG CHO HOẠT ĐỘNG THỂ THAO</a>
+								</h3>
+
+								<div class="dated-post media">
+									<div class="media-body d-flex flex--wrap align-items-center">
+										<div class='text-muted mt-0'>
+
+											Thứ Ba,
+											06/06/2023
+										</div>
+									</div>
+								</div>
+
+								<a class="btn btn-view"
+									href="trang-phuc-ly-tuong-cho-hoat-dong-the-thao.html"
+									title="Xem ngay">Xem ngay</a>
+
+								<p class="short-summary justify lead d-none d-md-block ">
+
+									Các hoạt động thể thao luôn đòi hỏi con người phải vận động nhiều nên
+									việc lựa chọn những bộ...
+
+									<a class="button_custome_35 link"
+										href="trang-phuc-ly-tuong-cho-hoat-dong-the-thao.html"
+										title="Đọc tiếp">Đọc tiếp</a>
+
+								</p>
 							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-6 col-xl-3 pos-relative mb-4">
 
-							<div class="banner_slide_item">
-								<a href="collections/all.html" title="Giày dép">
-									<img loading="lazy"
-										class="img-fluid m-auto object-contain mh-100 w-auto"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_2_img_3_imgc5aa.jpg?1738827047187"
-										width="385"
-										height="500"
-										alt="banner_slide_2_img_3_img.jpg" />
-								</a>
+						<div class="blogwp clearfix media only-title">
+
+							<a class="image-blog text-center"
+								href="chon-do-tap-gym-nu-dung-cach-cho-nguoi-moi.html"
+								title="CHỌN ĐỒ TẬP GYM NỮ ĐÚNG CÁCH CHO NGƯỜI MỚI">
+								<img loading="lazy" class="img-fluid"
+									src="../bizweb.dktcdn.net/thumb/large/100/484/026/articles/31ccb.png?v=1685604645737"
+									alt="CHỌN ĐỒ TẬP GYM NỮ ĐÚNG CÁCH CHO NGƯỜI MỚI">
+							</a>
+
+							<div class="content_blog clearfix media-body ">
+								<h3 class='mt-0 mb-2'>
+									<a class='link'
+										href="chon-do-tap-gym-nu-dung-cach-cho-nguoi-moi.html"
+										title="CHỌN ĐỒ TẬP GYM NỮ ĐÚNG CÁCH CHO NGƯỜI MỚI">CHỌN ĐỒ TẬP GYM
+										NỮ ĐÚNG CÁCH CHO NGƯỜI MỚI</a>
+								</h3>
+
+								<div class="dated-post media">
+									<div class="media-body d-flex flex--wrap align-items-center">
+										<div class='text-muted mt-0'>
+
+											Thứ Ba,
+											06/06/2023
+										</div>
+									</div>
+								</div>
+
+								<a class="btn btn-view"
+									href="chon-do-tap-gym-nu-dung-cach-cho-nguoi-moi.html"
+									title="Xem ngay">Xem ngay</a>
+
+								<p class="short-summary justify lead d-none d-md-block ">
+
+									Mỗi ngày có hàng ngàn gymer quan tâm đến câu hỏi ‘Chọn đồ tập gym nữ
+									như thế nào là...
+
+									<a class="button_custome_35 link"
+										href="chon-do-tap-gym-nu-dung-cach-cho-nguoi-moi.html"
+										title="Đọc tiếp">Đọc tiếp</a>
+
+								</p>
 							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-6 col-xl-3 pos-relative mb-4">
 
-							<div class="banner_slide_item">
-								<a href="collections/all.html" title="Đồ bơi">
-									<img loading="lazy"
-										class="img-fluid m-auto object-contain mh-100 w-auto"
-										src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/banner_slide_2_img_4_imgc5aa.jpg?1738827047187"
-										width="385"
-										height="500"
-										alt="banner_slide_2_img_4_img.jpg" />
-								</a>
+						<div class="blogwp clearfix media only-title">
+
+							<a class="image-blog text-center"
+								href="4-cach-lua-chon-do-the-thao-tap-yoga-dep-khong-phai-ai-cung-biet.html"
+								title="4 CÁCH LỰA ĐỒ THỂ THAO YOGA ĐẸP KHÔNG PHẢI AI CŨNG BIẾT">
+								<img loading="lazy" class="img-fluid"
+									src="../bizweb.dktcdn.net/thumb/large/100/484/026/articles/frame-4744-2058c.png?v=1685605285160"
+									alt="4 CÁCH LỰA ĐỒ THỂ THAO YOGA ĐẸP KHÔNG PHẢI AI CŨNG BIẾT">
+							</a>
+
+							<div class="content_blog clearfix media-body ">
+								<h3 class='mt-0 mb-2'>
+									<a class='link'
+										href="4-cach-lua-chon-do-the-thao-tap-yoga-dep-khong-phai-ai-cung-biet.html"
+										title="4 CÁCH LỰA ĐỒ THỂ THAO YOGA ĐẸP KHÔNG PHẢI AI CŨNG BIẾT">4
+										CÁCH LỰA ĐỒ THỂ THAO YOGA ĐẸP KHÔNG PHẢI AI CŨNG BIẾT</a>
+								</h3>
+
+								<div class="dated-post media">
+									<div class="media-body d-flex flex--wrap align-items-center">
+										<div class='text-muted mt-0'>
+
+											Thứ Ba,
+											06/06/2023
+										</div>
+									</div>
+								</div>
+
+								<a class="btn btn-view"
+									href="4-cach-lua-chon-do-the-thao-tap-yoga-dep-khong-phai-ai-cung-biet.html"
+									title="Xem ngay">Xem ngay</a>
+
+								<p class="short-summary justify lead d-none d-md-block ">
+
+									Khi bắt đầu học Yoga điều đầu tiên mà chị em quan tâm nhất là lựa
+									chọn đồ tập Yoga...
+
+									<a class="button_custome_35 link"
+										href="4-cach-lua-chon-do-the-thao-tap-yoga-dep-khong-phai-ai-cung-biet.html"
+										title="Đọc tiếp">Đọc tiếp</a>
+
+								</p>
 							</div>
 						</div>
 					</div>
 				</div>
-			</section>
-		</section>
+
+			</div>
+		</div>
+	</div>
+</section>
 @endsection
