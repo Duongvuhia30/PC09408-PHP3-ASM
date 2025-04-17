@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('content')
-
+@section('title', 'Liên hệ ')
 <section class="page_contact section ">
 	<div class="container py-3">
 		<div class="row">

@@ -10,7 +10,7 @@ class Products extends Component
     public function showProductsByCategory()
     {
         // Đảm bảo gọi với get() để trả về collection thay vì array
-        $products = Product::with('variants.images')->orderBy('created_at', 'desc')->get();
+        $products = Product::with('images')->orderBy('created_at', 'desc')->get();
         
         return view('livewire.client.product', [
             'products' => $products,
@@ -22,8 +22,7 @@ class Products extends Component
     
     public function Detail($id)
     {
-        $products = Product::with('variants.images')->findOrFail($id);
-
+        $products = Product::with(['images', 'variants'])->findOrFail($id);
 
         return view('livewire.client.product-detail',[
             'products' => $products,

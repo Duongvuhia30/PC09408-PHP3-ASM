@@ -1,26 +1,6 @@
 @extends('layout.master')
 @section('content')
-
-<section class="bread-crumb mb-3">
-	<span class="crumb-border"></span>
-	<div class="container ">
-		<div class="row">
-			<div class="col-12 a-left">
-				<ul class="breadcrumb m-0 px-0 py-2">
-					<li class="home">
-						<a href="../index.html" class='link'><span>Trang chủ</span></a>
-						<span class="mr_lr">&nbsp;/&nbsp;</span>
-					</li>
-
-
-					<li><strong><span> Tất cả sản phẩm</span></strong></li>
-
-
-				</ul>
-			</div>
-		</div>
-	</div>
-</section>
+@section('title', 'Sản phẩm ')
 <div class='collection_banner mb-3 container text-center'>
 	<a class="banner" href="all.html" title="Ảnh banner">
 		<picture>
@@ -313,7 +293,7 @@
 <section class="section wrap_background">
 	<div class="container">
 		<div class="bg_collection section">
-			<div class="main_container collection col-lg-9 col-12 pl-lg-0">
+			<div class="main_container collection col-lg-12 col-12 pl-lg-0">
 				<div class="filter-content aside-filter">
 					<div class="filter-container">
 						<div class="filter-container__selected-filter" style="display: none;">
@@ -335,7 +315,7 @@
 											<!-- Liên kết đến sản phẩm -->
 											<a class="image_thumb pos-relative embed-responsive embed-responsive-3by4" href="{{ url('/productdetail/'.$product->row_id) }}" title="{{ $product->title }}">
 												<!-- Hình ảnh sản phẩm -->
-												<img loading="lazy" class='img-fetured has-second-img' width="480" height="480" style="--image-scale: 1;"
+												<img loading="lazy" class='img-fetured has-second-img' width="100%" height="100%" style="--image-scale: 1;"
 													src="{{ asset('storage/product_images/'.$product->path ?? 'default-image.jpg') }}" alt="{{ $product->title }}">
 
 												@foreach($product->images as $image)

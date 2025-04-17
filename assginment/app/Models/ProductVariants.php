@@ -15,7 +15,7 @@ class ProductVariants extends Model
 
     protected $primaryKey = 'row_id';
 
-    protected $with = ['images'];
+  
 
     protected $fillable = [
         'product_id',

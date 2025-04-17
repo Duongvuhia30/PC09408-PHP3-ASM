@@ -1,24 +1,6 @@
 @extends('layout.master')
 @section('content')
-<section class="bread-crumb mb-3">
-	<span class="crumb-border"></span>
-	<div class="container ">
-		<div class="row">
-			<div class="col-12 a-left">
-				<ul class="breadcrumb m-0 px-0 py-2">
-					<li class="home">
-						<a href="index.html" class='link'><span>Trang chủ</span></a>
-						<span class="mr_lr">&nbsp;/&nbsp;</span>
-					</li>
-
-					<li><strong><span>Giỏ hàng</span></strong></li>
-
-				</ul>
-			</div>
-		</div>
-	</div>
-</section>
-
+@section('title', 'Giỏ hàng ')
 <div class="cart-coupon my-4">
 	<div class="cart-coupon-header">
 		<span class="coupon-toggle-btn">

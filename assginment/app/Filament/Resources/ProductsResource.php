@@ -54,7 +54,7 @@ class ProductsResource extends Resource
     public static function getEloquentQuery(): Builder
     {
         return parent::getEloquentQuery()
-            ->with(['variants']);
+            ->with(['images']);
     }
 
     public static function form(Form $form): Form
@@ -299,32 +299,25 @@ class ProductsResource extends Resource
                                                 'required' => 'Vui lòng tải ảnh cho sản phẩm.',
                                             ])
                                             ->getUploadedFileNameForStorageUsing(fn($file) => now()->format('YmdHis') . '.' . $file->getClientOriginalExtension())
-                                            ->afterStateHydrated(function ($state, $record, callable $set) {
+                                            ->afterStateHydrated(function ($state, $record, $set) {
                                                 if (! $record) return;
-
-                                                $paths = collect(optional($record->images)->pluck('path'))
-                                                    ->map(fn($p) => 'product_images/' . $p)
+                                                // $record->images là collection của ImageProductVariants
+                                                $paths = $record->images
+                                                    ->pluck('path')
+                                                    ->map(fn($p) => "product_images/{$p}")
                                                     ->toArray();
-
                                                 $set('images', $paths);
                                             })
                                             ->saveRelationshipsUsing(function ($state, $record) {
-                                                if (! $record) return;
-
-                                                $paths = collect($state)->map(fn($p) => basename($p))->toArray();
-                                                $existing = collect(optional($record->images)->pluck('path'))->toArray();
-
-                                                $record->images()->whereNotIn('path', $paths)->delete();
-
-                                                foreach ($paths as $path) {
-                                                    if (! in_array($path, $existing)) {
-                                                        $record->images()->create([
-                                                            'path' => $path,
-                                                            'variant_id' => $record->row_id,
-                                                        ]);
-                                                    }
+                                                // Xóa cũ, tạo mới
+                                                $record->images()->delete();
+                                                foreach ($state as $fullPath) {
+                                                    $record->images()->create([
+                                                        'path' => basename($fullPath),
+                                                    ]);
                                                 }
                                             })
+                                            
                                     ])->collapsible(),
 
                                 Section::make('Danh mục')

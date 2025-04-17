@@ -1,5 +1,6 @@
 @extends('layout.master')
 @section('content')
+@section('title', 'Chi tiết sản phẩm ')
 <link rel="preload" as='style' type="text/css" href="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/lightboxc5aa.css?1738827047187">
 <section class="product details-main" itemscope itemtype="http://schema.org/Product">
 	<!-- Start Product Schema -->
@@ -45,9 +46,7 @@ Kích thước của áo khoác thể thao cũng rất đa dạng để phù h�
 		<meta itemprop="logo" content="http://bizweb.dktcdn.net/100/484/026/themes/953543/assets/logo.png?1738827047187" />
 	</div>
 	<!-- End Product Schema -->
-	<link
-		href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-		rel="stylesheet" />
+
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 
@@ -164,51 +163,48 @@ Kích thước của áo khoác thể thao cũng rất đa dạng để phù h�
     </div>
 
 </div> -->
-<div class="product-detail-left product-images bg-white py-3 col-12 col-lg-6 overflow-hidden thumbs-on-mobile--show">
-    <div class="container mt-5">
-        <div class="image-container">
-            <!-- Carousel thu nhỏ nằm bên trái và cuộn dọc -->
-            <div class="carousel-thumbnails">
-                @php $index = 0; @endphp  <!-- Biến index để theo dõi chỉ số -->
-                @foreach($products->variants as $variant)
-                    @foreach($variant->images as $image)
-                        <img
-                            src="{{ asset('storage/product_images/'.$image->path) }}"
-                            class="{{ $index == 0 ? 'active' : '' }}"
-                            data-target="#productCarousel"
-                            data-slide-to="{{ $index }}"  
-                            alt="{{ $image->id }}" />
-                        @php $index++; @endphp  <!-- Tăng chỉ số sau mỗi ảnh -->
-                    @endforeach
-                @endforeach
-            </div>
+						<div class="product-detail-left product-images bg-white py-3 col-12 col-lg-6 overflow-hidden thumbs-on-mobile--show">
+							<div class="container mt-5">
+								<div class="image-container">
+									<!-- Carousel thu nhỏ nằm bên trái và cuộn dọc -->
+									<div class="carousel-thumbnails">
+										@php $index = 0; @endphp <!-- Biến index để theo dõi chỉ số -->
+										@foreach($products->images as $image)
+										<img
+											src="{{ asset('storage/product_images/'.$image->path) }}"
+											class="{{ $index == 0 ? 'active' : '' }}"
+											data-target="#productCarousel"
+											data-slide-to="{{ $index }}"
+											alt="{{ $image->id }}" />
+										@php $index++; @endphp 
+										@endforeach
+									</div>
 
-            <!-- Carousel lớn nằm bên phải -->
-            <div id="productCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    @php $index = 0; @endphp  <!-- Biến index để theo dõi chỉ số ảnh trong carousel -->
-                    @foreach($products->variants as $variant)
-                        @foreach($variant->images as $image)
-                            <div class="carousel-item {{ $index == 0 ? 'active' : '' }}">
-                                <img src="{{ asset('storage/product_images/'.$image->path) }}" class="d-block w-100" alt="{{ $image->id }}" />
-                            </div>
-                            @php $index++; @endphp  <!-- Tăng chỉ số ảnh trong carousel -->
-                        @endforeach
-                    @endforeach
-                </div>
+									
+									<div id="productCarousel" class="carousel slide" data-ride="carousel">
+										<div class="carousel-inner">
+											@php $index = 0; @endphp 
+											@foreach($products->images as $image)
 
-                <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+											<div class="carousel-item {{ $index == 0 ? 'active' : '' }}">
+												<img src="{{ asset('storage/product_images/'.$image->path) }}" class="d-block w-100" alt="{{ $image->id }}" />
+											</div>
+											@php $index++; @endphp <!
+											@endforeach
+										</div>
+
+										<a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
+											<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
+											<span class="carousel-control-next-icon" aria-hidden="true"></span>
+											<span class="sr-only">Next</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
 
 
 						<div class="col-xs-12 col-lg-6 details-pro bg-white py-3 mt-3 mt-lg-0 px-3">
@@ -232,6 +228,7 @@ Kích thước của áo khoác thể thao cũng rất đa dạng để phù h�
 									</span>
 									@endforeach
 									@foreach ($products->variants as $variant)
+
 									<span class="first_status product_sku">
 										Mã sản phẩm:
 										<span class="status_name product-sku" itemprop="sku"
@@ -629,43 +626,41 @@ Kích thước của áo khoác thể thao cũng rất đa dạng để phù h�
 										$('body').toggleClass('overflow-hidden')
 									})
 								</script>
+								@foreach ($products->variants as $variant )
 								<div class="swatch-div">
-									<div class="swatch clearfix swatch-color" data-option-index="0">
-										<div class="header"><span>Màu sắc:
-												<span class="swatch-value">
-													Cam
-												</span>
-											</span>
-										</div>
-										<div class="swatch-element-list">
-											@foreach ($products->variants as $variant )
-											@foreach ($variant->images as $image )
-											<div class="position-relative">
-												<div class="swatch-element color } available">
-													<input
-														id="swatch-{{ $variant->id }}-{{ $loop->index }}"
-														type="radio"
-														name="option-0"
-														value="" />
+								<div class="swatch clearfix swatch-color" data-option-index="0">
+    <div class="header">
+        <span>Tùy chọn:
+            <span class="swatch-value">
+          
+            </span>
+        </span>
+    </div>
 
-													<label
-														for="swatch-{{ $variant->id }}-{{ $loop->index }}"
-														style="
-                            background: url({{ asset('storage/product_images/'.$image->path) }}) no-repeat center center;
-                            background-size: cover;
-                          
-                        "></label>
-													<span></span>
-												</div>
-												<div class="tooltip">{{ $variant->color ?? 'Màu' }}</div>
-											</div>
-											@endforeach
-											@endforeach
+    <div class="swatch-element-list">
+        @foreach ($products->variants as $variant)
+            <div class="position-relative">
+                <div class="swatch-element color available">
+                    <input
+                        id="swatch-{{ $variant->id }}-{{ $loop->index }}"
+                        type="radio"
+                        name="option-0"
+                        value="{{ $variant->id }}"
+                        data-name="{{ $variant->name }}"
+                    />
 
-
-
-										</div>
-									</div>
+                    <label
+                        for="swatch-{{ $variant->id }}-{{ $loop->index }}"
+                        style="background: url({{ asset('storage/'.$variant->image) }});  no-repeat center center; background-size: cover;">
+                    </label>
+                    <span></span>
+                </div>
+                <div class="tooltip">{{ $variant->name }}</div>
+            </div>
+        @endforeach
+    </div>
+</div>
+@endforeach
 
 									<div class="form-product">
 
@@ -978,165 +973,33 @@ Kích thước của áo khoác thể thao cũng rất đa dạng để phù h�
 	$(`#content ${promotionTitle}, #content ${promotionTitle} + *`).hide();
 </script>
 
-
 <script>
-	function findSize(value1, value2, yw, sizeData) {
-		var indexRes = '',
-			indexValue1 = -1,
-			indexValue2 = -2;
-		var foundIndexPair = -3
+	// Optional: Thêm class 'active' cho ảnh thu nhỏ khi được click
+	const thumbnails = document.querySelectorAll(".carousel-thumbnails img");
+	thumbnails.forEach((thumbnail, index) => {
+		thumbnail.addEventListener("click", () => {
+			thumbnails.forEach((img) => img.classList.remove("active"));
+			thumbnail.classList.add("active");
 
-		sizeData["all"].forEach(function(v, index) {
-			if (v.value1[0] <= value1 && v.value1[1] >= value1) {
-				indexValue1 = index;
-			}
-			if (v.value2[0] <= value2 && v.value2[1] >= value2) {
-				indexValue2 = index;
-			}
-
-			if (indexValue1 == indexValue2) {
-				foundIndexPair = indexValue1
-				indexValue1 = -1
-				indexValue2 = -2
-			}
+			// Cập nhật ảnh lớn
+			const targetIndex = thumbnail.getAttribute('data-slide-to');
+			const carousel = document.querySelector("#productCarousel");
+			const carouselItems = carousel.querySelectorAll(".carousel-item");
+			carouselItems.forEach((item) => item.classList.remove("active"));
+			carouselItems[targetIndex].classList.add("active");
 		});
-
-
-		if ((indexValue1 == -1 || indexValue2 == -2 || typeof indexRes == 'string') && foundIndexPair == -3) {
-			return 'Chưa có size phù hợp';
-		} else {
-			indexRes = foundIndexPair
-		}
-
-		if (yw == 0 && indexRes > 0) {
-			indexRes--
-		}
-		if (yw == 2 && indexRes < (sizeData["all"].length - 1)) {
-			indexRes++
-		}
-
-		return sizeData["all"][indexRes].size;
-	}
-
-
-
-
-
-	function initSizeChart() {
-
-		$(".open-size-modal").click(function() {
-			$('#ega-modal-sizes').modal('show');
-		})
-
-		$(".size-fit .fit-item").click(function() {
-			$(this).addClass("actived").siblings().removeClass("actived");
-		})
-
-		function displaySize(sizeData) {
-			$(".slider-input").each(function(i, v) {
-				let dataType = $(v).data().type;
-				let dataValue = $(v).val();
-				$("#size-info").attr(`data-${dataType}`, dataValue);
-			})
-
-			let wantedValue = $(".size-fit .fit-item.actived").data().value;
-			$("#size-info").attr(`data-wanted`, wantedValue);
-
-
-			setTimeout(function() {
-				var value1 = Number($("#size-info").attr("data-value-1"));
-				var value2 = Number($("#size-info").attr("data-value-2"));
-				var wanted = Number($("#size-info").attr("data-wanted"));
-
-				$('#result_size span').html(findSize(value1, value2, wanted, sizeData));
-				$('#result_size').removeClass("hidden");
-
-			}, 500);
-		}
-
-		function loadSizeData(url, sizeData) {
-			const params = {
-				type: 'GET',
-				url: url,
-				async: false,
-				dataType: "text",
-				success: function(data) {
-					const from = data.indexOf("{");
-					const to = data.lastIndexOf("}") + 1;
-					const jsonText = data.slice(from, to);
-					const parsedText = JSON.parse(jsonText);
-					const table = parsedText.table
-					if (!table || !table.rows || !table.rows.length) {
-						$('.loading-icon').hide()
-						$('.not_found').show()
-						return
-					}
-					//table.rows.shift();
-					let result = table.rows.map(item => {
-						return item.c
-					})
-					result.map(item => sizeData["all"].push({
-						size: item[0].v,
-						value1: item[1].v.split("-"),
-						value2: item[2].v.split("-")
-					}))
-
-					$(".slider-input").on("input", function(e) {
-						$(this).parents(".slider-box").find(".slider-value .value-number").html(`${this.value}`)
-
-						displaySize(sizeData);
-					})
-
-					$(".size-fit .fit-item").click(function() {
-						$(this).addClass("actived").siblings().removeClass("actived");
-						displaySize(sizeData);
-					})
-				},
-				error: function() {}
-			};
-			jQuery.ajax(params);
-
-		}
-
-
-
-		let sizeData = {
-			"all": []
-		};
-		let spreadSheet = 'https://docs.google.com/spreadsheets/d/1u-bRwXGGiInDGsYlf8_OlmAyTZALhGmy06_PfpO-0eo/edit#gid=1048489843';
-
-
-		if (!spreadSheet) return;
-		const id = spreadSheet.match(/(d\/)(.*)(?=\/)/gm);
-		let gid = '0';
-
-		let gidMatch = spreadSheet.match(/gid\=(.*)/gm);
-		if (gidMatch != null) {
-			gid = gidMatch[0].split("=")[1];
-		}
-
-		const url = 'https://docs.google.com/spreadsheets/' + id + '/gviz/tq?tqx=out:json&gid=' + gid + '&tq=SELECT A, B, C';
-		loadSizeData(url, sizeData);
-	}
-	window.sectionScripts = window.sectionScripts || []
-	window.sectionScripts.push("../bizweb.dktcdn.net/100/484/026/themes/953543/assets/productc5aa.js?1738827047187")
+	});
 </script>
-
-
 <script>
-    // Optional: Thêm class 'active' cho ảnh thu nhỏ khi được click
-    const thumbnails = document.querySelectorAll(".carousel-thumbnails img");
-    thumbnails.forEach((thumbnail, index) => {
-        thumbnail.addEventListener("click", () => {
-            thumbnails.forEach((img) => img.classList.remove("active"));
-            thumbnail.classList.add("active");
+    document.addEventListener("DOMContentLoaded", function () {
+        const swatchInputs = document.querySelectorAll("input[name='option-0']");
+        const swatchValueSpan = document.querySelector(".swatch-value");
 
-            // Cập nhật ảnh lớn
-            const targetIndex = thumbnail.getAttribute('data-slide-to');
-            const carousel = document.querySelector("#productCarousel");
-            const carouselItems = carousel.querySelectorAll(".carousel-item");
-            carouselItems.forEach((item) => item.classList.remove("active"));
-            carouselItems[targetIndex].classList.add("active");
+        swatchInputs.forEach(function (input) {
+            input.addEventListener("click", function () {
+                const variantName = this.getAttribute("data-name");
+                swatchValueSpan.textContent = variantName;
+            });
         });
     });
 </script>

@@ -26,6 +26,7 @@ class Product extends Model
         'release_date'
 
     ];
+    protected $with = ['images'];
     public function getRouteKeyName()
     {
         return 'slug';
@@ -68,4 +69,5 @@ class Product extends Model
     {
         return $this->hasMany(ImageProductVariants::class, 'product_id', 'row_id');
     }
+
 }

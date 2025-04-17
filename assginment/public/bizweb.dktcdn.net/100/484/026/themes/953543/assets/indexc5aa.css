@@ -106,7 +106,7 @@ body {
 }
 
 .section_product_top .tab-content.current .row, .flashsale .row, .slideshow-banner-wrap .module-product .row {
-  --limit-column: 5;
+  --limit-column: 4;
   --percent: 65%
 }
 
