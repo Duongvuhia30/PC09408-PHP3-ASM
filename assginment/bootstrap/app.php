@@ -12,9 +12,6 @@ return Application::configure(basePath: dirname(__DIR__))
         commands: __DIR__ . '/../routes/console.php',
         health: '/up',
         using: function () {
-
-        
-
             $clientRoutes = [
                 'home.php',
                 'about.php',
@@ -31,6 +28,9 @@ return Application::configure(basePath: dirname(__DIR__))
                     ->name('client.')
                     ->group(base_path("routes/client/{$route}"));
             }
+
+            // 👉 Thêm route auth ở đây
+            Route::middleware('web')->group(base_path('routes/auth.php'));
 
             Route::fallback(function () {
                 return response()->view('error.404', [], 404);
