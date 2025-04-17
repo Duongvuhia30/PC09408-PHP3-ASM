@@ -1588,10 +1588,26 @@
                     <div id="icon-account" class="ega-color--inherit header-icon icon-account d-none d-lg-block">
                         <img src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-accountc5aa.png?1738827047187"
                             alt="icon-account" />
-                        <div class="account-action">
-                            <a href="{{ route('login') }}" title="Đăng nhập">Đăng nhập</a>
-                            <a href="{{ route('register')}}" title="Đăng ký">Đăng ký</a>
-                        </div>
+							@auth
+							<div class="account-action">
+								<a href="{{ route('logout') }}"
+								   onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
+								   title="Đăng xuất">Đăng xuất</a>
+							</div>
+						
+							<!-- Form logout (ẩn) -->
+							<form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
+								@csrf
+							</form>
+						@endauth
+						
+						<!-- Nếu chưa đăng nhập -->
+						@guest
+							<div class="account-action">
+								<a href="{{ route('login') }}" title="Đăng nhập">Đăng nhập</a>
+								<a href="{{ route('register') }}" title="Đăng ký">Đăng ký</a>
+							</div>
+						@endguest
                     </div>
                     <div class="mini-cart text-xs-center">
                         <a class="header-icon cart-count ega-color--inherit" href="/cart" title="Giỏ hàng">
