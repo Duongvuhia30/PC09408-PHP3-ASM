@@ -4,7 +4,6 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
-use App\Models\Publisher;
 use App\Models\publishers;
 
 class PublisherSeeder extends Seeder

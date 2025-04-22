@@ -51,6 +51,7 @@ class AdminPanelProvider extends PanelProvider
                 SubstituteBindings::class,
                 DisableBladeIconComponents::class,
                 DispatchServingFilamentEvent::class,
+                 'admin.role'
             ])
             ->plugins([ 
                 FilamentShieldPlugin::make(), 

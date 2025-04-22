@@ -5,7 +5,6 @@ use Illuminate\Foundation\Configuration\Middleware;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 
-
 return Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
         web: __DIR__ . '/../routes/web.php',
@@ -29,7 +28,6 @@ return Application::configure(basePath: dirname(__DIR__))
                     ->group(base_path("routes/client/{$route}"));
             }
 
-            // 👉 Thêm route auth ở đây
             Route::middleware('web')->group(base_path('routes/auth.php'));
 
             Route::fallback(function () {
@@ -38,8 +36,11 @@ return Application::configure(basePath: dirname(__DIR__))
         }
     )
     ->withMiddleware(function (Middleware $middleware) {
-        //
+        $middleware->alias([
+            'admin.role' => \App\Http\Middleware\EnsureAdminRole::class,
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //
-    })->create();
+    })
+    ->create();
