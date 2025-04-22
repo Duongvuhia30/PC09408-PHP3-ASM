@@ -15,52 +15,50 @@
 				
 				<div class="row blog-list">
 					<div class="col-lg-9 col-12 content-blog">
-						<div class="row">
-							<div class="col-12">
-								@foreach ($blog as $blogs )
-								<div class="blogwp ">
-									<a class="image-blog card-img-top text-center position-relative 
-			   d-flex align-items-center justify-content-center rounded overflow-hidden"
-										href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html"
-										title="{{ $blogs->title }}"
-										style=' --width: 433;
-			  --height: 231;'>
-										<img loading="lazy"
-											class="img-fluid m-auto mh-100 w-auto"
-											src="{{asset('storage/'. $blogs->thumbnail )}}"
-											alt="TẬP GYM LÀ GÌ? CHỌN MẶC QUẦN ÁO GYM ĐÚNG CHUẨN">
-									</a>
-									<div class="content_blog clearfix card-body px-0 py-2">
-										<h3 class=''>
-											<a class='link' href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html" title="TẬP GYM LÀ GÌ? CHỌN MẶC QUẦN ÁO GYM ĐÚNG CHUẨN">{{ $blogs->title }}</a>
-										</h3>
-										<div class="media">
-											<div class="media-body">
-												<div class='art-info text-muted '>
-													<span>
-														<svg class="icon">
-															<use xlink:href="#icon-calendar" />
-														</svg> {{ $blogs->published_at }}
-													</span>
-												</div>
-											</div>
-										</div>
-										<p class="justify">
-											<span class="art-summary">
+					<div class="row">
+    <div class="col-12">
+        @foreach ($blog as $blogs)
+        <div class="blogwp d-flex align-items-center mb-4">
+            <!-- Hình ảnh nằm bên trái -->
+            <a class="image-blog card-img-top text-center position-relative d-flex align-items-center justify-content-center rounded overflow-hidden"
+                href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html" title="{{ $blogs->title }}" 
+                style="flex-shrink: 0; width: 300px; height: 300px;">
+                <img loading="lazy" class="img-fluid" src="{{asset('storage/'. $blogs->thumbnail )}}"
+                    alt="" style="width: 300px; height: 300px;">
+            </a>
 
-											{{ $blogs->describe }}
-											</span>
-											<a class="button_custome_35 link" href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html" title="Đọc tiếp">Đọc tiếp</a>
-										</p>
-									</div>
-									@endforeach
-								</div>
-								
-							</div>
+            <!-- Nội dung nằm bên phải hình ảnh -->
+            <div class="content_blog card-body px-0 py-2" style="flex-grow: 1; padding-left: 15px;">
+                <h3>
+                    <a class="link" href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html" title="{{ $blogs->title }}">
+                        {{ $blogs->title }}
+                    </a>
+                </h3>
+                <div class="media">
+                    <div class="media-body">
+                        <div class='art-info text-muted'>
+                            <span>
+                                <svg class="icon">
+                                    <use xlink:href="#icon-calendar" />
+                                </svg> {{ $blogs->published_at }}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <p class="justify">
+                    <span class="art-summary">{{ $blogs->describe }}</span>
+                    <a class="button_custome_35 link" href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html" title="Đọc tiếp">Đọc tiếp</a>
+                </p>
+            </div>
+        </div>
+        @endforeach
+    </div>
 
-							<div class="text-center pageinate-page-blog col-12">
-							</div>
-						</div>
+    <div class="text-center pageinate-page-blog col-12">
+        <!-- Phân trang nếu có -->
+    </div>
+</div>
+
 					</div>
 					<div class="col-lg-3 col-12 left-content sidebar">
 						<aside class="aside-item blog-sidebar sidebar-category collection-category margin-bottom-25">

@@ -10,9 +10,8 @@ class HomePage extends Component
 {
     public function index()
 {
-    // Lấy tất cả các sản phẩm và hình ảnh đầu tiên của chúng
+  
     $products = Product::with('images')->get()->map(function ($product) {
-        // Lấy ảnh đầu tiên của sản phẩm
         $product->first_image = $product->images->first();
         return $product;
     });

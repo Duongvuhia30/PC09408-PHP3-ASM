@@ -342,9 +342,8 @@
 										</div>
 										<div class="product-info">
 											<!-- Tên sản phẩm -->
-												@foreach ($product->categories as $categories )
-												<span class="product-vendor">{{ $categories->name }}</span>
-												@endforeach
+											<span class="product-vendor">{{ optional($product->categories->first())->name }}</span>
+
 												<span class="product-name ">
 													<a class="link" href="{{ url('/productdetail/'.$product->row_id) }}" title="{{ $product->title }}">{{ $product->title }}</a>
 												</span>

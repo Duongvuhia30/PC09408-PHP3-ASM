@@ -116,52 +116,55 @@
 <section class="section awe-section-19">
 
 	<div class="section_blog">
-		<div class='container'>	
-			@foreach ($categories as $category )
-			@foreach ($category->images as $image )
-			<div class="title_module_main d-flex justify-content-between px-0">
-		
-				<h2 class="heading-bar__title"
-					style='color: #000000'>
-					<a class='link' href="tin-tuc.html"
-						title="DANH MỤC SẢN PHẨM">DANH MỤC SẢN PHẨM</a>
-				</h2>
-				<a href="/blogs" title="Xem tất cả"
-					class="btn">
-					Xem tất cả
-				</a>
-			</div>
-			<div class='section__blogs'>
-				<div class="row blog-list blog-list-custom blog-size-5">
+	<div class="container">
+	<div class="title_module_main d-flex justify-content-between px-0">
+		<h2 class="heading-bar__title" style="color: #000000">
+			<a class="link" href="tin-tuc.html" title="DANH MỤC SẢN PHẨM">DANH MỤC SẢN PHẨM</a>
+		</h2>
+		<a href="/product" title="Xem tất cả" class="btn">Xem tất cả</a>
+	</div>
 
+	<div class="section__blogs">
+		<div class="row blog-list blog-list-custom blog-size-5">
+
+			@foreach ($categories as $category)
+				@php
+					$image = $category->images->first(); // chỉ lấy 1 ảnh đầu tiên
+				@endphp
+
+				@if ($image)
 					<div class="col-12 col-sm-6 col-lg-6 col-xl-3 pos-relative mb-4">
-
 						<div class="blogwp clearfix media only-title">
-
 							<a class="image-blog text-center"
-								href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html"
-								title="{{ $category->name }}">
+							   href="/products?category={{ $category->id }}"
+							   title="{{ $category->name }}">
 								<img loading="lazy" class="img-fluid"
-									src="
-									{{ asset('storage/'.$image->path)   }}"
-									alt="{{ $category->name }}">
+									 src="{{ asset('storage/'.$image->path) }}"
+									 alt="{{ $category->name }}">
 							</a>
 
-							<div class="content_blog clearfix media-body ">
-								<h3 class='mt-0 mb-2'>
-									<a class='link'
-										href="/products"
-										title="{{ $category->name }}">{{ $category->name }}</a>
+							<div class="content_blog clearfix media-body">
+								<h3 class="mt-0 mb-2">
+									<a class="link"
+									   href="/products?category={{ $category->id }}"
+									   title="{{ $category->name }}">
+										{{ $category->name }}
+									</a>
 								</h3>
 
 								<a class="btn btn-view"
-									href="/blogs"
-									title="Xem ngay">Xem ngay</a>
+								   href="/product"
+								   title="Xem ngay">Xem ngay</a>
 							</div>
 						</div>
-						@endforeach
-						@endforeach
+					</div>
+				@endif
+			@endforeach
+
 		</div>
+	</div>
+</div>
+
 	</div>
 </section>
 
@@ -599,9 +602,10 @@
                                 </form>
 
                                 <div class="product-info">
-								@foreach ($categories as $category)
-   								 <span class="product-vendor">{{ $category->name }}</span>
-									@endforeach
+								@if ($product->categories->isNotEmpty())
+    <span class="product-vendor">{{ $product->categories->first()->name }}</span>
+@endif
+
 
                                     <span class="product-name"> <a class="link"
                                             href="{{  url('/productdetail/'.$product->row_id)}}"

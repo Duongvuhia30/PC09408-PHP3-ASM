@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id('row_id');  
             $table->string('name');
             $table->boolean('is_active')->default(true);  
+            $table->string('slug')->nullable();
             $table->softDeletes();
             $table->text('tag')->nullable(); 
             $table->unsignedBigInteger('parent_id')->nullable(); 

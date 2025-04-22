@@ -8,15 +8,7 @@
 	<meta itemprop="url" content="//ega-sportswear.mysapo.net/san-pham-demo-coupon-nhap-lieu-tu-metafield">
 	<meta itemprop="name" content="Demo coupon nhập liệu từ metafield">
 	<meta itemprop="image" content="http://bizweb.dktcdn.net/thumb/grande/100/484/026/products/image-117-1b8f1563fff94a0a88fd1fd67545cf63-01294df9-ad0b-44c9-919a-259ca1840e30.png?v=1688956748273">
-	<meta itemprop="description" content="​​​​​Áo khoác thể thao là một sản phẩm không thể thiếu trong bộ trang phục của những người đam mê tập luyện, đặc biệt là trong các hoạt động thể thao ngoài trời. Với thiết kế đơn giản, chất liệu thoáng khí và chống thấm tốt, áo khoác thể thao mang lại sự thoải mái và bảo vệ cho người dùng trong quá trình tập luyện.
-Về kiểu dáng, áo khoác thể thao thường có thiết kế rộng rãi, không quá ôm sát cơ thể để người dùng có thể di chuyển dễ dàng trong các động tác tập luyện. Thiết kế áo có thể được chọn với cổ cao, cổ tròn hoặc cổ chữ V, tay dài hoặc tay ngắn tùy vào sở thích của người dùng. Tùy thuộc vào mục đích sử dụng, áo khoác thể thao có thể được thiết kế với các chi tiết như túi đựng điện thoại, khóa kéo hay các đường may chắc chắn để đảm bảo sự tiện dụng và bền đẹp.
-
-Chất liệu của áo khoác thể thao cũng rất đa dạng, tùy vào mục đích sử dụng và sở thích của người dùng. Thông thường, áo khoác thể thao được làm từ chất liệu polyester, nylon hoặc vải softshell, có khả năng chống thấm và thoáng khí tốt, giúp người dùng luôn cảm thấy khô ráo và thoải mái trong quá trình tập luyện. Ngoài ra, một số sản phẩm còn được làm từ chất liệu cao cấp như Gore-Tex, giúp tăng độ chống thấm và bảo vệ cho người dùng trong môi trường thời tiết khắc nghiệt.
-Màu sắc của áo khoác thể thao cũng rất đa dạng và phong phú, từ màu sắc trung tính như đen, xám, trắng đến các màu sắc sáng tươi như vàng, xanh lá, hồng. Điều này giúp người dùng có thể lựa chọn sản phẩm phù hợp với sở thích cá nhân và tạo nét riêng cho bản thân khi tập luyện.
-
-Độ thoải mái của áo khoác thể thao là một yếu tố quan trọng được đánh giá cao bởi người dùng. Với chất liệu mềm mại và co giãn tốt, áo khoác thể thao giúp người dùng tập trung vào việc thở đều và tập trung vào các động tác tập luyện. Điều này giúp đạt được hiệu quả tập luyện tốt hơn và giảm thiểu các chấn thương, đau nhức cơ thể.
-Kích thước của áo khoác thể thao cũng rất đa dạng để phù hợp với các loại hình cơ thể của người dùng. Tuy nhiên, để đảm bảo sự thoải mái và dễ chịu, người dùng nên chọn kích thước phù hợp với cơ thể của mình.
-Áo khoác thể thao phù hợp với mọi đối tượng từ nam giới, nữ giới, người già, trẻ em cho đến những người mới bắt đầu tập luyện hay những người có kinh nghiệm trong tập luyện. Với thiết kế đa dạng và phong phú, áo khoác thể thao giúp người dùng tạo nên phong cách thời trang riêng và thể hiện sự chuyên nghiệp trong quá trình tập luyện.">
+	<meta itemprop="description" content="">
 	<div class="d-none" itemprop="brand" itemtype="https://schema.org/Bra	nd" itemscope>
 		temprop="name" content="EGA" />
 	</div>
@@ -165,54 +157,45 @@ Kích thước của áo khoác thể thao cũng rất đa dạng để phù h�
 </div> -->
 						<div class="product-detail-left product-images bg-white py-3 col-12 col-lg-6 overflow-hidden thumbs-on-mobile--show">
 							<div class="container mt-5">
-								<div class="image-container">
-									<!-- Carousel thu nhỏ nằm bên trái và cuộn dọc -->
-									<div class="carousel-thumbnails">
-										@php $index = 0; @endphp <!-- Biến index để theo dõi chỉ số -->
-										@foreach($products->images as $image)
-										<img
-											src="{{ asset('storage/product_images/'.$image->path) }}"
-											class="{{ $index == 0 ? 'active' : '' }}"
-											data-target="#productCarousel"
-											data-slide-to="{{ $index }}"
-											alt="{{ $image->id }}" />
-										@php $index++; @endphp 
-										@endforeach
-									</div>
+							<div class="product-detail-left row">
+    <!-- Thumbnails bên trái -->
+    <div class="col-md-2 d-flex flex-column align-items-center gap-2">
+        @foreach($products->images as $index => $image)
+            <img 
+                src="{{ asset('storage/product_images/' . $image->path) }}" 
+                class="thumbnail-img {{ $index == 0 ? 'active' : '' }}" 
+                data-large="{{ asset('storage/product_images/' . $image->path) }}" 
+                alt="Thumbnail {{ $index }}" 
+                style="width: 60px; height: 60px; object-fit: cover; cursor: pointer; border: 2px solid transparent;"
+            />
+        @endforeach
+    </div>
 
-									
-									<div id="productCarousel" class="carousel slide" data-ride="carousel">
-										<div class="carousel-inner">
-											@php $index = 0; @endphp 
-											@foreach($products->images as $image)
+    <!-- Ảnh to bên phải -->
+    <div class="col-md-10">
+        <div class="main-image-wrapper">
+            <img id="mainImage" 
+                 src="{{ asset('storage/product_images/' . $products->images[0]->path) }}" 
+                 class="img-fluid" 
+                 alt="Ảnh chính" 
+                 style="max-width: 100%; border: 1px solid #ccc; border-radius: 6px;" />
+        </div>
+    </div>
+</div>
 
-											<div class="carousel-item {{ $index == 0 ? 'active' : '' }}">
-												<img src="{{ asset('storage/product_images/'.$image->path) }}" class="d-block w-100" alt="{{ $image->id }}" />
-											</div>
-											@php $index++; @endphp <!
-											@endforeach
-										</div>
-
-										<a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
-											<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-											<span class="sr-only">Previous</span>
-										</a>
-										<a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
-											<span class="carousel-control-next-icon" aria-hidden="true"></span>
-											<span class="sr-only">Next</span>
-										</a>
-									</div>
-								</div>
-							</div>
 						</div>
 
-
+						</div>
 						<div class="col-xs-12 col-lg-6 details-pro bg-white py-3 mt-3 mt-lg-0 px-3">
 							<div class='d-flex justify-content-between'>
 								<h1 class="title-product">{{ $products->title }}</h1>
 							</div>
-							<form enctype="multipart/form-data" id="add-to-cart-form" action="https://ega-sportswear.mysapo.net/cart/add" method="post"
+							@foreach ($products->variants as $variant)
+							<form enctype="multipart/form-data" id="add-to-cart-form" action="{{ url('/cart/add/' . $variant->row_id) }}" method="POST"
 								class="form_background  margin-bottom-0">
+					
+								@endforeach
+		
 								<div class="group-status">
 									@foreach ($products->categories as $categories )
 									<span class="first_status mr-2">
@@ -807,15 +790,18 @@ Kích thước của áo khoác thể thao cũng rất đa dạng để phù h�
 							<div id="ega-uti-editable-content" data-platform='sapo' data-id="31761437"
 								class="  rte js-product-getcontent product_getcontent pos-relative" style='--content-height: 693px'>
 								<div id="content" class='content js-content'>
-									<p>​​​​​Áo khoác thể thao là một sản phẩm không thể thiếu trong bộ trang phục của những người đam mê tập luyện, đặc biệt là trong các hoạt động thể thao ngoài trời. Với thiết kế đơn giản, chất liệu thoáng khí và chống thấm tốt, áo khoác thể thao mang lại sự thoải mái và bảo vệ cho người dùng trong quá trình tập luyện.</p>
-									<p>Về kiểu dáng, áo khoác thể thao thường có thiết kế rộng rãi, không quá ôm sát cơ thể để người dùng có thể di chuyển dễ dàng trong các động tác tập luyện. Thiết kế áo có thể được chọn với cổ cao, cổ tròn hoặc cổ chữ V, tay dài hoặc tay ngắn tùy vào sở thích của người dùng. Tùy thuộc vào mục đích sử dụng, áo khoác thể thao có thể được thiết kế với các chi tiết như túi đựng điện thoại, khóa kéo hay các đường may chắc chắn để đảm bảo sự tiện dụng và bền đẹp.</p>
-									<p style="text-align: center;"><img loading="lazy" data-thumb="original" src="../bizweb.dktcdn.net/100/484/026/products/image-119-f3e267a23e34442992df0a42c19b4f8d8cc7.png?v=1682386825157" /></p>
-									<p>Chất liệu của áo khoác thể thao cũng rất đa dạng, tùy vào mục đích sử dụng và sở thích của người dùng. Thông thường, áo khoác thể thao được làm từ chất liệu polyester, nylon hoặc vải softshell, có khả năng chống thấm và thoáng khí tốt, giúp người dùng luôn cảm thấy khô ráo và thoải mái trong quá trình tập luyện. Ngoài ra, một số sản phẩm còn được làm từ chất liệu cao cấp như Gore-Tex, giúp tăng độ chống thấm và bảo vệ cho người dùng trong môi trường thời tiết khắc nghiệt.</p>
-									<p>Màu sắc của áo khoác thể thao cũng rất đa dạng và phong phú, từ màu sắc trung tính như đen, xám, trắng đến các màu sắc sáng tươi như vàng, xanh lá, hồng. Điều này giúp người dùng có thể lựa chọn sản phẩm phù hợp với sở thích cá nhân và tạo nét riêng cho bản thân khi tập luyện.</p>
-									<p style="text-align: center;"><img loading="lazy" data-thumb="original" src="../bizweb.dktcdn.net/100/484/026/products/image-121-a61daf68ea254871b304d295fdb81a978cc7.png?v=1682386825157" /><img loading="lazy" data-thumb="original" src="../bizweb.dktcdn.net/100/484/026/products/image-123-353858c6d5f445df92cf4eff6beb63a48cc7.png?v=1682386825157" /></p>
-									<p>Độ thoải mái của áo khoác thể thao là một yếu tố quan trọng được đánh giá cao bởi người dùng. Với chất liệu mềm mại và co giãn tốt, áo khoác thể thao giúp người dùng tập trung vào việc thở đều và tập trung vào các động tác tập luyện. Điều này giúp đạt được hiệu quả tập luyện tốt hơn và giảm thiểu các chấn thương, đau nhức cơ thể.</p>
-									<p>Kích thước của áo khoác thể thao cũng rất đa dạng để phù hợp với các loại hình cơ thể của người dùng. Tuy nhiên, để đảm bảo sự thoải mái và dễ chịu, người dùng nên chọn kích thước phù hợp với cơ thể của mình.</p>
-									<p>Áo khoác thể thao phù hợp với mọi đối tượng từ nam giới, nữ giới, người già, trẻ em cho đến những người mới bắt đầu tập luyện hay những người có kinh nghiệm trong tập luyện. Với thiết kế đa dạng và phong phú, áo khoác thể thao giúp người dùng tạo nên phong cách thời trang riêng và thể hiện sự chuyên nghiệp trong quá trình tập luyện.</p>
+									{{ $products->description }}
+									@foreach($products->images as $index => $image)
+									<img 
+    src="{{ asset('storage/product_images/' . $image->path) }}" 
+    class="thumbnail-img {{ $index == 0 ? 'active' : '' }}" 
+    data-large="{{ asset('storage/product_images/' . $image->path) }}" 
+    alt="Thumbnail {{ $index }}" 
+    style="width: 600px; height: 600px; object-fit: cover; cursor: pointer; border: 2px solid transparent;"
+/>
+
+									@endforeach
+									
 								</div>
 							</div>
 							<div class="js-seemore ega-pro__seemore text-center pos-relative mt-3">
@@ -947,6 +933,23 @@ Kích thước của áo khoác thể thao cũng rất đa dạng để phù h�
 </section>
 
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const thumbnails = document.querySelectorAll(".thumbnail-img");
+        const mainImage = document.getElementById("mainImage");
+
+        thumbnails.forEach(thumb => {
+            thumb.addEventListener("click", function () {
+                const largeImagePath = this.getAttribute("data-large");
+                mainImage.setAttribute("src", largeImagePath);
+
+                // Xử lý border active
+                thumbnails.forEach(t => t.classList.remove("active"));
+                this.classList.add("active");
+            });
+        });
+    });
+</script>
 <script>
 	var ww = $(window).width();
 	var getLimit = 3;

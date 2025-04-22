@@ -107,6 +107,7 @@ class ProductsResource extends Resource
                                     ->schema([
                                         RichEditor::make('description')
                                             ->label(false)
+                                            
                                             ->required()
                                             ->minLength(20)
                                             ->maxLength(1000)
