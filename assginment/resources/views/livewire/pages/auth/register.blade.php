@@ -32,9 +32,9 @@ new #[Layout('layouts.guest')] class extends Component
 
         event(new Registered($user));
 
-        Auth::login($user);
+        // Auth::login($user);
 
-        $this->redirect(route('client.home', absolute: false), navigate: true);
+        $this->redirect(route('login', absolute: false), navigate: true);
     }
 };
 

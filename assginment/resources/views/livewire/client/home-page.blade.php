@@ -581,23 +581,7 @@
 
                                         <input type="hidden" name="variantId" value="86731548" />
 
-                                        <!-- <div class="action-bar">
-                                            <a href="{{  url('/productdetail/'.$product->row_id)}}"
-                                                data-handle="quan-legging-dai-tap-yoga"
-                                                class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-                                                <img width='20' height='20' class="icon-option"
-                                                    src="../bizweb.dktcdn.net/100/484/026/themes/953543/assets/icon-optionsc5aa.png?1738827047187"
-                                                    alt="icon-option" />
-                                                <span class="action-name">Tùy chọn</span>
-                                            </a>
-
-                                            <a href="{{  url('/productdetail/'.$product->row_id)}}"
-                                                data-handle="quan-legging-dai-tap-yoga"
-                                                class="action-child xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-                                                <i class="fas fa-eye"></i>
-                                                <span class="action-name">Xem nhanh</span>
-                                            </a>
-                                        </div> -->
+                                      
                                     </div>
                                 </form>
 

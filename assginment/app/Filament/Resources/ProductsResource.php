@@ -107,10 +107,9 @@ class ProductsResource extends Resource
                                     ->schema([
                                         RichEditor::make('description')
                                             ->label(false)
-                                            
                                             ->required()
                                             ->minLength(20)
-                                            ->maxLength(1000)
+                                            ->maxLength(5000)
                                             ->validationMessages([
                                                 'required' => 'Vui lòng nhập mô tả sản phẩm.',
                                                 'min' => 'Mô tả phải có ít nhất :min ký tự.',

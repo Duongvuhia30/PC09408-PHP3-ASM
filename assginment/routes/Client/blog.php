@@ -4,5 +4,5 @@
 use App\Livewire\Client\Blog;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/blogs', [Blog::class, 'render'])->name('home');
+Route::get('/blogs', [Blog::class, 'render']);
 

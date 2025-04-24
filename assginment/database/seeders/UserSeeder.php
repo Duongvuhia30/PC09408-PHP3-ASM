@@ -14,12 +14,13 @@ class UserSeeder extends Seeder
             ['email' => 'admin@example.com'],
             [
                 'name' => 'Admin',
-                'password' => bcrypt('password123'), // đừng quên mã hóa
+                'password' => bcrypt('password123'),
             ]
-        );
+        )->fresh(); // ✅ đảm bảo có đầy đủ ID
 
-        // Gán role đã tạo trong RolePermissionSeeder
-        $admin->assignRole('super_admin');
+        if ($admin && $admin->row_id) {
+            $admin->assignRole('super_admin');
+        }
 
         // Tạo client
         $client = User::firstOrCreate(
@@ -28,8 +29,10 @@ class UserSeeder extends Seeder
                 'name' => 'Client',
                 'password' => bcrypt('password123'),
             ]
-        );
+        )->fresh();
 
-        $client->assignRole('client');
+        if ($client && $client->row_id) {
+            $client->assignRole('client');
+        }
     }
 }

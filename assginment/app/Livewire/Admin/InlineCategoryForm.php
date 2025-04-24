@@ -19,7 +19,7 @@ class InlineCategoryForm extends Component
                 'string',
                 'max:255',
                 'regex:/^[\p{L}0-9\s\-]+$/u',
-                'unique:category,name',
+                'unique:categories,name',
             ],
         ], $this->messages());        
 

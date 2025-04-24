@@ -12,12 +12,14 @@ return new class extends Migration
     public function up()
     {
         Schema::create('carts', function (Blueprint $table) {
-            $table->id();
-            $table->unsignedBigInteger('user_id');
-            $table->text('products')->nullable();
-            $table->decimal('total_price', 10, 2)->default(0);
+            $table->id('row_id');
+            $table->unsignedBigInteger('user_id')->nullable();
+            $table->string('session_id')->nullable()->index(); // cho guest
             $table->timestamps();
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+
+            $table->foreign('user_id')
+                ->references('row_id')->on('users')
+                ->onDelete('cascade');
         });
     }
     
