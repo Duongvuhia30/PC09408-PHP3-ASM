@@ -298,7 +298,9 @@ class ProductsResource extends Resource
                                             ->validationMessages([
                                                 'required' => 'Vui lòng tải ảnh cho sản phẩm.',
                                             ])
-                                            ->getUploadedFileNameForStorageUsing(fn($file) => now()->format('YmdHis') . '.' . $file->getClientOriginalExtension())
+                                            ->getUploadedFileNameForStorageUsing(function ($file) {
+                                                return now()->format('YmdHis') . '-' . uniqid() . '.' . $file->getClientOriginalExtension();
+                                            })                                            
                                             ->afterStateHydrated(function ($state, $record, $set) {
                                                 if (! $record) return;
                                                 // $record->images là collection của ImageProductVariants
@@ -309,9 +311,9 @@ class ProductsResource extends Resource
                                                 $set('images', $paths);
                                             })
                                             ->saveRelationshipsUsing(function ($state, $record) {
-                                                // Xóa cũ, tạo mới
+                                                $paths = is_array($state) ? $state : [$state];
                                                 $record->images()->delete();
-                                                foreach ($state as $fullPath) {
+                                                foreach ($paths as $fullPath) {
                                                     $record->images()->create([
                                                         'path' => basename($fullPath),
                                                     ]);

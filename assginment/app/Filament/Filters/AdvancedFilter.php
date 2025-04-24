@@ -29,7 +29,7 @@ class AdvancedFilter
             ]);
         }
 
-        // Range fields
+        // khoảng    
         $form[] = Grid::make(2)->schema(
             collect($fields)->flatMap(function ($f) {
                 $minField = "min_{$f['field']}";

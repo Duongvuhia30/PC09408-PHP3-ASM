@@ -42,7 +42,6 @@ class LoginForm extends Form
 
         RateLimiter::clear($this->throttleKey());
 
-        // ✅ Chỉ cho phép login nếu user có role "client"
         $user = Auth::user();
 
         if (! $user instanceof Authenticatable || ! $user->hasRole('client')) {

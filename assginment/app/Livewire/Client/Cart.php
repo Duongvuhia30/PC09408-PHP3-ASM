@@ -74,15 +74,15 @@ class Cart extends Component
     }
     public function updateCart(Request $request)
     {
-        $request->validate([
-            'variant_id' => 'required|exists:product_variants,row_id',
-            'action' => 'required|in:increase,decrease',
-        ]);
+        // $request->validate([
+        //     'variant_id' => 'required|exists:product_variants,row_id',
+        //     'action' => 'required|in:increase,decrease',
+        // ]);
 
         $variantId = $request->variant_id;
         $action = $request->action;
 
-        $cart = \App\Models\Cart::where('user_id', Auth::id())->first();
+        $cart = CartModel::where('user_id', Auth::id())->first();
 
         if (!$cart) {
             return response()->json(['success' => false, 'message' => 'Giỏ hàng không tồn tại.'], 404);
@@ -99,7 +99,6 @@ class Cart extends Component
 
             $item->save();
 
-            // 👇 Tính tổng tiền mới bằng query từ database
             $total = $cart->items()->sum(DB::raw('price * quantity'));
 
             return response()->json([
@@ -119,7 +118,7 @@ class Cart extends Component
             'variant_id' => 'required|exists:product_variants,row_id'
         ]);
 
-        $cart = \App\Models\Cart::where('user_id', Auth::id())->first();
+        $cart = CartModel::where('user_id', Auth::id())->first();
 
         if (!$cart) {
             return response()->json(['success' => false, 'message' => 'Không tìm thấy giỏ hàng'], 404);
@@ -130,7 +129,6 @@ class Cart extends Component
         if ($item) {
             $item->delete();
 
-            // Recalculate total
             $total = $cart->items()->sum(DB::raw('price * quantity'));
 
             return response()->json([
