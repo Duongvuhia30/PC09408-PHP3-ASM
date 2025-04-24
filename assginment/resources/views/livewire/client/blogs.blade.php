@@ -18,9 +18,9 @@
 					<div class="row">
     <div class="col-12">
         @foreach ($blog as $blogs)
-        <div class="blogwp d-flex align-items-center mb-4">
+        <div class="blogwp d-flex align-items-center mb-4  ">
             <!-- Hình ảnh nằm bên trái -->
-            <a class="image-blog card-img-top text-center position-relative d-flex align-items-center justify-content-center rounded overflow-hidden"
+            <a class="image-blog card-img-top text-center position-relative d-flex align-items-center justify-content-center rounded overflow-hidden m-4"
                 href="tap-gym-la-gi-chon-mac-quan-ao-tap-gym-dung-chuan.html" title="{{ $blogs->title }}" 
                 style="flex-shrink: 0; width: 300px; height: 300px;">
                 <img loading="lazy" class="img-fluid" src="{{asset('storage/'. $blogs->thumbnail )}}"

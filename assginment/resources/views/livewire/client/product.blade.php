@@ -1,15 +1,25 @@
 @extends('layout.master')
 @section('content')
 @section('title', 'Sản phẩm ')
+<style>
+	.swiper {
+  width: 100%;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+</style>
 <div class='collection_banner mb-3 container text-center'>
 	<a class="banner" href="all.html" title="Ảnh banner">
 		<picture>
-			<source media="(min-width: 768px)" srcset="//bizweb.dktcdn.net/100/484/026/themes/953543/assets/collection_main_banner.jpg?1738827047187"
+			<source media="(min-width: 768px)" srcset="{{ asset('storage/uploads/Banner_HHS_840x320_1.webp') }}"
 				data-srcset="//bizweb.dktcdn.net/100/484/026/themes/953543/assets/collection_main_banner.jpg?1738827047187">
-			<source media="(max-width: 767px)" srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/collection_main_banner.jpg?1738827047187"
-				data-srcset="//bizweb.dktcdn.net/thumb/large/100/484/026/themes/953543/assets/collection_main_banner.jpg?1738827047187">
+			<source media="(max-width: 767px)" srcset="{{ asset('storage/uploads/Banner_HHS_840x320_1.webp') }}"
+				data-srcset="{{ asset('storage/uploads/Banner_HHS_840x320_1.webp') }}">
 			<img class=' img-fluid'
-				src="../../bizweb.dktcdn.net/100/484/026/themes/953543/assets/collection_main_bannerc5aa.jpg?1738827047187"
+				src="{{ asset('storage/uploads/Banner_HHS_840x320_1.webp') }}"
 				loading="lazy"
 				width="1410"
 				height="183"
@@ -87,6 +97,7 @@
 							</div>
 						</div>
 					</div>
+					
 
 
 
@@ -146,6 +157,7 @@
 							</div>
 						</div>
 					</div>
+					
 
 
 					<div class="coupon-item-wrap py-2 col-lg-3 col-md-5 col-lg col-10">
@@ -364,9 +376,9 @@
 															</div>
 														</div>
 														<div class="item-color-chosen">
-															@foreach($product->images as $image)
+															@foreach($product->variants as $variant)
 															<div data-variant-id="{{ $image->variant_id }}" class="color-dot"
-																style="background: url({{ asset('storage/product_images/'.$image->path) }}) no-repeat center center; background-size: cover">
+																style="background: url({{ asset('storage/'.$variant->image) }}) no-repeat center center; background-size: cover">
 																<span class="color-name">{{ $variant->name }} </span>
 															</div>
 															@endforeach
@@ -427,38 +439,10 @@
 				<nav class="clearfix relative nav_pagi w_100">
 					<ul class="pagination clearfix float-right">
 
-						<li class="page-item disabled"><a class="page-link" href="#"><i class="fa fa-angle-left"></i></a></li>
-
-
-
-
-
-
-						<li class="active page-item disabled"><a class="page-link" href="javascript:;">1</a></li>
-
-
-
-
-
-
-
-
-						<li class="page-item"><a class="page-link" onclick="doSearch(2)" href="allcf0d.html?&amp;page=2&amp;view=grid">2</a></li>
-
-
-
-
-
-						<li class="page-item hidden-xs"><a class="page-link" onclick="doSearch(2)"
-								href="allcf0d.html?&amp;page=2&amp;view=grid"><i class="fa fa-angle-right" aria-hidden="true"></i>
-							</a></li>
+					{{ $products->links('vendor.livewire.circle-numbers') }}
 
 					</ul>
 				</nav>
-				<script>
-					var cuPage = 1
-				</script>
-
 			</div>
 
 		</div>
@@ -491,4 +475,71 @@
 	var colId = 0;
 	var selectedViewData = "data";
 </script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const couponList = document.querySelector('#coupon-list');
+    const allCoupons = Array.from(couponList.children);
+
+    // Nếu có nhiều hơn 4 coupon
+    if (allCoupons.length > 4) {
+        // Lấy 4 cái đầu
+        const firstFour = allCoupons.slice(0, 4);
+        const rest = allCoupons.slice(4);
+
+        // Xóa tất cả khỏi couponList
+        couponList.innerHTML = '';
+
+        // Thêm lại 4 cái đầu
+        firstFour.forEach(item => couponList.appendChild(item));
+
+        // Tạo phần slide
+        const swiperWrapper = document.createElement('div');
+        swiperWrapper.classList.add('swiper-wrapper');
+
+        rest.forEach(item => {
+            const slide = document.createElement('div');
+            slide.classList.add('swiper-slide');
+            slide.appendChild(item);
+            swiperWrapper.appendChild(slide);
+        });
+
+        const swiperContainer = document.createElement('div');
+        swiperContainer.classList.add('swiper', 'mySwiper', 'mt-3');
+        swiperContainer.appendChild(swiperWrapper);
+
+        // Optional: thêm navigation
+        swiperContainer.innerHTML += `
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        `;
+
+        // Thêm vào DOM sau couponList
+        couponList.parentElement.appendChild(swiperContainer);
+
+        // Khởi tạo Swiper
+        new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 2
+                },
+                1200: {
+                    slidesPerView: 3
+                }
+            }
+        });
+    }
+});
+</script>
+
 @endsection

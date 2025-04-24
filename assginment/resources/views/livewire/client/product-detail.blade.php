@@ -792,13 +792,12 @@
 
 
 
+	</div>
 </section>
 
 
 
-
-
-
+</section>
 
 <section class="section sec_tab container" id="recent-view-coll">
     <div class='row '>
@@ -928,17 +927,104 @@
     });
 </script>
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const swatchInputs = document.querySelectorAll("input[name='option-0']");
-        const swatchValueSpan = document.querySelector(".swatch-value");
+	document.addEventListener("DOMContentLoaded", function() {
+		const swatchInputs = document.querySelectorAll("input[name='option-0']");
+		const swatchValueSpan = document.querySelector(".swatch-value");
 
-        swatchInputs.forEach(function(input) {
-            input.addEventListener("click", function() {
-                const variantName = this.getAttribute("data-name");
-                swatchValueSpan.textContent = variantName;
-            });
-        });
-    });
+		swatchInputs.forEach(function(input) {
+			input.addEventListener("click", function() {
+				const variantName = this.getAttribute("data-name");
+				swatchValueSpan.textContent = variantName;
+			});
+		});
+	});
+</script>
+
+<script>
+	$(document).ready(function() {
+		// Xử lý chuyển tab
+		$('.tab-link').click(function() {
+			const tabID = $(this).data('tab');
+			$('.tab-link').removeClass('current');
+			$(this).addClass('current');
+			$('.tab-content').removeClass('current');
+			$('#' + tabID).addClass('current');
+		});
+
+		// Xử lý "Xem thêm"
+		$('.js-seemore a').click(function() {
+			// Tìm đến phần nội dung giới hạn chiều cao
+			const contentWrapper = $('#ega-uti-editable-content');
+
+			// Xóa thuộc tính giới hạn chiều cao (nếu có)
+			contentWrapper.css('--content-height', 'auto');
+
+			// Hoặc nếu bạn đang set height cụ thể thì dùng:
+			// contentWrapper.css('height', 'auto');
+
+			// Ẩn nút "Xem thêm"
+			$(this).closest('.js-seemore').hide();
+		});
+	});
+</script>
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		const thumbnails = document.querySelectorAll('.thumbnail-img');
+		const mainImage = document.getElementById('mainImage');
+		let currentIndex = 0;
+
+		// Khi click thumbnail
+		thumbnails.forEach((thumbnail, index) => {
+			thumbnail.addEventListener('click', function() {
+				mainImage.src = thumbnail.dataset.large;
+				document.querySelector('.thumbnail-img.active')?.classList.remove('active');
+				thumbnail.classList.add('active');
+				currentIndex = index;
+			});
+		});
+
+		// Xử lý nút Prev
+		document.querySelector('.carousel-control-prev')?.addEventListener('click', function() {
+			currentIndex = (currentIndex - 1 + thumbnails.length) % thumbnails.length;
+			thumbnails[currentIndex].click();
+		});
+
+		// Xử lý nút Next
+		document.querySelector('.carousel-control-next')?.addEventListener('click', function() {
+			currentIndex = (currentIndex + 1) % thumbnails.length;
+			thumbnails[currentIndex].click();
+		});
+	});
+</script>
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+		const swatchInputs = document.querySelectorAll('input[name="option-0"]');
+		const mainImage = document.getElementById('mainImage');
+
+		swatchInputs.forEach(input => {
+			input.addEventListener('change', function() {
+				const imageUrl = this.getAttribute('data-image');
+				if (imageUrl && mainImage) {
+					mainImage.src = imageUrl;
+				}
+			});
+		});
+	});
+</script>
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+		document.querySelectorAll('input[name="option-0"]').forEach(function (input) {
+			input.addEventListener('change', function () {
+				const code = this.getAttribute('data-code');
+				const price = parseInt(this.getAttribute('data-price'));
+
+				if (code && !isNaN(price)) {
+					document.getElementById('variant-code').innerText = code;
+					document.getElementById('variant-price').innerText = price.toLocaleString('vi-VN') + ' đ';
+				}
+			});
+		});
+	});
 </script>
 <script>
     $(document).on('click', '.coupon-toggle-btn', () => {

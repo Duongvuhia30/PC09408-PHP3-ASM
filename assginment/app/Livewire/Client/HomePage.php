@@ -11,7 +11,7 @@ class HomePage extends Component
     public function index()
 {
   
-    $products = Product::with('images')->get()->map(function ($product) {
+    $products = Product::with('images')->paginate(12)->map(function ($product) {
         $product->first_image = $product->images->first();
         return $product;
     });
